@@ -1,7 +1,7 @@
 <h1 align="center">DDLC Chibi Themes</h1>
 
 <p align="center">
-  <img src="./assets/yuriscene.png" alt="Yuri scene" width="100%" />
+  <img src="https://raw.githubusercontent.com/ViselBrx/DDLC-Extension/main/assets/yuriscene.png" alt="Yuri scene" width="100%" />
 </p>
 
 <p align="center">
