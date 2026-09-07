@@ -30,15 +30,19 @@
   </a>
 </p>
 
-### Hello, my name is Visel ^\_^. Enjoy this extension and check out the structure or the README file <3.
+### Hello, my name is Visel ^_^. Look this extension and check out the structure or the README file <3.
 
-- Yuri, she's so cute 💜.
+- Yuri, she's so cute 💜. (I am yuri lover>_<)
+
+---
 
 ## About
 
 DDLC Extension adds four dark themes inspired by the Dokis and a Webview View inside the Explorer. When the IDE color theme changes, the extension automatically detects the matching Doki and displays her chibi together with a short phrase.
 
 The chibi stays separate from the open code and does not require manual character selection.
+
+---
 
 ## Features
 
@@ -49,6 +53,8 @@ The chibi stays separate from the open code and does not require manual characte
 - Visual content kept outside the main editing area.
 - Compatibility with IDEs that support extensions and Webviews.
 
+---
+
 ## Dokis and Themes
 
 | Theme                 | Doki       | Style                     | Chibi              |
@@ -58,7 +64,11 @@ The chibi stays separate from the open code and does not require manual characte
 | `DDLC - Natsuki Dark` | 💗 Natsuki | Direct and charming       | `chibinatsuki.png` |
 | `DDLC - Yuri Dark`    | 💜 Yuri    | Elegant and mysterious    | `chibiyuri.png`    |
 
-## Generated Extension
+---
+
+## Installation
+
+### Generated Extension
 
 ```bash
 npm run compile
@@ -83,6 +93,8 @@ IDE --install-extension ddlc-fan.ddlc-themes
 IDE --install-extension ./ddlc-extension.vsix
 ```
 
+---
+
 ## How the Chibi Works
 
 The image and phrase share the same base name inside the `chibis/` folder:
@@ -106,6 +118,42 @@ chibis/chibiyuri.png
 chibis/chibiyuri.txt
 ```
 
+---
+
+## Interactive Dialogue System
+
+The sidebar now features a fully interactive visual novel style dialogue system where you can chat directly with the Dokis! 
+
+Here is how the new system works in detail:
+- **Event-driven Reactions:** The Dokis are aware of your workflow. They will react with specific dialogues and emotions when you perform actions in the IDE, such as saving a file, opening a terminal, encountering an error, creating/deleting files, or even when you are just idle.
+- **Random Conversations:** You can initiate a conversation at any time by clicking the "Chat..." button. The Doki will pick a random topic to talk about.
+- **Interactive Choices:** During certain conversations, you will be presented with multiple choices on how to respond. The buttons provide visual feedback when pressed, and your selected choice will dictate the Doki's reply and her next emotional sprite.
+- **Dynamic Sprites:** The Doki's sprite changes smoothly with a fade effect to match her current emotion (happy, thinking, surprised, reflective, etc.) based on the context of the conversation.
+- **History & Localization:** The UI includes a history panel to show recent dialogue lines, and supports changing languages (EN, PT-BR, ES) on the fly via the language selector buttons.
+
+## Gallery
+
+### Monika
+![Screenshot 1](/assets/screenshot1.png)
+![Screenshot 2](/assets/screenshot2.png)
+<br>
+
+### Natsuki 
+![Screenshot 3](/assets/screenshot3.png)
+![Screenshot 4](/assets/screenshot4.png)
+<br>
+
+### Sayori 
+![Screenshot 5](/assets/screenshot5.png)
+![Screenshot 6](/assets/screenshot6.png)
+<br>
+
+### Yuri
+![Screenshot 7](/assets/screenshot7.png)
+![Screenshot 8](/assets/screenshot8.png)
+
+---
+
 ## Credits
 
 This is an unofficial fan-made extension. Credit for the original universe belongs to:
@@ -114,11 +162,21 @@ This is an unofficial fan-made extension. Credit for the original universe belon
 - [Team Salvato](https://teamsalvato.com/)
 - [Dan Salvato](https://dansalva.to/)
 
+---
+
 ## Thank You
 
 Thank you for checking out DDLC Chibi Themes and for spending some time with this little fan project ❤️.
 
 Thank you to everyone who tests the extension, shares suggestions, and helps make the IDE a little more "Doki".
+
+----
+
+## Enjoy! :3
+<p>
+  <img src="assets/yurisleeping.gif" alt="Yuri scene" width="45%" />
+</p>
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -129,14 +187,14 @@ Thank you to everyone who tests the extension, shares suggestions, and helps mak
 
 Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡Ã¿Ã‡
 
-ÐžÐ±ÑŠÐµÐºÑ‚: Ñ„Ð°Ð¹Ð» Ð½Ðµ Ñ‡Ð¸Ñ‚Ð°ÐµÑ‚ÑÑ :: 404 :: Ã˜Â¤Ã˜Â¸Ã˜Â»Ã˜ÂµÃ˜Â½
+ÐžÐ±ÑŠÐµÐºÑ‚: Ñ„Ð°Ð¹Ð» Ð½Ðµ Ñ‡Ð¸Ñ‚Ð°ÐµÑ‚ÑÑ :: 404 :: Ã˜Â¤Ã˜Â¸Ã˜Â»Ã˜ÂµÃ˜Â½
 
-Ã‚Â¡Ã‚Â¡Ã‚Â¡ ÃÂ¿ÃÂ¾ÃÂ²Ã‘Â€ÃÂµÃÂ¶ÃÂ´ÃÂµÃÂ½ÃÂ¸ÃÂµ Ã‚Â¡Ã‚Â¡Ã‚Â¡
+Ã‚Â¡Ã‚Â¡Ã‚Â¡ ÃÂ¿ÃÂ¾ÃÂ²Ã‘Â€ÃÂµÃÂ¶ÃÂ´ÃÂµÃÂ½ÃÂ¸ÃÂµ Ã‚Â¡Ã‚Â¡Ã‚Â¡
 
-Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ðµ :: ÑÐ¸ÑÑ‚ÐµÐ¼Ð° :: ÃƒÂ¿ÃƒÂ¿ÃƒÂ¿
+Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ðµ :: ÑÐ¸ÑÑ‚ÐµÐ¼Ð° :: ÃƒÂ¿ÃƒÂ¿ÃƒÂ¿
 
 <details>
-<summary>ÐœÐ¾Ð½Ð¸ÐºÐ° :: ÃÂœÃÂ¾ÃÂ½ÃÂ¸ÃÂºÃÂ° :: 01</summary>
+<summary>ÐœÐ¾Ð½Ð¸ÐºÐ° :: ÃÂœÃÂ¾ÃÂ½ÃÂ¸ÃÂºÃÂ° :: 01</summary>
 
 <img src="./gifs/monika.webp" alt="ÐœÐ¾Ð½Ð¸ÐºÐ°" width="60%" />
 
@@ -145,7 +203,7 @@ Thank you to everyone who tests the extension, shares suggestions, and helps mak
 <br>
 
 <details>
-<summary>Ð¡Ð°ÐµÐ¾Ñ€Ð¸ :: ÃÂ¡ÃÂ°ÃÂµÃÂ¾ÃÂ€ÃÂ¸ :: 02</summary>
+<summary>Ð¡Ð°ÐµÐ¾Ñ€Ð¸ :: ÃÂ¡ÃÂ°ÃÂµÃÂ¾ÃÂ€ÃÂ¸ :: 02</summary>
 
 <img src="./gifs/sayori.webp" alt="Ð¡Ð°ÐµÐ¾Ñ€Ð¸" width="40%" />
 
@@ -154,7 +212,7 @@ Thank you to everyone who tests the extension, shares suggestions, and helps mak
 <br>
 
 <details>
-<summary>ÐќÐ°Ñ†ÑƒÐºÐ¸ :: ÃÂšÃÂ°ÃÂ†Ã‘ÂƒÃÂºÃÂ¸ :: 03</summary>
+<summary>ÐќÐ°Ñ†ÑƒÐºÐ¸ :: ÃÂšÃÂ°ÃÂ†Ã‘ÂƒÃÂºÃÂ¸ :: 03</summary>
 
 <img src="./gifs/natsuki.webp" alt="ÐќÐ°Ñ†ÑƒÐºÐ¸" width="60%" />
 
@@ -163,12 +221,12 @@ Thank you to everyone who tests the extension, shares suggestions, and helps mak
 <br>
 
 <details>
-<summary>Ð®Ñ€Ð¸ :: ÃÂ®Ã‘Â€ÃÂ¸ :: 04</summary>
+<summary>Ð®Ñ€Ð¸ :: ÃÂ®Ã‘Â€ÃÂ¸ :: 04</summary>
 
 <img src="./gifs/yuri.webp" alt="Ð®Ñ€Ð¸" width="60%" />
 
 </details>
 
-ÃÂºÃÂ¾ÃÂ½ÃÂµÃ‘Â† :: ÃÂ½ÃÂµÃÂ¸ÃÂ·ÃÂ²ÃÂµÃ‘ÂÃ‘Â‚ÃÂ½ÃÂ¾ :: Ã¿Ã‡Ã¿
+ÃÂºÃÂ¾ÃÂ½ÃÂµÃ‘Â† :: ÃÂ½ÃÂµÃÂ¸ÃÂ·ÃÂ²ÃÂµÃ‘ÂÃ‘Â‚ÃÂ½ÃÂ¾ :: Ã¿Ã‡Ã¿
 
 </details>

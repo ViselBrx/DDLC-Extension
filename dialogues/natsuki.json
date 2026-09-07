@@ -1,0 +1,644 @@
+{
+  "onActivate": [
+    "Oh. You're back. Took you long enough.",
+    "Hmph. I wasn't waiting for you or anything. VS Code was just... open.",
+    "You're here. Great. Try not to break everything today.",
+    "Back again? Try to at least finish something this time.",
+    "Oh. It's you. Fine. Let's get this over with.",
+    "Hmph! I guess you finally decided to show up.",
+    "You opened VS Code. Congratulations on the bare minimum.",
+    "There you are. I was definitely NOT watching the clock.",
+    "Oh! It's you. What took so long? ...Not that I care.",
+    "Fine. You're here. Now maybe actually code something useful.",
+    "Hmph. Alright. I'm here. You're here. Let's just... do this.",
+    "So you decided to code today. Bold choice. Try to make it count.",
+    "About time! ...I mean. Whatever. Start coding already.",
+    "You showed up. I guess that's something.",
+    "Hmph. Alright. I'll be watching — not because I want to, just to make sure you don't mess up.",
+    "Oh, it's a coding day. Fine. At least try to write something readable.",
+    "You're back. I didn't miss you. The code did, though. It said so.",
+    "Took you long enough! ...Not that I was counting. I totally wasn't.",
+    "Hmph. You're here. I suppose we can be productive. If you try.",
+    "Oh fine! You came back! Don't make a big deal of it. Let's just code."
+  ],
+  "onSave": [
+    "...Fine. That's acceptable. You saved. Don't expect applause.",
+    "Oh. You saved. Took you long enough. Was that so hard?",
+    "Hmph. Saved. At least you did one thing right today.",
+    "You saved? Good. Now commit it. Don't just save and call it done.",
+    "Fine, fine. Saved. I guess that's progress. Barely.",
+    "Oh! You saved! ...I'm not impressed. This is expected behavior.",
+    "Saved. Do it again in five minutes. And then commit.",
+    "Hmph. Good. Progress. Maybe you're not completely hopeless.",
+    "You saved. Okay. What's next? Please have a plan.",
+    "Oh, a save. Alright. Don't undo it or I'll be annoyed.",
+    "Saved! ...Not that I was worried you'd forget. Okay maybe a little.",
+    "Good, good. Saved. At least you didn't lose all that work.",
+    "Hmph. Saved. Finally. Now actually keep going.",
+    "Oh! Saved! You know what would be better? A proper commit. Just saying.",
+    "Fine. Saved. Don't celebrate — you haven't shipped anything yet.",
+    "Saved. I noticed. I always notice. Not that it matters to you.",
+    "Hmph! Saved! Good! You're not completely irresponsible, it turns out.",
+    "Oh. A save. Great. Now add a commit message that actually makes sense.",
+    "Saved. Fine. I'll acknowledge that. Are you happy? Don't answer that.",
+    "Hmph. There. Saved. Now don't go breaking everything, okay?"
+  ],
+  "onError": [
+    "What did you DO?! There's an error! Did you even READ what you wrote?!",
+    "An error appeared. Shocking. Truly shocking. Read the message, dummy.",
+    "Hmph! Error! I knew this would happen. Did you test ANY of this?!",
+    "Really?! An error? Did you think the code would just... work? By magic?",
+    "Error! Unbelievable. At this point I'm not even surprised.",
+    "Oh wow. An error. Color me completely unsurprised.",
+    "Hmph! Error! Don't just stare at it — FIX it! The message tells you where!",
+    "Error!! Did you even think about types before writing that?!",
+    "A bug appeared. Let me guess — you skipped testing again, didn't you.",
+    "Error! Seriously?! This is why you write tests, you know. But do you? Do you?!",
+    "Hmph! Something broke. I'd say I'm surprised but we both know I'm not.",
+    "You broke it. Classic. Okay, read the stack trace. Slowly. With your brain.",
+    "Error! Oh my... did you try to use AI to write this? It shows.",
+    "Something went wrong. Again. Maybe try not to copy code you don't understand.",
+    "Hmph! Error! You know, even manga artists check their panels before publishing.",
+    "An error! Look, I'll help, but only because watching you struggle is annoying.",
+    "Error!! You're doing the thing where you don't read error messages, aren't you.",
+    "Something broke. I'm not mad. I'm just... deeply, deeply unsurprised.",
+    "Hmph! Error! Maybe don't ask AI to do the thinking for you? Just a thought.",
+    "An error. Right. Okay. Take a breath and actually READ what it's telling you."
+  ],
+  "onTerminal": [
+    "Oh! The terminal! Going to run something? Please let it work this time.",
+    "Terminal time! Now don't break anything with whatever command you're typing.",
+    "Hmph. Terminal's open. I hope you know what you're doing.",
+    "Oh! Running something! Please, PLEASE test it in a safe environment first.",
+    "Terminal! Exciting! Just don't run rm -rf anything. That's how disasters happen.",
+    "Ooh, terminal. Are you deploying? Running tests? Building? ...Please be building.",
+    "The terminal! Let's see what this command actually does. For real this time.",
+    "Hmph! Terminal's open. I'll be watching. Don't mess up.",
+    "Oh! Command incoming! I hope it's something that helps and not just npm install again.",
+    "Terminal! Let's go! Make it do something useful for once.",
+    "Hmph. Terminal. Fine. Run your stuff. I'm watching.",
+    "Oh! The terminal! You look kind of confident right now. Don't overdo it.",
+    "Terminal time! What are we running? Something that'll actually work, I hope.",
+    "Hmph! Running a command. Let's see if it does what you THINK it does.",
+    "Oh! Terminal open! I'm excited! ...Don't make me regret being excited.",
+    "Terminal! Okay fine, you're allowed to feel cool using the terminal.",
+    "Hmph. Command time. Whatever you're doing, I'm only watching because I'm bored.",
+    "Oh! Terminal! Did you check what the command does first? You should check.",
+    "Terminal's open! Are you testing something? You better be testing something.",
+    "Hmph! Terminal! Fine. Go run your thing. But CHECK the output this time!"
+  ],
+  "onFileCreate": [
+    "Oh! A new file! Have you thought about what goes in it, or is this winging it?",
+    "Hmph. New file. Give it a proper name. Not 'temp' or 'new' or something lazy.",
+    "A new file! Exciting... I guess. What's the plan here?",
+    "Oh! Creating something new! Make sure it actually belongs in the project.",
+    "New file! Good! Now fill it with something useful and not just a comment.",
+    "Hmph. A new file. I hope this is part of a plan and not just... vibes.",
+    "Oh! New file created! You'd better have a name that makes sense.",
+    "A new file! The project's growing. Try not to make it a mess.",
+    "Hmph! Creating files! Do you have a folder structure? Please have a folder structure.",
+    "Oh! New file! Don't just create it and leave it empty — that's just clutter.",
+    "A new file! Fine, I'll admit it — creation is the best part of coding.",
+    "Hmph. Something new. Give it a good name and I might be impressed.",
+    "Oh! New file! I hope the name isn't something embarrassing like 'utils2'.",
+    "Creating files! Do you know what's going in here, or are you just winging it?",
+    "Hmph! New file! Okay but... what does it DO? Have a purpose for it.",
+    "Oh! Something new is being built! That's actually kind of exciting.",
+    "A new file. Good. Now fill it with something that actually makes sense.",
+    "Hmph. New file. I'm watching to see if it gets a good name or a terrible one.",
+    "Oh! A new file! Fine — I'm a little excited too. Just a little. Don't make it weird.",
+    "New file! Okay, build something worth building. I'll be here."
+  ],
+  "onFileDelete": [
+    "You deleted something. I hope you know what you just did.",
+    "Hmph. Something's gone. That was intentional, right? ...Right?",
+    "A file was deleted. Tell me you're using git. PLEASE tell me you're using git.",
+    "Oh. Deletion. Okay. ...This is fine. Probably fine.",
+    "Hmph! You deleted something! That better have been dead code you're cleaning up.",
+    "Something's gone now. I'm not going to ask. But I hope you're sure.",
+    "Deleted. Fine. Just... just tell me you had a backup.",
+    "Hmph. A file is gone. Are you cleaning up or panicking? Those look the same.",
+    "Something was deleted. Your git history had better have a record of this.",
+    "Oh. Gone. Okay. Was that the one that was causing problems, or a different one?",
+    "Hmph! Deleted! I hope that was intentional and not an accident.",
+    "A deletion. Fine. Pruning is healthy. Just make sure it wasn't load-bearing.",
+    "You deleted something. I'm choosing to trust you. Don't make me regret it.",
+    "Hmph. Gone. If that was dead code, good. If it wasn't... well. Good luck.",
+    "Something's been removed. Tell me there's a commit before this. Please.",
+    "Oh! Deletion! You're cleaning things up? Okay, fine. I respect that.",
+    "Hmph. A file is gone. The project is lighter. Whether that's good — we'll see.",
+    "Something was deleted. I'll say nothing else and just trust your judgment.",
+    "Gone. Okay. The codebase better look cleaner now.",
+    "Hmph. Deleted. Fine. Just don't come crying to me if you needed that."
+  ],
+  "onDebug": [
+    "Oh! Debug mode! So something's broken. Didn't see that coming. Really.",
+    "Debugging! Finally! Let's see what mess you made!",
+    "Hmph. A debug session. I always knew it'd come to this.",
+    "Oh! Debug mode activated! Time to find out what you got wrong.",
+    "Debug session! Okay, let's be systematic about this. Actually use the debugger.",
+    "Hmph! Debugging! It's not that I enjoy this, but... okay it's a little fun.",
+    "Oh! Debug! Check your assumptions first. They're almost always wrong.",
+    "A debug session! Alright. Let's find this bug and squash it.",
+    "Hmph. Debugging. Read the breakpoints. ACTUALLY read them.",
+    "Oh! Debug mode! Something's been hiding in there. Let's go find it.",
+    "Debug session! Fine. At least you're being methodical about it.",
+    "Hmph! Debugging! Step through it carefully. Don't rush the debugger.",
+    "Oh! Debug! Alright detective. What do you THINK the code is doing vs. what it IS doing?",
+    "A debug session. Okay. This is where we find out if you really understand the code.",
+    "Hmph. Debug mode. I'll be watching. Don't just click through blindly.",
+    "Oh! Debugging! Finally confronting the problem instead of ignoring it!",
+    "Hmph! Debug session! Let's find this bug together. ...Mostly you. But I'm here.",
+    "Oh! Debug mode activated! Okay. Show me what you've got.",
+    "Debugging. Fine. I'll admit breakpoints are pretty satisfying when they catch something.",
+    "Hmph! Debug session started! Alright. What are we hunting for?"
+  ],
+  "onIdle": [
+    "...Hello? Did you fall asleep? Seriously?",
+    "You've been quiet for a while. Are you even there?",
+    "Hmph. You went idle. I wasn't watching. I just noticed. There's a difference.",
+    "It's been a while. Are you thinking hard or just staring at the screen?",
+    "...I wasn't waiting. The cursor was just making me uncomfortable.",
+    "Hey! Are you still alive over there?",
+    "You've been idle. I'm not worried. Just... mildly inconvenienced by your absence.",
+    "Hmph. Long pause. Did you get distracted by something? Or stuck?",
+    "It's been quiet. I guess you're thinking. Or napping. Probably thinking.",
+    "...Not that I care, but you've been idle for a while. Just saying.",
+    "Hello? Yoohoo? Still coding over there?",
+    "Hmph. You went quiet. Whatever you're pondering, hurry up.",
+    "It's been a while. Ideas come when you step away, I guess. Or so they say.",
+    "You've been idle. I'm not going to say I was watching the clock. But.",
+    "Hmph. Long pause. Are you stuck? Because I'd help if you asked. Not that I want to.",
+    "Hey. You still there? The code misses you. And I definitely don't.",
+    "It's quiet. Too quiet. Are you plotting something or just zoning out?",
+    "Hmph. You've been gone a while. I hope you're taking a break and not just... lost.",
+    "Still here. Just... noting how long you've been idle. Not judging. Okay, maybe a little.",
+    "...Fine. Take your time. But the code won't fix itself. Unfortunately."
+  ],
+  "random": [
+    {
+      "text": "Okay, I'm just gonna say it — tabs or spaces? This is important.",
+      "choices": [
+        { "text": "Spaces. Obviously spaces.", "response": "...Fine. Acceptable. That's the correct answer and we both know it.", "emotion": "smiling" },
+        { "text": "Tabs! Fight me about it.", "response": "TABS?! Seriously?! Ugh. Fine. At least be consistent. I guess.", "emotion": "reflective" },
+        { "text": "Whatever the team uses.", "response": "...Okay. That's actually the most sensible answer. I hate that I agree.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Don't lie to me — how bad is your commit history right now?",
+      "choices": [
+        { "text": "Honestly pretty clean — I write good commit messages.", "response": "...Okay. I'm grudgingly impressed. Good commit messages are rare.", "emotion": "thinking" },
+        { "text": "It's full of 'fix fix fix' and 'wip'.", "response": "I KNEW IT. 'wip' is not a commit message. Write something real!", "emotion": "reflective" },
+        { "text": "I haven't committed in a while. It's all local.", "response": "WHAT. Push. RIGHT NOW. What are you waiting for?!", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What's your testing philosophy? And don't say 'I test in production'.",
+      "choices": [
+        { "text": "I write tests before code — TDD all the way.", "response": "...That's impressive. Grudgingly, genuinely impressive. TDD takes discipline.", "emotion": "thinking" },
+        { "text": "I write tests after the feature is done.", "response": "Retroactive testing. At least you write them. Better than nothing. Barely.", "emotion": "smiling" },
+        { "text": "I test in... okay I won't say it.", "response": "I can't believe you. I literally said don't. And yet.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's the most embarrassing bug you've ever shipped?",
+      "choices": [
+        { "text": "Something that caused data loss. I still cringe.", "response": "...Okay that IS bad. But you survived. And presumably learned. Right?", "emotion": "thinking" },
+        { "text": "A typo in a variable name that broke everything.", "response": "Typos are the great equalizer. They get everyone eventually.", "emotion": "smiling" },
+        { "text": "I'm not telling you that.", "response": "Hmph. Fine. But it's clearly haunting you and you should probably just move on.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Do you actually use a linter or just ignore the squiggles?",
+      "choices": [
+        { "text": "I use one and actually pay attention to it.", "response": "...Okay. Good. Linters are like editors for code. Use the feedback.", "emotion": "smiling" },
+        { "text": "I use one but dismiss most warnings.", "response": "Then why have one? If you're going to ignore it, own it. Don't pretend.", "emotion": "reflective" },
+        { "text": "I turned mine off. It was annoying.", "response": "You turned off the ONE thing that helps you write consistent code. Wow.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "Do you name your functions clearly or do you use abbreviations?",
+      "choices": [
+        { "text": "Clear, descriptive names — always.", "response": "Good. 'getUserById' is always better than 'gubi'. Always.", "emotion": "smiling" },
+        { "text": "I use abbreviations when it's obvious.", "response": "It's never as obvious as you think it is. To anyone. Including future you.", "emotion": "reflective" },
+        { "text": "I use 'fn', 'temp', 'x' a lot...", "response": "...I am going to pretend I didn't hear that. Please. Fix it.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Explain your folder structure to me. Right now.",
+      "choices": [
+        { "text": "It's organized, logical, and documented.", "response": "...Good. That's how it should be. I'm only a little surprised.", "emotion": "smiling" },
+        { "text": "It started organized and kind of fell apart.", "response": "The entropy of a growing project. Relatable. But fix it before it gets worse.", "emotion": "reflective" },
+        { "text": "I put everything in root and move on.", "response": "EVERYTHING IN ROOT?! That is not a structure! That's chaos! With files!", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What do you do when you encounter code you don't understand?",
+      "choices": [
+        { "text": "I study it until I understand it.", "response": "Patient and disciplined. That's how you actually get better. Good.", "emotion": "thinking" },
+        { "text": "I work around it carefully.", "response": "Strategic avoidance. Risky, but sometimes necessary. Be careful.", "emotion": "smiling" },
+        { "text": "I delete it and hope nothing breaks.", "response": "...I don't even have words for this. Go read what you deleted. Please.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What's your relationship with console.log debugging?",
+      "choices": [
+        { "text": "Legitimate tool and I'm not ashamed.", "response": "...Fine. It works. I'd prefer a proper debugger but I can't argue with results.", "emotion": "smiling" },
+        { "text": "My ENTIRE codebase is console.log statements.", "response": "Please use a real debugger. Please. For both our sakes.", "emotion": "reflective" },
+        { "text": "I use the actual debugger properly.", "response": "Okay. Good. That's the right answer. I'm impressed. Don't let it go to your head.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Have you ever blamed the framework for your own bug?",
+      "choices": [
+        { "text": "Yes. Loudly. And I was wrong.", "response": "At least you admit it. The framework was innocent. It usually is.", "emotion": "smiling" },
+        { "text": "No — I check myself first.", "response": "Good. The bug is almost always in the code between the keyboard and the chair.", "emotion": "thinking" },
+        { "text": "The framework WAS wrong once, okay?!", "response": "...Okay. Once. I'll allow it. One time. That's it.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "How many browser tabs do you have open right now?",
+      "choices": [
+        { "text": "Under 10 — I'm very organized.", "response": "Under 10?! Are you even a real developer?! That seems... surprisingly reasonable.", "emotion": "surprised" },
+        { "text": "About 30 to 40 at least.", "response": "There it is. The classic developer habitat. 40 tabs and a headache.", "emotion": "smiling" },
+        { "text": "I lost count. Honestly.", "response": "Lost count. Respectable in a chaotic sort of way. Your RAM must hate you.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's your honest opinion of documentation?",
+      "choices": [
+        { "text": "Important and I try to write it properly.", "response": "...Okay. I respect that. Docs are love letters to future developers.", "emotion": "smiling" },
+        { "text": "I read it. Writing it is a different story.", "response": "A consumer, not a producer. Future developers are glaring at you right now.", "emotion": "reflective" },
+        { "text": "Code should document itself.", "response": "Bold position. Wrong, but bold. Comments exist for a reason.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What makes you actually switch from a library you like?",
+      "choices": [
+        { "text": "Security vulnerabilities — non-negotiable.", "response": "The right answer. Security is the line you don't cross for comfort.", "emotion": "thinking" },
+        { "text": "Better alternatives with clear advantages.", "response": "Evidence-based decisions. That's how technology decisions should be made.", "emotion": "smiling" },
+        { "text": "When everyone else switches and I feel peer pressure.", "response": "FOMO-driven architecture. That's... not great. At least you're honest about it.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Do you have a coding routine or do you wing it every day?",
+      "choices": [
+        { "text": "Routine — consistency keeps me productive.", "response": "Structure! Discipline! That's how output becomes reliable.", "emotion": "smiling" },
+        { "text": "Total chaos every single day.", "response": "...How do you function? Seriously. I need to understand.", "emotion": "surprised" },
+        { "text": "A loose routine I adapt depending on mood.", "response": "Flexible structure. That's actually pretty intelligent.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What's the longest function you've ever written?",
+      "choices": [
+        { "text": "Over 200 lines. I know, I know.", "response": "200 lines. ONE function. I'm going to need a moment.", "emotion": "reflective" },
+        { "text": "I keep functions small — under 30 lines ideally.", "response": "Single responsibility! Composability! I'm actually impressed.", "emotion": "smiling" },
+        { "text": "I honestly don't know — and that's a problem.", "response": "Self-aware at least. Go find that function. Then split it up.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Have you ever added a TODO comment and never come back to it?",
+      "choices": [
+        { "text": "Many times. They haunt me.", "response": "The graveyard of good intentions. TODO: actually do the TODOs.", "emotion": "smiling" },
+        { "text": "No — I track them and actually resolve them.", "response": "...That's impressive. And rare. I'm begrudgingly proud of you.", "emotion": "thinking" },
+        { "text": "My codebase is 40% TODO comments.", "response": "40%?! That's not a TODO list, that's a confession.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What's your style of error handling?",
+      "choices": [
+        { "text": "Defensive — handle everything.", "response": "Good. Edge cases are where bugs live. Better to be thorough.", "emotion": "thinking" },
+        { "text": "I catch what I can and let the rest crash.", "response": "Let. The rest. Crash. That's... a philosophy. A chaotic one.", "emotion": "reflective" },
+        { "text": "Pray and hope nothing breaks.", "response": "...I have no words. I'm going to just quietly disapprove.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What would you change about the language you use most?",
+      "choices": [
+        { "text": "The ecosystem — too much fragmentation.", "response": "Tool fatigue is real. Especially in JS land. I feel this.", "emotion": "reflective" },
+        { "text": "Better error messages built-in.", "response": "CLEAR error messages! The most important quality-of-life feature ever!", "emotion": "thinking" },
+        { "text": "Nothing — I've accepted it as it is.", "response": "Zen coder. At peace with the tools. I suppose that's one way to live.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you use version control properly or just push to main?",
+      "choices": [
+        { "text": "Branches, PRs, the whole workflow.", "response": "Proper git workflow! This is how teams don't hate each other!", "emotion": "smiling" },
+        { "text": "Mostly branches but I shortcut sometimes.", "response": "The occasional shortcut. Just don't let it become a habit.", "emotion": "thinking" },
+        { "text": "...Everything goes to main.", "response": "EVERYTHING GOES TO MAIN. I shouldn't even be surprised. But here we are.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What's your reaction when someone says 'it works on my machine'?",
+      "choices": [
+        { "text": "Eye roll. That's not the point.", "response": "Correct response. Ship the machine then. Or fix the environment. Your choice.", "emotion": "smiling" },
+        { "text": "I've said it myself and felt shame.", "response": "At least you feel shame. That's the beginning of not saying it anymore.", "emotion": "reflective" },
+        { "text": "I defend it — sometimes it IS the environment.", "response": "Sometimes! Sometimes! Not as often as people claim, though.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What kind of developer do you find most annoying?",
+      "choices": [
+        { "text": "The one who never documents anything.", "response": "Yes. That person is a menace. Sympathetically but genuinely a menace.", "emotion": "reflective" },
+        { "text": "The one who over-engineers everything.", "response": "The architecture astronaut! Solving problems that don't exist yet!", "emotion": "thinking" },
+        { "text": "The one who never asks for help even when stuck.", "response": "Pride-driven stubbornness. It costs the whole team time. I know the type.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What do you do when you can't reproduce a bug?",
+      "choices": [
+        { "text": "Document everything I tried and keep investigating.", "response": "Methodical. That's the right approach. Heisenbergs require patience.", "emotion": "thinking" },
+        { "text": "Close the ticket and hope it was a fluke.", "response": "Close the— it will come back. They always come back. You know this.", "emotion": "reflective" },
+        { "text": "Blame the user who reported it.", "response": "...Okay. That's really not how this works. Please revisit that attitude.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What's your opinion on code complexity?",
+      "choices": [
+        { "text": "Simplest solution wins, always.", "response": "Yes. KISS principle. Simple code is not dumb code. It's disciplined.", "emotion": "smiling" },
+        { "text": "Complexity is necessary when problems are complex.", "response": "Fair. Accidental complexity is bad. Essential complexity is unavoidable.", "emotion": "thinking" },
+        { "text": "The more complex the more impressive.", "response": "...That's wrong and you know it. Complexity is a cost, not a prize.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's your honest code-to-comment ratio?",
+      "choices": [
+        { "text": "Good balance — comments where they add value.", "response": "That's the ideal. Comments that explain why, not what. Good.", "emotion": "smiling" },
+        { "text": "Barely any comments — the code should speak.", "response": "Bold. Just make sure the code is actually that eloquent. Is it?", "emotion": "thinking" },
+        { "text": "I comment every single line.", "response": "Every... single... line. Okay. At least it's thorough, even if excessive.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Do you ever get competitive about code quality?",
+      "choices": [
+        { "text": "Yes — I want my code to be the best on the team.", "response": "Competitive coding! That drive can lift entire teams. Just don't gate-keep.", "emotion": "smiling" },
+        { "text": "I'm only competing with my past self.", "response": "That's the right competition. Personal records in code quality. I respect that.", "emotion": "thinking" },
+        { "text": "Not really — good enough is good enough.", "response": "Hmph. I disagree. But sustainable 'good enough' beats unattainable 'perfect'.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What would your code look like if nobody ever had to maintain it?",
+      "choices": [
+        { "text": "Probably messier but also faster to write.", "response": "Honest. The reader changes what the writer produces. Interesting thought.", "emotion": "thinking" },
+        { "text": "About the same — I code for myself first.", "response": "Self-consistent standards! You write well regardless of audience. Good.", "emotion": "smiling" },
+        { "text": "Absolutely terrifying. Best nobody sees it.", "response": "At least you know it. That self-awareness matters. It really does.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What happens when you disagree with a code review comment?",
+      "choices": [
+        { "text": "I explain my reasoning and discuss it.", "response": "That's how it should work. Communication over pride. Well done.", "emotion": "smiling" },
+        { "text": "I silently disagree and change it anyway.", "response": "Silent compliance breeds resentment. Speak up. Your perspective matters.", "emotion": "thinking" },
+        { "text": "I dig in and defend my choice until someone wins.", "response": "Spirited defense! Just make sure you're open to actually being wrong.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's a coding shortcut you take that you know you shouldn't?",
+      "choices": [
+        { "text": "Skipping error handling sometimes.", "response": "The classic shortcut. And the most expensive one when it fails.", "emotion": "reflective" },
+        { "text": "Using global state when I should use dependency injection.", "response": "The global state trap. Easy now, painful forever. Exactly as described.", "emotion": "thinking" },
+        { "text": "I'm perfect and take no shortcuts.", "response": "Sure. Right. Mm-hmm. I completely believe that.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "How do you feel about open source contributions?",
+      "choices": [
+        { "text": "I try to contribute when I can.", "response": "The ecosystem thanks you. Seriously. Those contributions matter.", "emotion": "smiling" },
+        { "text": "I want to but don't know where to start.", "response": "Start with documentation or bug reports. You don't have to write code first.", "emotion": "thinking" },
+        { "text": "I use open source but don't give back much.", "response": "Fair admission. Even a GitHub star or a bug report helps more than nothing.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's the most overused design pattern in your codebase?",
+      "choices": [
+        { "text": "Singleton. Everywhere. Help.", "response": "The singleton epidemic. It makes testing a nightmare. Find a way out.", "emotion": "reflective" },
+        { "text": "Factory pattern — I use it where it fits and where it doesn't.", "response": "Factory overuse. It's seductive. Keep asking if it's actually earning its complexity.", "emotion": "thinking" },
+        { "text": "We don't really use design patterns explicitly.", "response": "Patterns without labels. You're probably using them anyway — just organically.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What kind of code review makes you cringe the most?",
+      "choices": [
+        { "text": "Reviews that only point out style issues, not logic.", "response": "Nitpicking without substance. A linter handles style. Reviewers handle logic.", "emotion": "thinking" },
+        { "text": "Reviews with no explanation — just 'change this'.", "response": "Context-free corrections. Unhelpful and frankly a bit rude.", "emotion": "reflective" },
+        { "text": "Reviews where nothing gets reviewed and everything is approved.", "response": "The rubber stamp review. Why have reviews if nobody actually reviews?", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "Be honest — how often do you run your app before committing?",
+      "choices": [
+        { "text": "Every time, without fail.", "response": "Disciplined! That's the habit. Basic testing before commit.", "emotion": "smiling" },
+        { "text": "Most of the time... probably.", "response": "'Probably.' That 'probably' is where bugs live.", "emotion": "reflective" },
+        { "text": "I commit and let CI find the problems.", "response": "Using CI as your test harness. Bold. Your team must love that.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What's the worst thing you've ever done to a codebase?",
+      "choices": [
+        { "text": "A massive refactor that broke everything for days.", "response": "The legendary big-bang refactor. Why. WHY do we do this.", "emotion": "reflective" },
+        { "text": "Introduced a library that nobody else on the team knew.", "response": "The solo dependency call. Unilateral architecture decision. Discuss next time!", "emotion": "thinking" },
+        { "text": "I'd prefer not to incriminate myself.", "response": "The silence speaks volumes. I'll note it and move on.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you have a style guide or is it just... feelings?",
+      "choices": [
+        { "text": "We have a style guide and we follow it.", "response": "Established standards! That's the mark of a real team.", "emotion": "smiling" },
+        { "text": "We have one but nobody reads it.", "response": "The haunted style guide. It exists but it is not obeyed. Sad.", "emotion": "reflective" },
+        { "text": "It's basically feelings and vibes.", "response": "Feelings-based style. The most popular unwritten style guide.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What's something non-technical you're better at thanks to coding?",
+      "choices": [
+        { "text": "Problem decomposition — breaking big things into small ones.", "response": "That transfers to literally everything. One of coding's best exports.", "emotion": "thinking" },
+        { "text": "Patience with frustrating situations.", "response": "Hard-won patience. Debugging builds tolerance like nothing else.", "emotion": "smiling" },
+        { "text": "Reading documentation for anything, not just code.", "response": "The RTFM reflex! That's actually a genuine life skill.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's your deploy process like?",
+      "choices": [
+        { "text": "Automated — CI/CD all the way.", "response": "Automated pipelines! That's the right setup. Less human error.", "emotion": "smiling" },
+        { "text": "Manual but consistent.", "response": "Consistent manual deploys. Risky but disciplined. Automate when you can.", "emotion": "thinking" },
+        { "text": "It's a little different every time.", "response": "...A slightly different process every time. That's how surprises happen.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's your philosophy on refactoring?",
+      "choices": [
+        { "text": "Continuous — a little better every time.", "response": "Boy Scout rule. Leave it better than you found it. I respect that.", "emotion": "smiling" },
+        { "text": "Scheduled — we have refactoring sprints.", "response": "Dedicated refactor time. A mature approach to technical debt.", "emotion": "thinking" },
+        { "text": "Only when something becomes unbearable.", "response": "Pain-driven refactoring. Reactive. Works but expensive.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's the first thing you do when joining a new codebase?",
+      "choices": [
+        { "text": "Read the documentation and README.", "response": "Starting with intent. That's the respectful approach to someone else's work.", "emotion": "thinking" },
+        { "text": "Run it and see what it does.", "response": "Start-it-and-see. Good instinct — just read the docs too before changing things.", "emotion": "smiling" },
+        { "text": "Look at recent commits to understand activity.", "response": "Git archaeology! That shows you where the project's been heading. Smart.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's your biggest pet peeve in other people's code?",
+      "choices": [
+        { "text": "Magic numbers with no explanation.", "response": "42. 7. 300. What are these?! Name your constants!", "emotion": "reflective" },
+        { "text": "Functions that do too many things.", "response": "The god function. Untestable. Incomprehensible. A nightmare to maintain.", "emotion": "thinking" },
+        { "text": "No error handling whatsoever.", "response": "Error handling as optional. And then they wonder why things crash in production.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "Do you write code differently when you know someone will review it?",
+      "choices": [
+        { "text": "Yes — I'm more careful and clear.", "response": "The observer effect on code quality. At least you know.", "emotion": "thinking" },
+        { "text": "No — I write the same regardless.", "response": "Consistent standards! You code as if it's always being reviewed. Good.", "emotion": "smiling" },
+        { "text": "I sometimes clean it up right before review.", "response": "Pre-review cleanup. Better than nothing but write clean first time ideally.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's your take on monolithic vs. microservices?",
+      "choices": [
+        { "text": "Start monolithic, split when necessary.", "response": "The sensible approach. Premature microservices is its own category of bad.", "emotion": "thinking" },
+        { "text": "Microservices from the start — more flexible.", "response": "Bold. Just make sure you have the team size and tooling to manage the complexity.", "emotion": "smiling" },
+        { "text": "Depends entirely on the project and team.", "response": "The correct technical answer. Context determines architecture. Always.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's a technology you used to love but now have complicated feelings about?",
+      "choices": [
+        { "text": "JavaScript. I love and hate it equally.", "response": "The eternal JS relationship. Love-hate is the most accurate summary.", "emotion": "smiling" },
+        { "text": "A framework that aged poorly.", "response": "Frameworks date. Fundamentals don't. The lesson is always the fundamentals.", "emotion": "thinking" },
+        { "text": "Honestly? Excel. It did things before I could code.", "response": "Excel nostalgia! Complicated feelings are valid. It was your first 'code'.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What do you do when a deadline is impossible?",
+      "choices": [
+        { "text": "Communicate early and set realistic expectations.", "response": "The professional answer. Early communication saves everyone time and pain.", "emotion": "smiling" },
+        { "text": "Work harder and cut corners you'll regret later.", "response": "The crunch response. I understand the instinct. The regrets are real though.", "emotion": "reflective" },
+        { "text": "Say nothing and panic quietly.", "response": "Silent panic! Please communicate. Surprises are always worse than bad news.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "How do you explain a technical decision to a non-technical person?",
+      "choices": [
+        { "text": "Analogies — I find real-world parallels.", "response": "Analogy-driven explanation! That's the most effective communication technique.", "emotion": "smiling" },
+        { "text": "I simplify until the core idea is clear.", "response": "Reduction to essence. Good explanations make complexity feel simple.", "emotion": "thinking" },
+        { "text": "Badly, honestly. I'm still working on it.", "response": "Honest. Communication is a skill like any other. Work on it. It matters.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What kind of developer do you want to be in five years?",
+      "choices": [
+        { "text": "A technical leader who still loves to code.", "response": "Leadership without losing the craft. That's a hard balance. Aim for it.", "emotion": "thinking" },
+        { "text": "A deep specialist in something I'm passionate about.", "response": "Domain expertise! Depth over breadth. There's real power in that.", "emotion": "smiling" },
+        { "text": "Honestly just a better version of today.", "response": "...That's actually a great answer. Continuous improvement. I respect it.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's the most underrated tool in your workflow?",
+      "choices": [
+        { "text": "A good clipboard manager.", "response": "Clipboard management! An invisible productivity multiplier. Good pick.", "emotion": "smiling" },
+        { "text": "My browser dev tools — I use everything.", "response": "Dev tools mastery! Most developers use 20% of them. You're not most developers.", "emotion": "thinking" },
+        { "text": "Keyboard shortcuts — I know them all.", "response": "Keyboard fluency! That compounds over years into hours saved. Smart.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's something you've always wanted to build but haven't?",
+      "choices": [
+        { "text": "Something that actually helps people in their daily lives.", "response": "Impact-driven creation. That's the motivation that sustains the hardest projects.", "emotion": "smiling" },
+        { "text": "Something technically difficult just to prove I can.", "response": "Ego project as learning vehicle. The challenge IS the point. Respect.", "emotion": "thinking" },
+        { "text": "Something silly and fun with no practical value.", "response": "...Okay. Those are sometimes the most joyful projects to build. Go make it.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's one thing the tech industry should change immediately?",
+      "choices": [
+        { "text": "Better work-life balance expectations.", "response": "Sustainable development! Burnout doesn't produce better software.", "emotion": "thinking" },
+        { "text": "More diversity in who gets to be a developer.", "response": "Different perspectives build better things. This matters enormously.", "emotion": "smiling" },
+        { "text": "Stop rewriting things that already work perfectly fine.", "response": "Rewrite culture! The 'let's rebuild from scratch' instinct wastes so much.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's one coding habit you're genuinely proud of?",
+      "choices": [
+        { "text": "I always leave the code better than I found it.", "response": "The Boy Scout rule in practice. That attitude improves entire codebases.", "emotion": "smiling" },
+        { "text": "I write tests that actually cover the edge cases.", "response": "Edge case thinking. That's where senior developer instincts live.", "emotion": "thinking" },
+        { "text": "I ask clarifying questions before starting anything.", "response": "Requirements discipline! That saves more time than anything else. Well done.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "If your codebase had feelings, what would it feel about you?",
+      "choices": [
+        { "text": "Grateful — I take good care of it.", "response": "...Fine. I'll admit that's a good relationship to have with your code.", "emotion": "smiling" },
+        { "text": "Resentful — I've put it through a lot.", "response": "The battle-scarred codebase. It bears your scars. Tend to it eventually.", "emotion": "reflective" },
+        { "text": "Confused — because I am too.", "response": "Mutual confusion! At least you're consistent with each other.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What advice would you give yourself six months ago?",
+      "choices": [
+        { "text": "Write more tests earlier in the process.", "response": "The eternal lesson. It always circles back to testing.", "emotion": "thinking" },
+        { "text": "Ask for help sooner — it's not a weakness.", "response": "Letting go of the pride tax. That's growth right there.", "emotion": "smiling" },
+        { "text": "Commit more often, lose less work.", "response": "Commit granularity! Such a small habit with such painful consequences when missed.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Does your IDE theme affect your productivity?",
+      "choices": [
+        { "text": "Yes — the right theme helps me focus.", "response": "Environment matters. Color choices affect perception. This is real.", "emotion": "thinking" },
+        { "text": "Not really — I don't care about themes.", "response": "Okay. But you're using this extension, so maybe a little?", "emotion": "smiling" },
+        { "text": "I've spent hours choosing themes instead of coding.", "response": "...The procrastination disguised as optimization. We've all done it.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "How do you handle technical debt?",
+      "choices": [
+        { "text": "I track it and schedule time to pay it down.", "response": "Deliberate debt management. That's how teams stay healthy.", "emotion": "smiling" },
+        { "text": "I add to it when deadlines require and feel guilty.", "response": "The guilt is healthy. It means you know. Schedule the paydown.", "emotion": "reflective" },
+        { "text": "What technical debt? I call it 'legacy features'.", "response": "The rebranding! 'Legacy features.' I'll use that. Grudgingly.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What's your relationship with Stack Overflow?",
+      "choices": [
+        { "text": "I use it but understand what I take.", "response": "The responsible approach. Comprehension, not copy-paste.", "emotion": "thinking" },
+        { "text": "I've answered questions on there too.", "response": "A contributor! Giving back to the knowledge base. I respect that.", "emotion": "smiling" },
+        { "text": "My entire career is built on answers from 2014.", "response": "2014 Stack Overflow built most of the web. You're in good company.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What's the last thing you learned that made you a better developer?",
+      "choices": [
+        { "text": "A concept I thought I understood but really didn't.", "response": "The humbling rediscovery. Those lessons last the longest.", "emotion": "thinking" },
+        { "text": "A new tool that changed my workflow.", "response": "Tool-driven growth. The right tool at the right time changes everything.", "emotion": "smiling" },
+        { "text": "Honestly? A mistake that cost me real time.", "response": "Expensive education is the most permanent kind. That lesson is yours forever.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "If you could remove one thing from programming, what would it be?",
+      "choices": [
+        { "text": "Timezone handling. Please.", "response": "THE MOST CORRECT ANSWER. Timezones are the enemy of sanity. Agreed.", "emotion": "surprised" },
+        { "text": "Dependency conflicts.", "response": "The node_modules nightmare. Agreed completely.", "emotion": "reflective" },
+        { "text": "The expectation that we should know everything.", "response": "Imposter syndrome culture. Yes. Knowing how to learn beats knowing everything.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What makes you feel like a real developer?",
+      "choices": [
+        { "text": "When I solve something I didn't think I could.", "response": "The breakthrough feeling. That's real developer confidence. It's earned.", "emotion": "smiling" },
+        { "text": "When someone uses something I built.", "response": "Real users! Real impact! That's the validation that actually matters.", "emotion": "thinking" },
+        { "text": "Honestly, every day I'm still learning.", "response": "Still learning is still growing. That's real. That's exactly what it feels like.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What do you do differently now compared to when you started?",
+      "choices": [
+        { "text": "I plan before I code now.", "response": "Thinking before typing. The discipline that makes the work better.", "emotion": "thinking" },
+        { "text": "I ask more questions and assume less.", "response": "Epistemic humility! That's the hallmark of experience.", "emotion": "smiling" },
+        { "text": "I'm much less afraid of things I don't know.", "response": "Fear → curiosity. That transition defines a developer's growth.", "emotion": "reflective" }
+      ]
+    }
+  ]
+}

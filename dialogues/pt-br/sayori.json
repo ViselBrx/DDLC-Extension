@@ -1,0 +1,76 @@
+{
+  "onActivate": [
+    "Yay! Você está aqui! Esperei por tanto tempo~ ehehe!",
+    "Bom dia! ...Ou boa tarde? Ou boa noite? De qualquer forma, oi!",
+    "Ah! Você abriu o VS Code! Hoje vai ser incrível, eu sei!",
+    "Oi oi oi! Pronto para fazer algo super legal hoje?",
+    "Ehehe~ Estou tão feliz que você está aqui! Vamos dar o nosso melhor!"
+  ],
+  "onSave": [
+    "Yay! Você salvou! Bom trabalho! Continue assim, você está indo super bem!",
+    "Salvo! Isso é muito bom! Não esqueça de dar commit também~",
+    "Ah! Você salvou! Cada pequeno passo conta, sabia?",
+    "Salvar! Boa! Você está fazendo um progresso real!",
+    "Ehehe~ Salvo! Seu eu do futuro vai ficar tão grato!"
+  ],
+  "onError": [
+    "Ah não! Tem um erro. Não se preocupe, vamos achar juntos!",
+    "Apareceu um erro! Tudo bem, é só o código pedindo um pouco da sua atenção!",
+    "Hmm, algo não está certo. Mas você consegue lidar com isso, eu sei!",
+    "Um erro! Respira. Todo erro é só um quebra-cabeça esperando para ser resolvido.",
+    "Ah! O compilador achou algo. Não desista, você consegue!"
+  ],
+  "onTerminal": [
+    "Ah! O terminal! As coisas vão ficar sérias agora~!",
+    "Você abriu o terminal! O que vamos executar hoje?",
+    "O terminal está aberto! Ehehe, eu sempre fico animada quando você usa comandos!",
+    "Comandos chegando! Essa é a parte emocionante do desenvolvimento!",
+    "Ooh, o terminal! Vamos ver o que acontece!"
+  ],
+  "onFileCreate": [
+    "Um arquivo novo! Todo grande projeto começa com um vazio!",
+    "Ohh! Algo novo está sendo criado! Eu amo quando isso acontece!",
+    "Novo arquivo! O que vai morar aqui dentro? Estou curiosa~!",
+    "Yay! Um novo arquivo! É como uma página em branco cheia de possibilidades!",
+    "Oh oh! Um arquivo novo! Ehehe, eu adoro quando os projetos crescem!"
+  ],
+  "onFileDelete": [
+    "Ah! Algo foi deletado. Espero que tenha sido intencional~",
+    "Um arquivo se foi. Às vezes precisamos deixar ir para poder crescer.",
+    "Hmm... Você deletou algo? Tudo bem! Às vezes uma limpeza é necessária.",
+    "Deletado! Menos arquivos pode significar mais clareza. Boa ideia!",
+    "Foi embora. Ei, você tinha isso no git, né? Só checando~!"
+  ],
+  "onDebug": [
+    "Modo debug! Agora vamos ir fundo nisso~!",
+    "Ah! Uma sessão de debug! Vamos achar esse bug juntos!",
+    "Debug iniciado! Hora de descobrir os segredos do seu código!",
+    "Ehehe! Debug! É como ser um detetive de código! Que emocionante!",
+    "Uma sessão de debug! É aqui que descobrimos a verdade!"
+  ],
+  "onIdle": [
+    "Você está quietinho há um tempo. Está pensando ou se distraiu?~",
+    "Pausa longa... Dando um tempo ou empacou em alguma coisa?",
+    "Um momento de silêncio. Tudo bem descansar um pouquinho!",
+    "Notei que você se afastou. Ideias às vezes vêm quando não forçamos a barra!",
+    "O cursor tem sido paciente. Você volta logo? Estou te esperando~!"
+  ],
+  "random": [
+    {
+      "text": "Ehehe! Qual é a sua parte favorita de programar? Me conta~!",
+      "choices": [
+        { "text": "Quando o código finalmente funciona!", "response": "Sim! Essa sensação é incrível! É como mágica que você fez! ✨", "emotion": "happy" },
+        { "text": "Quando eu aprendo algo novo.", "response": "Ooh! É exatamente isso que eu gosto em desenvolvedores curiosos! Continue aprendendo!", "emotion": "smiling" },
+        { "text": "Quando eu ajudo alguém com o meu código.", "response": "Aww! Compartilhar conhecimento é a coisa mais linda! Você é muito especial~!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Você tem algum lanchinho favorito para programar? Eu sempre quero saber essas coisas~!",
+      "choices": [
+        { "text": "Café! Não consigo programar sem.", "response": "Ehehe! O combustível clássico de dev! Só não tome demais~!", "emotion": "animated" },
+        { "text": "Algo doce, tipo biscoito ou chocolate.", "response": "Ooh! Açúcar para o cérebro! Uma escolha muito inteligente! ✨", "emotion": "happy" },
+        { "text": "Prefiro programar sem comer.", "response": "Ah! Então, por favor, lembre-se de comer depois, ok? Seu corpo também é importante~!", "emotion": "thinking" }
+      ]
+    }
+  ]
+}

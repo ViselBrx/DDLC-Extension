@@ -4,7 +4,7 @@
   "description": "DDLC themes and Doki chibis for code-editor IDEs.",
   "icon": "assets/icon.jpg",
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "publisher": "ddlc-fan",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
     "Themes",
     "Other"
   ],
-  
   "keywords": [
     "ddlc",
     "doki doki literature club",
@@ -55,6 +54,15 @@
         "path": "./themes/yuri-dark-color-theme.json"
       }
     ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "ddlc-explorer",
+          "title": "DDLC",
+          "icon": "assets/sidebar-icon.svg"
+        }
+      ]
+    },
     "views": {
       "explorer": [
         {
@@ -62,7 +70,44 @@
           "id": "ddlc.chibiView",
           "name": "DDLC: Doki Chibis"
         }
+      ],
+      "ddlc-explorer": [
+        {
+          "type": "webview",
+          "id": "ddlc.dialogueView",
+          "name": "Doki Dialogue"
+        }
       ]
+    },
+    "configuration": {
+      "title": "DDLC Extension",
+      "properties": {
+        "ddlc.dialogueCooldown": {
+          "type": "number",
+          "default": 5,
+          "description": "Minimum seconds between Doki dialogue triggers."
+        },
+        "ddlc.idleTimeout": {
+          "type": "number",
+          "default": 60,
+          "description": "Seconds of inactivity before the Doki triggers an idle dialogue."
+        },
+        "ddlc.showDialogueHistory": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the last 3 dialogues as history below the speech bubble."
+        },
+        "ddlc.language": {
+          "type": "string",
+          "enum": [
+            "en",
+            "pt-br",
+            "es"
+          ],
+          "default": "en",
+          "description": "Language for Doki dialogues."
+        }
+      }
     }
   },
   "scripts": {

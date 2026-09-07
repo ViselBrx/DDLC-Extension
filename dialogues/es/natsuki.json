@@ -1,0 +1,84 @@
+{
+  "onActivate": [
+    "¡Por fin estás aquí! ¡No es que te estuviera esperando ni nada parecido!",
+    "Hmph. Ya era hora de que abrieras VS Code.",
+    "¿Vas a programar? Más te vale hacer algo bueno hoy.",
+    "Oh, estás aquí. Supongo que podemos trabajar juntos un rato.",
+    "¡No creas que estoy feliz de verte! Solo quiero ver tu código."
+  ],
+  "onSave": [
+    "¡Al fin guardas! Estaba empezando a ponerme nerviosa.",
+    "Bien. Guardar es importante, ¿sabes?",
+    "Más te vale no olvidar hacer commit de eso.",
+    "Hmph. Buen trabajo guardando. Supongo.",
+    "¡Oye! ¡No guardes tan rápido, casi no pude leerlo!"
+  ],
+  "onError": [
+    "¡Ugh! ¡Hay un error! ¡Arréglalo rápido!",
+    "¿En serio? ¿Otro bug? Deberías tener más cuidado.",
+    "Hmph. Yo podría haberlo escrito mejor. Pero te ayudaré a encontrar el error.",
+    "¡Oye! ¡El compilador se está quejando! ¡Haz algo!",
+    "¡No me mires así! ¡Yo no rompí tu código!"
+  ],
+  "onTerminal": [
+    "¿Comandos de terminal? Intenta no borrar nada importante, ¿ok?",
+    "Oh, el terminal. Qué profesional te crees.",
+    "Más te vale saber lo que estás haciendo ahí.",
+    "Hmph. Ejecutando comandos... asegúrate de no cometer errores tipográficos.",
+    "¡Cuidado con el terminal! No quiero que arruines mi entorno."
+  ],
+  "onFileCreate": [
+    "¿Un archivo nuevo? Espero que lo organices bien.",
+    "Más te vale no dejar este archivo vacío para siempre.",
+    "Hmph. Otro archivo. Supongo que el proyecto está creciendo.",
+    "¿Qué vas a poner ahí? Espero que sea código limpio.",
+    "¡No nombres tus archivos de forma estúpida, ¿ok?!"
+  ],
+  "onFileDelete": [
+    "¡Oye! ¿Por qué borraste eso? Espero que sepas lo que haces.",
+    "Hmph. Menos basura en el proyecto, supongo.",
+    "¿Estás seguro de que no lo necesitabas? Bueno, es tu código.",
+    "Un archivo menos. Espero que hayas hecho una copia de seguridad.",
+    "¡No vayas por ahí borrando cosas sin pensar!"
+  ],
+  "onDebug": [
+    "¿Debug? ¡Ugh, odio buscar bugs! Pero te ayudaré, supongo.",
+    "Más te vale encontrar el problema rápido.",
+    "Hmph. Una sesión de debug. Trata de no frustrarte demasiado.",
+    "¡Oye! ¡Concéntrate! Tenemos que encontrar ese bug.",
+    "Depurando... Qué aburrido, pero alguien tiene que hacerlo."
+  ],
+  "onIdle": [
+    "¡Oye! ¡Llevas mucho tiempo sin hacer nada! ¿Te quedaste dormido?",
+    "Hmph. Si no vas a programar, al menos háblame.",
+    "¿Sigues ahí? No me gusta esperar.",
+    "¡Despierta! ¡El código no se va a escribir solo!",
+    "¡O-oye! ¿Me estás ignorando? ¡Hmph!"
+  ],
+  "random": [
+    {
+      "text": "Oye... ¿qué prefieres, el código funcional o el código que se ve bien?",
+      "choices": [
+        { "text": "Funcional. Lo importante es que funcione.", "response": "Hmph. Supongo que tienes razón, pero el código feo es difícil de leer.", "emotion": "thinking" },
+        { "text": "Limpio y bonito. Tiene que ser fácil de leer.", "response": "¡Exacto! ¡El código también debe tener buena presentación! Igual que mis cupcakes.", "emotion": "happy" },
+        { "text": "Un equilibrio entre ambos.", "response": "Hmph. Qué respuesta tan diplomática. Pero sí, supongo que es lo ideal.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "¿Alguna vez has borrado accidentalmente horas de trabajo?",
+      "choices": [
+        { "text": "Sí, fue una pesadilla.", "response": "¡Ugh! ¡Yo habría estado furiosa! Por eso siempre debes usar git.", "emotion": "surprised" },
+        { "text": "No, siempre uso control de versiones.", "response": "Hmph. Más te vale. No seas descuidado con tu propio esfuerzo.", "emotion": "smiling" },
+        { "text": "Casi, pero logré recuperarlo.", "response": "¡Qué suerte! Pero no te acostumbres. La suerte se acaba.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "¿Prefieres trabajar de día o de noche?",
+      "choices": [
+        { "text": "De día, me concentro mejor.", "response": "Hmph. Yo también. Además, de noche me da un poco de miedo la oscuridad...", "emotion": "reflective" },
+        { "text": "De noche, sin distracciones.", "response": "¿De noche? Supongo que es tranquilo, ¡pero asegúrate de dormir lo suficiente!", "emotion": "thinking" },
+        { "text": "Me da igual, cuando llegue la inspiración.", "response": "Hmph. Eso suena como una excusa para procrastinar.", "emotion": "smiling" }
+      ]
+    }
+  ]
+}

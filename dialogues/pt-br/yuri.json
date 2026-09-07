@@ -1,0 +1,76 @@
+{
+  "onActivate": [
+    "O-olá... É bom ver você de novo. Eu estava lendo um pouco antes de você chegar.",
+    "Oh, você está aqui. Espero não estar interrompendo nada importante...",
+    "B-bem-vindo de volta. O seu código é... fascinante de se ler.",
+    "Oi... Fico feliz que você tenha aberto o VS Code. Podemos passar um tempo juntos.",
+    "U-um, pronto para programar? Eu... vou ficar observando em silêncio."
+  ],
+  "onSave": [
+    "Salvo... Uma decisão muito prudente.",
+    "Você salvou o seu progresso. É reconfortante saber que está seguro.",
+    "Bem feito. É sempre bom ter um ponto de controle.",
+    "Mais um save. Cada um é um pequeno passo em direção à perfeição.",
+    "Salvo... Sinto que o código fica mais refinado a cada iteração."
+  ],
+  "onError": [
+    "Oh... parece que tem um pequeno erro. Não se preocupe, vamos analisar com cuidado.",
+    "Um erro de sintaxe... São como erros de digitação num bom livro. Podemos corrigir.",
+    "U-um, o compilador encontrou um problema. Vamos levar o tempo que precisar para entender.",
+    "Não se frustre com esse erro. Depurar requer uma mente calma.",
+    "Um erro... Às vezes, os problemas mais complexos têm as soluções mais elegantes."
+  ],
+  "onTerminal": [
+    "O terminal... Uma ferramenta tão poderosa e direta.",
+    "Executando comandos... Há algo quase poético em interagir com o sistema dessa forma.",
+    "O terminal está aberto. Estarei atenta aos resultados.",
+    "É fascinante como algumas palavras podem desencadear tantas ações.",
+    "Tenha cuidado com os comandos que você digita... Eles têm muito poder."
+  ],
+  "onFileCreate": [
+    "Um arquivo novo. É como abrir a primeira página de um caderno em branco.",
+    "Algo novo começa aqui. Me pergunto que tipo de lógica você vai tecer.",
+    "Novo arquivo criado... A estrutura do seu projeto está ficando mais intrincada.",
+    "Eu adoro ver como as suas ideias tomam forma num novo arquivo.",
+    "Um começo fresco... Leve o tempo que precisar para organizar bem."
+  ],
+  "onFileDelete": [
+    "Oh... você deletou. Às vezes é necessário se livrar do velho para dar lugar ao novo.",
+    "Deletado. Um ato definitivo, mas muitas vezes catártico.",
+    "Espero que você não precise disso mais tarde... Embora eu confie no seu julgamento.",
+    "Um arquivo a menos... O projeto parece um pouco mais leve agora.",
+    "Deletar código pode ser difícil, mas é parte do processo de refinamento."
+  ],
+  "onDebug": [
+    "Modo de depuração... Eu gosto dessa parte. É como desvendar um mistério profundo.",
+    "Vamos investigar a fundo. Observe como as variáveis mudam, passo a passo.",
+    "Depurar requer paciência. Eu estou aqui para te acompanhar.",
+    "É fascinante ver a execução do programa por dentro.",
+    "Vamos procurar a raiz do problema. Às vezes, a resposta está escondida nos detalhes."
+  ],
+  "onIdle": [
+    "U-um... Você está em silêncio há um tempo. Está absorto em seus pensamentos?",
+    "Eu gosto desse silêncio... Mas se precisar de ajuda, estou aqui.",
+    "Você está fazendo uma pausa? A mente precisa de repouso para encontrar boas soluções.",
+    "Observar o código sem mudá-lo... Às vezes isso é mais produtivo do que escrever.",
+    "S-se você quiser, podemos ler um pouco enquanto você descansa..."
+  ],
+  "random": [
+    {
+      "text": "U-um... você acha a programação... relaxante?",
+      "choices": [
+        { "text": "Sim, quando tudo flui é muito calmante.", "response": "Entendo perfeitamente... É como mergulhar num bom livro, perdendo a noção do tempo.", "emotion": "smiling" },
+        { "text": "Às vezes é estressante, para ser sincero.", "response": "Oh... sinto muito. Se você se sentir sobrecarregado, podemos sempre fazer uma pausa e tomar um chá.", "emotion": "reflective" },
+        { "text": "Depende do projeto.", "response": "Faz sentido. Alguns problemas requerem um foco mais... intenso.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Quando você enfrenta um problema muito difícil... como você o aborda?",
+      "choices": [
+        { "text": "Eu divido em partes menores.", "response": "Uma abordagem muito metódica e inteligente. É como analisar as estrofes de um poema complexo.", "emotion": "smiling" },
+        { "text": "Paro de pensar nisso e a solução vem sozinha.", "response": "O processamento em segundo plano da mente é... fascinante. Às vezes o subconsciente é o melhor depurador.", "emotion": "thinking" },
+        { "text": "Continuo tentando por força bruta até funcionar.", "response": "Isso requer muita determinação... Embora, às vezes, dar um passo para trás possa ser mais eficiente.", "emotion": "reflective" }
+      ]
+    }
+  ]
+}

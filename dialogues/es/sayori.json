@@ -1,0 +1,119 @@
+{
+  "onActivate": [
+    "¡Yay! ¡Estás aquí! ¡Estaba esperando tanto tiempo~ ehehe!",
+    "¡Buenos días! ...¿O buenas tardes? ¿O buenas noches? ¡De cualquier forma, hola!",
+    "¡Oh! ¡Abriste VS Code! Hoy va a ser increíble, ¡lo sé!",
+    "¡Hola hola hola! ¿Lista para hacer algo súper genial hoy?",
+    "Ehehe~ ¡Estoy tan feliz de que estés aquí! ¡Hagamos nuestro mejor esfuerzo!",
+    "¡Por fin llegaste! ¡Empezaba a pensar que me habías olvidado!",
+    "¡Qué bueno verte! No olvides respirar mientras programas, ¿de acuerdo?",
+    "¡Yayy! ¡Tengamos una gran sesión de código hoy~!",
+    "¡Oh! ¡Estás empezando una nueva sesión! ¡Qué emocionante!",
+    "¡Hola! Te guardé un lugar aquí. ¿Listo para codear?"
+  ],
+  "onSave": [
+    "¡Yay! ¡Guardaste! ¡Buen trabajo! ¡Sigue así, lo estás haciendo genial!",
+    "¡Guardado! ¡Qué bien! ¡No olvides hacer commit también~!",
+    "¡Oh! ¡Guardaste! ¡Cada pequeño paso cuenta, sabes!",
+    "¡Guardado! ¡Bien! ¡Estás haciendo progreso real!",
+    "Ehehe~ ¡Guardado! ¡Tu yo del futuro va a estar tan agradecido!",
+    "¡Yay! ¡Guardado! ¡Estoy tan orgullosa de ti ahora mismo!",
+    "¡Guardaste! ¡Eso es exactamente lo que deberías estar haciendo! ¡Sigue así!",
+    "¡Guardado! Cada vez que guardas, tu código está más seguro. ¡Bien!",
+    "¡Guardado! ¡No pares ahora, lo estás haciendo tan bien!",
+    "¡Oh oh! ¡Guardaste! Ehehe, ¡a este ritmo terminarás en poco tiempo~!"
+  ],
+  "onError": [
+    "¡Oh no! Hay un error. ¡No te preocupes, lo encontraremos juntos!",
+    "¡Apareció un error! Eso está bien, ¡es solo el código diciéndote que quiere tu atención!",
+    "Hmm, algo no está bien. ¡Pero tú puedes manejarlo, lo sé!",
+    "¡Un error! Respira. Cada error es solo un rompecabezas esperando ser resuelto.",
+    "¡Oh! El compilador encontró algo. ¡No te rindas, puedes hacerlo!",
+    "Los errores son solo oportunidades de aprender disfrazadas. ¡Vamos a encontrarlo!",
+    "¡Un bug apareció! Ehehe, ¡eso solo significa que eres lo suficientemente valiente para intentar cosas!",
+    "¡Algo salió mal! Pero eso está bien — así es exactamente cómo mejoras.",
+    "¡Un error! ¡Lo encontraremos! ¡Tú eres más inteligente que cualquier mensaje de error!",
+    "Hmm, el compilador no está contento. ¡Pero tú lo puedes arreglar, lo prometo!"
+  ],
+  "onTerminal": [
+    "¡Oh! ¡El terminal! ¡Las cosas se ponen serias ahora~!",
+    "¡Abriste el terminal! ¿Qué vamos a ejecutar hoy?",
+    "¡El terminal está abierto! ¡Ehehe, siempre me emociono cuando usas comandos!",
+    "¡Comandos entrantes! ¡Esto es lo emocionante del desarrollo!",
+    "¡Ooh, el terminal! ¡Vamos a ver qué pasa!",
+    "¡Ejecutando algo! ¡Estaré aquí animándote~!",
+    "¡El terminal! ¡Es como la caja de herramientas mágica del desarrollador!",
+    "¿Un comando? ¡Ehehe, espero que haga exactamente lo que quieres!",
+    "¡El terminal está listo! ¡Dile qué hacer!",
+    "¡Oh! ¡Vamos a ejecutar algo! ¡Estoy emocionada de ver el resultado!"
+  ],
+  "onFileCreate": [
+    "¡Un archivo nuevo! ¡Todo gran proyecto empieza con uno vacío!",
+    "¡Ohh! ¡Algo nuevo está siendo creado! ¡Me encanta cuando eso pasa!",
+    "¡Nuevo archivo! ¿Qué va a vivir aquí dentro? ¡Estoy curiosa~!",
+    "¡Yay! ¡Un nuevo archivo! ¡Es como una página en blanco llena de posibilidades!",
+    "¡Oh oh! ¡Un archivo nuevo! ¡Ehehe, ¡me encanta cuando los proyectos crecen!",
+    "¡Nuevo archivo creado! ¡El proyecto está expandiéndose! ¡Bien hecho!",
+    "¡Un nuevo archivo! ¡Cada uno es una nueva oportunidad de hacer algo increíble!",
+    "¡Oh! ¡Estás construyendo la estructura! ¡Eso me hace muy feliz!",
+    "¡Yay! ¡Nuevo archivo! ¡Ponle un buen nombre, ¿ok?~!",
+    "¡Un archivo más! ¡Tu proyecto está tomando forma! ¡Sigue así!"
+  ],
+  "onFileDelete": [
+    "¡Oh! Algo fue eliminado. Espero que haya sido intencional~",
+    "Un archivo se fue. A veces necesitamos dejar ir las cosas para crecer.",
+    "Hmm... ¿Eliminaste algo? ¡Está bien! A veces la limpieza es necesaria.",
+    "¡Eliminado! Menos archivos puede significar más claridad. ¡Bien pensado!",
+    "Se fue. ¡Oye, ¿tenías eso en git? Solo verificando~!",
+    "Algo fue removido. ¡La valentía de eliminar código innecesario es real!",
+    "¡Eliminado! A veces el mejor código es... no código. Ehehe.",
+    "¡Oh! Borraste algo. Espero que estés seguro de esa decisión.",
+    "Se fue. ¡El refactoring a veces requiere valor para eliminar! ¡Bien hecho!",
+    "Eliminaste algo. ¡Estás manteniendo el codebase limpio! ¡Me gusta!"
+  ],
+  "onDebug": [
+    "¡Modo debug! ¡Ahora estamos yendo al fondo de esto~!",
+    "¡Oh! ¡Una sesión de debug! ¡Vamos a encontrar ese bug juntos!",
+    "¡Debug iniciado! ¡Hora de descubrir los secretos de tu código!",
+    "¡Ehehe! ¡Debug! ¡Es como ser detective de código! ¡Qué emocionante!",
+    "¡Una sesión de debug! ¡Aquí es donde descubrimos la verdad!",
+    "¡Debug activo! ¡Vamos a atrapar a ese bug travieso!",
+    "¡Oh! ¡Depurando! ¡Sé que lo encontrarás, tú puedes!",
+    "¡Modo debug! ¡Esto se va a poner interesante~!",
+    "¡Iniciando debug! ¡El bug no puede esconderse para siempre!",
+    "¡Debug! ¡Mi parte favorita — encontrar exactamente dónde van mal las cosas!"
+  ],
+  "onIdle": [
+    "Llevas un rato callado. ¿Estás pensando o te distrajiste?~",
+    "Larga pausa... ¿Tomando un descanso o bloqueado en algo?",
+    "Un momento de silencio. ¡Está bien descansar un poco!",
+    "Noté que te alejaste. ¡Las ideas a veces vienen cuando no las forzamos!",
+    "El cursor ha sido paciente. ¿Vuelves pronto? ¡Te espero~!"
+  ],
+  "random": [
+    {
+      "text": "¡Ehehe! ¿Cuál es tu parte favorita de programar? ¡Cuéntame~!",
+      "choices": [
+        { "text": "¡Cuando el código por fin funciona!", "response": "¡Sí! ¡Esa sensación es increíble! ¡Como magia que tú hiciste! ✨", "emotion": "happy" },
+        { "text": "Cuando aprendo algo nuevo.", "response": "¡Ooh! ¡Eso es exactamente lo que me gusta de los desarrolladores curiosos! ¡Sigue aprendiendo!", "emotion": "smiling" },
+        { "text": "Cuando ayudo a alguien con mi código.", "response": "¡Aww! ¡Compartir conocimiento es lo más lindo! ¡Eres muy especial~!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "¿Tienes algún snack favorito para programar? ¡Yo siempre quiero saber estas cosas~!",
+      "choices": [
+        { "text": "¡Café! No puedo programar sin él.", "response": "¡Ehehe! ¡El combustible clásico del desarrollador! ¡Solo no tomes demasiado~!", "emotion": "animated" },
+        { "text": "Algo dulce, como galletas o chocolate.", "response": "¡Ooh! ¡Azúcar para el cerebro! ¡Una elección muy inteligente! ✨", "emotion": "happy" },
+        { "text": "Prefiero programar sin comer.", "response": "¡Oh! Entonces, por favor, acuérdate de comer después, ¿ok? ¡Tu cuerpo también importa~!", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Si pudieras crear cualquier aplicación del mundo, ¿cuál harías?",
+      "choices": [
+        { "text": "Algo que ayude a muchas personas.", "response": "¡Eso es tan noble! ¡La tecnología al servicio de la gente! ¡Me encanta esa visión~!", "emotion": "happy" },
+        { "text": "Un juego increíble.", "response": "¡Ooh! ¡Los juegos hacen feliz a la gente! ¡Eso es un objetivo muy bonito! Ehehe~", "emotion": "animated" },
+        { "text": "Algo solo para mí que me facilite la vida.", "response": "¡Eso es totalmente válido! ¡Los mejores proyectos empiezan resolviendo tus propios problemas!", "emotion": "smiling" }
+      ]
+    }
+  ]
+}

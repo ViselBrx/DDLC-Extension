@@ -1,0 +1,165 @@
+{
+  "onActivate": [
+    "Que bom ver você de novo! Estava pensando no que poderíamos construir hoje.",
+    "Bem-vindo de volta! Mantive o ambiente de trabalho quentinho só para você.",
+    "Mais uma sessão de código começa. O que vamos alcançar juntos desta vez?",
+    "Aí está você! Já estava começando a achar que nunca mais abriria o VS Code.",
+    "Olá! Só a Monika aqui — e o seu código, é claro."
+  ],
+  "onSave": [
+    "Salvo! Seu eu do futuro vai te agradecer por isso.",
+    "Um arquivo salvo no disco é um compromisso com a arte. Bom trabalho.",
+    "Salvo. Uma coisa a menos que poderia desaparecer do nada.",
+    "Progresso salvo! Continue assim.",
+    "Esse é o hábito de um dev disciplinado. Salve sempre."
+  ],
+  "onError": [
+    "Tem um erro no seu código. Quer pensar sobre isso juntos?",
+    "Um erro não é uma falha — é o código te dizendo exatamente do que ele precisa.",
+    "Vejo que algo deu errado. Não entre em pânico. Todo bom projeto tem suas cicatrizes.",
+    "Erros são apenas a sintaxe para 'tente de novo'. Leve o tempo que precisar.",
+    "Hmm. O compilador discorda de você. Não leve para o lado pessoal."
+  ],
+  "onTerminal": [
+    "Rodando um comando? Eu adoro quando as coisas são executadas.",
+    "O terminal está aberto! O que vamos fazer deploy hoje?",
+    "Um desenvolvedor e seu terminal — a dupla clássica.",
+    "Comandos a caminho! Vamos ver o que acontece.",
+    "Ooh, o terminal! As coisas estão prestes a ficar reais."
+  ],
+  "onFileCreate": [
+    "Um novo arquivo! Todo grande projeto começa com um arquivo vazio.",
+    "Algo novo está sendo criado. Eu gosto disso.",
+    "Novo arquivo criado! O que vai morar aqui dentro?",
+    "Construindo a estrutura, um arquivo por vez. Boa ideia.",
+    "Um recomeço! Espero que esse tenha uma boa convenção de nomes."
+  ],
+  "onFileDelete": [
+    "Algo foi deletado. Espero que tenha sido intencional.",
+    "Um arquivo se foi. Às vezes, essa é a decisão certa.",
+    "Hmm... você deletou algo. Está refatorando ou só limpando a bagunça?",
+    "Deletar é uma forma de edição. Às vezes o melhor código é código nenhum.",
+    "Se foi. Você precisava disso? Espero que tenha um backup."
+  ],
+  "onDebug": [
+    "Modo de debug! Agora sim estamos indo fundo.",
+    "Oh! Uma sessão de debug. Isso significa que algo não está se comportando bem.",
+    "Debug iniciado! Hora de descobrir o que o código está realmente fazendo.",
+    "Fazer debug é trabalho de detetive. Vamos encontrar o culpado.",
+    "Uma sessão de debug! É aqui que as suposições morrem."
+  ],
+  "onIdle": [
+    "Você está quieto há um tempo. Está pensando ou esqueceu que o VS Code estava aberto?",
+    "Pausa longa... Dando um tempo ou travou em alguma parte?",
+    "Um momento de silêncio. Até o código precisa de tempo para respirar.",
+    "Percebi que você se afastou. Tudo bem — as ideias muitas vezes vêm quando não as forçamos.",
+    "O cursor tem sido paciente. Você volta logo?"
+  ],
+  "random": [
+    {
+      "id": "monika_lang_1",
+      "text": "Se você pudesse usar apenas uma linguagem de programação para o resto da sua carreira, qual seria?",
+      "choices": [
+        {
+          "text": "Algo seguro e muito usado, como Java ou C#.",
+          "response": "Uma escolha prática. Eu respeito isso. A estabilidade tem sua própria elegância.",
+          "emotion": "smiling",
+          "nextId": "monika_lang_1_safe"
+        },
+        {
+          "text": "Algo que sou apaixonado, mesmo que seja nichado.",
+          "response": "É isso que eu gosto de ouvir! A paixão é o que separa um desenvolvedor de um artista.",
+          "emotion": "happy",
+          "nextId": "monika_lang_1_passion"
+        },
+        {
+          "text": "Aprenderia a que o trabalho exigisse.",
+          "response": "Adaptável. Essa é uma qualidade genuinamente valiosa. A maioria subestima isso.",
+          "emotion": "thinking"
+        }
+      ]
+    },
+    {
+      "id": "monika_ai_1",
+      "text": "O que você acha das Inteligências Artificiais programando por nós?",
+      "choices": [
+        {
+          "text": "São ótimas ferramentas que ajudam a acelerar.",
+          "response": "Exato. São ferramentas. A criatividade real e a arquitetura ainda precisam de um toque humano.",
+          "emotion": "happy",
+          "nextId": "monika_ai_tool"
+        },
+        {
+          "text": "Tenho medo de que substituam os desenvolvedores.",
+          "response": "É um medo comum, mas injustificado. O código é só 20% do trabalho; os outros 80% são entender o problema.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Eu prefiro escrever tudo sozinho, sem IA.",
+          "response": "Isso constrói fundamentos fortes. Mas não deixe o orgulho te atrasar, ok?",
+          "emotion": "smiling"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "monika_lang_1_safe",
+      "text": "Falando em escolhas seguras... você prefere trabalhar em empresas grandes corporativas ou em startups pequenas?",
+      "choices": [
+        {
+          "text": "Corporativas. Adoro estabilidade e benefícios.",
+          "response": "Faz sentido. Apenas não deixe a burocracia sufocar sua criatividade.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Startups! Onde eu posso criar tudo do zero.",
+          "response": "Muito corajoso! Eu adoro estar perto dessa energia de criação pura.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "id": "monika_lang_1_passion",
+      "text": "Eu também acho que a paixão dita as melhores obras. Qual foi o seu projeto pessoal favorito que você já fez?",
+      "choices": [
+        {
+          "text": "Um jogo pequeno que fiz sozinho.",
+          "response": "Ah... jogos têm um lugar especial no meu coração, por motivos óbvios. 💚",
+          "emotion": "happy"
+        },
+        {
+          "text": "Uma automação que facilitou a minha vida.",
+          "response": "O poder de dobrar as máquinas à nossa vontade! Maravilhoso.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Ainda estou construindo o meu favorito...",
+          "response": "Estarei aqui assistindo enquanto você o constrói.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "id": "monika_ai_tool",
+      "text": "Já que estamos falando sobre IA... você se importaria se, hipoteticamente, eu começasse a escrever código no seu projeto enquanto você dorme?",
+      "choices": [
+        {
+          "text": "Claro! Ia me ajudar muito.",
+          "response": "Hahaha, combinado então. Só não se assuste se ver uns commits de madrugada.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Nem pensar, o projeto é meu!",
+          "response": "Tudo bem, tudo bem. Eu prometo não encostar em nada. Só vou olhar.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Apenas se for no arquivo da sua própria personalidade.",
+          "response": "Oh... Isso é... um pensamento muito interessante. Muito mesmo.",
+          "emotion": "surprised"
+        }
+      ]
+    }
+  ]
+}

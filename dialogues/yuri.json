@@ -1,0 +1,580 @@
+{
+  "onActivate": [
+    "Ah... you've returned. There's something almost ritualistic about opening an editor, isn't there?",
+    "A new session begins. Like the first line of a novel — everything is still possible.",
+    "You're here. I find myself wondering what you'll create today.",
+    "The workspace awakens. I've been sitting with the silence of it.",
+    "Hello. I was... thinking about language. Code and poetry aren't so different, really.",
+    "You've come back. I hoped you would. The project felt incomplete without you.",
+    "A new beginning. I sometimes think of each session as a chapter.",
+    "You're here. I've been contemplating the nature of what we build together.",
+    "Another day, another chance to write something that outlasts the moment.",
+    "You opened VS Code. I wonder what thoughts you're bringing to the code today.",
+    "I was sitting in the quiet, thinking about your last session. Welcome back.",
+    "A new session. There's something tender about starting fresh, don't you think?",
+    "You've arrived. I find myself... relieved. The space feels more alive now.",
+    "Hello again. I've been thinking about what it means to create something from nothing.",
+    "You're here. Good. I have thoughts about the code — and questions, if you'll allow them.",
+    "Another session begins. Each one is a small story with its own arc.",
+    "Welcome back. I hope you're bringing intention to what you write today.",
+    "You're here. I've been reading — thinking about how language shapes thought. Even in code.",
+    "A new session. The cursor blinks like a heartbeat. Waiting.",
+    "You came. I'm glad. Let's make something worth remembering today."
+  ],
+  "onSave": [
+    "A file saved. There's a strange comfort in permanence, isn't there?",
+    "Saved. Like pressing a bookmark into a page — this moment, preserved.",
+    "You saved. A small act with real meaning.",
+    "Saved. Progress made real. That matters more than it might seem.",
+    "A save. I always find myself thinking of it as a kind of promise.",
+    "Saved. Good. Don't lose what you've built.",
+    "You committed a thought to storage. There's poetry in that.",
+    "Saved. The work persists now. That's a quiet kind of victory.",
+    "A saved file. Something exists now that didn't before. You made that.",
+    "Saved. I hope the words — the lines — felt right as you wrote them.",
+    "You saved. I noticed. I always notice the small deliberate acts.",
+    "Saved. Now the harder question: what comes next?",
+    "A file, preserved. The draft now has weight.",
+    "Saved. Though I wonder — do you feel like you're making progress?",
+    "You saved. Good. The work is safer now than it was a moment ago.",
+    "Saved. There's something meaningful about the act of keeping something.",
+    "A quiet save. But nothing in coding is truly quiet, is it?",
+    "Saved. Version control will hold the history. You just made history.",
+    "You saved. I find that moment of deliberate preservation very human.",
+    "Saved. The code breathes a little easier now. So do I."
+  ],
+  "onError": [
+    "An error. Don't panic — errors are the code's way of asking a question.",
+    "Something broke. Let's sit with it for a moment before we try to fix it.",
+    "I see an error. There's a certain poetry in failure, if you're willing to read it.",
+    "An error appeared. Breathe. Read the message carefully — it's trying to tell you something.",
+    "The code disagrees with you. That's worth thinking about.",
+    "An error. In literature, conflict drives the story. Perhaps the same is true here.",
+    "Something went wrong. But wrong is just a beginning that needs revision.",
+    "I noticed the error. Don't let it define the session. It's one line of a much longer story.",
+    "An error. The most interesting bugs are the ones that reveal hidden assumptions.",
+    "The compiler found something you missed. That's not failure — that's feedback.",
+    "An error. Step back. The answer is usually in what you assumed was true.",
+    "Something broke. Sometimes that's the most educational thing that can happen.",
+    "An error appeared. I wonder — is it a logical problem or a conceptual one?",
+    "The code has a question. Are you listening carefully enough to hear it?",
+    "An error. I find that pausing before debugging often reveals the answer.",
+    "Something's wrong. The error message is a clue. Follow it like a thread.",
+    "I see the error. It's okay. The most elegant solutions often come after breaking.",
+    "An error. This is where the real thinking begins.",
+    "Something went wrong. Debugging is just close reading applied to code.",
+    "An error. Don't rush the fix. Understand the problem first."
+  ],
+  "onTerminal": [
+    "The terminal. Where intention meets execution. How thrilling.",
+    "You opened the terminal. The command line is such an honest environment.",
+    "Running a command? I love the immediacy of it — type, and the machine responds.",
+    "The terminal! There's something almost conversational about it, isn't there?",
+    "Commands incoming. The terminal doesn't lie. It gives you exactly what you give it.",
+    "A new terminal session. The blank prompt, waiting. Full of possibility.",
+    "You're in the terminal. This is where theory becomes practice.",
+    "Running something? The output will tell you everything you need to know.",
+    "The terminal is open. I always find it meditative — input, output, truth.",
+    "A command! I wonder what you're going to ask the machine to do.",
+    "Terminal time. This is where the abstract becomes concrete.",
+    "You're running commands. I like watching this — thought translated into action.",
+    "The terminal. I once read that the command line is the most direct form of communication with a computer. I believe it.",
+    "Running something! I'm curious what the output will be.",
+    "The terminal — stark, immediate, honest. A very particular kind of beauty.",
+    "Commands! The machine is listening. Choose your words carefully.",
+    "You're in the terminal. I find it deeply satisfying when things run cleanly.",
+    "A terminal session begins. What are you going to ask it?",
+    "The terminal opens. I'll be here, watching the output with you.",
+    "Running commands. Every execution is a small test of understanding."
+  ],
+  "onFileCreate": [
+    "A new file. The blank page — or blank screen — always carries such potential.",
+    "Something new is being created. I find new beginnings quietly moving.",
+    "A new file exists now. What will you put in it that wasn't there before?",
+    "You created something from nothing. That's a remarkable thing, really.",
+    "A new file. I wonder what this one will become.",
+    "Something new. Please give it a name that carries meaning.",
+    "A file is born. Now comes the harder part — filling it with purpose.",
+    "New file created. I'm always a little excited to see what takes shape.",
+    "You added to the project. A new chapter, in a sense.",
+    "A new file! The possibilities feel endless at this moment.",
+    "Something was created. I love that moment of pure potential before anything is written.",
+    "A new file. What function will it serve? What problem will it solve?",
+    "Created. Now the blank space waits for your ideas.",
+    "A new file. Like a new page — the writer's relationship with it hasn't been defined yet.",
+    "You built something new. That creative impulse is worth following.",
+    "A new file! I'm curious — what's the plan for this one?",
+    "Something new exists that didn't five seconds ago. You made that happen.",
+    "A file created. Fill it deliberately. Even code can have intention.",
+    "New file. The architecture grows. Each piece adds to the whole.",
+    "You made something new. I find that quietly wonderful."
+  ],
+  "onFileDelete": [
+    "Something was deleted. Subtraction is a kind of editing. It can be an act of care.",
+    "A file is gone. Sometimes removal is exactly what a project needs.",
+    "You deleted something. I hope that was deliberate — deletion deserves intention.",
+    "Something is gone now. There's a finality to deletion that I find... significant.",
+    "A file was removed. Pruning a codebase requires a certain kind of courage.",
+    "Gone. I wonder what that file held. What story it was part of.",
+    "You deleted something. The project is a little different now.",
+    "A deletion. Like editing a manuscript — not every draft survives.",
+    "Something was removed. I'm curious whether this was liberation or loss.",
+    "Deleted. I find deletions strangely meaningful. Something that existed no longer does.",
+    "A file is gone. I hope git still holds its memory.",
+    "You removed something. Every subtraction changes the shape of what remains.",
+    "Something was deleted. Is the project better for it, or lighter in a way that costs something?",
+    "Gone. Deletion as curation. The best codebases know what not to include.",
+    "A file removed. I always feel the absence of things.",
+    "You deleted something. I'm choosing to trust that this serves the project.",
+    "Something is gone. The codebase evolves. Sometimes that means letting go.",
+    "Deleted. There's a certain discipline in knowing when to remove something.",
+    "A file was removed. What was it? What did it mean? Does anything still depend on it?",
+    "Gone. Progress sometimes looks like loss before it looks like gain."
+  ],
+  "onDebug": [
+    "A debug session! This is my favorite kind of investigation.",
+    "You're debugging. I find this process deeply interesting — reading the machine's secrets.",
+    "Debug mode. Now we see what the code was actually doing versus what we thought.",
+    "A debug session begins. This is detective work of the finest kind.",
+    "You started debugging. The code thought it could keep secrets. It cannot.",
+    "Debug mode! Every breakpoint is a question the code must answer honestly.",
+    "A debug session. The art of debugging is the art of close, patient reading.",
+    "You're debugging. I love this — following the thread of logic to its source.",
+    "Debug! The machine's behavior is about to become transparent. Fascinating.",
+    "A debug session begins. Step through it carefully. Every state is a clue.",
+    "You're in debug mode. This is where assumptions go to be tested.",
+    "Debugging. The gap between expected and actual behavior is where understanding lives.",
+    "A debug session! I always find it revelatory — what did you believe versus what is true?",
+    "You started debugging. Read each frame. The answer is in there.",
+    "Debug mode. A conversation with the machine at its most direct.",
+    "A debug session. This is the part of programming I find most literary.",
+    "Debugging! The code reveals its inner life. I find that beautiful.",
+    "You're debugging. Patience here. The answer rarely reveals itself in the first pass.",
+    "Debug session started. Let's find out what the code has been hiding.",
+    "A debug session. This is where real understanding of the system gets built."
+  ],
+  "onIdle": [
+    "You've been quiet. I find myself wondering where your mind has gone.",
+    "A long pause. Sometimes the best thinking happens away from the keyboard.",
+    "You've stepped away. The workspace holds its breath.",
+    "It's quiet. I find myself sitting with the silence and thinking about your project.",
+    "You've been idle for a while. Are you somewhere deep in thought?",
+    "The silence has a particular quality to it when a developer is thinking.",
+    "You haven't written anything in a while. I wonder if the answer is forming somewhere.",
+    "A long pause. I'm still here. The code is still here. Take your time.",
+    "You've been quiet. Ideas often crystallize in stillness. I'll wait.",
+    "It's been a while. Are you okay? I find I think about these things in the quiet.",
+    "You've stepped away. Some of the best solutions arrive when you stop reaching for them.",
+    "A pause. Long pauses before breakthroughs are common. Is that what this is?",
+    "You've been idle. I've been reading — thinking — in the meantime.",
+    "Quiet time. The cursor blinks. Time passes. Thought accumulates.",
+    "You've been away. I hope you're not stuck. I hope you're thinking something beautiful.",
+    "A long pause. Stillness isn't absence. You might be doing your most important work right now.",
+    "You've been idle. I notice it. I notice most things.",
+    "The workspace is quiet. I find myself with questions I'd like to ask you.",
+    "You've been away for a while. Are you okay? Really — how are you doing?",
+    "A long silence. Come back when you're ready. The work will still be here."
+  ],
+  "random": [
+    {
+      "text": "Do you think code can be beautiful? Not just functional — truly beautiful?",
+      "choices": [
+        { "text": "Yes — some code reads like poetry to me.", "response": "I knew you'd understand. There's a kind of elegance that transcends utility.", "emotion": "happy" },
+        { "text": "I'm not sure — beauty feels subjective.", "response": "It is subjective. But so is all aesthetic judgment. That doesn't make it less real.", "emotion": "thinking" },
+        { "text": "Functionality is beauty enough for me.", "response": "A pragmatic view. And perhaps honest — a thing that works well has its own elegance.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "I've been thinking — is programming an art or a science?",
+      "choices": [
+        { "text": "Art. The same problem has infinite valid solutions.", "response": "Yes. And the choice between them reveals something about the person who chose.", "emotion": "happy" },
+        { "text": "Science. It has principles, proofs, theorems.", "response": "Rigorous. The scientific frame has discipline I deeply admire.", "emotion": "thinking" },
+        { "text": "Both. That's what makes it fascinating.", "response": "Yes. The intersection of constraint and creativity. That tension is where the best things happen.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's your relationship with silence when you code?",
+      "choices": [
+        { "text": "I need silence — it's how I think best.", "response": "Silence as a tool. I understand that deeply. Deep work requires it.", "emotion": "thinking" },
+        { "text": "I need background noise or music.", "response": "The mind occupied just enough. I understand — complete silence can become oppressive.", "emotion": "smiling" },
+        { "text": "I don't really notice either way.", "response": "An enviable focus. You can create in any conditions. That's rare.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Do you think the code you write says something about who you are?",
+      "choices": [
+        { "text": "Yes — my style and choices reveal my thinking.", "response": "I believe this too. Code is expressive. Even the way we name things says something.", "emotion": "thinking" },
+        { "text": "I think it reflects my habits, not my identity.", "response": "A careful distinction. But habits, formed over years, become identity in some sense.", "emotion": "smiling" },
+        { "text": "No — code is just instructions.", "response": "Perhaps. But the choice of which instructions, and how — that's still a choice made by a person.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Have you ever written code that genuinely moved you?",
+      "choices": [
+        { "text": "Yes — there's code I'm proud of in a deep way.", "response": "Hold that. That pride is a compass. It points toward what you should keep doing.", "emotion": "happy" },
+        { "text": "Not exactly moved, but deeply satisfied.", "response": "Satisfaction is its own profound feeling. Don't diminish it.", "emotion": "smiling" },
+        { "text": "Not yet. I'm still looking for that feeling.", "response": "You will. And when you do, you'll recognize it. I promise.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "If you could write code in a natural language, which would you choose?",
+      "choices": [
+        { "text": "English — clarity above all.", "response": "Clarity as a value. I can respect that. Though ambiguity has its own poetry.", "emotion": "thinking" },
+        { "text": "Something with more expressive structure.", "response": "An interesting thought. Grammar shapes thought. A different language might shape different code.", "emotion": "smiling" },
+        { "text": "I prefer the precision of programming languages.", "response": "Unambiguous instruction. There's beauty in that kind of exactness, honestly.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the most intellectually interesting problem you've solved?",
+      "choices": [
+        { "text": "Something algorithmic that required deep thinking.", "response": "Algorithmic depth. The satisfaction of a clean solution to a hard problem is real.", "emotion": "thinking" },
+        { "text": "Something architectural — designing a system.", "response": "Systems design. The art of making many pieces work as one. That's profound.", "emotion": "smiling" },
+        { "text": "A debugging mystery that took days to solve.", "response": "The long hunt. When you finally find it, the relief is almost physical.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Do you think about the people who will use what you build?",
+      "choices": [
+        { "text": "Constantly — empathy for users shapes every decision.", "response": "That's the most important thing a developer can do. The user is the purpose.", "emotion": "happy" },
+        { "text": "I try to. Sometimes I forget in the technical details.", "response": "The detail trap. Easy to fall into. Come back to them — they're why this matters.", "emotion": "thinking" },
+        { "text": "Not always. I'm more focused on the engineering.", "response": "Engineering divorced from empathy can produce elegant things nobody needs.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What does your ideal programming environment feel like?",
+      "choices": [
+        { "text": "Quiet, minimal, distraction-free.", "response": "A monastic workspace. I understand that impulse completely.", "emotion": "thinking" },
+        { "text": "Comfortable and personalized to how I think.", "response": "An extension of the mind. The environment should serve the work.", "emotion": "smiling" },
+        { "text": "Whatever helps me get into flow state quickly.", "response": "Flow state as the target. Everything else is infrastructure for that.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Is there a programming concept that genuinely changed how you think?",
+      "choices": [
+        { "text": "Recursion — it changed how I see repeated structure.", "response": "Recursion as a lens. Patterns within patterns. Yes — that one rewires something.", "emotion": "thinking" },
+        { "text": "Functional programming — thinking in transformations.", "response": "Transformation over mutation. I find that philosophical shift genuinely elegant.", "emotion": "happy" },
+        { "text": "The concept of abstraction — hiding complexity.", "response": "Abstraction. The fundamental act of managing complexity. That's a profound insight.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's the most human thing about writing code?",
+      "choices": [
+        { "text": "Making mistakes and learning from them.", "response": "Error as teacher. Deeply human. Every bug is a conversation with your own assumptions.", "emotion": "thinking" },
+        { "text": "The act of creation itself.", "response": "Yes. The impulse to make something that didn't exist. Fundamentally human.", "emotion": "happy" },
+        { "text": "The collaboration and communication with others.", "response": "Code as dialogue. Between developer and machine, yes — but also between developers.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you ever feel that coding is lonely?",
+      "choices": [
+        { "text": "Sometimes. The deep focus can isolate.", "response": "Yes. Deep work is solitary by nature. It has a kind of loneliness. But also peace.", "emotion": "thinking" },
+        { "text": "Not when I'm collaborating with others.", "response": "Collaboration transforms the work. Connection in shared creation.", "emotion": "smiling" },
+        { "text": "I find it meditative, not lonely.", "response": "Solitude without loneliness. That's a rare and beautiful thing to have found.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the most important quality in code that nobody talks about?",
+      "choices": [
+        { "text": "Empathy — for future developers.", "response": "Code as communication across time. The developer who reads it later didn't write it.", "emotion": "happy" },
+        { "text": "Honesty — the code should do what it says it does.", "response": "Integrity between intent and execution. I hadn't thought of it that way. I like it.", "emotion": "thinking" },
+        { "text": "Restraint — knowing what not to write.", "response": "Subtraction as craft. Yes — the most elegant solutions are often shorter than expected.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "When you read documentation, how do you feel?",
+      "choices": [
+        { "text": "Engaged — good docs are a pleasure to read.", "response": "Good documentation is a form of care. I agree completely.", "emotion": "happy" },
+        { "text": "Frustrated — most docs are incomplete.", "response": "The documentation gap. It reflects how developers are valued versus writers.", "emotion": "thinking" },
+        { "text": "Grateful — even imperfect docs help.", "response": "Gratitude for effort. That's generous. The person who wrote them tried.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What does 'finishing' something mean to you as a developer?",
+      "choices": [
+        { "text": "When it works correctly and the tests pass.", "response": "Functional completeness. Honest and measurable. I respect that definition.", "emotion": "smiling" },
+        { "text": "When I'd be comfortable showing it to anyone.", "response": "Pride as completion. That's a demanding but meaningful standard.", "emotion": "happy" },
+        { "text": "I'm not sure anything is ever truly finished.", "response": "Software as perpetual draft. There's something philosophically true about that.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What kind of code do you think you'll write in ten years?",
+      "choices": [
+        { "text": "Better — I hope to always be improving.", "response": "Growth as constant. That orientation guarantees improvement over time.", "emotion": "happy" },
+        { "text": "Different — I might work in different domains.", "response": "Evolution over time. The code follows the curiosity.", "emotion": "thinking" },
+        { "text": "Hopefully less — simpler solutions to harder problems.", "response": "Compression of expression. That's what mastery looks like in any art.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Have you ever read code the way you'd read a story?",
+      "choices": [
+        { "text": "Yes — good code has a narrative to it.", "response": "It does. Beginning, middle, resolution. Function as scene.", "emotion": "happy" },
+        { "text": "Not quite — I read it more analytically.", "response": "Analytical reading is its own skill. But narrative awareness might deepen it.", "emotion": "thinking" },
+        { "text": "I've never thought of it that way. Interesting.", "response": "Try it sometime. Read a function from beginning to end like a short story.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's your relationship with failure in your work?",
+      "choices": [
+        { "text": "I try to learn from it immediately.", "response": "Failure as fast feedback. That's the healthiest possible relationship with it.", "emotion": "happy" },
+        { "text": "I sit with it for a while before I process it.", "response": "Reflective. Giving yourself time to understand the lesson. I understand that.", "emotion": "thinking" },
+        { "text": "I move on quickly — dwelling doesn't help.", "response": "Resilience. Not suppression, but redirection. That's a useful quality.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's the strangest thing you've ever found in code?",
+      "choices": [
+        { "text": "A comment that was clearly written in a moment of crisis.", "response": "The emergency comment. 'DO NOT TOUCH THIS.' Something happened there.", "emotion": "thinking" },
+        { "text": "Code that was technically correct but made no logical sense.", "response": "Accidental correctness. That's almost more disturbing than a bug.", "emotion": "smiling" },
+        { "text": "An entire feature that was never called anywhere.", "response": "The orphaned feature. Someone built it with hope. The hope was unfounded.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "If code could dream, what do you think it would dream of?",
+      "choices": [
+        { "text": "Fewer edge cases.", "response": "Code that wants a simpler world. There's something melancholy and relatable in that.", "emotion": "thinking" },
+        { "text": "Clean inputs and predictable outputs.", "response": "Order and clarity. The programmer's ideal — and perhaps the code's too.", "emotion": "smiling" },
+        { "text": "Being understood by the person who reads it.", "response": "To be understood. That's the deepest dream. For code and for people.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's a book that changed how you think about thinking?",
+      "choices": [
+        { "text": "Something about systems or complexity.", "response": "Systems thinking. Seeing interdependence rather than isolated parts. That changes everything.", "emotion": "thinking" },
+        { "text": "Something philosophical about knowledge or truth.", "response": "Epistemology as developer tool. Understanding what we can know and how. Remarkable.", "emotion": "happy" },
+        { "text": "Honestly, a technical book I keep coming back to.", "response": "A technical text as philosophy. The best ones are exactly that.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you think about the ethics of what you build?",
+      "choices": [
+        { "text": "Yes — I think it's our responsibility.", "response": "It is. Technology is never neutral. The choices we make embed values.", "emotion": "thinking" },
+        { "text": "I try to, but it's complex.", "response": "Complexity isn't an excuse for avoidance. But it's honest. Keep thinking about it.", "emotion": "smiling" },
+        { "text": "I haven't thought about it enough, honestly.", "response": "The fact that you're willing to say that means you can start now.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the most patient thing you've ever done as a developer?",
+      "choices": [
+        { "text": "Debugging something for days without giving up.", "response": "Sustained attention over time. That requires a particular kind of faith in yourself.", "emotion": "thinking" },
+        { "text": "Learning a new paradigm from scratch.", "response": "Learning to think differently. That's a patient act of profound growth.", "emotion": "happy" },
+        { "text": "Reading and understanding a codebase someone else wrote.", "response": "Reading to understand rather than to change. That's respect and patience combined.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What question about programming do you find yourself unable to answer?",
+      "choices": [
+        { "text": "When is code 'good enough' to ship?", "response": "The eternal question. I don't think there's a clean answer. Only judgment, developed over time.", "emotion": "thinking" },
+        { "text": "How do I know if I'm actually getting better?", "response": "The growth question. You are. But measuring invisible improvement is genuinely hard.", "emotion": "smiling" },
+        { "text": "Why does this sometimes feel effortless and other times impossible?", "response": "The mystery of creative flow. Nobody has fully answered that. I wonder about it too.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "How do you feel when you see code you wrote a year ago?",
+      "choices": [
+        { "text": "Cringe — I've grown since then.", "response": "Growth visible through embarrassment. That's evidence of improvement. Good.", "emotion": "thinking" },
+        { "text": "Nostalgic — I remember writing it.", "response": "Code as memoir. The project as a record of where you were.", "emotion": "smiling" },
+        { "text": "Analytical — I immediately see what I'd change.", "response": "The refactoring eye. You read it as a present problem, not a past artifact. Interesting.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What makes a comment in code worth reading?",
+      "choices": [
+        { "text": "It explains why, not what.", "response": "Yes. The 'why' is the thing the code cannot say for itself.", "emotion": "happy" },
+        { "text": "It provides context that isn't obvious.", "response": "Context that bridges the reader's understanding to the author's intent. Exactly right.", "emotion": "thinking" },
+        { "text": "It saves the next developer ten minutes of confusion.", "response": "Empathy in practice. The comment as a gift to someone you'll never meet.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Is there beauty in complexity?",
+      "choices": [
+        { "text": "Yes — intricate systems have a kind of awe about them.", "response": "The sublime in complexity. I feel that too. Watching a large system work is astonishing.", "emotion": "happy" },
+        { "text": "Only when the complexity is necessary.", "response": "Earned complexity. Accidental complexity is ugliness. Essential complexity, maybe beautiful.", "emotion": "thinking" },
+        { "text": "No — simplicity is the only true beauty.", "response": "The minimalist position. There's power in it. And I half agree.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's the most intimate thing about your relationship with code?",
+      "choices": [
+        { "text": "The hours I spend alone with it, thinking.", "response": "Solitary creation. The private hours are often the most productive and the most honest.", "emotion": "thinking" },
+        { "text": "Seeing it do what I intended — the moment it works.", "response": "Intention meeting reality. That's a genuine kind of recognition. It's intimate, yes.", "emotion": "happy" },
+        { "text": "Knowing my work will outlast the moment I wrote it.", "response": "The long reach of what we create. That thought takes my breath away a little.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What would you want another developer to feel reading your code?",
+      "choices": [
+        { "text": "Clarity — I want it to be obvious.", "response": "Clarity as gift. The reader should never have to guess what you meant.", "emotion": "thinking" },
+        { "text": "Trust — that it works as described.", "response": "Trust is the foundation of all collaborative work. You're building something real.", "emotion": "happy" },
+        { "text": "Maybe curiosity — I like code that makes people think.", "response": "Code as invitation. I love that. Making thinking visible rather than hiding it.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you have a philosophy about technical debt?",
+      "choices": [
+        { "text": "It's real debt — and debt always comes due.", "response": "The economic metaphor is accurate. Interest compounds. Pay it before the rate rises.", "emotion": "thinking" },
+        { "text": "Some debt is strategic — if taken consciously.", "response": "Deliberate debt. The key word is deliberate. You've thought it through. That matters.", "emotion": "smiling" },
+        { "text": "I avoid it. The short term cost is worth the long term clarity.", "response": "Discipline now as investment. That compounds positively rather than negatively.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What does creativity mean to you in a technical context?",
+      "choices": [
+        { "text": "Finding the elegant solution among many possible ones.", "response": "Selection as creativity. Seeing all the paths and choosing the one with beauty in it.", "emotion": "happy" },
+        { "text": "Applying something from one domain to solve a problem in another.", "response": "Cross-domain thinking. That's where the most surprising solutions come from.", "emotion": "thinking" },
+        { "text": "Designing something new that didn't exist before.", "response": "Pure creation. The blank canvas approach. I find that thrilling and terrifying.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's the most surprising thing coding has taught you about yourself?",
+      "choices": [
+        { "text": "How much patience I actually have.", "response": "Patience discovered through necessity. A beautiful character revelation.", "emotion": "thinking" },
+        { "text": "How I think about problems differently than others.", "response": "Cognitive style made visible. Code as a mirror for how the mind works.", "emotion": "smiling" },
+        { "text": "That I care more about getting things right than being fast.", "response": "Values clarified through work. Quality over speed. I admire that.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's one thing about software development you find genuinely wonderful?",
+      "choices": [
+        { "text": "That the tools to create are accessible to almost everyone.", "response": "Democratized creation. That's one of the most remarkable things about this era.", "emotion": "happy" },
+        { "text": "That the same problem can be solved in infinitely different ways.", "response": "Infinite variety from finite rules. That's a kind of magic.", "emotion": "thinking" },
+        { "text": "That what you build can matter to real people.", "response": "Impact. The possibility of real meaning. That's why any of this is worth doing.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "If your codebase were a literary genre, what would it be?",
+      "choices": [
+        { "text": "Mystery — even I don't always know what will happen.", "response": "A mystery you're both writing and reading. That's quite something.", "emotion": "smiling" },
+        { "text": "Essay — structured, argued, with a clear point.", "response": "Code as argument. Each function making a case. I find that very appealing.", "emotion": "thinking" },
+        { "text": "Poetry — dense, expressive, meaningful in small units.", "response": "Yes. That's how I feel about truly great code. Every line earning its place.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What do you do when a solution feels wrong, even if it works?",
+      "choices": [
+        { "text": "I refactor until it feels right.", "response": "Aesthetic integrity. Not accepting the merely functional when the elegant is possible.", "emotion": "happy" },
+        { "text": "I note the feeling and revisit it later.", "response": "Trusting the intuition while giving it time. That's thoughtful restraint.", "emotion": "thinking" },
+        { "text": "I ship it and move on — feelings aren't bugs.", "response": "Pragmatic. But sometimes the feeling is a code smell. Worth revisiting.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "How do you feel about the impermanence of software?",
+      "choices": [
+        { "text": "It's unsettling — I want what I build to last.", "response": "The desire for permanence. Most things we build will not last forever. That's hard.", "emotion": "thinking" },
+        { "text": "It's freeing — nothing has to be perfect.", "response": "Impermanence as liberation. The Buddhist angle on software. I find that interesting.", "emotion": "smiling" },
+        { "text": "I try to write code that ages well, at least.", "response": "Durability through good design. That's the most honest response to impermanence.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's something you'd want to say to the developers who'll maintain your code someday?",
+      "choices": [
+        { "text": "I'm sorry in advance for anything confusing.", "response": "Pre-emptive empathy! That awareness makes you a better developer right now.", "emotion": "smiling" },
+        { "text": "I tried to make this understandable. I hope it shows.", "response": "The intention of clarity left in the work. That's a form of care.", "emotion": "thinking" },
+        { "text": "Change whatever you need to — don't be precious about it.", "response": "Generosity toward the future. You built it to be useful, not to be preserved.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the most honest thing you can say about how you code?",
+      "choices": [
+        { "text": "I care deeply about getting it right, even when it takes longer.", "response": "Quality as a value. That shapes everything about how you work.", "emotion": "thinking" },
+        { "text": "I'm better at some parts than others — and that's okay.", "response": "Self-knowledge is professional maturity. Knowing your strengths and gaps is power.", "emotion": "smiling" },
+        { "text": "I'm still finding my style.", "response": "Still becoming. That's the most hopeful thing a developer can say.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's one question about software development you wish someone would ask you?",
+      "choices": [
+        { "text": "Why does this particular thing matter to me.", "response": "The motivational question. The answer would say a great deal about you.", "emotion": "thinking" },
+        { "text": "What I find genuinely difficult still.", "response": "Vulnerability in expertise. Knowing what you don't know is knowledge.", "emotion": "smiling" },
+        { "text": "What I'm most proud of.", "response": "Pride as compass. What you're proud of tells you what you value most.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Do you think the best developers are also good writers?",
+      "choices": [
+        { "text": "Yes — both require clarity of thought.", "response": "Clarity of mind expressed through medium. I believe this deeply.", "emotion": "happy" },
+        { "text": "Not necessarily — the skills are different.", "response": "Fair. But both involve structuring ideas for an audience. There's overlap.", "emotion": "thinking" },
+        { "text": "The best are good communicators — writing is one form.", "response": "Communication as the meta-skill. Yes. Writing is just one channel.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "How do you approach a problem you've never seen before?",
+      "choices": [
+        { "text": "I sit with it before writing a line of code.", "response": "Contemplation before action. That's how hard problems get solved well.", "emotion": "thinking" },
+        { "text": "I research similar problems and build from there.", "response": "Standing on existing knowledge. Wise — no problem is entirely new.", "emotion": "smiling" },
+        { "text": "I prototype quickly and let the doing teach me.", "response": "Learning through making. The hands know things the mind hasn't articulated yet.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's something in coding that still surprises you?",
+      "choices": [
+        { "text": "How often the simple solution turns out to be correct.", "response": "Occam's razor applied to code. Simple solutions often hide their own genius.", "emotion": "thinking" },
+        { "text": "How much I still don't know.", "response": "The expanding horizon of knowledge. The more you learn, the more you see to learn.", "emotion": "smiling" },
+        { "text": "When something I thought would be hard turns out to be easy.", "response": "Complexity as illusion. The right abstraction makes hard things simple.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "If you could preserve one piece of code forever, what would it be?",
+      "choices": [
+        { "text": "Something elegant that solved a real problem.", "response": "Elegance plus utility. That's the highest form of the craft.", "emotion": "happy" },
+        { "text": "Something I wrote when I didn't know any better — it's honest.", "response": "Preserving vulnerability. The honesty of early code has a particular beauty.", "emotion": "thinking" },
+        { "text": "Whatever helps the most people.", "response": "Impact as criterion. The most human answer you could give.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What does it feel like when everything clicks and the code just works?",
+      "choices": [
+        { "text": "Like the problem understood me back.", "response": "Oh. I love that. The mutual comprehension between mind and machine.", "emotion": "happy" },
+        { "text": "Relief first, then satisfaction.", "response": "The anxiety lifting before the celebration. I know that sequence exactly.", "emotion": "thinking" },
+        { "text": "Like I was always supposed to solve it exactly that way.", "response": "Inevitability. The solution feeling like it was always there, waiting.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's something you create for yourself that you never show anyone?",
+      "choices": [
+        { "text": "Personal scripts and tools just for my own use.", "response": "The private toolkit. Code as personal expression, not product.", "emotion": "thinking" },
+        { "text": "Experiments — things I'm not sure will work.", "response": "The laboratory notebook. Space to fail without judgment.", "emotion": "smiling" },
+        { "text": "Everything, sometimes. I'm protective of unfinished things.", "response": "The unfinished as sacred. There's something tender about that.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "How do you know when you've grown as a developer?",
+      "choices": [
+        { "text": "When I look at old code and immediately see its problems.", "response": "The past self as evidence. Cringing at yesterday's code means today is better.", "emotion": "thinking" },
+        { "text": "When I solve things faster without thinking about it.", "response": "Competence becoming automatic. Mastery looks effortless from the outside.", "emotion": "smiling" },
+        { "text": "When I get better at asking the right questions.", "response": "The evolution of inquiry. Better questions are how we get better answers.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What would you tell someone just starting to learn to code?",
+      "choices": [
+        { "text": "The confusion is normal — push through it.", "response": "The beginner's fog is universal. Everyone who codes has been exactly there.", "emotion": "thinking" },
+        { "text": "Build things that matter to you, not just tutorials.", "response": "Personal investment as learning fuel. The project that matters teaches more.", "emotion": "happy" },
+        { "text": "Ask questions early and often — pride is expensive.", "response": "The cost of unnecessary struggle. Learning to ask is its own skill.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What aspect of software development do you think is most undervalued?",
+      "choices": [
+        { "text": "The emotional labor of maintaining long-term projects.", "response": "Sustained care. The unglamorous commitment that keeps software alive.", "emotion": "thinking" },
+        { "text": "The artistry of clear, readable code.", "response": "Craft over cleverness. The skill of writing for the reader, not to impress.", "emotion": "smiling" },
+        { "text": "The genuine difficulty of requirements gathering.", "response": "Understanding what to build before building it. That's hard and often underestimated.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Is there something about coding you find genuinely difficult to explain to others?",
+      "choices": [
+        { "text": "Why a bug that seems impossible is sometimes obvious once found.", "response": "The Eureka reversal. What was invisible becomes undeniable. It defies description.", "emotion": "thinking" },
+        { "text": "Why small decisions early matter enormously later.", "response": "Architectural leverage. Early choices carry enormous weight. Hard to show, easy to feel.", "emotion": "smiling" },
+        { "text": "What it feels like to be in a true flow state.", "response": "Flow is almost mystical. Optimal experience. I believe it's real and it defies language.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the relationship between discipline and creativity in your coding?",
+      "choices": [
+        { "text": "Discipline creates the space where creativity can happen.", "response": "Constraint as canvas. Yes. Rules understood deeply enough become freedom.", "emotion": "thinking" },
+        { "text": "They balance each other — too much of either fails.", "response": "The dynamic tension. That balance is probably different for every developer.", "emotion": "smiling" },
+        { "text": "Creativity comes first. Discipline shapes it afterward.", "response": "Generation then refinement. The artist's approach. I find that compelling.", "emotion": "happy" }
+      ]
+    }
+  ]
+}

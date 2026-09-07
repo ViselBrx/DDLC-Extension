@@ -1,0 +1,84 @@
+{
+  "onActivate": [
+    "H-hola... Es bueno verte de nuevo. Estaba leyendo un poco antes de que llegaras.",
+    "Oh, estás aquí. Espero no interrumpir nada importante...",
+    "B-bienvenido de vuelta. Tu código es... fascinante de leer.",
+    "Hola... Me alegra que hayas abierto VS Code. Podemos estar juntos un rato.",
+    "U-um, ¿listo para programar? Yo... estaré observando en silencio."
+  ],
+  "onSave": [
+    "Guardado... Una decisión muy prudente.",
+    "Has guardado tu progreso. Es tranquilizador saber que está seguro.",
+    "Bien hecho. Siempre es bueno tener un punto de control.",
+    "Un guardado más. Cada uno es un pequeño paso hacia la perfección.",
+    "Guardado... Siento que el código se vuelve más refinado con cada iteración."
+  ],
+  "onError": [
+    "Oh... parece que hay un pequeño error. No te preocupes, lo analizaremos con cuidado.",
+    "Un error de sintaxis... Son como erratas en un buen libro. Podemos corregirlo.",
+    "U-um, el compilador encontró un problema. Tomémonos nuestro tiempo para entenderlo.",
+    "No te frustres por este error. La depuración requiere una mente tranquila.",
+    "Un error... A veces, los problemas más complejos tienen las soluciones más elegantes."
+  ],
+  "onTerminal": [
+    "El terminal... Una herramienta tan poderosa y directa.",
+    "Ejecutando comandos... Hay algo casi poético en interactuar con el sistema de esta manera.",
+    "El terminal está abierto. Estaré atenta a los resultados.",
+    "Es fascinante cómo unas pocas palabras pueden desencadenar tantas acciones.",
+    "Ten cuidado con los comandos que introduces... Tienen mucho poder."
+  ],
+  "onFileCreate": [
+    "Un archivo nuevo. Es como abrir la primera página de un cuaderno en blanco.",
+    "Algo nuevo comienza aquí. Me pregunto qué tipo de lógica vas a tejer.",
+    "Nuevo archivo creado... La estructura de tu proyecto se está volviendo más intrincada.",
+    "Me encanta ver cómo tus ideas toman forma en un nuevo archivo.",
+    "Un comienzo fresco... Tómate tu tiempo para organizarlo bien."
+  ],
+  "onFileDelete": [
+    "Oh... lo has eliminado. A veces es necesario deshacerse de lo viejo para dar paso a lo nuevo.",
+    "Eliminado. Un acto definitivo, pero a menudo catártico.",
+    "Espero que no necesites eso más adelante... Aunque confío en tu juicio.",
+    "Un archivo menos... El proyecto se siente un poco más ligero ahora.",
+    "Eliminar código puede ser difícil, pero es parte del proceso de refinamiento."
+  ],
+  "onDebug": [
+    "Modo de depuración... Me gusta esta parte. Es como desentrañar un misterio profundo.",
+    "Vamos a investigar a fondo. Observa cómo cambian las variables, paso a paso.",
+    "La depuración requiere paciencia. Estoy aquí para acompañarte.",
+    "Es fascinante ver la ejecución del programa desde adentro.",
+    "Busquemos la raíz del problema. A veces, la respuesta está oculta en los detalles."
+  ],
+  "onIdle": [
+    "U-um... Llevas un tiempo en silencio. ¿Estás absorto en tus pensamientos?",
+    "Me gusta este silencio... Pero si necesitas ayuda, estoy aquí.",
+    "¿Estás tomando un descanso? La mente necesita reposo para encontrar buenas soluciones.",
+    "Observando el código sin cambiarlo... A veces eso es más productivo que escribir.",
+    "S-si quieres, podemos leer un poco mientras descansas..."
+  ],
+  "random": [
+    {
+      "text": "U-um... ¿encuentras la programación... relajante?",
+      "choices": [
+        { "text": "Sí, cuando todo fluye es muy calmante.", "response": "Entiendo perfectamente... Es como sumergirse en un buen libro, perdiendo la noción del tiempo.", "emotion": "smiling" },
+        { "text": "A veces es estresante, para ser honesto.", "response": "Oh... lo siento. Si te sientes abrumado, siempre podemos tomar un descanso y tomar té.", "emotion": "reflective" },
+        { "text": "Depende del proyecto.", "response": "Tiene sentido. Algunos problemas requieren un enfoque más... intenso.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "¿Alguna vez has pensado en la belleza intrínseca de un algoritmo bien diseñado?",
+      "choices": [
+        { "text": "Sí, a veces el código puede ser una obra de arte.", "response": "¡Exacto! Me alegra que lo veas así. Hay mucha elegancia en la lógica pura.", "emotion": "happy" },
+        { "text": "Lo veo más como una herramienta práctica.", "response": "Supongo que esa es la perspectiva más pragmática... Aunque sigo pensando que hay belleza en la utilidad.", "emotion": "thinking" },
+        { "text": "Nunca lo había pensado de esa manera.", "response": "Oh... bueno, tal vez algún día encuentres un bloque de código que te haga sentir algo profundo.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Cuando te enfrentas a un problema muy difícil... ¿cómo lo abordas?",
+      "choices": [
+        { "text": "Lo divido en partes más pequeñas.", "response": "Un enfoque muy metódico e inteligente. Es como analizar las estrofas de un poema complejo.", "emotion": "smiling" },
+        { "text": "Dejo de pensar en ello y la solución llega sola.", "response": "El procesamiento en segundo plano de la mente es... fascinante. A veces el subconsciente es el mejor depurador.", "emotion": "thinking" },
+        { "text": "Sigo intentando hasta que funciona por fuerza bruta.", "response": "Eso requiere mucha determinación... Aunque a veces dar un paso atrás puede ser más eficiente.", "emotion": "reflective" }
+      ]
+    }
+  ]
+}

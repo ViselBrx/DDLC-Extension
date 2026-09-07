@@ -1,0 +1,76 @@
+{
+  "onActivate": [
+    "Finalmente você chegou! Não que eu estivesse te esperando nem nada do tipo!",
+    "Hmph. Já estava na hora de você abrir o VS Code.",
+    "Vai programar? É bom você fazer algo que preste hoje.",
+    "Ah, você está aí. Suponho que possamos trabalhar juntos por um tempo.",
+    "Não ache que eu estou feliz em te ver! Só quero ver o seu código."
+  ],
+  "onSave": [
+    "Até que enfim você salvou! Eu já estava começando a ficar nervosa.",
+    "Bom. Salvar é importante, sabia?",
+    "É bom você não esquecer de dar commit nisso.",
+    "Hmph. Bom trabalho salvando. Eu acho.",
+    "Ei! Não salve tão rápido, eu quase não consegui ler!"
+  ],
+  "onError": [
+    "Ugh! Tem um erro! Conserta isso rápido!",
+    "Sério? Outro bug? Você devia ter mais cuidado.",
+    "Hmph. Eu conseguiria ter escrito isso melhor. Mas vou te ajudar a achar o erro.",
+    "Ei! O compilador está reclamando! Faz alguma coisa!",
+    "Não me olhe assim! Eu não quebrei o seu código!"
+  ],
+  "onTerminal": [
+    "Comandos de terminal? Tenta não apagar nada importante, ok?",
+    "Oh, o terminal. Como você se acha profissional.",
+    "É bom você saber o que está fazendo aí.",
+    "Hmph. Executando comandos... vê se não comete erros de digitação.",
+    "Cuidado com o terminal! Não quero que você estrague o meu ambiente."
+  ],
+  "onFileCreate": [
+    "Um arquivo novo? Espero que você organize isso direito.",
+    "É bom você não deixar esse arquivo vazio para sempre.",
+    "Hmph. Mais um arquivo. Suponho que o projeto esteja crescendo.",
+    "O que você vai colocar aí? Espero que seja código limpo.",
+    "Não dê nomes estúpidos para os seus arquivos, tá?!"
+  ],
+  "onFileDelete": [
+    "Ei! Por que você apagou isso? Espero que você saiba o que está fazendo.",
+    "Hmph. Menos lixo no projeto, eu suponho.",
+    "Tem certeza que você não precisava disso? Bom, o código é seu.",
+    "Um arquivo a menos. Espero que você tenha feito backup.",
+    "Não saia por aí apagando coisas sem pensar!"
+  ],
+  "onDebug": [
+    "Debug? Ugh, eu odeio caçar bugs! Mas vou te ajudar, eu acho.",
+    "É bom você achar o problema rápido.",
+    "Hmph. Uma sessão de debug. Tente não se frustrar muito.",
+    "Ei! Foco! Precisamos achar esse bug.",
+    "Depurando... Que tédio, mas alguém tem que fazer."
+  ],
+  "onIdle": [
+    "Ei! Você está há muito tempo sem fazer nada! Dormiu, foi?",
+    "Hmph. Se não vai programar, pelo menos fala comigo.",
+    "Você ainda está aí? Eu não gosto de esperar.",
+    "Acorda! O código não vai se escrever sozinho!",
+    "E-ei! Você está me ignorando? Hmph!"
+  ],
+  "random": [
+    {
+      "text": "Ei... o que você prefere, código que funciona ou código que é bonito?",
+      "choices": [
+        { "text": "Que funciona. O importante é funcionar.", "response": "Hmph. Suponho que você tenha razão, mas código feio é difícil de ler.", "emotion": "thinking" },
+        { "text": "Limpo e bonito. Tem que ser fácil de ler.", "response": "Exatamente! O código também precisa ter uma boa apresentação! Igual aos meus cupcakes.", "emotion": "happy" },
+        { "text": "Um equilíbrio entre os dois.", "response": "Hmph. Que resposta mais diplomática. Mas sim, suponho que seja o ideal.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Você prefere trabalhar de dia ou de noite?",
+      "choices": [
+        { "text": "De dia, eu me concentro melhor.", "response": "Hmph. Eu também. Além disso, de noite eu tenho um pouco de medo do escuro...", "emotion": "reflective" },
+        { "text": "De noite, sem distrações.", "response": "De noite? Suponho que seja tranquilo, mas vê se dorme o suficiente!", "emotion": "thinking" },
+        { "text": "Tanto faz, quando a inspiração bater.", "response": "Hmph. Isso parece uma desculpa para procrastinar.", "emotion": "smiling" }
+      ]
+    }
+  ]
+}

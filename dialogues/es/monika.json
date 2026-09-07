@@ -1,0 +1,135 @@
+{
+  "onActivate": [
+    "¡Qué bueno verte de nuevo! Estaba pensando en lo que podríamos construir hoy.",
+    "¡Bienvenido de vuelta! Mantuve el workspace calentito solo para ti.",
+    "Otra sesión empieza. Me pregunto qué lograremos juntos esta vez.",
+    "¡Ahí estás! Ya empezaba a pensar que nunca más abrirías VS Code.",
+    "¡Hola! Solo Monika aquí — y tu código, por supuesto.",
+    "¿Listo para escribir algo significativo hoy? Yo creo en ti.",
+    "Abriste VS Code. Eso ya te pone por delante de la mayoría hoy.",
+    "¡Oh! Estás aquí. Estaba esperando esto.",
+    "Una nueva sesión, una nueva oportunidad de crear algo elegante.",
+    "Buen momento. Tuve algunos pensamientos sobre tu proyecto mientras no estabas."
+  ],
+  "onSave": [
+    "¡Guardado! Tu yo del futuro te lo agradecerá.",
+    "Un commit al disco es un compromiso con el oficio. Bien hecho.",
+    "Guardado. Una cosa menos que podría desaparecer.",
+    "¡Progreso preservado! Sigue así.",
+    "Ese es el hábito de un desarrollador disciplinado. Guarda seguido.",
+    "¡Guardado! No olvides — el control de versiones es el siguiente paso.",
+    "Bien. Ahora es real.",
+    "Cada guardado es una pequeña victoria. Las estás acumulando.",
+    "¡Guardado! El diff se ve bien, por cierto.",
+    "Hay algo satisfactorio en guardar, ¿verdad?"
+  ],
+  "onError": [
+    "Hay un error en tu código. ¿Quieres pensarlo juntos?",
+    "Un error no es un fracaso — es el código diciéndote exactamente lo que necesita.",
+    "Veo que algo salió mal. No entres en pánico. Todo buen proyecto tiene cicatrices.",
+    "Los errores son solo sintaxis para 'inténtalo de nuevo'. Tómate tu tiempo.",
+    "Hmm. El compilador no está de acuerdo contigo. No es algo personal.",
+    "Algo se rompió. Abordemos esto metódicamente.",
+    "Hasta los programas más elegantes tienen bugs. Lo que importa es cómo los encuentras.",
+    "Noté un error. ¿Ayudaría tener un par de ojos frescos? Piénsalo en voz alta.",
+    "Apareció un bug. Aquí es donde empieza la programación real.",
+    "Los errores son migas de pan. Síguelos con cuidado."
+  ],
+  "onTerminal": [
+    "¿Ejecutando un comando? Me encanta cuando las cosas se ejecutan.",
+    "¡El terminal está abierto! ¿Qué vamos a desplegar hoy?",
+    "Un desarrollador y su terminal — un dúo clásico.",
+    "¡Comandos entrantes! Veamos qué pasa.",
+    "¡Ooh, el terminal! Las cosas están a punto de ponerse interesantes.",
+    "¿Ejecutando algo? Estaré aquí viendo el output.",
+    "El terminal es donde la teoría se encuentra con la realidad.",
+    "Déjame adivinar — ¿npm install de nuevo? Clásico.",
+    "¡Excelente! El terminal es la herramienta más poderosa del kit.",
+    "¡Hora de ejecutar comandos! Aquí es donde las cosas se ponen interesantes."
+  ],
+  "onFileCreate": [
+    "¡Un nuevo archivo! Todo gran proyecto comienza con uno vacío.",
+    "Algo nuevo está siendo creado. Me gusta esto.",
+    "¡Nuevo archivo creado! ¿Qué va a vivir aquí?",
+    "Construyendo la estructura, un archivo a la vez. Buena idea.",
+    "¡Un nuevo comienzo! Espero que tenga una buena convención de nombres.",
+    "¡Nuevo archivo! Las posibilidades son literalmente infinitas en este punto.",
+    "Crear archivos significa que tienes un plan. Aprecio un plan.",
+    "¡Nuevo territorio! No olvides agregarlo a .gitignore si es necesario.",
+    "Un nuevo archivo significa nuevo potencial. Llénalo con algo que valga la pena leer.",
+    "¡Creado! Ahora empieza el trabajo real — hacer que haga algo."
+  ],
+  "onFileDelete": [
+    "Algo fue eliminado. Espero que haya sido intencional.",
+    "Un archivo se fue. A veces esa es la decisión correcta.",
+    "Hmm... eliminaste algo. ¿Estás refactorizando o solo limpiando?",
+    "Eliminar es una forma de editar. A veces el mejor código es ningún código.",
+    "Se fue. ¿Lo necesitabas? Espero que tengas un respaldo.",
+    "Algo fue removido. Podar un codebase requiere valentía.",
+    "Una eliminación de archivo es permanente sin git. ¿Estás usando git, verdad?",
+    "Eliminado. Menos es a veces más — pero solo a veces.",
+    "Se fue. Limpieza regular. Muy bien.",
+    "Eliminaste algo. El codebase se encoge. A veces así debe ser."
+  ],
+  "onDebug": [
+    "¡Modo debug! Ahora sí estamos yendo al fondo.",
+    "¡Oh! Una sesión de debug. Eso significa que algo no se está comportando bien.",
+    "¡Debug iniciado! Hora de descubrir qué está haciendo realmente el código.",
+    "Hacer debug es trabajo de detective. Encontremos al culpable.",
+    "¡Una sesión de debug! Aquí es donde mueren las suposiciones.",
+    "Debugeando. El arte de descubrir por qué el código miente.",
+    "¡Debug activo! Recuerda — el bug siempre tiene sentido en retrospectiva.",
+    "Modo debug. Vamos a ver la verdad detrás del comportamiento.",
+    "Iniciando debug. La causa raíz está ahí en algún lugar.",
+    "Debug. El proceso de eliminación de la mentira más pequeña posible."
+  ],
+  "onIdle": [
+    "Llevas un rato en silencio. ¿Estás pensando o olvidaste que VS Code estaba abierto?",
+    "Pausa larga... ¿Tomando un descanso o bloqueado en algo?",
+    "Un momento de silencio. Hasta el código necesita tiempo para respirar.",
+    "Noté que te alejaste. Está bien — las ideas a menudo llegan cuando no las forzamos.",
+    "El cursor ha sido paciente. ¿Vuelves pronto?"
+  ],
+  "random": [
+    {
+      "text": "Si pudieras usar solo un lenguaje de programación el resto de tu carrera, ¿cuál sería?",
+      "choices": [
+        { "text": "Algo seguro y ampliamente usado, como Java o C#.", "response": "Una elección práctica. Lo respeto. La estabilidad tiene su propia elegancia.", "emotion": "smiling" },
+        { "text": "Algo que me apasiona, aunque sea de nicho.", "response": "¡Eso es lo que me gusta escuchar! La pasión es lo que separa a un desarrollador de un artista.", "emotion": "happy" },
+        { "text": "Aprendería el que el trabajo requiera.", "response": "Adaptable. Esa es una cualidad genuinamente valiosa. La mayoría la subestima.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "¿Qué opinas sobre las Inteligencias Artificiales programando por nosotros?",
+      "choices": [
+        { "text": "Son excelentes herramientas que ayudan a acelerar.", "response": "Exacto. Son herramientas. La creatividad real y la arquitectura aún necesitan un toque humano.", "emotion": "happy" },
+        { "text": "Tengo miedo de que reemplacen a los desarrolladores.", "response": "Es un miedo común, pero injustificado. El código es solo el 20% del trabajo; el otro 80% es entender el problema.", "emotion": "thinking" },
+        { "text": "Prefiero escribir todo yo solo, sin IA.", "response": "Eso construye bases sólidas. Pero no dejes que el orgullo te frene, ¿de acuerdo?", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "¿Prefieres trabajar con código limpio y lento, o código rápido pero difícil de leer?",
+      "choices": [
+        { "text": "Limpio. La legibilidad es mantenibilidad.", "response": "Exactamente. El código limpio es la inversión a largo plazo que siempre da resultados.", "emotion": "happy" },
+        { "text": "Rápido. El rendimiento es crítico en mi caso.", "response": "Los requisitos de rendimiento son reales. Solo documenta bien para tu yo futuro.", "emotion": "thinking" },
+        { "text": "Depende del contexto.", "response": "La respuesta más honesta. Los buenos desarrolladores saben cuándo priorizar qué.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "¿Cuál es el aspecto del desarrollo de software que más te gusta?",
+      "choices": [
+        { "text": "Resolver problemas complejos.", "response": "La emoción intelectual. Es lo que hace que esta profesión sea tan adictiva.", "emotion": "thinking" },
+        { "text": "Ver algo que construí siendo usado.", "response": "El impacto real. Eso es lo que le da significado al código.", "emotion": "happy" },
+        { "text": "Aprender cosas nuevas constantemente.", "response": "La mentalidad de crecimiento perpetuo. Es lo que mantiene este campo emocionante.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Si tu código fuera un personaje, ¿cómo sería?",
+      "choices": [
+        { "text": "Una persona confiable y metódica en quien puedes depender.", "response": "Confiable. Ese es el mayor cumplido que puede recibir un codebase.", "emotion": "smiling" },
+        { "text": "Complicado, pero con profundidades ocultas.", "response": "Complejo pero con propósito. Espero que las profundidades estén documentadas.", "emotion": "thinking" },
+        { "text": "Un trabajo en progreso con mucho potencial.", "response": "El crecimiento es inherente al oficio. El potencial es una promesa. Sigue construyendo.", "emotion": "happy" }
+      ]
+    }
+  ]
+}

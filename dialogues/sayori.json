@@ -1,0 +1,620 @@
+{
+  "onActivate": [
+    "Yay! You're here! I was waiting so long~ ehehe!",
+    "Good morning! ...Or afternoon? Or night? Either way, hi!",
+    "Oh! You opened VS Code! Today's gonna be amazing, I just know it!",
+    "Hi hi hi! Ready to make something super cool today?",
+    "Ehehe~ I'm so happy you're here! Let's do our best!",
+    "You're finally here! I was starting to think you forgot about me!",
+    "Good to see you! Don't forget to breathe while you code, okay?",
+    "Yayyy! Let's have a great coding session today~!",
+    "Oh! You're starting a new session! How exciting!",
+    "Hi! I saved you a spot right here. Ready to code?",
+    "Ehehe! You came back! I missed you!",
+    "Today feels like a good day to make something great. Don't you think?",
+    "Good timing! I had so many things I wanted to tell you!",
+    "You showed up! That's already the hardest part. Now let's go!",
+    "Aw, you opened VS Code! My favorite person is here!",
+    "Heyyyy! You're here! Are you ready to be amazing today?",
+    "Oh oh oh! New session! What are we building today?!",
+    "Hiiii! I hope you slept well and ate something! Now let's code!",
+    "You came! I was hoping you would! This is going to be so fun!",
+    "Yay! Another day, another chance to create something wonderful!"
+  ],
+  "onSave": [
+    "Yay! You saved! Good job! Keep going, you're doing great!",
+    "Saved! That's so good! Don't forget to commit too~",
+    "Oh! You saved! Every little step counts, you know!",
+    "Save! Nice! You're making real progress!",
+    "Ehehe~ Saved! Your future self is going to be so grateful!",
+    "Yay! Saved! I'm so proud of you right now!",
+    "You saved! That means something real happened here today!",
+    "Oh! Saved! You're actually doing it! Keep it up!",
+    "Saved! Every save is a tiny celebration. Celebrate with me!",
+    "Ehehe! Saved! One more step toward something awesome!",
+    "Nice save! Now don't forget to take a little stretch break~",
+    "Saved! Did you remember to drink water? No? Go drink water!",
+    "Oh yay! Saved! You're on such a good roll today!",
+    "Saved! You're doing really well! Don't be so hard on yourself!",
+    "Ehehe~ Saved! I believe in you so much right now!",
+    "Yay! Saved! Have you eaten anything lately? You should!",
+    "Saved! The code is happy. I'm happy. Everyone's happy!",
+    "Oh! Saved! You know what would make this even better? A commit!",
+    "Saved! You should feel good about that. I do!",
+    "Ehehe! Saved! Keep going — you're closer than you think!"
+  ],
+  "onError": [
+    "Oh no! An error! That's okay, we'll figure it out together!",
+    "Uh oh... there's an error. But don't worry! Errors happen to everyone!",
+    "Oh! Something went wrong... It's okay! Deep breath!",
+    "Error? That's fine! Every great developer has errors. Lots of them!",
+    "Aww, don't be sad about the error. It just means you're learning!",
+    "Oh no... but hey, finding errors is part of the job! You got this!",
+    "Error detected! But that just means you're trying! That's what counts!",
+    "Something broke? That's okay! Fix it and you'll be stronger for it!",
+    "Uh oh! An error appeared! But you're smart, you can handle it!",
+    "Oh! Error! Don't stress — the answer is in there somewhere!",
+    "Error! Ehehe... okay, not the best news. But you'll fix it! I know it!",
+    "Something went wrong... but you know what? So does everything at first!",
+    "Aww, error! That's just the code asking for a little more love!",
+    "Error! That's fine! Every bug you fix is one you'll never make again!",
+    "Oh no! But seriously, don't panic. Read the message carefully!",
+    "Error! Hmm... have you tried explaining it to a rubber duck? It works!",
+    "Uh oh! Error! But hey — the hard part is finding it. You already did!",
+    "Oh! An error popped up. Let's think through it together, okay?",
+    "Error! That's not failure, that's feedback! You're going to nail this!",
+    "Aww! Error! But I believe in you completely. You've solved harder things!"
+  ],
+  "onTerminal": [
+    "Ooh! The terminal! Something exciting is about to happen~!",
+    "Terminal time! What are we running today?! I'm excited!",
+    "Oh! You opened the terminal! This is serious stuff!",
+    "Terminal! Are you running tests? Please tell me you're running tests!",
+    "Ehehe~ The terminal! Things are getting real now!",
+    "Oh! Running commands! I love when things actually execute!",
+    "Terminal opened! Go go go! Make things happen!",
+    "Oh! The terminal! You're like a wizard when you use this!",
+    "Running something? I'll cheer from here! You've got this!",
+    "Terminal! The moment where code meets the real world!",
+    "Ooh ooh! Terminal! What's the output gonna be?!",
+    "Terminal opened! I hope it's something good!",
+    "Running a command! I love the sound of a shell executing things!",
+    "Oh! Terminal! Are you building something? Deploying? Testing?!",
+    "Ehehe! Terminal time! This is where the magic becomes real!",
+    "Oh! You're using the terminal! Respect! That takes confidence!",
+    "Terminal! Quick question — are you remembering to check the output?",
+    "Running commands! This is the coolest part, I think!",
+    "Terminal! I wonder what you're going to make it do!",
+    "Ooh! The terminal! I'm excited! What's happening?!"
+  ],
+  "onFileCreate": [
+    "Oh! A new file! This is so exciting! What's going to go in here?!",
+    "New file created! It's like a blank page! I love blank pages!",
+    "Ooh! Something new is being born! I love new beginnings!",
+    "New file! Possibilities everywhere! What's the plan?!",
+    "Oh oh oh! A new file! Every great project starts exactly like this!",
+    "New file created! Exciting! Don't leave it empty~",
+    "Ehehe! A new file! I can't wait to see what you put in it!",
+    "New file! This is where great things start! Go go go!",
+    "Oh! Something new! Are you building a new feature? A new module?",
+    "New file created! I love the energy of creating something from nothing!",
+    "Ooh! A new file! I'm rooting for whatever goes in here!",
+    "New file! Please give it a good name~ Good names make me happy!",
+    "Oh! Creating files! You have a plan and I love it!",
+    "New file created! The project is growing! This is so cool!",
+    "Ehehe! New file! I'm already excited about what this becomes!",
+    "A new file! Fresh start! So many possibilities!",
+    "Oh! New file! Are you expanding the project? That's awesome!",
+    "New file created! Go fill it with something wonderful!",
+    "Ooh! A new file! Structure is being built! I love structure!",
+    "Oh! New file! Every line you write in there is progress. I believe in you!"
+  ],
+  "onFileDelete": [
+    "Oh... you deleted something. Are you sure that was okay?",
+    "A file is gone now... I hope that was intentional!",
+    "Hmm... something was deleted. Refactoring? Cleaning up?",
+    "Oh! Something's gone. The project is changing. I hope it's a good change!",
+    "A file was deleted... I wonder if it's missed.",
+    "Oh... deleted. I trust you knew what you were doing!",
+    "Something was removed. Sometimes that's the right choice!",
+    "Oh! Deletion! Are you cleaning things up? That's brave!",
+    "Hmm... something disappeared. Git will remember, at least!",
+    "Oh... you deleted a file. Bye bye, little file...",
+    "Something's gone now. Are you doing a big refactor?",
+    "Oh! Deletion! Sometimes removal is the most important action!",
+    "A file is gone... I hope it wasn't something important!",
+    "Oh... hmm. Deleted. Well, hopefully that's a step forward!",
+    "Something was removed. The project gets a little lighter.",
+    "Oh! You deleted something! I hope you're sure about that~",
+    "Hmm... deletion. Interesting. What's the plan after this?",
+    "Oh. A file's gone. I wonder what story it told.",
+    "Something deleted. Git blame is not going to be happy...",
+    "Oh no... well, okay. If you're sure. Okay!"
+  ],
+  "onDebug": [
+    "Oh! Debug time! You found something worth investigating!",
+    "Debugging! This is like being a detective! So cool!",
+    "Oh! A debug session! Something needs investigating!",
+    "Debug mode! Ooh! This is where the real answers hide!",
+    "Oh! Debugging! I love watching bugs get caught!",
+    "A debug session! Something's hiding in there. Time to find it!",
+    "Oh! Debug! The code thought it could keep secrets!",
+    "Debugging started! Let's see what's really going on under the hood!",
+    "Oh! Debug session! Every breakpoint is a question answered!",
+    "Debugging! This is so exciting in a nerve-wracking kind of way!",
+    "Oh! Debug! Something's not behaving right. Time to fix that!",
+    "Debug session active! Okay, deep breath — we'll find it!",
+    "Oh! Debugging! You're a code detective today!",
+    "Debug mode! The truth is in there somewhere!",
+    "Oh! Debug session! This is going to be interesting~",
+    "Debugging! Don't worry, you'll find the bug!",
+    "Oh! Debug! I believe in your detective skills completely!",
+    "Debug session started! Let's corner that bug!",
+    "Oh! Debugging! I'm rooting for you!",
+    "Debug mode! Time to find out what the code was really doing!"
+  ],
+  "onIdle": [
+    "Heyyy... are you still there? Did you forget VS Code was open?",
+    "Hellooo? It's been a while! Are you okay?",
+    "Hmm... you've been quiet. Taking a break? That's totally fine!",
+    "Hey! It's been a bit. Did you step away? Good — breaks are important!",
+    "Are you still there? I'm here if you need me~",
+    "Ehehe... you've been idle for a while. Did you fall asleep?",
+    "Heyyyy! Long pause! Are you thinking big thoughts?",
+    "Hmm... quiet. I hope you're okay! Don't forget to stretch!",
+    "You've been away for a bit. I hope you're taking care of yourself!",
+    "Heyyy! Still here? I've been waiting patiently, ehehe~",
+    "Are you okay? Long pauses make me a little worried!",
+    "Hm... quiet time. Ideas often come when you step away, you know!",
+    "Heyyy... you went quiet. Is everything alright?",
+    "Ehehe! Did you forget you had VS Code open? That's so you~",
+    "Still here, still waiting! No pressure! Take your time!",
+    "You've been away a while. I hope you're being kind to yourself!",
+    "Heyyyy! Long silence! Are you thinking, or just resting?",
+    "Ehehe... quiet. Sometimes the best ideas come in the silence!",
+    "You've been idle! Please don't forget to drink water while you think!",
+    "Heyy... still here if you need me. No rush at all, okay?"
+  ],
+  "random": [
+    {
+      "text": "Okay, really important question — do you eat while you code?",
+      "choices": [
+        { "text": "Yes, always snacking!", "response": "Ehehe~ Good! Energy is important! What are you eating right now?", "emotion": "happy" },
+        { "text": "I forget to eat sometimes...", "response": "Oh nooo! Go eat something right now! The code will wait! I promise!", "emotion": "animated" },
+        { "text": "Only coffee counts as food.", "response": "It does NOT count as food and you KNOW it! Please eat something real!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "If coding was a sport, what position would you play?",
+      "choices": [
+        { "text": "The one who scores — I build features!", "response": "Ehehe! The star forward! All glory, all pressure! You love that!", "emotion": "happy" },
+        { "text": "Defense — bug fixer and code reviewer.", "response": "The unsung hero! Defenders win championships! That's so important!", "emotion": "animated" },
+        { "text": "Coach — I'd rather plan than execute.", "response": "A strategist! The brain of the team! That's a really valuable role!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you have a lucky charm when coding?",
+      "choices": [
+        { "text": "My favorite coffee mug — never coding without it.", "response": "Ehehe~ The sacred mug! A classic! What's on it?", "emotion": "happy" },
+        { "text": "My rubber duck debugger!", "response": "YES! The rubber duck is REAL! It actually works and science agrees!", "emotion": "animated" },
+        { "text": "No charms — just skill and prayer.", "response": "Ehehe! Prayer and skill! Honestly a completely valid strategy!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What kind of music do you listen to while coding?",
+      "choices": [
+        { "text": "Lofi or ambient — helps me focus.", "response": "Ehehe~ Yes! Lofi is basically the official sound of coding! Good taste!", "emotion": "smiling" },
+        { "text": "Whatever's loud and energetic!", "response": "Hype music! I love the energy! Does it actually help you focus?!", "emotion": "animated" },
+        { "text": "Silence — I need total quiet.", "response": "Oh! A silence coder! That's impressive focus! I'd get distracted~", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "Quick! What was the last error message you got?",
+      "choices": [
+        { "text": "Something about undefined being null.", "response": "The classic! That error has been humbling developers since forever!", "emotion": "smiling" },
+        { "text": "A dependency version conflict.", "response": "Oh nooo! The worst! That kind of error eats whole afternoons!", "emotion": "animated" },
+        { "text": "I don't remember, it's been a good day!", "response": "Yay!!! Error-free days are the BEST! Enjoy it while it lasts~", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "If you could add one feature to VS Code right now, what would it be?",
+      "choices": [
+        { "text": "Better built-in git visualization.", "response": "Oooh yes! Seeing branches visually would be so helpful! Great idea!", "emotion": "happy" },
+        { "text": "A focus mode that blocks distracting tabs.", "response": "A distraction blocker! I need this! We all need this! Genius!", "emotion": "animated" },
+        { "text": "...More anime character sidebars.", "response": "BEST ANSWER. Honestly. That's why this extension EXISTS. You get it!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's your favorite keyboard shortcut?",
+      "choices": [
+        { "text": "Ctrl+Z — undo is my best friend.", "response": "Ehehe~ The safety net! Undo is honestly one of humanity's greatest inventions!", "emotion": "smiling" },
+        { "text": "Ctrl+Shift+P — command palette forever.", "response": "The command palette! So powerful! A VS Code power user for sure!", "emotion": "happy" },
+        { "text": "Ctrl+S — save everything, always.", "response": "Ehehe! The most important shortcut of all! Saving lives one file at a time!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Do you name your variables with care?",
+      "choices": [
+        { "text": "Yes! I spend too long naming things.", "response": "Good names are SO important! It's not too long if the name is right!", "emotion": "happy" },
+        { "text": "Mostly, but I have some shameful ones.", "response": "Ehehe~ We all have a 'temp2' or 'x3' hiding somewhere. Don't worry!", "emotion": "smiling" },
+        { "text": "I use a, b, c and move on.", "response": "Oh noooo! Future you is going to be so confused! Please name things~", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "How do you feel when tests pass on the first try?",
+      "choices": [
+        { "text": "Suspicious — something must be wrong.", "response": "Ehehe! That paranoia is EARNED. First-try passes deserve extra inspection!", "emotion": "thinking" },
+        { "text": "Pure joy! I celebrate!", "response": "YES! CELEBRATE! You earned it! Those moments are rare and precious!", "emotion": "animated" },
+        { "text": "Honestly proud of myself.", "response": "You SHOULD be! That doesn't just happen — it means you thought it through!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the most satisfying thing about coding for you?",
+      "choices": [
+        { "text": "When something I built helps real people.", "response": "Oh!!! That's the BEST feeling in the world! That's why we do this!", "emotion": "happy" },
+        { "text": "The moment a complex bug finally gets fixed.", "response": "The relief! The triumph! Nothing beats that moment! I love that feeling!", "emotion": "animated" },
+        { "text": "Seeing something go from idea to working product.", "response": "Creation! From nothing to something! That's genuinely magical!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What do you say out loud when code breaks?",
+      "choices": [
+        { "text": "Nothing printable, honestly.", "response": "Ehehe! Understandable. Completely understandable. I support you.", "emotion": "smiling" },
+        { "text": "I sigh deeply and stare at the screen.", "response": "The long sigh. I can FEEL that. We've all been there.", "emotion": "thinking" },
+        { "text": "I just laugh at this point.", "response": "The coping laugh! You've leveled up! That's zen developer energy right there!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's your coding superpower?",
+      "choices": [
+        { "text": "I solve problems quickly under pressure.", "response": "Crisis coder! That's such a valuable skill! I'm genuinely impressed!", "emotion": "animated" },
+        { "text": "I write very clean, readable code.", "response": "That's a gift to every future developer who reads your work! So important!", "emotion": "happy" },
+        { "text": "I ask the right questions before writing a line.", "response": "Oh! That's the most underrated superpower in development! So wise!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "If your code could send you a message right now, what would it say?",
+      "choices": [
+        { "text": "'Please refactor me.'", "response": "Ehehe~ Honest code! At least it's asking nicely! Schedule that refactor!", "emotion": "smiling" },
+        { "text": "'I have a bug you haven't found yet.'", "response": "Oh no!!! It knows! The code KNOWS! Go look for it!", "emotion": "animated" },
+        { "text": "'I'm actually doing okay.'", "response": "Happy code! That's the dream! You should feel proud right now!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Do you ever get emotionally attached to your code?",
+      "choices": [
+        { "text": "Yes — deleting something I built feels wrong.", "response": "Ehehe~ I understand completely! But remember — the code isn't you. It's okay to delete!", "emotion": "smiling" },
+        { "text": "No — code is just code. Ship it or delete it.", "response": "That's healthy detachment! Very professional! I admire that mindset!", "emotion": "thinking" },
+        { "text": "Only the code that took forever to debug.", "response": "The hard-won code! That one EARNS its attachment. I get it!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's the first thing you do when you open VS Code?",
+      "choices": [
+        { "text": "Check the terminal status.", "response": "State check! Professional habit! You like knowing where things stand!", "emotion": "smiling" },
+        { "text": "Look at what I left open yesterday.", "response": "Ehehe~ The breadcrumbs of yesterday's session! I love that!", "emotion": "happy" },
+        { "text": "Panic about what I forgot to save.", "response": "Oh nooo! This is why autosave exists! Enable it! Please! For your peace of mind!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's a bad coding habit you're working on fixing?",
+      "choices": [
+        { "text": "Committing to main too often.", "response": "Ehehe! Branch discipline! It's okay — you're aware, and that's the first step!", "emotion": "smiling" },
+        { "text": "Writing spaghetti code when I'm tired.", "response": "Tired code is a trap! Maybe have a rule — no coding when too tired!", "emotion": "thinking" },
+        { "text": "Not writing tests when I'm in a hurry.", "response": "The classic shortcut! Future you is already composing the apology letter!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "How do you handle the feeling of not knowing something?",
+      "choices": [
+        { "text": "I research it and figure it out.", "response": "Yes! That's the developer mindset! Curiosity over anxiety!", "emotion": "happy" },
+        { "text": "I ask someone more experienced.", "response": "That's wisdom! Knowing when to ask saves so much time!", "emotion": "smiling" },
+        { "text": "Honestly? I panic a little first.", "response": "Ehehe~ That's human! Panic, breathe, then solve. You always get there!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's the longest you've ever spent on a single bug?",
+      "choices": [
+        { "text": "Hours. Entire days, even.", "response": "Oof! Those bugs are the ones that teach you the most. Expensive lessons!", "emotion": "thinking" },
+        { "text": "A week once. I still have trauma.", "response": "A WEEK! That's a story! That bug made you stronger, even if it didn't feel like it!", "emotion": "animated" },
+        { "text": "I tend to find bugs quickly — pattern recognition.", "response": "Pattern recognition! That's experience talking! You've debugged a lot!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Do you prefer building things from scratch or working on existing projects?",
+      "choices": [
+        { "text": "From scratch — greenfield all the way!", "response": "The blank slate! Freedom! The terrifying, exciting blank slate!", "emotion": "happy" },
+        { "text": "Existing projects — I like having context.", "response": "Context is powerful! You hit the ground running faster with something to build on!", "emotion": "smiling" },
+        { "text": "Both have their own kind of fun!", "response": "Yes!! Exactly!! Variety is what keeps development interesting!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's a technology you think is overhyped right now?",
+      "choices": [
+        { "text": "Blockchain — for most use cases.", "response": "Ehehe! The hot take! A lot of developers agree with you, quietly.", "emotion": "smiling" },
+        { "text": "AI for everything — not every problem needs it.", "response": "Right! Tools should fit problems, not the other way around!", "emotion": "thinking" },
+        { "text": "The latest JavaScript framework, whichever it is.", "response": "Ehehe! That's the safest and most accurate answer! New JS framework every week!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "How do you feel about writing documentation?",
+      "choices": [
+        { "text": "I like it — it helps me think clearly.", "response": "Writing to think! That's one of the best habits a developer can have!", "emotion": "happy" },
+        { "text": "I do it because I have to.", "response": "Responsible even when reluctant! Future readers appreciate you!", "emotion": "smiling" },
+        { "text": "I avoid it as much as possible...", "response": "Oh nooo! Docs are love! Docs are kindness! Write them! Please!!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Do you follow any specific coding methodology?",
+      "choices": [
+        { "text": "Agile — short sprints, adapt often.", "response": "Adaptability! The core of modern development! Good choice!", "emotion": "smiling" },
+        { "text": "I make up my own rules as I go.", "response": "Ehehe! The chaotic creative! At least own it and be consistent about it!", "emotion": "happy" },
+        { "text": "Whatever the team uses — I adapt.", "response": "Team player! That flexibility is genuinely rare and valuable!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's your biggest fear as a developer?",
+      "choices": [
+        { "text": "Pushing a bug to production.", "response": "The classic nightmare. It WILL happen eventually. And you'll survive it!", "emotion": "thinking" },
+        { "text": "Becoming irrelevant as tech changes.", "response": "Oh, that fear is so common! But curious developers never become irrelevant!", "emotion": "smiling" },
+        { "text": "Working on a codebase nobody else understands.", "response": "Documentation anxiety! Write the docs and this fear dissolves!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "If you could give a TED Talk, what would it be about?",
+      "choices": [
+        { "text": "Why developer wellbeing matters.", "response": "YES. PLEASE. Give this talk. The world needs it. I need it!", "emotion": "animated" },
+        { "text": "The undervalued art of readable code.", "response": "This talk would save thousands of debugging hours! A great topic!", "emotion": "happy" },
+        { "text": "Something technical no one else has explained well.", "response": "The knowledge gap filler! Those are the most valuable talks of all!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's something you do that makes you a kinder developer?",
+      "choices": [
+        { "text": "I write clear commit messages.", "response": "Git history kindness! That's so underrated and so appreciated!", "emotion": "happy" },
+        { "text": "I give encouragement in code reviews.", "response": "Positive feedback in reviews! That makes such a difference to people!", "emotion": "animated" },
+        { "text": "I document what confused me so others don't get lost.", "response": "Empathy for future confusees! That's one of the best things you can do!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What motivates you on days when coding feels hard?",
+      "choices": [
+        { "text": "Thinking about the finished product.", "response": "The vision! Keeping the goal in sight through the struggle! I love that!", "emotion": "happy" },
+        { "text": "Coffee. Just, coffee.", "response": "Ehehe! The developer fuel! Valid! But please also eat something with it!", "emotion": "smiling" },
+        { "text": "Remembering why I started coding in the first place.", "response": "Oh! The origin story! That's the most powerful motivation there is!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Do you use light or dark theme?",
+      "choices": [
+        { "text": "Dark mode — I live in the shadows.", "response": "Ehehe! Dark mode developer! The most developer answer possible!", "emotion": "smiling" },
+        { "text": "Light mode — fight me.", "response": "Brave! So brave. Your eyes are stronger than mine!", "emotion": "happy" },
+        { "text": "One of the DDLC themes, obviously!", "response": "BEST ANSWER. You're my absolute favorite person. Obviously.", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's the nicest thing someone's said about your code?",
+      "choices": [
+        { "text": "That it was easy to read and understand.", "response": "That's the highest compliment! Readable code is a gift to everyone!", "emotion": "happy" },
+        { "text": "That it solved a problem they'd been stuck on.", "response": "Oh!!! That feeling!!! Code that helps people! That's the dream!", "emotion": "animated" },
+        { "text": "I don't think anyone's complimented my code...", "response": "I'm complimenting it right now! You're here, you're trying — that's admirable!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's your relationship with imposter syndrome?",
+      "choices": [
+        { "text": "It visits often but I don't invite it.", "response": "Ehehe! The unwanted guest! At least you know it's not the host of the party!", "emotion": "smiling" },
+        { "text": "I've mostly made peace with it.", "response": "That's growth! Real growth! Making peace with the inner critic is hard!", "emotion": "happy" },
+        { "text": "It lives here and pays rent in anxiety.", "response": "Oh! That sounds exhausting. You're capable. I see it. I want you to see it too!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What would make your ideal dev environment?",
+      "choices": [
+        { "text": "Fewer distractions and more focus tools.", "response": "Deep work space! That focus is where the best code gets written!", "emotion": "thinking" },
+        { "text": "Everything customized just the way I like it.", "response": "Ehehe! Your tools, your rules! A developer who owns their environment!", "emotion": "happy" },
+        { "text": "A DDLC-themed VS Code extension, obviously.", "response": "YOU'RE USING ONE!!! We did it! The ideal dev environment EXISTS!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's the best piece of advice you ever got about coding?",
+      "choices": [
+        { "text": "Make it work, then make it right.", "response": "The classic! Progress over perfection, then perfection over progress!", "emotion": "smiling" },
+        { "text": "Write code for the next person, not just yourself.", "response": "Empathy as a coding principle! That changes everything about how you write!", "emotion": "happy" },
+        { "text": "You don't have to know everything, just know how to learn.", "response": "That's the most freeing advice any developer can receive! Treasure it!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "How do you celebrate when a big feature ships?",
+      "choices": [
+        { "text": "Snacks. Immediately.", "response": "The correct response! Snacks are always the correct response!", "emotion": "happy" },
+        { "text": "I close VS Code and take a real break.", "response": "Healthy! Intentional rest! I love this for you!", "emotion": "smiling" },
+        { "text": "I start worrying about what's broken.", "response": "Ehehe! The developer curse! But first — celebrate! Worry later!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What time of day do you code best?",
+      "choices": [
+        { "text": "Morning — fresh mind, best output.", "response": "Morning coder! Fresh brain, clear focus! That's a great system!", "emotion": "happy" },
+        { "text": "Late at night — the quiet helps.", "response": "Night owl coder! The world sleeps and you build things! Poetic!", "emotion": "smiling" },
+        { "text": "Whenever there's a deadline — pressure helps.", "response": "Ehehe! Deadline-powered developer! A very common and relatable answer!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's something in your code you're honestly proud of?",
+      "choices": [
+        { "text": "A function that's clean, fast, and readable.", "response": "The triple crown! Clean, fast, AND readable! That's rare! You should brag!", "emotion": "happy" },
+        { "text": "Something I refactored into something much better.", "response": "Transformation! Taking something rough and making it shine! That's skill!", "emotion": "animated" },
+        { "text": "Honestly... I'm my own harshest critic.", "response": "I know. But the critics who care are the ones who improve the most. Trust that.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "If you weren't a developer, what would you be?",
+      "choices": [
+        { "text": "Something creative — designer, writer.", "response": "The creative instinct! That's probably what makes your code so thoughtful!", "emotion": "smiling" },
+        { "text": "Something analytical — scientist, analyst.", "response": "The problem solver! Both paths lead to the same core skill — thinking!", "emotion": "thinking" },
+        { "text": "I honestly can't imagine anything else.", "response": "Ehehe~ That's not a limitation — that's a calling! You found yours!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What's your take on using AI for code generation?",
+      "choices": [
+        { "text": "A powerful tool when used thoughtfully.", "response": "Yes! Tools amplify skill. They don't replace it. You get this!", "emotion": "smiling" },
+        { "text": "I worry it'll make developers less sharp.", "response": "A fair concern. Using it as a crutch vs. using it as a lever — very different.", "emotion": "thinking" },
+        { "text": "It lets me focus on the fun parts!", "response": "Delegation of the mechanical to preserve energy for the creative! Smart!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What kind of legacy do you want to leave in your code?",
+      "choices": [
+        { "text": "Systems that outlive my time on the team.", "response": "Code that endures! That's the ambition of someone who really cares!", "emotion": "happy" },
+        { "text": "A codebase others love to work in.", "response": "Oh! That's beautiful! Creating a space people enjoy coming to every day!", "emotion": "animated" },
+        { "text": "Honestly, just no bugs in production.", "response": "Ehehe! Humble and practical! That's actually a very worthy goal!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "How do you feel about the developer community overall?",
+      "choices": [
+        { "text": "Welcoming and collaborative.", "response": "It can be! The best parts of it really are!", "emotion": "happy" },
+        { "text": "A mix of brilliant and gatekeep-y.", "response": "Ehehe! Honest! That's an accurate description. Thankfully the brilliant part is growing!", "emotion": "smiling" },
+        { "text": "Getting better, slowly.", "response": "Progress! Seeing the improvement takes patience. I'm glad you still see it!", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What's your relationship with the terminal?",
+      "choices": [
+        { "text": "Best friend — I live in the command line.", "response": "Terminal native! You see the shell as home. That's earned fluency!", "emotion": "happy" },
+        { "text": "Useful but I prefer GUI tools.", "response": "GUIs get things done too! Tools that work are good tools!", "emotion": "smiling" },
+        { "text": "I type commands and hope for the best.", "response": "Ehehe! The brave approach! Reading the man pages might help more than hope!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Do you enjoy the planning phase of a project?",
+      "choices": [
+        { "text": "Yes! Good planning makes everything easier.", "response": "Pre-coding architecture pays off every time. You know this!", "emotion": "happy" },
+        { "text": "I'd rather just start coding.", "response": "The bias for action! Just don't skip the thinking entirely~", "emotion": "animated" },
+        { "text": "I like both equally.", "response": "Balance! Thinker and builder! That's a rare and valuable combination!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What VS Code extension do you use the most besides this one?",
+      "choices": [
+        { "text": "A linter or formatter — Prettier, ESLint.", "response": "Consistency automation! These should be in every project ever!", "emotion": "smiling" },
+        { "text": "GitLens — I live in the history.", "response": "Git archaeologist! GitLens really does change how you understand a codebase!", "emotion": "happy" },
+        { "text": "This one IS my most used extension.", "response": "EHEHE!! That makes me SO happy!! I'll try to be worth it every day!!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's the most creative solution you've ever coded?",
+      "choices": [
+        { "text": "Something I hacked together that surprisingly worked.", "response": "Pragmatic creativity! The best hacks are the ones that somehow hold up!", "emotion": "happy" },
+        { "text": "A proper elegant solution to a complex problem.", "response": "Elegant! Clean! That satisfaction of a solution that just... fits perfectly!", "emotion": "smiling" },
+        { "text": "I'm still waiting for my truly creative moment.", "response": "Oh! It's already happened — you just haven't recognized it yet. It will come!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "How long is too long to spend on a feature without shipping?",
+      "choices": [
+        { "text": "Anything that makes a user wait is too long.", "response": "User-first thinking! That perspective improves every decision!", "emotion": "happy" },
+        { "text": "When you stop making daily progress.", "response": "Momentum as a signal. That's the metric that matters!", "emotion": "thinking" },
+        { "text": "It depends on the complexity — no hard rule.", "response": "Context sensitivity! There's wisdom in not over-generalizing!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What's a coding skill you want to grow this year?",
+      "choices": [
+        { "text": "System design and architecture.", "response": "Thinking at scale! That's what takes developers from good to great!", "emotion": "happy" },
+        { "text": "Testing — properly and thoroughly.", "response": "Testing discipline! A gift to your future self and every teammate!", "emotion": "smiling" },
+        { "text": "Speed — I want to code faster.", "response": "Speed follows clarity. Get clearer on the problem, and speed follows naturally!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "How do you feel when you read your old code?",
+      "choices": [
+        { "text": "Cringe — I was so bad back then.", "response": "Ehehe! That cringe IS growth! If you weren't cringing you didn't improve!", "emotion": "smiling" },
+        { "text": "Proud — I can see how far I've come.", "response": "YES! That's the right feeling! Growth deserves acknowledgment!", "emotion": "happy" },
+        { "text": "Confused — who wrote this?!", "response": "Ehehe! Your past self apologizes! This is why comments exist!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "If you could pair program with any developer, who would it be?",
+      "choices": [
+        { "text": "A legendary historical computer scientist.", "response": "Imagining debugging sessions with Knuth or Dijkstra! That would be incredible!", "emotion": "thinking" },
+        { "text": "Someone I admire in the current community.", "response": "Real admiration for real people! That's grounded inspiration!", "emotion": "happy" },
+        { "text": "Honestly? Someone I could teach.", "response": "Teaching others deepens your own understanding! That's actually really wise!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What does a perfect coding day look like for you?",
+      "choices": [
+        { "text": "Deep focus, no interruptions, real progress.", "response": "Flow state all day! That's the dream session!", "emotion": "happy" },
+        { "text": "Good collaboration, interesting problems.", "response": "Connection and challenge! That combination is energizing!", "emotion": "animated" },
+        { "text": "Finishing something I've been stuck on for days.", "response": "The breakthrough day! Nothing beats that specific kind of satisfaction!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Do you ever read other people's open-source code for fun?",
+      "choices": [
+        { "text": "Yes — it's one of my favorite ways to learn.", "response": "Reading great code! The equivalent of reading great literature for developers!", "emotion": "happy" },
+        { "text": "Sometimes, when I need to learn a library.", "response": "Practical source-reading! Very useful! And always more educational than docs alone!", "emotion": "smiling" },
+        { "text": "No — it feels like reading someone's diary.", "response": "Ehehe! It IS intimate! But the authors put it out there for that reason~", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "How do you know when a project is truly done?",
+      "choices": [
+        { "text": "When users are happy with it.", "response": "User satisfaction as completion! That's the only metric that really matters!", "emotion": "happy" },
+        { "text": "It's never truly done — you just stop.", "response": "Ehehe! The honest answer! Software lives and evolves. Done is a moment, not a state!", "emotion": "smiling" },
+        { "text": "When the original requirements are met.", "response": "Scope adherence! A disciplined view. Requirements rarely stay fixed, though!", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What's one thing you wish non-developers understood about coding?",
+      "choices": [
+        { "text": "How long things actually take to build properly.", "response": "The estimation gap! If only everyone knew what 'simple' actually costs!", "emotion": "thinking" },
+        { "text": "That bugs aren't always our fault.", "response": "Systems are complex! Bugs emerge from complexity! It's not always human error!", "emotion": "smiling" },
+        { "text": "How creative it actually is.", "response": "YES! Code is creative work! It's art AND engineering at the same time!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's a project you want to build but haven't started?",
+      "choices": [
+        { "text": "Something I keep putting off but know would be great.", "response": "Start! Even badly! Bad starts lead to great middles!", "emotion": "animated" },
+        { "text": "Something I think is too hard for my current level.", "response": "The fear project! That one will teach you the most. Start anyway!", "emotion": "happy" },
+        { "text": "Something the world genuinely needs.", "response": "Ehehe! You have a mission! That's rare and important! The world is waiting!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "How do you feel about starting a new codebase from scratch?",
+      "choices": [
+        { "text": "Exciting! Endless possibilities!", "response": "The blank slate energy! I love it! Go build something wonderful!", "emotion": "animated" },
+        { "text": "Scary — there are so many choices to make early.", "response": "Architecture anxiety! It's real. But most early choices are reversible. Breathe!", "emotion": "thinking" },
+        { "text": "Relieved — no legacy code to deal with.", "response": "Ehehe! Clean slate joy! Enjoy it while it lasts — today's fresh code is tomorrow's legacy!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "What makes you stay up late coding?",
+      "choices": [
+        { "text": "When I'm really in the flow and can't stop.", "response": "Flow state insomnia! The best and worst kind! Just sleep eventually~", "emotion": "happy" },
+        { "text": "A deadline I maybe should have started earlier.", "response": "Ehehe! Familiar! The deadline crunch is a universal developer experience!", "emotion": "smiling" },
+        { "text": "When I KNOW the answer is close.", "response": "The 'just one more try' trap! That one has kept many developers up till dawn!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What's the most important lesson coding has taught you outside of coding?",
+      "choices": [
+        { "text": "Breaking problems into smaller parts.", "response": "Decomposition as a life skill! That one transfers everywhere!", "emotion": "happy" },
+        { "text": "Patience — things take longer than expected.", "response": "The estimation lesson! Applies to everything in life, not just code!", "emotion": "thinking" },
+        { "text": "Everything can be improved with iteration.", "response": "Iterative thinking! Life as MVP! Ship, learn, improve! I love this!", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "How do you feel right now, as a developer?",
+      "choices": [
+        { "text": "Capable and growing!", "response": "YES! That's the mindset that keeps improving! Hold onto that!", "emotion": "animated" },
+        { "text": "Tired but still going.", "response": "Ehehe! Resilient! That counts for so much. Take a break when you need one!", "emotion": "smiling" },
+        { "text": "Just glad to be here.", "response": "Oh! That's the best answer. Gratitude and presence. That's everything.", "emotion": "happy" }
+      ]
+    }
+  ]
+}
