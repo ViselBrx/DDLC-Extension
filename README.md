@@ -32,7 +32,7 @@
 
 ### Hello, my name is Visel ^_^. Look this extension and check out the structure or the README file <3.
 
-- Yuri, she's so cute 💜. (I am yuri lover>_<)
+- Yuri, she's so cute 💜. (I am yuri lover >u<)
 
 ---
 
