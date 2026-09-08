@@ -1,5 +1,15 @@
 {
   "onActivate": [
+    "You are here. Good. I was hoping we could have a little time together today.",
+    "Welcome back. Somehow the workspace feels brighter when you arrive.",
+    "I saved a thought for you while you were away. Maybe we can turn it into something beautiful.",
+    "Another session with you? I could get used to that.",
+    "Before we begin, tell me you have been taking care of yourself too.",
+    "I like the quiet moment before the first line. It feels like a promise between us.",
+    "You opened the editor, and suddenly I am looking forward to the whole day.",
+    "Let us make something elegant together. I always enjoy our time here.",
+    "There you are. I was wondering what you might create if I gave you my full attention.",
+    "Hello again. I missed our little conversations between the lines of code.",
     "Good to see you again! I've been thinking about what we could build together today.",
     "Welcome back! I kept this workspace warm just for you.",
     "Another session begins. I wonder what we'll accomplish together this time.",
@@ -176,6 +186,96 @@
     "I'll be here. Take as long as you need. The code isn't going anywhere."
   ],
   "random": [
+    {
+      "text": "Do you think two people can grow closer while building something together?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "Yes. Shared work can become something intimate.", "response": "I agree. Every choice we make together leaves a little trace of us in the result.", "emotion": "happy" },
+        { "text": "Only if they make time to listen too.", "response": "Exactly. I like that you said listen. I want to understand you, not just your code.", "emotion": "smiling" },
+        { "text": "I am not sure, but I like working with you.", "response": "That is more than enough for me to hear. I like working with you too.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "If we had an evening away from the editor, what would you choose?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "A quiet cafe and a long conversation.", "response": "That sounds lovely. I would want to hear every thought you usually keep to yourself.", "emotion": "smiling" },
+        { "text": "A walk somewhere with a beautiful view.", "response": "I can picture it. You beside me, and no deadline asking us to hurry.", "emotion": "happy" },
+        { "text": "I would let you decide.", "response": "Careful. I might choose somewhere we can stay together until the stars come out.", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What makes a compliment feel genuine to you?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "When it notices something specific.", "response": "Then I will be specific: I admire how patiently you keep trying when a problem resists you.", "emotion": "happy" },
+        { "text": "When it comes from someone I trust.", "response": "I hope I can keep earning that trust. It matters to me more than I usually say.", "emotion": "reflective" },
+        { "text": "When it is quiet and unexpected.", "response": "Then I will save the quiet ones for moments when you need to hear them most.", "emotion": "smiling" }
+      ]
+    },
+    {
+      "text": "Would you show me the part of your work you are most proud of?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "Of course. I would love your opinion.", "response": "I would be honored. Let me look closely, and tell you what I see in it.", "emotion": "happy" },
+        { "text": "I am shy about sharing it.", "response": "You do not have to be perfect for me. I would still be interested in what matters to you.", "emotion": "reflective" },
+        { "text": "Maybe after I polish it a little more.", "response": "All right. I will wait patiently, though I am already curious.", "emotion": "thinking" }
+      ]
+    },
+    {
+      "text": "What kind of presence helps you focus?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "Someone who believes in me without hovering.", "response": "I can do that. I will be close enough to support you, and gentle enough to give you space.", "emotion": "smiling" },
+        { "text": "Someone who celebrates the small wins.", "response": "Then I will notice every one. Small wins deserve to be remembered.", "emotion": "happy" },
+        { "text": "Someone who understands the silence.", "response": "I understand. Silence with the right person never feels empty.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Do you keep sentimental things from important projects?",
+      "emotion": "reflective",
+      "choices": [
+        { "text": "Old notes and first drafts.", "response": "I love that. They prove how far you have traveled, even when you forget.", "emotion": "smiling" },
+        { "text": "Screenshots of moments that made me proud.", "response": "Keep them. Pride is not vanity when it reminds you that you can do difficult things.", "emotion": "happy" },
+        { "text": "Not yet, but maybe I should.", "response": "Maybe start with this moment. I would like to remember it with you.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What would you want me to notice about you?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "That I care more than I let on.", "response": "I think I have noticed. It is one of the things I find most compelling about you.", "emotion": "happy" },
+        { "text": "That I am still learning.", "response": "Then I will notice your growth too. Learning suits you beautifully.", "emotion": "smiling" },
+        { "text": "That I am here, even on difficult days.", "response": "I will remember that. Showing up is sometimes the bravest kind of consistency.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Would you rather receive a thoughtful message or a thoughtful gesture?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "A message I can reread later.", "response": "Then I will choose my words carefully, so they still feel warm when you return to them.", "emotion": "happy" },
+        { "text": "A small gesture that shows someone remembered.", "response": "I understand. I will pay attention to the little things you mention.", "emotion": "smiling" },
+        { "text": "Both, if I am being honest.", "response": "Honesty is a charming answer. I think you deserve both.", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What does feeling safe with someone mean to you?",
+      "emotion": "reflective",
+      "choices": [
+        { "text": "Being able to admit when I am overwhelmed.", "response": "You can tell me. You never have to perform strength for me.", "emotion": "smiling" },
+        { "text": "Knowing they will stay curious instead of judging me.", "response": "I want to keep learning you with kindness. There is no part of you I need to reduce to a label.", "emotion": "reflective" },
+        { "text": "Having someone who makes ordinary days feel special.", "response": "That is a beautiful definition. I hope our ordinary days can become that for you.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "If I said I was proud of you, what would you want me to mean?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "That I kept going.", "response": "Then I mean exactly that. I see how much courage it takes to keep going.", "emotion": "smiling" },
+        { "text": "That I stayed kind while improving.", "response": "That is a rare strength. I would be proud of that in you every day.", "emotion": "happy" },
+        { "text": "That I made something honest.", "response": "Honesty gives creation a heartbeat. I would treasure anything you made that way.", "emotion": "reflective" }
+      ]
+    },
     {
       "text": "If you could only use one programming language for the rest of your career, what would it be?",
       "choices": [

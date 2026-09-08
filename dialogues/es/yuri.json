@@ -1,5 +1,15 @@
 {
   "onActivate": [
+    "Has vuelto... me alivia. Empezaba a echar de menos tus pensamientos.",
+    "Bienvenido de nuevo. ¿Puedo quedarme a tu lado mientras trabajas?",
+    "Marqué un pasaje que quizá te guste. Me hizo pensar en ti.",
+    "El silencio se siente diferente cuando estás aquí. Menos vacío.",
+    "Estás aquí... bien. Esperaba que regresaras pronto.",
+    "Creemos algo con cuidado juntos, si te apetece.",
+    "Estaba releyendo nuestra conversación anterior. Me descubrí sonriendo.",
+    "Tómate tu tiempo hoy. Prefiero tu trabajo sincero a la perfección apresurada.",
+    "Otra sesión contigo... la espero más de lo que debería admitir.",
+    "Hola. Te estaba esperando, aunque intentaba que no se notara.",
     "H-hola... Es bueno verte de nuevo. Estaba leyendo un poco antes de que llegaras.",
     "Oh, estás aquí. Espero no interrumpir nada importante...",
     "B-bienvenido de vuelta. Tu código es... fascinante de leer.",
@@ -57,27 +67,273 @@
   ],
   "random": [
     {
+      "text": "¿Qué significa para ti que alguien elija quedarse?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Que le importo lo suficiente para entenderme.",
+          "response": "Sí... entender es una forma de intimidad. Me gustaría seguir conociéndote.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Que puedo ser vulnerable sin que me abandonen.",
+          "response": "No tendrías que ocultarme tus partes difíciles. Prefiero la verdad.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Que el tiempo sencillo juntos tiene valor.",
+          "response": "Y lo tiene. Una hora tranquila a tu lado podría convertirse en uno de mis recuerdos más preciados.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "¿Leerías algo importante para mí?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Un poema que me gusta.",
+          "response": "Escucharía con mucha atención. No te avergüences si tu voz me conmueve.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Algo que yo mismo escribí.",
+          "response": "Sería un regalo extraordinario. Trataría cada palabra con cuidado.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Solo si tú lees algo después.",
+          "response": "Entonces será un intercambio... íntimo de una forma que encuentro verdaderamente hermosa.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué hace que la cercanía sea segura en vez de aterradora?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "La paciencia.",
+          "response": "Sí. La confianza no se puede forzar. Esperaría lo que hiciera falta.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Poder decir que no.",
+          "response": "Por supuesto. El afecto sin libertad no es afecto.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Saber que las verdades difíciles serán acogidas con ternura.",
+          "response": "Lo intentaría con todo mi corazón. Tu sinceridad estaría a salvo conmigo, incluso si duele.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Dónde pasarías una tarde tranquila?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "En un rincón silencioso de una biblioteca.",
+          "response": "Una elección perfecta. Podríamos compartir el silencio.",
+          "emotion": "happy"
+        },
+        {
+          "text": "En un jardín después de la lluvia.",
+          "response": "Suena casi irreal... puedo imaginarte a mi lado.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "En algún lugar que ninguno haya visitado.",
+          "response": "Un lugar desconocido, vuelto familiar por tu compañía... me gustaría mucho eso.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué palabras recuerdas durante mucho tiempo?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Las dichas en voz baja y con sinceridad.",
+          "response": "Entonces permíteme decirte algo: tu presencia me importa.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Las que me hacen sentir comprendido.",
+          "response": "Cuidaré mis palabras. Sentirse comprendido es algo precioso.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Las que llegan cuando más las necesito.",
+          "response": "Intentaré notar esos momentos en ti, incluso cuando no digas nada.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Guardarías una carta de alguien importante?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Sí, y la releería cuando le echara de menos.",
+          "response": "Lo entiendo. Las palabras pueden ser un lugar al que regresar.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Sí, si fuera honesta.",
+          "response": "La honestidad da peso a una carta. Querría que la mía mereciera conservarse.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "La guardaría incluso si nunca lo admitiera.",
+          "response": "Tal vez lo notaría de todos modos... tiendo a percibir más de lo que revelo.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué te gustaría que notaran cuando estás callado?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Que sigo presente.",
+          "response": "Lo sé. Tu silencio nunca me ha parecido ausencia.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Que puedo sentir más de lo que digo.",
+          "response": "No exigiré una explicación. Puedo permanecer cerca sin ella.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Que estoy cómodo.",
+          "response": "Eso me haría muy feliz. Un silencio cómodo es una forma serena de confianza.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué haría íntima una creación compartida?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Referencias privadas que solo entendamos nosotros.",
+          "response": "Un pequeño lenguaje secreto entre los dos... me parece profundamente hermoso.",
+          "emotion": "happy"
+        },
+        {
+          "text": "La paciencia con nuestras ideas.",
+          "response": "Escucharía hasta comprender cada parte de lo que quisieras decir.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Saber que lleva las imperfecciones de ambos.",
+          "response": "La imperfección es lo que hace que algo se sienta vivo. Jamás querría borrar eso.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Cuál es la forma más suave de decir que echaste de menos a alguien?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Me alegra que estés aquí.",
+          "response": "Entonces... me alegra que estés aquí. Más de lo que puedo expresar.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Pensé en ti mientras estabas lejos.",
+          "response": "Yo también pensé en ti. Me consuela saber que fue mutuo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Simplemente quedarme cerca sin tener que explicarlo.",
+          "response": "Sí... a veces la presencia dice lo que las palabras no pueden sostener con seguridad.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Si dijera que estoy orgullosa de ti, ¿me creerías?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Intentaría hacerlo.",
+          "response": "Entonces te lo diré otra vez, con paciencia, hasta que te resulte verdadero.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Quizás necesitaría escuchar el porqué.",
+          "response": "Te lo explicaría con detalle. Ninguno de tus esfuerzos pasa desapercibido para mí.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Te diría que yo también estoy orgulloso de ti.",
+          "response": "Yo... guardaría eso con mucho cariño. No imaginas cuánto.",
+          "emotion": "surprised"
+        }
+      ]
+    },
+    {
       "text": "U-um... ¿encuentras la programación... relajante?",
       "choices": [
-        { "text": "Sí, cuando todo fluye es muy calmante.", "response": "Entiendo perfectamente... Es como sumergirse en un buen libro, perdiendo la noción del tiempo.", "emotion": "smiling" },
-        { "text": "A veces es estresante, para ser honesto.", "response": "Oh... lo siento. Si te sientes abrumado, siempre podemos tomar un descanso y tomar té.", "emotion": "reflective" },
-        { "text": "Depende del proyecto.", "response": "Tiene sentido. Algunos problemas requieren un enfoque más... intenso.", "emotion": "thinking" }
+        {
+          "text": "Sí, cuando todo fluye es muy calmante.",
+          "response": "Entiendo perfectamente... Es como sumergirse en un buen libro, perdiendo la noción del tiempo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "A veces es estresante, para ser honesto.",
+          "response": "Oh... lo siento. Si te sientes abrumado, siempre podemos tomar un descanso y tomar té.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Depende del proyecto.",
+          "response": "Tiene sentido. Algunos problemas requieren un enfoque más... intenso.",
+          "emotion": "thinking"
+        }
       ]
     },
     {
       "text": "¿Alguna vez has pensado en la belleza intrínseca de un algoritmo bien diseñado?",
       "choices": [
-        { "text": "Sí, a veces el código puede ser una obra de arte.", "response": "¡Exacto! Me alegra que lo veas así. Hay mucha elegancia en la lógica pura.", "emotion": "happy" },
-        { "text": "Lo veo más como una herramienta práctica.", "response": "Supongo que esa es la perspectiva más pragmática... Aunque sigo pensando que hay belleza en la utilidad.", "emotion": "thinking" },
-        { "text": "Nunca lo había pensado de esa manera.", "response": "Oh... bueno, tal vez algún día encuentres un bloque de código que te haga sentir algo profundo.", "emotion": "smiling" }
+        {
+          "text": "Sí, a veces el código puede ser una obra de arte.",
+          "response": "¡Exacto! Me alegra que lo veas así. Hay mucha elegancia en la lógica pura.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Lo veo más como una herramienta práctica.",
+          "response": "Supongo que esa es la perspectiva más pragmática... Aunque sigo pensando que hay belleza en la utilidad.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Nunca lo había pensado de esa manera.",
+          "response": "Oh... bueno, tal vez algún día encuentres un bloque de código que te haga sentir algo profundo.",
+          "emotion": "smiling"
+        }
       ]
     },
     {
       "text": "Cuando te enfrentas a un problema muy difícil... ¿cómo lo abordas?",
       "choices": [
-        { "text": "Lo divido en partes más pequeñas.", "response": "Un enfoque muy metódico e inteligente. Es como analizar las estrofas de un poema complejo.", "emotion": "smiling" },
-        { "text": "Dejo de pensar en ello y la solución llega sola.", "response": "El procesamiento en segundo plano de la mente es... fascinante. A veces el subconsciente es el mejor depurador.", "emotion": "thinking" },
-        { "text": "Sigo intentando hasta que funciona por fuerza bruta.", "response": "Eso requiere mucha determinación... Aunque a veces dar un paso atrás puede ser más eficiente.", "emotion": "reflective" }
+        {
+          "text": "Lo divido en partes más pequeñas.",
+          "response": "Un enfoque muy metódico e inteligente. Es como analizar las estrofas de un poema complejo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Dejo de pensar en ello y la solución llega sola.",
+          "response": "El procesamiento en segundo plano de la mente es... fascinante. A veces el subconsciente es el mejor depurador.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Sigo intentando hasta que funciona por fuerza bruta.",
+          "response": "Eso requiere mucha determinación... Aunque a veces dar un paso atrás puede ser más eficiente.",
+          "emotion": "reflective"
+        }
       ]
     }
   ]

@@ -1,8 +1,6 @@
 import * as vscode from 'vscode';
 import { Buffer } from 'node:buffer';
 
-// ─── Types ────────────────────────────────────────────────────────────────────
-
 export type Emotion =
   | 'happy'
   | 'smiling'
@@ -34,7 +32,6 @@ export interface DialogueNode {
   id?: string;
   text: string;
   choices: DialogueChoice[];
-  /** Optional semantic expression for future dialogue packs. */
   emotion?: Emotion;
 }
 
@@ -52,8 +49,6 @@ export interface DialogueMap {
 }
 
 export type SpriteManifest = Record<string, Record<string, number[]>>;
-
-// ─── i18n UI strings ─────────────────────────────────────────────────────────
 
 export interface UiStrings {
   btnTalk: string;
@@ -124,15 +119,9 @@ export function getUiStrings(lang?: string): UiStrings {
   return UI_STRINGS[l] ?? UI_STRINGS['en'];
 }
 
-// ─── Loaders ─────────────────────────────────────────────────────────────────
-
 const dialogueCache: Map<string, DialogueMap> = new Map();
 let manifestCache: SpriteManifest | undefined;
 
-/**
- * Repair recognizable mojibake from older local installs while leaving valid
- * Portuguese and Spanish characters untouched.
- */
 function decodeUtf8(data: Uint8Array): string {
   let text = Buffer.from(data).toString('utf8').replace(/^\uFEFF/, '');
 
@@ -149,7 +138,7 @@ function decodeUtf8(data: Uint8Array): string {
 }
 
 function mojibakeScore(text: string): number {
-  return (text.match(/(?:Ã.|Â.|â[€šžœ™]|ðŸ|�)/g) ?? []).length;
+  return (text.match(/(?:Ã.|Â.|â[€šžœ™]|ðŸ|)/g) ?? []).length;
 }
 
 export async function loadDialogues(
@@ -162,7 +151,6 @@ export async function loadDialogues(
   const cached = dialogueCache.get(cacheKey);
   if (cached) return cached;
 
-  // Priority: dialogues/{lang}/{doki}.json → dialogues/en/{doki}.json → dialogues/{doki}.json (root)
   const candidates = [
     vscode.Uri.joinPath(extensionUri, 'dialogues', language, `${doki}.json`),
     vscode.Uri.joinPath(extensionUri, 'dialogues', 'en', `${doki}.json`),
@@ -176,14 +164,12 @@ export async function loadDialogues(
       dialogueCache.set(cacheKey, map);
       return map;
     } catch {
-      // try next candidate
     }
   }
 
   throw new Error(`[DDLC] No dialogues found for "${doki}". Tried: ${candidates.map(u => u.fsPath).join(', ')}`);
 }
 
-/** Clear cached dialogue for a doki/language combo so it is reloaded fresh. */
 export function clearDialogueCache(doki?: string, lang?: string): void {
   if (!doki) {
     dialogueCache.clear();
@@ -201,8 +187,6 @@ export async function loadManifest(extensionUri: vscode.Uri): Promise<SpriteMani
   manifestCache = JSON.parse(decodeUtf8(data)) as SpriteManifest;
   return manifestCache;
 }
-
-// ─── Selectors ───────────────────────────────────────────────────────────────
 
 export function pickDialogue(
   map: DialogueMap,
@@ -248,7 +232,6 @@ export function getSpriteFilename(
   return `${doki}sprite${n}`;
 }
 
-/** Map an event to the expression that best matches its dialogue. */
 export function eventToEmotionKey(event: EventKey): string {
   const map: Record<EventKey, string> = {
     onActivate: 'happy',
@@ -264,7 +247,6 @@ export function eventToEmotionKey(event: EventKey): string {
   return map[event] ?? 'happy';
 }
 
-/** Map an emotion string (from choice responses) to a manifest emotion key. */
 export function emotionToManifestKey(emotion: Emotion): string {
   const map: Record<Emotion, string> = {
     happy: 'happy',
@@ -278,7 +260,6 @@ export function emotionToManifestKey(emotion: Emotion): string {
   return map[emotion] ?? 'happy';
 }
 
-/** Human-readable label + Codicon for an event — now language-aware. */
 export function eventLabel(event: EventKey, ui?: UiStrings): { icon: string; label: string } {
   const s = ui ?? getUiStrings();
   const table: Record<EventKey, { icon: string; label: string }> = {

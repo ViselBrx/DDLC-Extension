@@ -20,8 +20,6 @@ import {
 } from './dialogueEngine';
 import { ActionDetector } from './actionDetector';
 
-// ─── Doki metadata ────────────────────────────────────────────────────────────
-
 export interface DokiInfo {
   key: string;
   name: string;
@@ -61,8 +59,6 @@ export const DOKIS: Record<string, DokiInfo> = {
   },
 };
 
-// ─── Message types (extension ↔ webview) ────────────────────────────────────
-
 interface MsgDialogue {
   type: 'dialogue';
   text: string;
@@ -90,8 +86,6 @@ interface MsgFromWebview {
   emotion?: Emotion;
   language?: string;
 }
-
-// ─── Original Chibi Webview (Explorer) ─────────────────────────────────────────
 
 class ChibiWebviewProvider implements vscode.WebviewViewProvider, vscode.Disposable {
   private view?: vscode.WebviewView;
@@ -141,7 +135,6 @@ class ChibiWebviewProvider implements vscode.WebviewViewProvider, vscode.Disposa
     );
     const phrase = await this.loadPhrase(phraseUri);
 
-    // Ignore an old read if the user changed the theme while it was loading.
     if (view !== this.view || doki.key !== this.dokiKey) return;
 
     view.webview.html = this.html(view.webview, doki, imageUri, phrase);
@@ -240,8 +233,6 @@ class ChibiWebviewProvider implements vscode.WebviewViewProvider, vscode.Disposa
   }
 }
 
-// ─── Dialogue Webview (DDLC Sidebar) ─────────────────────────────────────────
-
 class DialogueWebviewProvider
   implements vscode.WebviewViewProvider, vscode.Disposable
 {
@@ -275,10 +266,8 @@ class DialogueWebviewProvider
     void this.render().then(() => this.flushEventQueue());
   }
 
-  /** Called by ActionDetector whenever a VS Code event fires. */
   async handleEvent(event: EventKey): Promise<void> {
     this.eventQueue.push(event);
-    // Keep the queue bounded when VS Code emits several events in a burst.
     if (this.eventQueue.length > 12) this.eventQueue.shift();
     await this.flushEventQueue();
   }
@@ -318,10 +307,16 @@ class DialogueWebviewProvider
     if (event === 'random') {
       const rd = pickRandom(map);
       const { icon, label } = eventLabel('random', ui);
+      const randomSpriteUri = this.spriteUri(
+        view,
+        manifest,
+        dokiKey,
+        emotionToManifestKey(rd.emotion ?? 'thinking')
+      );
       const msg: MsgRandom = {
         type: 'random',
         text: rd.text,
-        spriteFile: spriteUri,
+        spriteFile: randomSpriteUri,
         choices: rd.choices,
         icon,
         label,
@@ -344,8 +339,6 @@ class DialogueWebviewProvider
     };
     this.queueMessage(view, dokiKey, version, msg);
   }
-
-  // ── vscode.WebviewViewProvider ──────────────────────────────────────────────
 
   resolveWebviewView(view: vscode.WebviewView): void {
     this.view = view;
@@ -377,8 +370,6 @@ class DialogueWebviewProvider
 
     void this.render().then(() => this.flushEventQueue());
   }
-
-  // ── Private ─────────────────────────────────────────────────────────────────
 
   private async render(): Promise<void> {
     const view = this.view;
@@ -482,8 +473,6 @@ class DialogueWebviewProvider
     this.dialogueMapDoki = undefined;
     clearDialogueCache();
 
-    // Replacing the document drops the webview's in-memory history and any
-    // typewriter timers from the previous doki/language session.
     if (this.view) this.view.webview.html = this.loadingHtml(getUiStrings());
   }
 
@@ -500,8 +489,6 @@ class DialogueWebviewProvider
     this.outgoingMessages = this.outgoingMessages
       .then(() => {
         if (this.isCurrent(view, dokiKey, version)) {
-          // postMessage dispatches synchronously; do not wait for the host's
-          // acknowledgement or a later choice can be held behind it.
           void Promise.resolve(view.webview.postMessage(message)).catch((error) => {
             console.error('[DDLC] Webview message failed:', error);
           });
@@ -572,7 +559,6 @@ class DialogueWebviewProvider
       overflow-y: auto;
     }
 
-    /* ── Layout ── */
     .vn-root {
       display: flex;
       flex-direction: column;
@@ -582,7 +568,6 @@ class DialogueWebviewProvider
       gap: 7px;
     }
 
-    /* ── Sprite area ── */
     .sprite-stage {
       width: 100%;
       max-width: 276px;
@@ -602,7 +587,6 @@ class DialogueWebviewProvider
     }
     #sprite.fading { opacity: 0; transform: scale(0.97) translateY(6px); }
 
-    /* ── Event badge ── */
     .event-badge {
       display: flex;
       align-items: center;
@@ -623,7 +607,6 @@ class DialogueWebviewProvider
     }
     .event-badge i { font-size: 11px; }
 
-    /* ── VN Dialogue box ── */
     .vn-box {
       width: calc(100% - 10px);
       background: var(--vn-bg);
@@ -638,7 +621,6 @@ class DialogueWebviewProvider
       flex-shrink: 0;
     }
 
-    /* Name tab */
     .vn-name {
       display: inline-block;
       background: var(--vn-name-bg);
@@ -652,7 +634,6 @@ class DialogueWebviewProvider
       box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
     }
 
-    /* Dialogue text area */
     .vn-text-area {
       padding: 8px 12px 10px;
       min-height: 52px;
@@ -666,7 +647,6 @@ class DialogueWebviewProvider
       word-break: break-word;
     }
 
-    /* Blinking cursor ▼ */
     #vnCursor {
       display: inline-block;
       color: var(--accent);
@@ -678,7 +658,6 @@ class DialogueWebviewProvider
     }
     @keyframes blink { 0%,100%{opacity:0} 50%{opacity:1} }
 
-    /* ── Choices ── */
     .choices-area {
       display: none;
       flex-direction: column;
@@ -727,7 +706,6 @@ class DialogueWebviewProvider
       opacity: .85;
     }
 
-    /* ── History ── */
     .history-area {
       width: calc(100% - 10px);
       display: grid;
@@ -765,7 +743,6 @@ class DialogueWebviewProvider
       border-left-color: var(--accent);
     }
 
-    /* ── Bottom Controls ── */
     .bottom-controls {
       display: flex;
       justify-content: space-between;
@@ -828,18 +805,15 @@ class DialogueWebviewProvider
 <body>
 <div class="vn-root" id="root">
 
-  <!-- Sprite -->
   <div class="sprite-stage">
     <img id="sprite" src="${escapeHtml(spriteUri)}" alt="${name}">
   </div>
 
-  <!-- Event badge -->
   <div class="event-badge" id="eventBadge">
     <i class="codicon codicon-${icon}" id="eventIcon"></i>
     <span id="eventLabel">${escapeHtml(label)}</span>
   </div>
 
-  <!-- VN dialogue box -->
   <div class="vn-box" id="vnBox">
     <div class="vn-name" id="nameTag">${name}</div>
     <div class="vn-text-area">
@@ -848,13 +822,11 @@ class DialogueWebviewProvider
     <div class="choices-area" id="choices"></div>
   </div>
 
-  <!-- History -->
   <div class="history-area" id="history"${showHistory ? '' : ' hidden'}>
     <div class="history-heading">${escapeHtml(ui.history)}</div>
     <div id="historyItems"></div>
   </div>
 
-  <!-- Bottom Controls -->
   <div class="bottom-controls">
     <button class="talk-btn" id="talkBtn">${escapeHtml(ui.btnTalk)}</button>
     <div class="lang-selector" id="langSelect">
@@ -913,14 +885,12 @@ class DialogueWebviewProvider
     });
   }
 
-  /* ── Escape HTML ── */
   function esc(s) {
     return String(s)
       .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
       .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
 
-  /* ── Histórico ── */
   function pushHistory(text) {
     if (!text || !text.trim()) return;
     historyItems.unshift(text);
@@ -931,7 +901,6 @@ class DialogueWebviewProvider
     if (historyArea) historyArea.hidden = !historyEnabled || historyItems.length === 0;
   }
 
-  /* ── Typewriter estilo VN (Unicode-safe) ── */
   function typewrite(text, speedMs, onDone) {
     const version = contentVersion;
     if (typeTimer) { clearInterval(typeTimer); typeTimer = null; }
@@ -939,7 +908,6 @@ class DialogueWebviewProvider
     cursorEl.style.opacity = '0';
     textEl.textContent = '';
 
-    // Spread converte para array de code points Unicode — emojis e acentos não ficam quebrados
     const chars = [...String(text)];
     let i = 0;
     const speed = speedMs || 28;
@@ -956,7 +924,6 @@ class DialogueWebviewProvider
       const ch = chars[i++];
       textEl.textContent += ch;
 
-      // Pausinha dramática em pontuação (estilo VN)
       if ((ch === '.' || ch === '!' || ch === '?') && i < chars.length) {
         clearInterval(typeTimer);
         typeTimer = null;
@@ -971,7 +938,6 @@ class DialogueWebviewProvider
     typeTimer = setInterval(tick, speed);
   }
 
-  /* ── Troca de sprite com fade ── */
   function swapSprite(newSrc, cb) {
     const version = contentVersion;
     if (spriteSwapTimer) { clearTimeout(spriteSwapTimer); spriteSwapTimer = null; }
@@ -999,13 +965,11 @@ class DialogueWebviewProvider
     }, 280);
   }
 
-  /* ── Atualiza badge de evento ── */
   function setEventBadge(icon, label) {
     eventIcon.className = 'codicon codicon-' + (icon || 'comment');
     eventLabel.textContent = label || '';
   }
 
-  /* ── Exibe diálogo simples ── */
   function showDialogue(msg) {
     if (pendingResponse !== null && String(msg.text || '') === pendingResponse) {
       pendingResponse = null;
@@ -1031,7 +995,6 @@ class DialogueWebviewProvider
     });
   }
 
-  /* ── Exibe diálogo com choices ── */
   function showRandom(msg) {
     pendingResponse = null;
     const version = ++contentVersion;
@@ -1051,7 +1014,6 @@ class DialogueWebviewProvider
     swapSprite(msg.spriteFile, () => {
       typewrite(msg.text, dialogueSpeed, () => {
         if (version !== contentVersion) return;
-        // mostra choices após o typewriter terminar
         cursorEl.style.animation = 'none';
         cursorEl.style.opacity = '0';
 
@@ -1061,8 +1023,6 @@ class DialogueWebviewProvider
           choiceLocked = true;
           choicesEl.style.display = 'none';
 
-          // Render the answer immediately. The host only synchronizes the
-          // matching sprite; it must not advance to another question here.
           contentVersion += 1;
           pendingResponse = String(choice.response || '');
           pushHistory(currentText);
@@ -1099,7 +1059,6 @@ class DialogueWebviewProvider
     });
   }
 
-  // Saudação inicial
   typewrite(currentText, initialDialogueSpeed);
 
   window.addEventListener('message', e => {
@@ -1119,14 +1078,11 @@ class DialogueWebviewProvider
   }
 }
 
-// ─── Activation ───────────────────────────────────────────────────────────────
-
 export function activate(context: vscode.ExtensionContext): void {
   console.log('DDLC Extension activated.');
 
   const activeDoki = getActiveDoki();
 
-  // 1. Original Chibi Webview (in Explorer)
   const chibiProvider = new ChibiWebviewProvider(context.extensionUri, activeDoki);
   const chibiView = vscode.window.registerWebviewViewProvider(
     'ddlc.chibiView',
@@ -1134,7 +1090,6 @@ export function activate(context: vscode.ExtensionContext): void {
     { webviewOptions: { retainContextWhenHidden: true } }
   );
 
-  // 2. New Dialogue Webview (in DDLC Sidebar)
   const dialogueProvider = new DialogueWebviewProvider(context.extensionUri, activeDoki);
   const dialogueView = vscode.window.registerWebviewViewProvider(
     'ddlc.dialogueView',
@@ -1142,7 +1097,6 @@ export function activate(context: vscode.ExtensionContext): void {
     { webviewOptions: { retainContextWhenHidden: true } }
   );
 
-  // ── Config change → swap doki or change language ─────────────────────────
   const configListener = vscode.workspace.onDidChangeConfiguration((event) => {
     if (event.affectsConfiguration('workbench.colorTheme')) {
       const currentTheme = vscode.workspace
@@ -1157,7 +1111,6 @@ export function activate(context: vscode.ExtensionContext): void {
     }
   });
 
-  // ── Action detector (only triggers the dialogue provider) ───────────────────
   const detector = new ActionDetector(
     (event) => void dialogueProvider.handleEvent(event),
     Math.max(0, vscode.workspace.getConfiguration('ddlc').get<number>('dialogueCooldown', 5)) * 1000,
@@ -1165,7 +1118,6 @@ export function activate(context: vscode.ExtensionContext): void {
   );
   detector.register(context);
 
-  // Trigger onActivate on startup (slight delay so the webview has time to load)
   setTimeout(() => void dialogueProvider.handleEvent('onActivate'), 2000);
 
   context.subscriptions.push(
@@ -1179,8 +1131,6 @@ export function activate(context: vscode.ExtensionContext): void {
 }
 
 export function deactivate(): void {}
-
-// ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function escapeHtml(value: string): string {
   return value

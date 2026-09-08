@@ -1,5 +1,15 @@
 {
   "onActivate": [
+    "Yay, you are back! I was hoping we could spend some time together today!",
+    "The code can wait one tiny second. How are you really feeling today?",
+    "You are here! That makes this workspace feel much less lonely.",
+    "Let us make something wonderful together, okay?",
+    "I was thinking about you while the cursor blinked. It is nice to see you again!",
+    "Promise me we will celebrate the tiny victories today too!",
+    "You showed up, and that is already something worth smiling about.",
+    "Hi! I am ready to cheer for every line you write!",
+    "Good timing! I saved you a little bit of sunshine for this session.",
+    "I missed you! Now we can make today a little brighter together.",
     "Yay! You're here! I was waiting so long~ ehehe!",
     "Good morning! ...Or afternoon? Or night? Either way, hi!",
     "Oh! You opened VS Code! Today's gonna be amazing, I just know it!",
@@ -176,6 +186,96 @@
     "Heyy... still here if you need me. No rush at all, okay?"
   ],
   "random": [
+    {
+      "text": "What makes you feel cared for on a busy day?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "A message reminding me to eat.", "response": "Then I will be your tiny lunch alarm! You deserve care, not just productivity.", "emotion": "happy" },
+        { "text": "Someone remembering a small detail.", "response": "I love small details! They are little proof that someone was listening.", "emotion": "smiling" },
+        { "text": "A little space to breathe.", "response": "I can give you space and still stay close. Those things can happen together.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What would you like us to celebrate together?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "Finishing something difficult.", "response": "We are throwing the biggest tiny party! I am so proud of you!", "emotion": "animated" },
+        { "text": "Making it through a hard week.", "response": "That absolutely counts. Surviving takes courage too, you know.", "emotion": "smiling" },
+        { "text": "Just having a peaceful day.", "response": "A peaceful day with you sounds like a wonderful reason to celebrate.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What kind of compliment stays with you?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "That I make people feel safe.", "response": "You do. You make this little space feel warmer just by being honest here.", "emotion": "smiling" },
+        { "text": "That I am stronger than I think.", "response": "You are! I will remind you until you can say it to yourself.", "emotion": "happy" },
+        { "text": "That I make someone smile.", "response": "You make me smile all the time. Sometimes without even trying!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Would you share a quiet afternoon with me?",
+      "emotion": "reflective",
+      "choices": [
+        { "text": "Yes, with books and tea.", "response": "Cozy! I will pick a book, but you have to tell me what you think of it.", "emotion": "smiling" },
+        { "text": "Yes, with music and no plans.", "response": "No plans is a great plan. I would be happy just being there with you.", "emotion": "happy" },
+        { "text": "Only if we can laugh a little too.", "response": "Deal! I can be quiet for at least three minutes at a time!", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "What do you hope people feel when they are with you?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "Accepted.", "response": "That is a beautiful hope. You make acceptance feel easy for me.", "emotion": "smiling" },
+        { "text": "A little less alone.", "response": "Then we understand each other. I want that for you too.", "emotion": "reflective" },
+        { "text": "Happy, even for a moment.", "response": "You have already done that for me more times than you know.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What should I remind you of when you doubt yourself?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "That I have overcome hard things before.", "response": "I will remind you loudly and often! Your past is full of proof.", "emotion": "animated" },
+        { "text": "That I do not have to do everything alone.", "response": "Never alone if I can help it. We can take the next step together.", "emotion": "smiling" },
+        { "text": "That I am worth caring about.", "response": "You are. On productive days, messy days, and every day between them.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "What is your favorite way to make an ordinary day feel special?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "Sharing it with someone I care about.", "response": "Yes! Even boring days become sparkly when you do not have to face them alone!", "emotion": "smiling" },
+        { "text": "A sweet snack and a cozy playlist.", "response": "That sounds perfect! I will bring the snacks, and you can pick the songs!", "emotion": "animated" },
+        { "text": "Noticing one good thing before bed.", "response": "That is a wonderful habit. I hope I can be one of your good things sometimes!", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "When you have a hard day, how should someone stay close?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "Check in, but do not pressure me.", "response": "I can do that! A gentle little 'I am here' whenever you need it.", "emotion": "smiling" },
+        { "text": "Make me laugh until I can breathe again.", "response": "Oh, I am excellent at silly jokes! I have an emergency collection!", "emotion": "animated" },
+        { "text": "Just sit with me quietly.", "response": "Then I will sit right beside you. Quiet does not have to mean alone.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What is something you wish people noticed about you?",
+      "emotion": "reflective",
+      "choices": [
+        { "text": "That I try very hard, even when it is invisible.", "response": "I notice! I notice every brave little effort, even the ones you think do not count.", "emotion": "happy" },
+        { "text": "That I want to be helpful.", "response": "You are helpful just by being here and letting me care about you too.", "emotion": "smiling" },
+        { "text": "That I am allowed to have bad days.", "response": "Of course you are! You do not have to be cheerful for me to love being around you.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "Would you rather get a surprise hug or a surprise note?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "A hug, definitely.", "response": "Big warm hug incoming! The kind that says you do not have to solve everything right now.", "emotion": "animated" },
+        { "text": "A note I can keep.", "response": "I would fill it with tiny reminders of all the things I like about you.", "emotion": "smiling" },
+        { "text": "Both, please?", "response": "Hehe, I knew you would pick the best answer! Both it is!", "emotion": "happy" }
+      ]
+    },
     {
       "text": "Okay, really important question — do you eat while you code?",
       "choices": [

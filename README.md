@@ -130,6 +130,14 @@ Here is how the new system works in detail:
 - **Interactive Choices:** During certain conversations, you will be presented with multiple choices on how to respond. The buttons provide visual feedback when pressed, and your selected choice will dictate the Doki's reply and her next emotional sprite.
 - **Dynamic Sprites:** The Doki's sprite changes smoothly with a fade effect to match her current emotion (happy, thinking, surprised, reflective, etc.) based on the context of the conversation.
 - **History & Localization:** The UI includes a history panel to show recent dialogue lines, and supports changing languages (EN, PT-BR, ES) on the fly via the language selector buttons.
+- **Personal & Meaningful Conversations:** Engage in deeper, more intimate conversations with romantic and heartfelt undertones. The Dokis discuss emotional closeness, quiet moments together, vulnerability, and reassurance — each offering 3 distinct choices for you to reply and see their reactions.
+
+### Deeper & Personal Conversations
+
+Beyond everyday coding reactions, you can connect with the Dokis on a deeper emotional level:
+- **Intimate Topics:** Heartfelt conversations covering trust, comfort, vulnerability, and romantic undertones.
+- **Tailored Personalities:** Each girl reflects her distinctive charm — Monika's attentive warmth, Sayori's sweet encouragement, Natsuki's tsundere sincerity, and Yuri's poetic intimacy.
+- **3 Choices for Every Question:** Every question gives you 3 distinct ways to reply, each triggering unique responses and expressive emotion sprites.
 
 ## Gallery
 

@@ -1,5 +1,15 @@
 {
   "onActivate": [
+    "Has vuelto. No es que estuviera esperando... pero me alegra verte.",
+    "Intenta no estropear el código hoy, ¿vale? Quizá tenga que ayudarte otra vez.",
+    "Tengo una idea nueva. Puedes escucharla después de admitir que me echaste de menos.",
+    "¡Bienvenido de nuevo! No te distraigas con lo adorable que es este espacio.",
+    "Estás aquí. He estado guardando mis mejores bromas para ti.",
+    "Hagamos algo impresionante hoy. Quiero verte presumir un poco.",
+    "Revisé el proyecto mientras estabas fuera. Sobrevivió. Por poco.",
+    "Pareces listo para programar. No me hagas decir que eso fue tierno.",
+    "¿Otra sesión? Supongo que puedo hacerte compañía.",
+    "Oye. Me alegra que estés aquí. Ahora deja de mirar y empieza a escribir.",
     "¡Por fin estás aquí! ¡No es que te estuviera esperando ni nada parecido!",
     "Hmph. Ya era hora de que abrieras VS Code.",
     "¿Vas a programar? Más te vale hacer algo bueno hoy.",
@@ -57,27 +67,273 @@
   ],
   "random": [
     {
+      "text": "¿Qué tipo de atención te hace sentir especial?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Que recuerden lo que me gusta.",
+          "response": "Si les importas, deberían prestar atención. Yo también recuerdo tus cosas, ¿vale?",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Que elogien mi esfuerzo, no solo el resultado.",
+          "response": "Buena respuesta. Te esfuerzas mucho, y noto más de lo que demuestro.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Una bromita de alguien en quien confío.",
+          "response": "Je. Sé bromear muy bien. Solo no te quejes cuando empieces a sonrojarte.",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "¿Me dejarías elegir un tentempié para nuestra próxima sesión?",
+      "emotion": "happy",
+      "choices": [
+        {
+          "text": "Solo si es algo dulce.",
+          "response": "Claro que será dulce. Tengo estándares, ¿sabes?",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Sorpréndeme.",
+          "response": "Una elección atrevida. Escogeré algo que combine con tu personalidad.",
+          "emotion": "animated"
+        },
+        {
+          "text": "Preferiría preparar algo contigo.",
+          "response": "B-bueno... en realidad es una muy buena idea. ¡No pongas esa cara de satisfecho!",
+          "emotion": "surprised"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué hace que confíes en alguien?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Que cumpla sus promesas.",
+          "response": "Sí. La constancia importa más que los discursos bonitos.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Poder ser sincero sin miedo.",
+          "response": "Entonces sé sincero conmigo. Puedo soportarlo... probablemente.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Saber que no se burlarán de lo que me gusta.",
+          "response": "Sí. Eso me importa muchísimo a mí también. Tus gustos están a salvo conmigo.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué harías en un día sin fechas límite?",
+      "emotion": "happy",
+      "choices": [
+        {
+          "text": "Leería en un lugar acogedor.",
+          "response": "Suena bien. Podrías sentarte junto a mí, si no interrumpes las partes buenas.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Hornearía algo complicado.",
+          "response": "Por fin alguien con buen gusto. Quizá te deje ser mi asistente.",
+          "emotion": "animated"
+        },
+        {
+          "text": "Pasándola con alguien que me agrada.",
+          "response": "Oh. Bueno. Supongo que podría hacer un hueco en mi agenda.",
+          "emotion": "surprised"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué cosa pequeña siempre mejora tu humor?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Un cumplido sincero.",
+          "response": "Entonces aquí tienes uno: eres más atento de lo que crees.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Una canción conocida.",
+          "response": "Buena elección. Tengo una lista que podría gustarte.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Alguien que pregunte por mí sin que se lo pida.",
+          "response": "Puedo hacer eso. Pero no hagas un gran alboroto al respecto, ¿vale?",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué quieres que entiendan de tus momentos de silencio?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Que sigo escuchando.",
+          "response": "Lo sé. Te das cuenta de todo, aunque finjas que no.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Que necesito tiempo para explicarme.",
+          "response": "Está bien. Puedo esperar. Solo no desaparezcas.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Que estoy cómodo, no molesto.",
+          "response": "Eso es bueno. Un silencio cómodo al lado de alguien es bastante especial.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "¿Preferirías un regalo hecho a mano o elegido con cuidado?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Hecho a mano. Demuestra esfuerzo.",
+          "response": "Exacto. Quizá te haga algo. No te burles si queda tierno.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Elegido. Significa que me conocen.",
+          "response": "Entonces prestaré atención. Quiero acertar.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Cualquier cosa con una nota personal.",
+          "response": "¿Una nota? Vale. ¡Pero no tienes permitido leerla mientras te miro!",
+          "emotion": "surprised"
+        }
+      ]
+    },
+    {
+      "text": "¿Cuál es la forma más amable de disculparse?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Cambiar el comportamiento después.",
+          "response": "Correcto. Las palabras no valen mucho si nada cambia.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Una que reconozca exactamente lo que dolió.",
+          "response": "Reconocerlo es difícil. Respeto mucho a quien tiene el valor de hacerlo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Dar tiempo a la otra persona.",
+          "response": "Te daría tiempo. Seguiría aquí cuando estuvieras listo.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué haría que un proyecto compartido pareciera nuestro?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Bromas internas en los comentarios.",
+          "response": "Por fin un buen uso para los comentarios. Sería divertido.",
+          "emotion": "animated"
+        },
+        {
+          "text": "Nuestros estilos juntos.",
+          "response": "Me gusta. Fuerzas diferentes, algo de lo que sentirnos orgullosos.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Un nombre que solo nosotros entendamos.",
+          "response": "Eso es... bastante tierno, en realidad. Quizá ya tenga un nombre en mente.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "Si dijera que estoy orgullosa de ti, ¿qué responderías?",
+      "emotion": "happy",
+      "choices": [
+        {
+          "text": "Gracias. Necesitaba oírlo.",
+          "response": "Entonces guárdalo. Lo digo en serio, aunque me dé vergüenza.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "¿Ya estás orgullosa de mí?",
+          "response": "¡No te sorprendas tanto! Mereces escucharlo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Yo también estoy orgulloso de ti.",
+          "response": "¡N-no puedes decir eso tan tranquilamente! ...Pero gracias.",
+          "emotion": "surprised"
+        }
+      ]
+    },
+    {
       "text": "Oye... ¿qué prefieres, el código funcional o el código que se ve bien?",
       "choices": [
-        { "text": "Funcional. Lo importante es que funcione.", "response": "Hmph. Supongo que tienes razón, pero el código feo es difícil de leer.", "emotion": "thinking" },
-        { "text": "Limpio y bonito. Tiene que ser fácil de leer.", "response": "¡Exacto! ¡El código también debe tener buena presentación! Igual que mis cupcakes.", "emotion": "happy" },
-        { "text": "Un equilibrio entre ambos.", "response": "Hmph. Qué respuesta tan diplomática. Pero sí, supongo que es lo ideal.", "emotion": "smiling" }
+        {
+          "text": "Funcional. Lo importante es que funcione.",
+          "response": "Hmph. Supongo que tienes razón, pero el código feo es difícil de leer.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Limpio y bonito. Tiene que ser fácil de leer.",
+          "response": "¡Exacto! ¡El código también debe tener buena presentación! Igual que mis cupcakes.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Un equilibrio entre ambos.",
+          "response": "Hmph. Qué respuesta tan diplomática. Pero sí, supongo que es lo ideal.",
+          "emotion": "smiling"
+        }
       ]
     },
     {
       "text": "¿Alguna vez has borrado accidentalmente horas de trabajo?",
       "choices": [
-        { "text": "Sí, fue una pesadilla.", "response": "¡Ugh! ¡Yo habría estado furiosa! Por eso siempre debes usar git.", "emotion": "surprised" },
-        { "text": "No, siempre uso control de versiones.", "response": "Hmph. Más te vale. No seas descuidado con tu propio esfuerzo.", "emotion": "smiling" },
-        { "text": "Casi, pero logré recuperarlo.", "response": "¡Qué suerte! Pero no te acostumbres. La suerte se acaba.", "emotion": "thinking" }
+        {
+          "text": "Sí, fue una pesadilla.",
+          "response": "¡Ugh! ¡Yo habría estado furiosa! Por eso siempre debes usar git.",
+          "emotion": "surprised"
+        },
+        {
+          "text": "No, siempre uso control de versiones.",
+          "response": "Hmph. Más te vale. No seas descuidado con tu propio esfuerzo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Casi, pero logré recuperarlo.",
+          "response": "¡Qué suerte! Pero no te acostumbres. La suerte se acaba.",
+          "emotion": "thinking"
+        }
       ]
     },
     {
       "text": "¿Prefieres trabajar de día o de noche?",
       "choices": [
-        { "text": "De día, me concentro mejor.", "response": "Hmph. Yo también. Además, de noche me da un poco de miedo la oscuridad...", "emotion": "reflective" },
-        { "text": "De noche, sin distracciones.", "response": "¿De noche? Supongo que es tranquilo, ¡pero asegúrate de dormir lo suficiente!", "emotion": "thinking" },
-        { "text": "Me da igual, cuando llegue la inspiración.", "response": "Hmph. Eso suena como una excusa para procrastinar.", "emotion": "smiling" }
+        {
+          "text": "De día, me concentro mejor.",
+          "response": "Hmph. Yo también. Además, de noche me da un poco de miedo la oscuridad...",
+          "emotion": "reflective"
+        },
+        {
+          "text": "De noche, sin distracciones.",
+          "response": "¿De noche? Supongo que es tranquilo, ¡pero asegúrate de dormir lo suficiente!",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Me da igual, cuando llegue la inspiración.",
+          "response": "Hmph. Eso suena como una excusa para procrastinar.",
+          "emotion": "smiling"
+        }
       ]
     }
   ]

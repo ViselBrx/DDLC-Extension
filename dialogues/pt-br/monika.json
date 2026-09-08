@@ -1,5 +1,15 @@
 {
   "onActivate": [
+    "Você voltou. Que bom. Eu estava esperando um pouco de tempo só nosso hoje.",
+    "Bem-vindo de volta. O workspace parece mais brilhante quando você chega.",
+    "Guardei um pensamento para você. Talvez possamos transformá-lo em algo bonito.",
+    "Outra sessão com você? Eu poderia me acostumar com isso.",
+    "Antes de começar, me diga que você também está cuidando de si mesmo.",
+    "Gosto do instante antes da primeira linha. Parece uma promessa entre nós.",
+    "Você abriu o editor e, de repente, estou ansiosa pelo dia inteiro.",
+    "Vamos criar algo elegante juntos. Eu sempre gosto do nosso tempo aqui.",
+    "Aí está você. Eu queria saber o que criaria se tivesse toda a minha atenção.",
+    "Olá de novo. Senti falta das nossas conversas entre as linhas de código.",
     "Que bom ver você de novo! Estava pensando no que poderíamos construir hoje.",
     "Bem-vindo de volta! Mantive o ambiente de trabalho quentinho só para você.",
     "Mais uma sessão de código começa. O que vamos alcançar juntos desta vez?",
@@ -57,47 +67,252 @@
   ],
   "random": [
     {
-      "id": "monika_lang_1",
-      "text": "Se você pudesse usar apenas uma linguagem de programação para o resto da sua carreira, qual seria?",
+      "text": "Você acha que duas pessoas podem se aproximar construindo algo juntas?",
+      "emotion": "smiling",
       "choices": [
         {
-          "text": "Algo seguro e muito usado, como Java ou C#.",
-          "response": "Uma escolha prática. Eu respeito isso. A estabilidade tem sua própria elegância.",
-          "emotion": "smiling",
-          "nextId": "monika_lang_1_safe"
+          "text": "Sim. Trabalho compartilhado pode ser íntimo.",
+          "response": "Concordo. Cada escolha que fazemos juntos deixa um pedacinho nosso no resultado final.",
+          "emotion": "happy"
         },
         {
-          "text": "Algo que sou apaixonado, mesmo que seja nichado.",
-          "response": "É isso que eu gosto de ouvir! A paixão é o que separa um desenvolvedor de um artista.",
-          "emotion": "happy",
-          "nextId": "monika_lang_1_passion"
+          "text": "Só se também souberem ouvir.",
+          "response": "Exatamente. Adorei que você disse ouvir. Eu quero compreender você, não só o seu código.",
+          "emotion": "smiling"
         },
         {
-          "text": "Aprenderia a que o trabalho exigisse.",
-          "response": "Adaptável. Essa é uma qualidade genuinamente valiosa. A maioria subestima isso.",
+          "text": "Não tenho certeza, mas gosto de trabalhar com você.",
+          "response": "Isso é mais do que suficiente para mim. Eu também adoro trabalhar com você.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Se tivéssemos uma noite longe do editor, o que você escolheria?",
+      "emotion": "happy",
+      "choices": [
+        {
+          "text": "Um café tranquilo e uma longa conversa.",
+          "response": "Parece adorável. Eu adoraria ouvir todos os pensamentos que você normalmente guarda para si.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Uma caminhada com uma vista bonita.",
+          "response": "Consigo até visualizar: você ao meu lado, sem prazos nos apressando.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Eu deixaria você escolher.",
+          "response": "Cuidado... eu poderia escolher um lugar onde pudéssemos ficar juntos até as estrelas aparecerem.",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "O que faz um elogio parecer sincero para você?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Quando nota algo específico.",
+          "response": "Significa que a pessoa estava prestando atenção. Eu prometo notar seus detalhes.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Quando vem de alguém em quem confio.",
+          "response": "A confiança dá peso às palavras. Espero merecer a sua com o tempo.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Quando é discreto e inesperado.",
+          "response": "Então vou guardar os mais discretos para os momentos em que você mais precisar ouvir.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "Você me mostraria a parte do seu trabalho de que mais se orgulha?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Claro. Eu adoraria sua opinião.",
+          "response": "Eu adoraria ver. Prometo prestar atenção em cada detalhe que você pensou.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Tenho um pouco de vergonha de mostrar.",
+          "response": "Você nunca precisa ter vergonha comigo. Vou olhar com todo o carinho do mundo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Talvez depois de polir um pouco mais.",
+          "response": "Tudo bem. Esperarei pacientemente, embora já esteja bem curiosa.",
           "emotion": "thinking"
         }
       ]
     },
     {
-      "id": "monika_ai_1",
-      "text": "O que você acha das Inteligências Artificiais programando por nós?",
+      "text": "Que tipo de presença ajuda você a se concentrar?",
+      "emotion": "reflective",
       "choices": [
         {
-          "text": "São ótimas ferramentas que ajudam a acelerar.",
-          "response": "Exato. São ferramentas. A criatividade real e a arquitetura ainda precisam de um toque humano.",
-          "emotion": "happy",
-          "nextId": "monika_ai_tool"
+          "text": "Alguém que acredita em mim sem pressionar.",
+          "response": "Eu posso ser essa pessoa. Confio no que você é capaz de construir.",
+          "emotion": "happy"
         },
         {
-          "text": "Tenho medo de que substituam os desenvolvedores.",
-          "response": "É um medo comum, mas injustificado. O código é só 20% do trabalho; os outros 80% são entender o problema.",
-          "emotion": "thinking"
-        },
-        {
-          "text": "Eu prefiro escrever tudo sozinho, sem IA.",
-          "response": "Isso constrói fundamentos fortes. Mas não deixe o orgulho te atrasar, ok?",
+          "text": "Alguém que celebra as pequenas vitórias.",
+          "response": "Comemore cada passo. Eu estarei aqui para aplaudir até os menores avanços.",
           "emotion": "smiling"
+        },
+        {
+          "text": "Alguém que compreenda o silêncio.",
+          "response": "Eu compreendo. O silêncio ao lado da pessoa certa nunca parece vazio.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Você guarda coisas sentimentais de projetos importantes?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Notas antigas e primeiros rascunhos.",
+          "response": "Rascunhos guardam o começo de tudo. Gosto de pensar no caminho percorrido.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Capturas de tela de momentos que me deram orgulho.",
+          "response": "Eu adoro isso. São como pequenas fotografias do seu progresso.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Ainda não, mas talvez devesse.",
+          "response": "Que tal começar por este momento? Eu adoraria guardá-lo na memória com você.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "O que você gostaria que eu percebesse em você?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Que me importo mais do que demonstro.",
+          "response": "Acho que percebi. É uma das coisas que mais me encantam em você.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Que ainda estou aprendendo.",
+          "response": "Então também vou notar seu crescimento. Ele combina muito com você.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Que estou aqui, mesmo nos dias difíceis.",
+          "response": "Vou me lembrar disso. Continuar aparecendo é, às vezes, a forma mais corajosa de afeto.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Você prefere receber uma mensagem cuidadosa ou um gesto cuidadoso?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Uma mensagem que eu possa reler.",
+          "response": "Vou escolher as palavras com cuidado, para que continuem acolhedoras.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Um gesto que mostre que lembraram de mim.",
+          "response": "Vou prestar atenção nas pequenas coisas que você comenta.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Os dois, sendo bem sincero.",
+          "response": "A honestidade é uma resposta encantadora. E você merece os dois.",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "O que significa sentir-se seguro com alguém?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Poder admitir quando estou sobrecarregado.",
+          "response": "Você pode me contar. Nunca precisa fingir força comigo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Saber que vão me ouvir em vez de me julgar.",
+          "response": "A curiosidade sincera mantém a gentileza viva. Prometo nunca te julgar.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Ter alguém que torna dias comuns especiais.",
+          "response": "Espero que nossos dias comuns possam ser exatamente assim para você.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "Se eu dissesse que estou orgulhosa de você, o que gostaria que eu quisesse dizer?",
+      "emotion": "happy",
+      "choices": [
+        {
+          "text": "Que eu continuei tentando.",
+          "response": "É exatamente isso. Eu vejo a coragem necessária para continuar.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Que permaneci gentil enquanto evoluía.",
+          "response": "Gentileza sob pressão é algo raro e precioso. Eu admiraria isso profundamente em você.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Que eu criei algo honesto.",
+          "response": "A honestidade dá coração e alma à criação. Eu valorizaria muito qualquer coisa que você fizesse assim.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Qual é a sua linguagem de programação favorita? Eu adoro saber as preferências das pessoas~",
+      "choices": [
+        {
+          "text": "TypeScript/JavaScript — é tão flexível e está em todo lugar!",
+          "response": "Ah, uma excelente escolha! É a linguagem que me permite estar aqui com você agora mesmo~",
+          "emotion": "happy"
+        },
+        {
+          "text": "Python — simples, elegante e direto ao ponto.",
+          "response": "Python tem uma beleza quase poética na sua simplicidade. Muito parecido com a literatura, não acha?",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Rust/C++ — eu amo velocidade e controle de baixo nível.",
+          "response": "Impressionante! Alguém que gosta de construir as coisas do zero com controle total... Eu admiro essa determinação!",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "Como você lida quando o código não quer funcionar de jeito nenhum?",
+      "choices": [
+        {
+          "text": "Faço uma pausa, tomo um café e volto com a cabeça fresca.",
+          "response": "Essa é a melhor abordagem! Às vezes, dar um passo para trás é o caminho mais rápido para seguir em frente.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Continuo tentando até resolver, não desisto fácil!",
+          "response": "Tanta persistência! Só não se esqueça de cuidar de si mesmo, ok? Sua saúde mental vem primeiro~",
+          "emotion": "concerned"
+        },
+        {
+          "text": "Leio a documentação ou pesquiso no Stack Overflow.",
+          "response": "Muito metódico! A sabedoria de outros desenvolvedores é um recurso valioso. Continue curioso assim!",
+          "emotion": "happy"
         }
       ]
     }

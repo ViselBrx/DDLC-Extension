@@ -1,5 +1,15 @@
 {
   "onActivate": [
+    "You are back. Hmph. I was not waiting or anything... but it is nice to see you.",
+    "Try not to make a mess of the code today, okay? I might have to help you again.",
+    "I brought a new idea. You can hear it after you admit you missed me.",
+    "Welcome back! Do not get distracted by how cute this workspace is.",
+    "You are here. Good. I have been saving my best jokes for you.",
+    "Let us make something impressive today. I want to see you show off a little.",
+    "I checked the project while you were gone. It survived. Barely.",
+    "You look ready to code. Do not make me say that was adorable.",
+    "Another session? Fine, I guess I can keep you company.",
+    "Hey. I am glad you are here. Now stop staring and start typing.",
     "Oh. You're back. Took you long enough.",
     "Hmph. I wasn't waiting for you or anything. VS Code was just... open.",
     "You're here. Great. Try not to break everything today.",
@@ -176,6 +186,97 @@
     "...Fine. Take your time. But the code won't fix itself. Unfortunately."
   ],
   "random": [
+    {
+      "text": "What kind of attention actually makes you feel special?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "Someone remembering what I like.", "response": "Obviously. If they care, they should pay attention. I remember your things too, okay?", "emotion": "smiling" },
+        { "text": "Someone complimenting my effort, not just the result.", "response": "That is a good answer. You work hard, and I notice more than I let on.", "emotion": "happy" },
+        { "text": "A little teasing from someone I trust.", "response": "Heh. I can do teasing. Just do not complain when you start blushing.", "emotion": "animated" }
+      ]
+    },
+    {
+      "text": "Would you let me pick a snack for our next coding session?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "Only if it is something sweet.", "response": "Obviously it will be sweet. I have standards, you know.", "emotion": "smiling" },
+        { "text": "Surprise me.", "response": "Bold choice. I will pick something that matches your personality.", "emotion": "animated" },
+        { "text": "I would rather make one with you.", "response": "W-well... that is actually a pretty good idea. Do not look so pleased.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What makes you trust someone?",
+      "emotion": "reflective",
+      "choices": [
+        { "text": "They keep their promises.", "response": "Yeah. Consistency matters more than grand speeches. I agree.", "emotion": "thinking" },
+        { "text": "They can apologize without making excuses.", "response": "That is rare. I would respect someone who could do that.", "emotion": "smiling" },
+        { "text": "They make me feel like I can be honest.", "response": "Then be honest with me. I can handle it... probably.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What would you do on a day with no deadlines?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "Read somewhere cozy.", "response": "That sounds nice. You could sit beside me, as long as you do not interrupt the good parts.", "emotion": "smiling" },
+        { "text": "Bake something complicated.", "response": "Finally, someone with taste. I might let you be my assistant.", "emotion": "animated" },
+        { "text": "Spend it with someone I like.", "response": "Oh. Well. I suppose I could make room in my schedule.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What is a small thing that always improves your mood?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "A sincere compliment.", "response": "Then here is one: you are more thoughtful than you realize.", "emotion": "happy" },
+        { "text": "A familiar song.", "response": "Good choice. I have a playlist you might like. Maybe we can listen together.", "emotion": "smiling" },
+        { "text": "Someone checking in without being asked.", "response": "I can do that. Do not make a big deal out of it.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What do you want people to understand about your quiet moments?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "I am still listening.", "response": "I know. You notice everything, even when you pretend not to.", "emotion": "smiling" },
+        { "text": "I might need time before I can explain.", "response": "Fine. I can wait. Just do not disappear on me.", "emotion": "reflective" },
+        { "text": "I am comfortable, not upset.", "response": "That is good. Comfortable silence with someone is kind of special.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "Would you rather receive a handmade gift or a carefully chosen one?",
+      "emotion": "smiling",
+      "choices": [
+        { "text": "Handmade. It shows effort.", "response": "Exactly. I might make you something. If it turns out cute, do not tease me.", "emotion": "happy" },
+        { "text": "Chosen. It means they know me.", "response": "Then I will pay attention. I want to get it right.", "emotion": "thinking" },
+        { "text": "Anything with a personal note.", "response": "A note? Fine. But you are not allowed to read it while I am watching.", "emotion": "surprised" }
+      ]
+    },
+    {
+      "text": "What is the nicest kind of apology?",
+      "emotion": "reflective",
+      "choices": [
+        { "text": "One followed by changed behavior.", "response": "Correct. Words do not count for much if nothing changes afterward.", "emotion": "thinking" },
+        { "text": "One that admits exactly what hurt.", "response": "That takes courage. I would remember someone who tried that hard.", "emotion": "smiling" },
+        { "text": "One that gives me time.", "response": "Yeah. I would give you time. I would still be here when you were ready.", "emotion": "reflective" }
+      ]
+    },
+    {
+      "text": "What would make a shared project feel like ours?",
+      "emotion": "thinking",
+      "choices": [
+        { "text": "Inside jokes in the comments.", "response": "Ha! Finally, a good use for comments. We could make them impossible to ignore.", "emotion": "animated" },
+        { "text": "Both of us leaving our style in it.", "response": "I like that. Different strengths, one thing we can point to proudly.", "emotion": "smiling" },
+        { "text": "A name only we understand.", "response": "That is... actually really cute. I might have a name in mind.", "emotion": "happy" }
+      ]
+    },
+    {
+      "text": "If I said I was proud of you, what would you say?",
+      "emotion": "happy",
+      "choices": [
+        { "text": "Thank you. I needed that.", "response": "Then keep it. I mean it, even if I act embarrassed about saying it.", "emotion": "smiling" },
+        { "text": "You are proud of me already?",
+          "response": "Obviously! You keep trying, and that is worth more than you think.", "emotion": "happy" },
+        { "text": "I would say I am proud of you too.", "response": "W-what? You cannot just say that so casually! ...But thanks.", "emotion": "surprised" }
+      ]
+    },
     {
       "text": "Okay, I'm just gonna say it — tabs or spaces? This is important.",
       "choices": [
