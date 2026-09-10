@@ -7,8 +7,8 @@ export class ActionDetector implements vscode.Disposable {
   private disposables: vscode.Disposable[] = [];
   private lastTriggered = 0;
   private readonly cooldownMs: number;
-  private idleTimer: ReturnType<typeof setTimeout> | undefined;
-  private randomTimer: ReturnType<typeof setTimeout> | undefined;
+  private idleTimer: NodeJS.Timeout | undefined;
+  private randomTimer: NodeJS.Timeout | undefined;
   private readonly idleTimeoutMs: number;
   private readonly callback: EventCallback;
 

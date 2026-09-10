@@ -1,0 +1,3337 @@
+{
+  "fonts": [
+    {
+      "id": "ddlc-icons",
+      "src": [
+        {
+          "path": "./ddlc-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "account": {
+      "fontCharacter": "\\e000",
+      "fontId": "ddlc-icons"
+    },
+    "activate-breakpoints": {
+      "fontCharacter": "\\e001",
+      "fontId": "ddlc-icons"
+    },
+    "add-compact": {
+      "fontCharacter": "\\e002",
+      "fontId": "ddlc-icons"
+    },
+    "add-small": {
+      "fontCharacter": "\\e003",
+      "fontId": "ddlc-icons"
+    },
+    "add": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "agent-compact": {
+      "fontCharacter": "\\e005",
+      "fontId": "ddlc-icons"
+    },
+    "agent": {
+      "fontCharacter": "\\e006",
+      "fontId": "ddlc-icons"
+    },
+    "archive": {
+      "fontCharacter": "\\e007",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-both": {
+      "fontCharacter": "\\e008",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-circle-down": {
+      "fontCharacter": "\\e009",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-circle-left": {
+      "fontCharacter": "\\e00a",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-circle-right": {
+      "fontCharacter": "\\e00b",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-circle-up": {
+      "fontCharacter": "\\e00c",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-down": {
+      "fontCharacter": "\\e00d",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\e00e",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\e00f",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-small-down": {
+      "fontCharacter": "\\e010",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-small-left": {
+      "fontCharacter": "\\e011",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-small-right": {
+      "fontCharacter": "\\e012",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-small-up": {
+      "fontCharacter": "\\e013",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-swap": {
+      "fontCharacter": "\\e014",
+      "fontId": "ddlc-icons"
+    },
+    "arrow-up": {
+      "fontCharacter": "\\e015",
+      "fontId": "ddlc-icons"
+    },
+    "ask-compact": {
+      "fontCharacter": "\\e016",
+      "fontId": "ddlc-icons"
+    },
+    "ask": {
+      "fontCharacter": "\\e017",
+      "fontId": "ddlc-icons"
+    },
+    "attach-compact": {
+      "fontCharacter": "\\e018",
+      "fontId": "ddlc-icons"
+    },
+    "attach": {
+      "fontCharacter": "\\e019",
+      "fontId": "ddlc-icons"
+    },
+    "azure-devops": {
+      "fontCharacter": "\\e01a",
+      "fontId": "ddlc-icons"
+    },
+    "azure": {
+      "fontCharacter": "\\e01b",
+      "fontId": "ddlc-icons"
+    },
+    "beaker-compact": {
+      "fontCharacter": "\\e01c",
+      "fontId": "ddlc-icons"
+    },
+    "beaker-stop": {
+      "fontCharacter": "\\e01d",
+      "fontId": "ddlc-icons"
+    },
+    "beaker": {
+      "fontCharacter": "\\e01e",
+      "fontId": "ddlc-icons"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\e01f",
+      "fontId": "ddlc-icons"
+    },
+    "bell-slash-dot": {
+      "fontCharacter": "\\e020",
+      "fontId": "ddlc-icons"
+    },
+    "bell-slash": {
+      "fontCharacter": "\\e021",
+      "fontId": "ddlc-icons"
+    },
+    "bell": {
+      "fontCharacter": "\\e022",
+      "fontId": "ddlc-icons"
+    },
+    "blank": {
+      "fontCharacter": "\\e023",
+      "fontId": "ddlc-icons"
+    },
+    "bold": {
+      "fontCharacter": "\\e024",
+      "fontId": "ddlc-icons"
+    },
+    "book": {
+      "fontCharacter": "\\e025",
+      "fontId": "ddlc-icons"
+    },
+    "bookmark": {
+      "fontCharacter": "\\e026",
+      "fontId": "ddlc-icons"
+    },
+    "bracket-dot": {
+      "fontCharacter": "\\e027",
+      "fontId": "ddlc-icons"
+    },
+    "bracket-error": {
+      "fontCharacter": "\\e028",
+      "fontId": "ddlc-icons"
+    },
+    "briefcase": {
+      "fontCharacter": "\\e029",
+      "fontId": "ddlc-icons"
+    },
+    "broadcast": {
+      "fontCharacter": "\\e02a",
+      "fontId": "ddlc-icons"
+    },
+    "browser": {
+      "fontCharacter": "\\e02b",
+      "fontId": "ddlc-icons"
+    },
+    "bug": {
+      "fontCharacter": "\\e02c",
+      "fontId": "ddlc-icons"
+    },
+    "build": {
+      "fontCharacter": "\\e02d",
+      "fontId": "ddlc-icons"
+    },
+    "calendar": {
+      "fontCharacter": "\\e02e",
+      "fontId": "ddlc-icons"
+    },
+    "call-incoming": {
+      "fontCharacter": "\\e02f",
+      "fontId": "ddlc-icons"
+    },
+    "call-outgoing": {
+      "fontCharacter": "\\e030",
+      "fontId": "ddlc-icons"
+    },
+    "case-sensitive": {
+      "fontCharacter": "\\e031",
+      "fontId": "ddlc-icons"
+    },
+    "chat-export": {
+      "fontCharacter": "\\e032",
+      "fontId": "ddlc-icons"
+    },
+    "chat-import": {
+      "fontCharacter": "\\e033",
+      "fontId": "ddlc-icons"
+    },
+    "chat-sparkle-error": {
+      "fontCharacter": "\\e034",
+      "fontId": "ddlc-icons"
+    },
+    "chat-sparkle-warning": {
+      "fontCharacter": "\\e035",
+      "fontId": "ddlc-icons"
+    },
+    "chat-sparkle": {
+      "fontCharacter": "\\e036",
+      "fontId": "ddlc-icons"
+    },
+    "check-all": {
+      "fontCharacter": "\\e037",
+      "fontId": "ddlc-icons"
+    },
+    "check-compact": {
+      "fontCharacter": "\\e038",
+      "fontId": "ddlc-icons"
+    },
+    "check": {
+      "fontCharacter": "\\e039",
+      "fontId": "ddlc-icons"
+    },
+    "checklist-compact": {
+      "fontCharacter": "\\e03a",
+      "fontId": "ddlc-icons"
+    },
+    "checklist": {
+      "fontCharacter": "\\e03b",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-down-compact": {
+      "fontCharacter": "\\e03c",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-left-compact": {
+      "fontCharacter": "\\e03e",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\e03f",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-right-compact": {
+      "fontCharacter": "\\e040",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-up-compact": {
+      "fontCharacter": "\\e042",
+      "fontId": "ddlc-icons"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "chip": {
+      "fontCharacter": "\\e044",
+      "fontId": "ddlc-icons"
+    },
+    "chrome-close": {
+      "fontCharacter": "\\e045",
+      "fontId": "ddlc-icons"
+    },
+    "chrome-maximize": {
+      "fontCharacter": "\\e046",
+      "fontId": "ddlc-icons"
+    },
+    "chrome-minimize": {
+      "fontCharacter": "\\e047",
+      "fontId": "ddlc-icons"
+    },
+    "chrome-restore": {
+      "fontCharacter": "\\e048",
+      "fontId": "ddlc-icons"
+    },
+    "circle-filled-compact": {
+      "fontCharacter": "\\e049",
+      "fontId": "ddlc-icons"
+    },
+    "circle-filled": {
+      "fontCharacter": "\\e04a",
+      "fontId": "ddlc-icons"
+    },
+    "circle-large-filled": {
+      "fontCharacter": "\\e04b",
+      "fontId": "ddlc-icons"
+    },
+    "circle-large": {
+      "fontCharacter": "\\e04c",
+      "fontId": "ddlc-icons"
+    },
+    "circle-slash-compact": {
+      "fontCharacter": "\\e04d",
+      "fontId": "ddlc-icons"
+    },
+    "circle-slash": {
+      "fontCharacter": "\\e04e",
+      "fontId": "ddlc-icons"
+    },
+    "circle-small-filled-compact": {
+      "fontCharacter": "\\e04f",
+      "fontId": "ddlc-icons"
+    },
+    "circle-small-filled": {
+      "fontCharacter": "\\e050",
+      "fontId": "ddlc-icons"
+    },
+    "circle-small": {
+      "fontCharacter": "\\e051",
+      "fontId": "ddlc-icons"
+    },
+    "circle": {
+      "fontCharacter": "\\e052",
+      "fontId": "ddlc-icons"
+    },
+    "circuit-board": {
+      "fontCharacter": "\\e053",
+      "fontId": "ddlc-icons"
+    },
+    "claude": {
+      "fontCharacter": "\\e054",
+      "fontId": "ddlc-icons"
+    },
+    "clear-all": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "clippy": {
+      "fontCharacter": "\\e056",
+      "fontId": "ddlc-icons"
+    },
+    "clockface": {
+      "fontCharacter": "\\e057",
+      "fontId": "ddlc-icons"
+    },
+    "close-all": {
+      "fontCharacter": "\\e058",
+      "fontId": "ddlc-icons"
+    },
+    "close-compact": {
+      "fontCharacter": "\\e059",
+      "fontId": "ddlc-icons"
+    },
+    "close": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "cloud-compact": {
+      "fontCharacter": "\\e05b",
+      "fontId": "ddlc-icons"
+    },
+    "cloud-download": {
+      "fontCharacter": "\\e05c",
+      "fontId": "ddlc-icons"
+    },
+    "cloud-small": {
+      "fontCharacter": "\\e05d",
+      "fontId": "ddlc-icons"
+    },
+    "cloud-upload": {
+      "fontCharacter": "\\e05e",
+      "fontId": "ddlc-icons"
+    },
+    "cloud": {
+      "fontCharacter": "\\e05f",
+      "fontId": "ddlc-icons"
+    },
+    "code-oss": {
+      "fontCharacter": "\\e060",
+      "fontId": "ddlc-icons"
+    },
+    "code-review": {
+      "fontCharacter": "\\e061",
+      "fontId": "ddlc-icons"
+    },
+    "code": {
+      "fontCharacter": "\\e062",
+      "fontId": "ddlc-icons"
+    },
+    "coffee": {
+      "fontCharacter": "\\e063",
+      "fontId": "ddlc-icons"
+    },
+    "collapse-all-compact": {
+      "fontCharacter": "\\e064",
+      "fontId": "ddlc-icons"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\e065",
+      "fontId": "ddlc-icons"
+    },
+    "collection-small": {
+      "fontCharacter": "\\e066",
+      "fontId": "ddlc-icons"
+    },
+    "collection": {
+      "fontCharacter": "\\e067",
+      "fontId": "ddlc-icons"
+    },
+    "color-mode": {
+      "fontCharacter": "\\e068",
+      "fontId": "ddlc-icons"
+    },
+    "combine": {
+      "fontCharacter": "\\e069",
+      "fontId": "ddlc-icons"
+    },
+    "comment-compact": {
+      "fontCharacter": "\\e06a",
+      "fontId": "ddlc-icons"
+    },
+    "comment-discussion-quote": {
+      "fontCharacter": "\\e06b",
+      "fontId": "ddlc-icons"
+    },
+    "comment-discussion-sparkle": {
+      "fontCharacter": "\\e06c",
+      "fontId": "ddlc-icons"
+    },
+    "comment-discussion": {
+      "fontCharacter": "\\e06d",
+      "fontId": "ddlc-icons"
+    },
+    "comment-draft": {
+      "fontCharacter": "\\e06e",
+      "fontId": "ddlc-icons"
+    },
+    "comment-unresolved-compact": {
+      "fontCharacter": "\\e06f",
+      "fontId": "ddlc-icons"
+    },
+    "comment-unresolved": {
+      "fontCharacter": "\\e070",
+      "fontId": "ddlc-icons"
+    },
+    "comment": {
+      "fontCharacter": "\\e071",
+      "fontId": "ddlc-icons"
+    },
+    "compass-active": {
+      "fontCharacter": "\\e072",
+      "fontId": "ddlc-icons"
+    },
+    "compass-dot": {
+      "fontCharacter": "\\e073",
+      "fontId": "ddlc-icons"
+    },
+    "compass": {
+      "fontCharacter": "\\e074",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-blocked": {
+      "fontCharacter": "\\e075",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-compact": {
+      "fontCharacter": "\\e076",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-error": {
+      "fontCharacter": "\\e077",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-in-progress": {
+      "fontCharacter": "\\e078",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-large": {
+      "fontCharacter": "\\e079",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-not-connected": {
+      "fontCharacter": "\\e07a",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-snooze": {
+      "fontCharacter": "\\e07b",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-success": {
+      "fontCharacter": "\\e07c",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-unavailable": {
+      "fontCharacter": "\\e07d",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-warning-large": {
+      "fontCharacter": "\\e07e",
+      "fontId": "ddlc-icons"
+    },
+    "copilot-warning": {
+      "fontCharacter": "\\e07f",
+      "fontId": "ddlc-icons"
+    },
+    "copilot": {
+      "fontCharacter": "\\e080",
+      "fontId": "ddlc-icons"
+    },
+    "copy": {
+      "fontCharacter": "\\e081",
+      "fontId": "ddlc-icons"
+    },
+    "coverage": {
+      "fontCharacter": "\\e082",
+      "fontId": "ddlc-icons"
+    },
+    "credit-card": {
+      "fontCharacter": "\\e083",
+      "fontId": "ddlc-icons"
+    },
+    "cursor": {
+      "fontCharacter": "\\e084",
+      "fontId": "ddlc-icons"
+    },
+    "dash": {
+      "fontCharacter": "\\e085",
+      "fontId": "ddlc-icons"
+    },
+    "dashboard": {
+      "fontCharacter": "\\e086",
+      "fontId": "ddlc-icons"
+    },
+    "database": {
+      "fontCharacter": "\\e087",
+      "fontId": "ddlc-icons"
+    },
+    "debug-all": {
+      "fontCharacter": "\\e088",
+      "fontId": "ddlc-icons"
+    },
+    "debug-alt-small": {
+      "fontCharacter": "\\e089",
+      "fontId": "ddlc-icons"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-conditional-unverified": {
+      "fontCharacter": "\\e08b",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-conditional": {
+      "fontCharacter": "\\e08c",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-data-unverified": {
+      "fontCharacter": "\\e08d",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-data": {
+      "fontCharacter": "\\e08e",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-function-unverified": {
+      "fontCharacter": "\\e08f",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-function": {
+      "fontCharacter": "\\e090",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-log-unverified": {
+      "fontCharacter": "\\e091",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-log": {
+      "fontCharacter": "\\e092",
+      "fontId": "ddlc-icons"
+    },
+    "debug-breakpoint-unsupported": {
+      "fontCharacter": "\\e093",
+      "fontId": "ddlc-icons"
+    },
+    "debug-connected-compact": {
+      "fontCharacter": "\\e094",
+      "fontId": "ddlc-icons"
+    },
+    "debug-connected": {
+      "fontCharacter": "\\e095",
+      "fontId": "ddlc-icons"
+    },
+    "debug-console": {
+      "fontCharacter": "\\e096",
+      "fontId": "ddlc-icons"
+    },
+    "debug-continue-small": {
+      "fontCharacter": "\\e097",
+      "fontId": "ddlc-icons"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\e098",
+      "fontId": "ddlc-icons"
+    },
+    "debug-coverage": {
+      "fontCharacter": "\\e099",
+      "fontId": "ddlc-icons"
+    },
+    "debug-disconnect-compact": {
+      "fontCharacter": "\\e09a",
+      "fontId": "ddlc-icons"
+    },
+    "debug-disconnect": {
+      "fontCharacter": "\\e09b",
+      "fontId": "ddlc-icons"
+    },
+    "debug-line-by-line": {
+      "fontCharacter": "\\e09c",
+      "fontId": "ddlc-icons"
+    },
+    "debug-pause": {
+      "fontCharacter": "\\e09d",
+      "fontId": "ddlc-icons"
+    },
+    "debug-rerun": {
+      "fontCharacter": "\\e09e",
+      "fontId": "ddlc-icons"
+    },
+    "debug-restart-frame": {
+      "fontCharacter": "\\e09f",
+      "fontId": "ddlc-icons"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\e0a0",
+      "fontId": "ddlc-icons"
+    },
+    "debug-reverse-continue": {
+      "fontCharacter": "\\e0a1",
+      "fontId": "ddlc-icons"
+    },
+    "debug-stackframe-active": {
+      "fontCharacter": "\\e0a2",
+      "fontId": "ddlc-icons"
+    },
+    "debug-stackframe": {
+      "fontCharacter": "\\e0a3",
+      "fontId": "ddlc-icons"
+    },
+    "debug-start": {
+      "fontCharacter": "\\e0a4",
+      "fontId": "ddlc-icons"
+    },
+    "debug-step-back": {
+      "fontCharacter": "\\e0a5",
+      "fontId": "ddlc-icons"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\e0a6",
+      "fontId": "ddlc-icons"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\e0a7",
+      "fontId": "ddlc-icons"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\e0a8",
+      "fontId": "ddlc-icons"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\e0a9",
+      "fontId": "ddlc-icons"
+    },
+    "debug": {
+      "fontCharacter": "\\e0aa",
+      "fontId": "ddlc-icons"
+    },
+    "desktop-download": {
+      "fontCharacter": "\\e0ab",
+      "fontId": "ddlc-icons"
+    },
+    "developer-tools": {
+      "fontCharacter": "\\e0ac",
+      "fontId": "ddlc-icons"
+    },
+    "device-camera-video": {
+      "fontCharacter": "\\e0ad",
+      "fontId": "ddlc-icons"
+    },
+    "device-camera": {
+      "fontCharacter": "\\e0ae",
+      "fontId": "ddlc-icons"
+    },
+    "device-mobile": {
+      "fontCharacter": "\\e0af",
+      "fontId": "ddlc-icons"
+    },
+    "diff-added": {
+      "fontCharacter": "\\e0b0",
+      "fontId": "ddlc-icons"
+    },
+    "diff-ignored": {
+      "fontCharacter": "\\e0b1",
+      "fontId": "ddlc-icons"
+    },
+    "diff-modified": {
+      "fontCharacter": "\\e0b2",
+      "fontId": "ddlc-icons"
+    },
+    "diff-multiple": {
+      "fontCharacter": "\\e0b3",
+      "fontId": "ddlc-icons"
+    },
+    "diff-removed": {
+      "fontCharacter": "\\e0b4",
+      "fontId": "ddlc-icons"
+    },
+    "diff-renamed": {
+      "fontCharacter": "\\e0b5",
+      "fontId": "ddlc-icons"
+    },
+    "diff-single": {
+      "fontCharacter": "\\e0b6",
+      "fontId": "ddlc-icons"
+    },
+    "diff": {
+      "fontCharacter": "\\e0b7",
+      "fontId": "ddlc-icons"
+    },
+    "discard": {
+      "fontCharacter": "\\e0b8",
+      "fontId": "ddlc-icons"
+    },
+    "download": {
+      "fontCharacter": "\\e0b9",
+      "fontId": "ddlc-icons"
+    },
+    "edit-code": {
+      "fontCharacter": "\\e0ba",
+      "fontId": "ddlc-icons"
+    },
+    "edit-compact": {
+      "fontCharacter": "\\e0bb",
+      "fontId": "ddlc-icons"
+    },
+    "edit-session": {
+      "fontCharacter": "\\e0bc",
+      "fontId": "ddlc-icons"
+    },
+    "edit-sparkle": {
+      "fontCharacter": "\\e0bd",
+      "fontId": "ddlc-icons"
+    },
+    "edit": {
+      "fontCharacter": "\\e0be",
+      "fontId": "ddlc-icons"
+    },
+    "editor-layout": {
+      "fontCharacter": "\\e0bf",
+      "fontId": "ddlc-icons"
+    },
+    "ellipsis": {
+      "fontCharacter": "\\e0c0",
+      "fontId": "ddlc-icons"
+    },
+    "empty-window": {
+      "fontCharacter": "\\e0c1",
+      "fontId": "ddlc-icons"
+    },
+    "eraser": {
+      "fontCharacter": "\\e0c2",
+      "fontId": "ddlc-icons"
+    },
+    "error-compact": {
+      "fontCharacter": "\\e0c3",
+      "fontId": "ddlc-icons"
+    },
+    "error-small": {
+      "fontCharacter": "\\e0c4",
+      "fontId": "ddlc-icons"
+    },
+    "error": {
+      "fontCharacter": "\\e0c5",
+      "fontId": "ddlc-icons"
+    },
+    "exclude": {
+      "fontCharacter": "\\e0c6",
+      "fontId": "ddlc-icons"
+    },
+    "expand-all": {
+      "fontCharacter": "\\e0c7",
+      "fontId": "ddlc-icons"
+    },
+    "export": {
+      "fontCharacter": "\\e0c8",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-large": {
+      "fontCharacter": "\\e0c9",
+      "fontId": "ddlc-icons"
+    },
+    "extensions": {
+      "fontCharacter": "\\e0ca",
+      "fontId": "ddlc-icons"
+    },
+    "eye-closed": {
+      "fontCharacter": "\\e0cb",
+      "fontId": "ddlc-icons"
+    },
+    "eye": {
+      "fontCharacter": "\\e0cc",
+      "fontId": "ddlc-icons"
+    },
+    "feedback": {
+      "fontCharacter": "\\e0cd",
+      "fontId": "ddlc-icons"
+    },
+    "file-binary": {
+      "fontCharacter": "\\e0ce",
+      "fontId": "ddlc-icons"
+    },
+    "file-code": {
+      "fontCharacter": "\\e0cf",
+      "fontId": "ddlc-icons"
+    },
+    "file-directory": {
+      "fontCharacter": "\\e0d0",
+      "fontId": "ddlc-icons"
+    },
+    "file-media-compact": {
+      "fontCharacter": "\\e0d1",
+      "fontId": "ddlc-icons"
+    },
+    "file-media": {
+      "fontCharacter": "\\e0d2",
+      "fontId": "ddlc-icons"
+    },
+    "file-pdf": {
+      "fontCharacter": "\\e0d3",
+      "fontId": "ddlc-icons"
+    },
+    "file-submodule": {
+      "fontCharacter": "\\e0d4",
+      "fontId": "ddlc-icons"
+    },
+    "file-symlink-directory": {
+      "fontCharacter": "\\e0d5",
+      "fontId": "ddlc-icons"
+    },
+    "file-symlink-file": {
+      "fontCharacter": "\\e0d6",
+      "fontId": "ddlc-icons"
+    },
+    "file-text": {
+      "fontCharacter": "\\e0d7",
+      "fontId": "ddlc-icons"
+    },
+    "file-zip": {
+      "fontCharacter": "\\e0d8",
+      "fontId": "ddlc-icons"
+    },
+    "file": {
+      "fontCharacter": "\\e0d9",
+      "fontId": "ddlc-icons"
+    },
+    "files": {
+      "fontCharacter": "\\e0da",
+      "fontId": "ddlc-icons"
+    },
+    "filter-filled": {
+      "fontCharacter": "\\e0db",
+      "fontId": "ddlc-icons"
+    },
+    "filter": {
+      "fontCharacter": "\\e0dc",
+      "fontId": "ddlc-icons"
+    },
+    "fish1-happy": {
+      "fontCharacter": "\\e0dd",
+      "fontId": "ddlc-icons"
+    },
+    "fish1-neutral": {
+      "fontCharacter": "\\e0de",
+      "fontId": "ddlc-icons"
+    },
+    "fish1-sad": {
+      "fontCharacter": "\\e0df",
+      "fontId": "ddlc-icons"
+    },
+    "fish1-very-sad": {
+      "fontCharacter": "\\e0e0",
+      "fontId": "ddlc-icons"
+    },
+    "fish2-happy": {
+      "fontCharacter": "\\e0e1",
+      "fontId": "ddlc-icons"
+    },
+    "fish2-neutral": {
+      "fontCharacter": "\\e0e2",
+      "fontId": "ddlc-icons"
+    },
+    "fish2-sad": {
+      "fontCharacter": "\\e0e3",
+      "fontId": "ddlc-icons"
+    },
+    "fish2-very-sad": {
+      "fontCharacter": "\\e0e4",
+      "fontId": "ddlc-icons"
+    },
+    "fish3-happy": {
+      "fontCharacter": "\\e0e5",
+      "fontId": "ddlc-icons"
+    },
+    "fish3-neutral": {
+      "fontCharacter": "\\e0e6",
+      "fontId": "ddlc-icons"
+    },
+    "fish3-sad": {
+      "fontCharacter": "\\e0e7",
+      "fontId": "ddlc-icons"
+    },
+    "fish3-very-sad": {
+      "fontCharacter": "\\e0e8",
+      "fontId": "ddlc-icons"
+    },
+    "fish4-happy": {
+      "fontCharacter": "\\e0e9",
+      "fontId": "ddlc-icons"
+    },
+    "fish4-neutral": {
+      "fontCharacter": "\\e0ea",
+      "fontId": "ddlc-icons"
+    },
+    "fish4-sad": {
+      "fontCharacter": "\\e0eb",
+      "fontId": "ddlc-icons"
+    },
+    "fish4-very-sad": {
+      "fontCharacter": "\\e0ec",
+      "fontId": "ddlc-icons"
+    },
+    "flag": {
+      "fontCharacter": "\\e0ed",
+      "fontId": "ddlc-icons"
+    },
+    "flame": {
+      "fontCharacter": "\\e0ee",
+      "fontId": "ddlc-icons"
+    },
+    "fold-down": {
+      "fontCharacter": "\\e0ef",
+      "fontId": "ddlc-icons"
+    },
+    "fold-up": {
+      "fontCharacter": "\\e0f0",
+      "fontId": "ddlc-icons"
+    },
+    "fold": {
+      "fontCharacter": "\\e0f1",
+      "fontId": "ddlc-icons"
+    },
+    "folder-active": {
+      "fontCharacter": "\\e0f2",
+      "fontId": "ddlc-icons"
+    },
+    "folder-compact": {
+      "fontCharacter": "\\e0f3",
+      "fontId": "ddlc-icons"
+    },
+    "folder-library": {
+      "fontCharacter": "\\e0f4",
+      "fontId": "ddlc-icons"
+    },
+    "folder-opened-compact": {
+      "fontCharacter": "\\e0f5",
+      "fontId": "ddlc-icons"
+    },
+    "folder-opened": {
+      "fontCharacter": "\\e0f6",
+      "fontId": "ddlc-icons"
+    },
+    "folder": {
+      "fontCharacter": "\\e0f7",
+      "fontId": "ddlc-icons"
+    },
+    "forward": {
+      "fontCharacter": "\\e0f8",
+      "fontId": "ddlc-icons"
+    },
+    "game": {
+      "fontCharacter": "\\e0f9",
+      "fontId": "ddlc-icons"
+    },
+    "gear-compact": {
+      "fontCharacter": "\\e0fa",
+      "fontId": "ddlc-icons"
+    },
+    "gear": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "gift": {
+      "fontCharacter": "\\e0fc",
+      "fontId": "ddlc-icons"
+    },
+    "gist-secret": {
+      "fontCharacter": "\\e0fd",
+      "fontId": "ddlc-icons"
+    },
+    "gist": {
+      "fontCharacter": "\\e0fe",
+      "fontId": "ddlc-icons"
+    },
+    "git-branch-changes": {
+      "fontCharacter": "\\e0ff",
+      "fontId": "ddlc-icons"
+    },
+    "git-branch-compact": {
+      "fontCharacter": "\\e100",
+      "fontId": "ddlc-icons"
+    },
+    "git-branch-conflicts": {
+      "fontCharacter": "\\e101",
+      "fontId": "ddlc-icons"
+    },
+    "git-branch-staged-changes": {
+      "fontCharacter": "\\e102",
+      "fontId": "ddlc-icons"
+    },
+    "git-branch": {
+      "fontCharacter": "\\e103",
+      "fontId": "ddlc-icons"
+    },
+    "git-commit": {
+      "fontCharacter": "\\e104",
+      "fontId": "ddlc-icons"
+    },
+    "git-compare": {
+      "fontCharacter": "\\e105",
+      "fontId": "ddlc-icons"
+    },
+    "git-fetch": {
+      "fontCharacter": "\\e106",
+      "fontId": "ddlc-icons"
+    },
+    "git-merge": {
+      "fontCharacter": "\\e107",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-closed": {
+      "fontCharacter": "\\e108",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-comment": {
+      "fontCharacter": "\\e109",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-create": {
+      "fontCharacter": "\\e10a",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-done": {
+      "fontCharacter": "\\e10b",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-draft": {
+      "fontCharacter": "\\e10c",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-error": {
+      "fontCharacter": "\\e10d",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-go-to-changes": {
+      "fontCharacter": "\\e10e",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request-new-changes": {
+      "fontCharacter": "\\e10f",
+      "fontId": "ddlc-icons"
+    },
+    "git-pull-request": {
+      "fontCharacter": "\\e110",
+      "fontId": "ddlc-icons"
+    },
+    "git-stash-apply": {
+      "fontCharacter": "\\e111",
+      "fontId": "ddlc-icons"
+    },
+    "git-stash-pop": {
+      "fontCharacter": "\\e112",
+      "fontId": "ddlc-icons"
+    },
+    "git-stash": {
+      "fontCharacter": "\\e113",
+      "fontId": "ddlc-icons"
+    },
+    "github-action": {
+      "fontCharacter": "\\e114",
+      "fontId": "ddlc-icons"
+    },
+    "github-alt": {
+      "fontCharacter": "\\e115",
+      "fontId": "ddlc-icons"
+    },
+    "github-inverted": {
+      "fontCharacter": "\\e116",
+      "fontId": "ddlc-icons"
+    },
+    "github-project": {
+      "fontCharacter": "\\e117",
+      "fontId": "ddlc-icons"
+    },
+    "github": {
+      "fontCharacter": "\\e118",
+      "fontId": "ddlc-icons"
+    },
+    "globe": {
+      "fontCharacter": "\\e119",
+      "fontId": "ddlc-icons"
+    },
+    "go-to-editing-session": {
+      "fontCharacter": "\\e11a",
+      "fontId": "ddlc-icons"
+    },
+    "go-to-file": {
+      "fontCharacter": "\\e11b",
+      "fontId": "ddlc-icons"
+    },
+    "go-to-search": {
+      "fontCharacter": "\\e11c",
+      "fontId": "ddlc-icons"
+    },
+    "google-gemini": {
+      "fontCharacter": "\\e11d",
+      "fontId": "ddlc-icons"
+    },
+    "grabber": {
+      "fontCharacter": "\\e11e",
+      "fontId": "ddlc-icons"
+    },
+    "graph-left": {
+      "fontCharacter": "\\e11f",
+      "fontId": "ddlc-icons"
+    },
+    "graph-line": {
+      "fontCharacter": "\\e120",
+      "fontId": "ddlc-icons"
+    },
+    "graph-scatter": {
+      "fontCharacter": "\\e121",
+      "fontId": "ddlc-icons"
+    },
+    "graph": {
+      "fontCharacter": "\\e122",
+      "fontId": "ddlc-icons"
+    },
+    "gripper": {
+      "fontCharacter": "\\e123",
+      "fontId": "ddlc-icons"
+    },
+    "group-by-ref-type": {
+      "fontCharacter": "\\e124",
+      "fontId": "ddlc-icons"
+    },
+    "heart-filled": {
+      "fontCharacter": "\\e125",
+      "fontId": "ddlc-icons"
+    },
+    "heart": {
+      "fontCharacter": "\\e126",
+      "fontId": "ddlc-icons"
+    },
+    "history": {
+      "fontCharacter": "\\e127",
+      "fontId": "ddlc-icons"
+    },
+    "home": {
+      "fontCharacter": "\\e128",
+      "fontId": "ddlc-icons"
+    },
+    "horizontal-rule": {
+      "fontCharacter": "\\e129",
+      "fontId": "ddlc-icons"
+    },
+    "hubot": {
+      "fontCharacter": "\\e12a",
+      "fontId": "ddlc-icons"
+    },
+    "important-compact": {
+      "fontCharacter": "\\e12b",
+      "fontId": "ddlc-icons"
+    },
+    "important": {
+      "fontCharacter": "\\e12c",
+      "fontId": "ddlc-icons"
+    },
+    "inbox": {
+      "fontCharacter": "\\e12d",
+      "fontId": "ddlc-icons"
+    },
+    "indent": {
+      "fontCharacter": "\\e12e",
+      "fontId": "ddlc-icons"
+    },
+    "index-zero": {
+      "fontCharacter": "\\e12f",
+      "fontId": "ddlc-icons"
+    },
+    "info": {
+      "fontCharacter": "\\e130",
+      "fontId": "ddlc-icons"
+    },
+    "insert": {
+      "fontCharacter": "\\e131",
+      "fontId": "ddlc-icons"
+    },
+    "inspect": {
+      "fontCharacter": "\\e132",
+      "fontId": "ddlc-icons"
+    },
+    "issue-draft": {
+      "fontCharacter": "\\e133",
+      "fontId": "ddlc-icons"
+    },
+    "issue-reopened": {
+      "fontCharacter": "\\e134",
+      "fontId": "ddlc-icons"
+    },
+    "issues": {
+      "fontCharacter": "\\e135",
+      "fontId": "ddlc-icons"
+    },
+    "italic": {
+      "fontCharacter": "\\e136",
+      "fontId": "ddlc-icons"
+    },
+    "jersey": {
+      "fontCharacter": "\\e137",
+      "fontId": "ddlc-icons"
+    },
+    "json": {
+      "fontCharacter": "\\e138",
+      "fontId": "ddlc-icons"
+    },
+    "kebab-vertical": {
+      "fontCharacter": "\\e139",
+      "fontId": "ddlc-icons"
+    },
+    "key": {
+      "fontCharacter": "\\e13a",
+      "fontId": "ddlc-icons"
+    },
+    "keyboard-tab-above": {
+      "fontCharacter": "\\e13b",
+      "fontId": "ddlc-icons"
+    },
+    "keyboard-tab-below": {
+      "fontCharacter": "\\e13c",
+      "fontId": "ddlc-icons"
+    },
+    "keyboard-tab": {
+      "fontCharacter": "\\e13d",
+      "fontId": "ddlc-icons"
+    },
+    "kimi": {
+      "fontCharacter": "\\e13e",
+      "fontId": "ddlc-icons"
+    },
+    "law": {
+      "fontCharacter": "\\e13f",
+      "fontId": "ddlc-icons"
+    },
+    "layers-active": {
+      "fontCharacter": "\\e140",
+      "fontId": "ddlc-icons"
+    },
+    "layers-dot": {
+      "fontCharacter": "\\e141",
+      "fontId": "ddlc-icons"
+    },
+    "layers": {
+      "fontCharacter": "\\e142",
+      "fontId": "ddlc-icons"
+    },
+    "layout-activitybar-left": {
+      "fontCharacter": "\\e143",
+      "fontId": "ddlc-icons"
+    },
+    "layout-activitybar-right": {
+      "fontCharacter": "\\e144",
+      "fontId": "ddlc-icons"
+    },
+    "layout-centered": {
+      "fontCharacter": "\\e145",
+      "fontId": "ddlc-icons"
+    },
+    "layout-menubar": {
+      "fontCharacter": "\\e146",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel-center": {
+      "fontCharacter": "\\e147",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel-dock": {
+      "fontCharacter": "\\e148",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel-justify": {
+      "fontCharacter": "\\e149",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel-left": {
+      "fontCharacter": "\\e14a",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel-off": {
+      "fontCharacter": "\\e14b",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel-right": {
+      "fontCharacter": "\\e14c",
+      "fontId": "ddlc-icons"
+    },
+    "layout-panel": {
+      "fontCharacter": "\\e14d",
+      "fontId": "ddlc-icons"
+    },
+    "layout-sidebar-left-dock": {
+      "fontCharacter": "\\e14e",
+      "fontId": "ddlc-icons"
+    },
+    "layout-sidebar-left-off": {
+      "fontCharacter": "\\e14f",
+      "fontId": "ddlc-icons"
+    },
+    "layout-sidebar-left": {
+      "fontCharacter": "\\e150",
+      "fontId": "ddlc-icons"
+    },
+    "layout-sidebar-right-dock": {
+      "fontCharacter": "\\e151",
+      "fontId": "ddlc-icons"
+    },
+    "layout-sidebar-right-off": {
+      "fontCharacter": "\\e152",
+      "fontId": "ddlc-icons"
+    },
+    "layout-sidebar-right": {
+      "fontCharacter": "\\e153",
+      "fontId": "ddlc-icons"
+    },
+    "layout-statusbar": {
+      "fontCharacter": "\\e154",
+      "fontId": "ddlc-icons"
+    },
+    "layout": {
+      "fontCharacter": "\\e155",
+      "fontId": "ddlc-icons"
+    },
+    "library-compact": {
+      "fontCharacter": "\\e156",
+      "fontId": "ddlc-icons"
+    },
+    "library": {
+      "fontCharacter": "\\e157",
+      "fontId": "ddlc-icons"
+    },
+    "lightbulb-autofix": {
+      "fontCharacter": "\\e158",
+      "fontId": "ddlc-icons"
+    },
+    "lightbulb-compact": {
+      "fontCharacter": "\\e159",
+      "fontId": "ddlc-icons"
+    },
+    "lightbulb-empty": {
+      "fontCharacter": "\\e15a",
+      "fontId": "ddlc-icons"
+    },
+    "lightbulb-sparkle": {
+      "fontCharacter": "\\e15b",
+      "fontId": "ddlc-icons"
+    },
+    "lightbulb": {
+      "fontCharacter": "\\e15c",
+      "fontId": "ddlc-icons"
+    },
+    "link-external": {
+      "fontCharacter": "\\e15d",
+      "fontId": "ddlc-icons"
+    },
+    "link": {
+      "fontCharacter": "\\e15e",
+      "fontId": "ddlc-icons"
+    },
+    "list-filter": {
+      "fontCharacter": "\\e15f",
+      "fontId": "ddlc-icons"
+    },
+    "list-flat": {
+      "fontCharacter": "\\e160",
+      "fontId": "ddlc-icons"
+    },
+    "list-ordered": {
+      "fontCharacter": "\\e161",
+      "fontId": "ddlc-icons"
+    },
+    "list-selection": {
+      "fontCharacter": "\\e162",
+      "fontId": "ddlc-icons"
+    },
+    "list-tree": {
+      "fontCharacter": "\\e163",
+      "fontId": "ddlc-icons"
+    },
+    "list-unordered": {
+      "fontCharacter": "\\e164",
+      "fontId": "ddlc-icons"
+    },
+    "live-share": {
+      "fontCharacter": "\\e165",
+      "fontId": "ddlc-icons"
+    },
+    "loading-compact": {
+      "fontCharacter": "\\e166",
+      "fontId": "ddlc-icons"
+    },
+    "loading": {
+      "fontCharacter": "\\e167",
+      "fontId": "ddlc-icons"
+    },
+    "location": {
+      "fontCharacter": "\\e168",
+      "fontId": "ddlc-icons"
+    },
+    "lock-small": {
+      "fontCharacter": "\\e169",
+      "fontId": "ddlc-icons"
+    },
+    "lock": {
+      "fontCharacter": "\\e16a",
+      "fontId": "ddlc-icons"
+    },
+    "magnet": {
+      "fontCharacter": "\\e16b",
+      "fontId": "ddlc-icons"
+    },
+    "mail-read": {
+      "fontCharacter": "\\e16c",
+      "fontId": "ddlc-icons"
+    },
+    "mail": {
+      "fontCharacter": "\\e16d",
+      "fontId": "ddlc-icons"
+    },
+    "map-filled": {
+      "fontCharacter": "\\e16e",
+      "fontId": "ddlc-icons"
+    },
+    "map-vertical-filled": {
+      "fontCharacter": "\\e16f",
+      "fontId": "ddlc-icons"
+    },
+    "map-vertical": {
+      "fontCharacter": "\\e170",
+      "fontId": "ddlc-icons"
+    },
+    "map": {
+      "fontCharacter": "\\e171",
+      "fontId": "ddlc-icons"
+    },
+    "markdown": {
+      "fontCharacter": "\\e172",
+      "fontId": "ddlc-icons"
+    },
+    "mcp": {
+      "fontCharacter": "\\e173",
+      "fontId": "ddlc-icons"
+    },
+    "megaphone": {
+      "fontCharacter": "\\e174",
+      "fontId": "ddlc-icons"
+    },
+    "mention": {
+      "fontCharacter": "\\e175",
+      "fontId": "ddlc-icons"
+    },
+    "menu": {
+      "fontCharacter": "\\e176",
+      "fontId": "ddlc-icons"
+    },
+    "merge-into": {
+      "fontCharacter": "\\e177",
+      "fontId": "ddlc-icons"
+    },
+    "merge": {
+      "fontCharacter": "\\e178",
+      "fontId": "ddlc-icons"
+    },
+    "mic-download-compact": {
+      "fontCharacter": "\\e179",
+      "fontId": "ddlc-icons"
+    },
+    "mic-download": {
+      "fontCharacter": "\\e17a",
+      "fontId": "ddlc-icons"
+    },
+    "mic-filled": {
+      "fontCharacter": "\\e17b",
+      "fontId": "ddlc-icons"
+    },
+    "mic": {
+      "fontCharacter": "\\e17c",
+      "fontId": "ddlc-icons"
+    },
+    "microsoft": {
+      "fontCharacter": "\\e17d",
+      "fontId": "ddlc-icons"
+    },
+    "milestone": {
+      "fontCharacter": "\\e17e",
+      "fontId": "ddlc-icons"
+    },
+    "mirror": {
+      "fontCharacter": "\\e17f",
+      "fontId": "ddlc-icons"
+    },
+    "mortar-board": {
+      "fontCharacter": "\\e180",
+      "fontId": "ddlc-icons"
+    },
+    "move": {
+      "fontCharacter": "\\e181",
+      "fontId": "ddlc-icons"
+    },
+    "multiple-windows": {
+      "fontCharacter": "\\e182",
+      "fontId": "ddlc-icons"
+    },
+    "music": {
+      "fontCharacter": "\\e183",
+      "fontId": "ddlc-icons"
+    },
+    "mute": {
+      "fontCharacter": "\\e184",
+      "fontId": "ddlc-icons"
+    },
+    "new-collection": {
+      "fontCharacter": "\\e185",
+      "fontId": "ddlc-icons"
+    },
+    "new-file": {
+      "fontCharacter": "\\e186",
+      "fontId": "ddlc-icons"
+    },
+    "new-folder": {
+      "fontCharacter": "\\e187",
+      "fontId": "ddlc-icons"
+    },
+    "new-session": {
+      "fontCharacter": "\\e188",
+      "fontId": "ddlc-icons"
+    },
+    "newline": {
+      "fontCharacter": "\\e189",
+      "fontId": "ddlc-icons"
+    },
+    "no-newline": {
+      "fontCharacter": "\\e18a",
+      "fontId": "ddlc-icons"
+    },
+    "note": {
+      "fontCharacter": "\\e18b",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-template": {
+      "fontCharacter": "\\e18c",
+      "fontId": "ddlc-icons"
+    },
+    "notebook": {
+      "fontCharacter": "\\e18d",
+      "fontId": "ddlc-icons"
+    },
+    "octoface": {
+      "fontCharacter": "\\e18e",
+      "fontId": "ddlc-icons"
+    },
+    "open-in-product": {
+      "fontCharacter": "\\e18f",
+      "fontId": "ddlc-icons"
+    },
+    "open-in-window": {
+      "fontCharacter": "\\e190",
+      "fontId": "ddlc-icons"
+    },
+    "open-preview": {
+      "fontCharacter": "\\e191",
+      "fontId": "ddlc-icons"
+    },
+    "openai": {
+      "fontCharacter": "\\e192",
+      "fontId": "ddlc-icons"
+    },
+    "organization": {
+      "fontCharacter": "\\e193",
+      "fontId": "ddlc-icons"
+    },
+    "output": {
+      "fontCharacter": "\\e194",
+      "fontId": "ddlc-icons"
+    },
+    "package": {
+      "fontCharacter": "\\e195",
+      "fontId": "ddlc-icons"
+    },
+    "paintcan": {
+      "fontCharacter": "\\e196",
+      "fontId": "ddlc-icons"
+    },
+    "pass-compact": {
+      "fontCharacter": "\\e197",
+      "fontId": "ddlc-icons"
+    },
+    "pass-filled-compact": {
+      "fontCharacter": "\\e198",
+      "fontId": "ddlc-icons"
+    },
+    "pass-filled": {
+      "fontCharacter": "\\e199",
+      "fontId": "ddlc-icons"
+    },
+    "pass": {
+      "fontCharacter": "\\e19a",
+      "fontId": "ddlc-icons"
+    },
+    "pencil": {
+      "fontCharacter": "\\e19b",
+      "fontId": "ddlc-icons"
+    },
+    "percentage": {
+      "fontCharacter": "\\e19c",
+      "fontId": "ddlc-icons"
+    },
+    "person-add": {
+      "fontCharacter": "\\e19d",
+      "fontId": "ddlc-icons"
+    },
+    "person-voice-compact": {
+      "fontCharacter": "\\e19e",
+      "fontId": "ddlc-icons"
+    },
+    "person-voice-filled-compact": {
+      "fontCharacter": "\\e19f",
+      "fontId": "ddlc-icons"
+    },
+    "person-voice-filled": {
+      "fontCharacter": "\\e1a0",
+      "fontId": "ddlc-icons"
+    },
+    "person-voice": {
+      "fontCharacter": "\\e1a1",
+      "fontId": "ddlc-icons"
+    },
+    "person": {
+      "fontCharacter": "\\e1a2",
+      "fontId": "ddlc-icons"
+    },
+    "piano": {
+      "fontCharacter": "\\e1a3",
+      "fontId": "ddlc-icons"
+    },
+    "pie-chart": {
+      "fontCharacter": "\\e1a4",
+      "fontId": "ddlc-icons"
+    },
+    "pin": {
+      "fontCharacter": "\\e1a5",
+      "fontId": "ddlc-icons"
+    },
+    "pinned-dirty": {
+      "fontCharacter": "\\e1a6",
+      "fontId": "ddlc-icons"
+    },
+    "pinned": {
+      "fontCharacter": "\\e1a7",
+      "fontId": "ddlc-icons"
+    },
+    "play-circle": {
+      "fontCharacter": "\\e1a8",
+      "fontId": "ddlc-icons"
+    },
+    "play": {
+      "fontCharacter": "\\e1a9",
+      "fontId": "ddlc-icons"
+    },
+    "plug": {
+      "fontCharacter": "\\e1aa",
+      "fontId": "ddlc-icons"
+    },
+    "plus": {
+      "fontCharacter": "\\e1ab",
+      "fontId": "ddlc-icons"
+    },
+    "preserve-case": {
+      "fontCharacter": "\\e1ac",
+      "fontId": "ddlc-icons"
+    },
+    "preview": {
+      "fontCharacter": "\\e1ad",
+      "fontId": "ddlc-icons"
+    },
+    "primitive-square": {
+      "fontCharacter": "\\e1ae",
+      "fontId": "ddlc-icons"
+    },
+    "project-compact": {
+      "fontCharacter": "\\e1af",
+      "fontId": "ddlc-icons"
+    },
+    "project": {
+      "fontCharacter": "\\e1b0",
+      "fontId": "ddlc-icons"
+    },
+    "pulse": {
+      "fontCharacter": "\\e1b1",
+      "fontId": "ddlc-icons"
+    },
+    "python": {
+      "fontCharacter": "\\e1b2",
+      "fontId": "ddlc-icons"
+    },
+    "question": {
+      "fontCharacter": "\\e1b3",
+      "fontId": "ddlc-icons"
+    },
+    "quote": {
+      "fontCharacter": "\\e1b4",
+      "fontId": "ddlc-icons"
+    },
+    "quotes": {
+      "fontCharacter": "\\e1b5",
+      "fontId": "ddlc-icons"
+    },
+    "radio-tower": {
+      "fontCharacter": "\\e1b6",
+      "fontId": "ddlc-icons"
+    },
+    "reactions": {
+      "fontCharacter": "\\e1b7",
+      "fontId": "ddlc-icons"
+    },
+    "record-keys-compact": {
+      "fontCharacter": "\\e1b8",
+      "fontId": "ddlc-icons"
+    },
+    "record-keys": {
+      "fontCharacter": "\\e1b9",
+      "fontId": "ddlc-icons"
+    },
+    "record-small": {
+      "fontCharacter": "\\e1ba",
+      "fontId": "ddlc-icons"
+    },
+    "record": {
+      "fontCharacter": "\\e1bb",
+      "fontId": "ddlc-icons"
+    },
+    "redo": {
+      "fontCharacter": "\\e1bc",
+      "fontId": "ddlc-icons"
+    },
+    "references": {
+      "fontCharacter": "\\e1bd",
+      "fontId": "ddlc-icons"
+    },
+    "refresh-compact": {
+      "fontCharacter": "\\e1be",
+      "fontId": "ddlc-icons"
+    },
+    "refresh": {
+      "fontCharacter": "\\e1bf",
+      "fontId": "ddlc-icons"
+    },
+    "regex": {
+      "fontCharacter": "\\e1c0",
+      "fontId": "ddlc-icons"
+    },
+    "remote-compact": {
+      "fontCharacter": "\\e1c1",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer": {
+      "fontCharacter": "\\e1c2",
+      "fontId": "ddlc-icons"
+    },
+    "remote": {
+      "fontCharacter": "\\e1c3",
+      "fontId": "ddlc-icons"
+    },
+    "remove-small": {
+      "fontCharacter": "\\e1c4",
+      "fontId": "ddlc-icons"
+    },
+    "remove": {
+      "fontCharacter": "\\e1c5",
+      "fontId": "ddlc-icons"
+    },
+    "rename": {
+      "fontCharacter": "\\e1c6",
+      "fontId": "ddlc-icons"
+    },
+    "replace-all": {
+      "fontCharacter": "\\e1c7",
+      "fontId": "ddlc-icons"
+    },
+    "replace": {
+      "fontCharacter": "\\e1c8",
+      "fontId": "ddlc-icons"
+    },
+    "reply": {
+      "fontCharacter": "\\e1c9",
+      "fontId": "ddlc-icons"
+    },
+    "repo-clone": {
+      "fontCharacter": "\\e1ca",
+      "fontId": "ddlc-icons"
+    },
+    "repo-compact": {
+      "fontCharacter": "\\e1cb",
+      "fontId": "ddlc-icons"
+    },
+    "repo-fetch": {
+      "fontCharacter": "\\e1cc",
+      "fontId": "ddlc-icons"
+    },
+    "repo-force-push": {
+      "fontCharacter": "\\e1cd",
+      "fontId": "ddlc-icons"
+    },
+    "repo-forked-compact": {
+      "fontCharacter": "\\e1ce",
+      "fontId": "ddlc-icons"
+    },
+    "repo-forked": {
+      "fontCharacter": "\\e1cf",
+      "fontId": "ddlc-icons"
+    },
+    "repo-pinned": {
+      "fontCharacter": "\\e1d0",
+      "fontId": "ddlc-icons"
+    },
+    "repo-pull": {
+      "fontCharacter": "\\e1d1",
+      "fontId": "ddlc-icons"
+    },
+    "repo-push": {
+      "fontCharacter": "\\e1d2",
+      "fontId": "ddlc-icons"
+    },
+    "repo-selected": {
+      "fontCharacter": "\\e1d3",
+      "fontId": "ddlc-icons"
+    },
+    "repo": {
+      "fontCharacter": "\\e1d4",
+      "fontId": "ddlc-icons"
+    },
+    "report": {
+      "fontCharacter": "\\e1d5",
+      "fontId": "ddlc-icons"
+    },
+    "request-changes": {
+      "fontCharacter": "\\e1d6",
+      "fontId": "ddlc-icons"
+    },
+    "right-panel-hide": {
+      "fontCharacter": "\\e1d7",
+      "fontId": "ddlc-icons"
+    },
+    "right-panel-show": {
+      "fontCharacter": "\\e1d8",
+      "fontId": "ddlc-icons"
+    },
+    "robot": {
+      "fontCharacter": "\\e1d9",
+      "fontId": "ddlc-icons"
+    },
+    "rocket-compact": {
+      "fontCharacter": "\\e1da",
+      "fontId": "ddlc-icons"
+    },
+    "rocket": {
+      "fontCharacter": "\\e1db",
+      "fontId": "ddlc-icons"
+    },
+    "root-folder-opened": {
+      "fontCharacter": "\\e1dc",
+      "fontId": "ddlc-icons"
+    },
+    "root-folder": {
+      "fontCharacter": "\\e1dd",
+      "fontId": "ddlc-icons"
+    },
+    "rss": {
+      "fontCharacter": "\\e1de",
+      "fontId": "ddlc-icons"
+    },
+    "ruby": {
+      "fontCharacter": "\\e1df",
+      "fontId": "ddlc-icons"
+    },
+    "run-above": {
+      "fontCharacter": "\\e1e0",
+      "fontId": "ddlc-icons"
+    },
+    "run-all-coverage": {
+      "fontCharacter": "\\e1e1",
+      "fontId": "ddlc-icons"
+    },
+    "run-all": {
+      "fontCharacter": "\\e1e2",
+      "fontId": "ddlc-icons"
+    },
+    "run-below": {
+      "fontCharacter": "\\e1e3",
+      "fontId": "ddlc-icons"
+    },
+    "run-compact": {
+      "fontCharacter": "\\e1e4",
+      "fontId": "ddlc-icons"
+    },
+    "run-coverage": {
+      "fontCharacter": "\\e1e5",
+      "fontId": "ddlc-icons"
+    },
+    "run-errors": {
+      "fontCharacter": "\\e1e6",
+      "fontId": "ddlc-icons"
+    },
+    "run-with-deps": {
+      "fontCharacter": "\\e1e7",
+      "fontId": "ddlc-icons"
+    },
+    "run": {
+      "fontCharacter": "\\e1e8",
+      "fontId": "ddlc-icons"
+    },
+    "save-all": {
+      "fontCharacter": "\\e1e9",
+      "fontId": "ddlc-icons"
+    },
+    "save-as": {
+      "fontCharacter": "\\e1ea",
+      "fontId": "ddlc-icons"
+    },
+    "save": {
+      "fontCharacter": "\\e1eb",
+      "fontId": "ddlc-icons"
+    },
+    "screen-cut": {
+      "fontCharacter": "\\e1ec",
+      "fontId": "ddlc-icons"
+    },
+    "screen-full": {
+      "fontCharacter": "\\e1ed",
+      "fontId": "ddlc-icons"
+    },
+    "screen-normal": {
+      "fontCharacter": "\\e1ee",
+      "fontId": "ddlc-icons"
+    },
+    "search-compact": {
+      "fontCharacter": "\\e1ef",
+      "fontId": "ddlc-icons"
+    },
+    "search-fuzzy": {
+      "fontCharacter": "\\e1f0",
+      "fontId": "ddlc-icons"
+    },
+    "search-large": {
+      "fontCharacter": "\\e1f1",
+      "fontId": "ddlc-icons"
+    },
+    "search-sparkle": {
+      "fontCharacter": "\\e1f2",
+      "fontId": "ddlc-icons"
+    },
+    "search-stop": {
+      "fontCharacter": "\\e1f3",
+      "fontId": "ddlc-icons"
+    },
+    "search": {
+      "fontCharacter": "\\e1f4",
+      "fontId": "ddlc-icons"
+    },
+    "send-to-remote-agent": {
+      "fontCharacter": "\\e1f5",
+      "fontId": "ddlc-icons"
+    },
+    "send": {
+      "fontCharacter": "\\e1f6",
+      "fontId": "ddlc-icons"
+    },
+    "server-environment": {
+      "fontCharacter": "\\e1f7",
+      "fontId": "ddlc-icons"
+    },
+    "server-process": {
+      "fontCharacter": "\\e1f8",
+      "fontId": "ddlc-icons"
+    },
+    "server": {
+      "fontCharacter": "\\e1f9",
+      "fontId": "ddlc-icons"
+    },
+    "session-in-progress-compact": {
+      "fontCharacter": "\\e1fa",
+      "fontId": "ddlc-icons"
+    },
+    "session-in-progress": {
+      "fontCharacter": "\\e1fb",
+      "fontId": "ddlc-icons"
+    },
+    "settings-compact": {
+      "fontCharacter": "\\e1fc",
+      "fontId": "ddlc-icons"
+    },
+    "settings-gear": {
+      "fontCharacter": "\\e1fd",
+      "fontId": "ddlc-icons"
+    },
+    "settings": {
+      "fontCharacter": "\\e1fe",
+      "fontId": "ddlc-icons"
+    },
+    "share-window": {
+      "fontCharacter": "\\e1ff",
+      "fontId": "ddlc-icons"
+    },
+    "share": {
+      "fontCharacter": "\\e200",
+      "fontId": "ddlc-icons"
+    },
+    "shield-compact": {
+      "fontCharacter": "\\e201",
+      "fontId": "ddlc-icons"
+    },
+    "shield": {
+      "fontCharacter": "\\e202",
+      "fontId": "ddlc-icons"
+    },
+    "sign-in": {
+      "fontCharacter": "\\e203",
+      "fontId": "ddlc-icons"
+    },
+    "sign-out": {
+      "fontCharacter": "\\e204",
+      "fontId": "ddlc-icons"
+    },
+    "skip": {
+      "fontCharacter": "\\e205",
+      "fontId": "ddlc-icons"
+    },
+    "smiley": {
+      "fontCharacter": "\\e206",
+      "fontId": "ddlc-icons"
+    },
+    "snake": {
+      "fontCharacter": "\\e207",
+      "fontId": "ddlc-icons"
+    },
+    "sort-precedence": {
+      "fontCharacter": "\\e208",
+      "fontId": "ddlc-icons"
+    },
+    "source-control": {
+      "fontCharacter": "\\e209",
+      "fontId": "ddlc-icons"
+    },
+    "sparkle-compact": {
+      "fontCharacter": "\\e20a",
+      "fontId": "ddlc-icons"
+    },
+    "sparkle-filled": {
+      "fontCharacter": "\\e20b",
+      "fontId": "ddlc-icons"
+    },
+    "sparkle": {
+      "fontCharacter": "\\e20c",
+      "fontId": "ddlc-icons"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\e20d",
+      "fontId": "ddlc-icons"
+    },
+    "split-vertical": {
+      "fontCharacter": "\\e20e",
+      "fontId": "ddlc-icons"
+    },
+    "squirrel": {
+      "fontCharacter": "\\e20f",
+      "fontId": "ddlc-icons"
+    },
+    "star-empty": {
+      "fontCharacter": "\\e210",
+      "fontId": "ddlc-icons"
+    },
+    "star-full": {
+      "fontCharacter": "\\e211",
+      "fontId": "ddlc-icons"
+    },
+    "star-half": {
+      "fontCharacter": "\\e212",
+      "fontId": "ddlc-icons"
+    },
+    "star": {
+      "fontCharacter": "\\e213",
+      "fontId": "ddlc-icons"
+    },
+    "stop-circle": {
+      "fontCharacter": "\\e214",
+      "fontId": "ddlc-icons"
+    },
+    "strikethrough": {
+      "fontCharacter": "\\e215",
+      "fontId": "ddlc-icons"
+    },
+    "surround-with": {
+      "fontCharacter": "\\e216",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-array": {
+      "fontCharacter": "\\e217",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-boolean": {
+      "fontCharacter": "\\e218",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\e219",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-color-compact": {
+      "fontCharacter": "\\e21a",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-color": {
+      "fontCharacter": "\\e21b",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-constant": {
+      "fontCharacter": "\\e21c",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-enum-member": {
+      "fontCharacter": "\\e21d",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-enum": {
+      "fontCharacter": "\\e21e",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-event": {
+      "fontCharacter": "\\e21f",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-field": {
+      "fontCharacter": "\\e220",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-file": {
+      "fontCharacter": "\\e221",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-interface": {
+      "fontCharacter": "\\e222",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-key": {
+      "fontCharacter": "\\e223",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-keyword": {
+      "fontCharacter": "\\e224",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-method-arrow": {
+      "fontCharacter": "\\e225",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-method": {
+      "fontCharacter": "\\e226",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-misc": {
+      "fontCharacter": "\\e227",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-namespace": {
+      "fontCharacter": "\\e228",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-numeric": {
+      "fontCharacter": "\\e229",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-operator": {
+      "fontCharacter": "\\e22a",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-parameter": {
+      "fontCharacter": "\\e22b",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-property": {
+      "fontCharacter": "\\e22c",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-ruler": {
+      "fontCharacter": "\\e22d",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-snippet": {
+      "fontCharacter": "\\e22e",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-string": {
+      "fontCharacter": "\\e22f",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-structure": {
+      "fontCharacter": "\\e230",
+      "fontId": "ddlc-icons"
+    },
+    "symbol-variable": {
+      "fontCharacter": "\\e231",
+      "fontId": "ddlc-icons"
+    },
+    "sync-compact": {
+      "fontCharacter": "\\e232",
+      "fontId": "ddlc-icons"
+    },
+    "sync-ignored": {
+      "fontCharacter": "\\e233",
+      "fontId": "ddlc-icons"
+    },
+    "sync": {
+      "fontCharacter": "\\e234",
+      "fontId": "ddlc-icons"
+    },
+    "table": {
+      "fontCharacter": "\\e235",
+      "fontId": "ddlc-icons"
+    },
+    "tag": {
+      "fontCharacter": "\\e236",
+      "fontId": "ddlc-icons"
+    },
+    "target": {
+      "fontCharacter": "\\e237",
+      "fontId": "ddlc-icons"
+    },
+    "tasklist": {
+      "fontCharacter": "\\e238",
+      "fontId": "ddlc-icons"
+    },
+    "telescope": {
+      "fontCharacter": "\\e239",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-bash": {
+      "fontCharacter": "\\e23a",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-cmd": {
+      "fontCharacter": "\\e23b",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-compact": {
+      "fontCharacter": "\\e23c",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-debian": {
+      "fontCharacter": "\\e23d",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-git-bash": {
+      "fontCharacter": "\\e23e",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-linux": {
+      "fontCharacter": "\\e23f",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-powershell": {
+      "fontCharacter": "\\e240",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-secure": {
+      "fontCharacter": "\\e241",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-tmux": {
+      "fontCharacter": "\\e242",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-ubuntu": {
+      "fontCharacter": "\\e243",
+      "fontId": "ddlc-icons"
+    },
+    "terminal": {
+      "fontCharacter": "\\e244",
+      "fontId": "ddlc-icons"
+    },
+    "text-size": {
+      "fontCharacter": "\\e245",
+      "fontId": "ddlc-icons"
+    },
+    "thinking": {
+      "fontCharacter": "\\e246",
+      "fontId": "ddlc-icons"
+    },
+    "three-bars": {
+      "fontCharacter": "\\e247",
+      "fontId": "ddlc-icons"
+    },
+    "thumbsdown-filled": {
+      "fontCharacter": "\\e248",
+      "fontId": "ddlc-icons"
+    },
+    "thumbsdown": {
+      "fontCharacter": "\\e249",
+      "fontId": "ddlc-icons"
+    },
+    "thumbsup-filled": {
+      "fontCharacter": "\\e24a",
+      "fontId": "ddlc-icons"
+    },
+    "thumbsup": {
+      "fontCharacter": "\\e24b",
+      "fontId": "ddlc-icons"
+    },
+    "tools": {
+      "fontCharacter": "\\e24c",
+      "fontId": "ddlc-icons"
+    },
+    "trash": {
+      "fontCharacter": "\\e24d",
+      "fontId": "ddlc-icons"
+    },
+    "triangle-down": {
+      "fontCharacter": "\\e24e",
+      "fontId": "ddlc-icons"
+    },
+    "triangle-left": {
+      "fontCharacter": "\\e24f",
+      "fontId": "ddlc-icons"
+    },
+    "triangle-right": {
+      "fontCharacter": "\\e250",
+      "fontId": "ddlc-icons"
+    },
+    "triangle-up": {
+      "fontCharacter": "\\e251",
+      "fontId": "ddlc-icons"
+    },
+    "twitter": {
+      "fontCharacter": "\\e252",
+      "fontId": "ddlc-icons"
+    },
+    "type-hierarchy-sub": {
+      "fontCharacter": "\\e253",
+      "fontId": "ddlc-icons"
+    },
+    "type-hierarchy-super": {
+      "fontCharacter": "\\e254",
+      "fontId": "ddlc-icons"
+    },
+    "type-hierarchy": {
+      "fontCharacter": "\\e255",
+      "fontId": "ddlc-icons"
+    },
+    "unarchive": {
+      "fontCharacter": "\\e256",
+      "fontId": "ddlc-icons"
+    },
+    "unfold": {
+      "fontCharacter": "\\e257",
+      "fontId": "ddlc-icons"
+    },
+    "ungroup-by-ref-type": {
+      "fontCharacter": "\\e258",
+      "fontId": "ddlc-icons"
+    },
+    "unlock": {
+      "fontCharacter": "\\e259",
+      "fontId": "ddlc-icons"
+    },
+    "unmute": {
+      "fontCharacter": "\\e25a",
+      "fontId": "ddlc-icons"
+    },
+    "unpin": {
+      "fontCharacter": "\\e25b",
+      "fontId": "ddlc-icons"
+    },
+    "unverified": {
+      "fontCharacter": "\\e25c",
+      "fontId": "ddlc-icons"
+    },
+    "variable-group": {
+      "fontCharacter": "\\e25d",
+      "fontId": "ddlc-icons"
+    },
+    "verified-filled": {
+      "fontCharacter": "\\e25e",
+      "fontId": "ddlc-icons"
+    },
+    "verified": {
+      "fontCharacter": "\\e25f",
+      "fontId": "ddlc-icons"
+    },
+    "versions": {
+      "fontCharacter": "\\e260",
+      "fontId": "ddlc-icons"
+    },
+    "vm-active": {
+      "fontCharacter": "\\e261",
+      "fontId": "ddlc-icons"
+    },
+    "vm-compact": {
+      "fontCharacter": "\\e262",
+      "fontId": "ddlc-icons"
+    },
+    "vm-connect": {
+      "fontCharacter": "\\e263",
+      "fontId": "ddlc-icons"
+    },
+    "vm-outline": {
+      "fontCharacter": "\\e264",
+      "fontId": "ddlc-icons"
+    },
+    "vm-pending": {
+      "fontCharacter": "\\e265",
+      "fontId": "ddlc-icons"
+    },
+    "vm-running": {
+      "fontCharacter": "\\e266",
+      "fontId": "ddlc-icons"
+    },
+    "vm-small": {
+      "fontCharacter": "\\e267",
+      "fontId": "ddlc-icons"
+    },
+    "vm": {
+      "fontCharacter": "\\e268",
+      "fontId": "ddlc-icons"
+    },
+    "voice-mode-compact": {
+      "fontCharacter": "\\e269",
+      "fontId": "ddlc-icons"
+    },
+    "voice-mode-download-compact": {
+      "fontCharacter": "\\e26a",
+      "fontId": "ddlc-icons"
+    },
+    "voice-mode-download": {
+      "fontCharacter": "\\e26b",
+      "fontId": "ddlc-icons"
+    },
+    "voice-mode": {
+      "fontCharacter": "\\e26c",
+      "fontId": "ddlc-icons"
+    },
+    "vr": {
+      "fontCharacter": "\\e26d",
+      "fontId": "ddlc-icons"
+    },
+    "vscode-insiders-outline": {
+      "fontCharacter": "\\e26e",
+      "fontId": "ddlc-icons"
+    },
+    "vscode-insiders": {
+      "fontCharacter": "\\e26f",
+      "fontId": "ddlc-icons"
+    },
+    "vscode-outline": {
+      "fontCharacter": "\\e270",
+      "fontId": "ddlc-icons"
+    },
+    "vscode": {
+      "fontCharacter": "\\e271",
+      "fontId": "ddlc-icons"
+    },
+    "wand": {
+      "fontCharacter": "\\e272",
+      "fontId": "ddlc-icons"
+    },
+    "warning-compact": {
+      "fontCharacter": "\\e273",
+      "fontId": "ddlc-icons"
+    },
+    "warning": {
+      "fontCharacter": "\\e274",
+      "fontId": "ddlc-icons"
+    },
+    "watch": {
+      "fontCharacter": "\\e275",
+      "fontId": "ddlc-icons"
+    },
+    "whitespace": {
+      "fontCharacter": "\\e276",
+      "fontId": "ddlc-icons"
+    },
+    "whole-word": {
+      "fontCharacter": "\\e277",
+      "fontId": "ddlc-icons"
+    },
+    "window-active": {
+      "fontCharacter": "\\e278",
+      "fontId": "ddlc-icons"
+    },
+    "window-compact": {
+      "fontCharacter": "\\e279",
+      "fontId": "ddlc-icons"
+    },
+    "window": {
+      "fontCharacter": "\\e27a",
+      "fontId": "ddlc-icons"
+    },
+    "word-wrap": {
+      "fontCharacter": "\\e27b",
+      "fontId": "ddlc-icons"
+    },
+    "workspace-trusted": {
+      "fontCharacter": "\\e27c",
+      "fontId": "ddlc-icons"
+    },
+    "workspace-unknown": {
+      "fontCharacter": "\\e27d",
+      "fontId": "ddlc-icons"
+    },
+    "workspace-untrusted": {
+      "fontCharacter": "\\e27e",
+      "fontId": "ddlc-icons"
+    },
+    "worktree-compact": {
+      "fontCharacter": "\\e27f",
+      "fontId": "ddlc-icons"
+    },
+    "worktree-small": {
+      "fontCharacter": "\\e280",
+      "fontId": "ddlc-icons"
+    },
+    "worktree": {
+      "fontCharacter": "\\e281",
+      "fontId": "ddlc-icons"
+    },
+    "x": {
+      "fontCharacter": "\\e282",
+      "fontId": "ddlc-icons"
+    },
+    "zoom-in": {
+      "fontCharacter": "\\e283",
+      "fontId": "ddlc-icons"
+    },
+    "zoom-out": {
+      "fontCharacter": "\\e284",
+      "fontId": "ddlc-icons"
+    },
+    "accounts-view-bar-icon": {
+      "fontCharacter": "\\e000",
+      "fontId": "ddlc-icons"
+    },
+    "breakpoints-activate": {
+      "fontCharacter": "\\e001",
+      "fontId": "ddlc-icons"
+    },
+    "breakpoints-remove-all": {
+      "fontCharacter": "\\e058",
+      "fontId": "ddlc-icons"
+    },
+    "breakpoints-view-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "callhierarchy-incoming": {
+      "fontCharacter": "\\e02f",
+      "fontId": "ddlc-icons"
+    },
+    "callhierarchy-outgoing": {
+      "fontCharacter": "\\e030",
+      "fontId": "ddlc-icons"
+    },
+    "callstack-view-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "callstack-view-session": {
+      "fontCharacter": "\\e02c",
+      "fontId": "ddlc-icons"
+    },
+    "chat-editor-label-icon": {
+      "fontCharacter": "\\e06d",
+      "fontId": "ddlc-icons"
+    },
+    "comments-view-icon": {
+      "fontCharacter": "\\e06d",
+      "fontId": "ddlc-icons"
+    },
+    "debug-collapse-all": {
+      "fontCharacter": "\\e065",
+      "fontId": "ddlc-icons"
+    },
+    "debug-configure": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "debug-console-clear-all": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "debug-console-evaluation-input": {
+      "fontCharacter": "\\e012",
+      "fontId": "ddlc-icons"
+    },
+    "debug-console-evaluation-prompt": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "debug-console-view-icon": {
+      "fontCharacter": "\\e096",
+      "fontId": "ddlc-icons"
+    },
+    "debug-gripper": {
+      "fontCharacter": "\\e123",
+      "fontId": "ddlc-icons"
+    },
+    "default-view-icon": {
+      "fontCharacter": "\\e27a",
+      "fontId": "ddlc-icons"
+    },
+    "diff-editor-next-change": {
+      "fontCharacter": "\\e00d",
+      "fontId": "ddlc-icons"
+    },
+    "diff-editor-previous-change": {
+      "fontCharacter": "\\e015",
+      "fontId": "ddlc-icons"
+    },
+    "diff-editor-toggle-whitespace": {
+      "fontCharacter": "\\e276",
+      "fontId": "ddlc-icons"
+    },
+    "diff-insert": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "diff-remove": {
+      "fontCharacter": "\\e1c5",
+      "fontId": "ddlc-icons"
+    },
+    "diff-review-close": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "diff-review-insert": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "diff-review-remove": {
+      "fontCharacter": "\\e1c5",
+      "fontId": "ddlc-icons"
+    },
+    "disassembly-editor-label-icon": {
+      "fontCharacter": "\\e0aa",
+      "fontId": "ddlc-icons"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\e0da",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-clear-search-results": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-configure-recommended": {
+      "fontCharacter": "\\e19b",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-editor-label-icon": {
+      "fontCharacter": "\\e0ca",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-filter": {
+      "fontCharacter": "\\e0dc",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-info-message": {
+      "fontCharacter": "\\e130",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-install-count": {
+      "fontCharacter": "\\e05c",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-install-local-in-remote": {
+      "fontCharacter": "\\e05c",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-install-workspace-recommended": {
+      "fontCharacter": "\\e05c",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-manage": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-rating": {
+      "fontCharacter": "\\e213",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-refresh": {
+      "fontCharacter": "\\e1bf",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-remote": {
+      "fontCharacter": "\\e1c3",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-star-empty": {
+      "fontCharacter": "\\e210",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-star-full": {
+      "fontCharacter": "\\e211",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-star-half": {
+      "fontCharacter": "\\e212",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-sync-enabled": {
+      "fontCharacter": "\\e234",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-sync-ignored": {
+      "fontCharacter": "\\e233",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\e0ca",
+      "fontId": "ddlc-icons"
+    },
+    "extensions-warning-message": {
+      "fontCharacter": "\\e274",
+      "fontId": "ddlc-icons"
+    },
+    "find-collapsed": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "find-expanded": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "find-next-match": {
+      "fontCharacter": "\\e00d",
+      "fontId": "ddlc-icons"
+    },
+    "find-previous-match": {
+      "fontCharacter": "\\e015",
+      "fontId": "ddlc-icons"
+    },
+    "find-replace": {
+      "fontCharacter": "\\e1c8",
+      "fontId": "ddlc-icons"
+    },
+    "find-replace-all": {
+      "fontCharacter": "\\e1c7",
+      "fontId": "ddlc-icons"
+    },
+    "folding-collapsed": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "folding-expanded": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "getting-started-beginner": {
+      "fontCharacter": "\\e15c",
+      "fontId": "ddlc-icons"
+    },
+    "getting-started-codespaces": {
+      "fontCharacter": "\\e118",
+      "fontId": "ddlc-icons"
+    },
+    "getting-started-item-checked": {
+      "fontCharacter": "\\e199",
+      "fontId": "ddlc-icons"
+    },
+    "getting-started-setup": {
+      "fontCharacter": "\\e126",
+      "fontId": "ddlc-icons"
+    },
+    "goto-next-location": {
+      "fontCharacter": "\\e00d",
+      "fontId": "ddlc-icons"
+    },
+    "goto-previous-location": {
+      "fontCharacter": "\\e015",
+      "fontId": "ddlc-icons"
+    },
+    "keybindings-add": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "keybindings-edit": {
+      "fontCharacter": "\\e0be",
+      "fontId": "ddlc-icons"
+    },
+    "keybindings-record-keys": {
+      "fontCharacter": "\\e1b9",
+      "fontId": "ddlc-icons"
+    },
+    "keybindings-sort": {
+      "fontCharacter": "\\e208",
+      "fontId": "ddlc-icons"
+    },
+    "loaded-scripts-view-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "marker-navigation-next": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "marker-navigation-previous": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "markers-view-filter": {
+      "fontCharacter": "\\e0dc",
+      "fontId": "ddlc-icons"
+    },
+    "markers-view-icon": {
+      "fontCharacter": "\\e274",
+      "fontId": "ddlc-icons"
+    },
+    "markers-view-multi-line-collapsed": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "markers-view-multi-line-expanded": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "multi-diff-editor-label-icon": {
+      "fontCharacter": "\\e0b3",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-clear": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-collapsed": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-delete-cell": {
+      "fontCharacter": "\\e24d",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-edit": {
+      "fontCharacter": "\\e19b",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-execute": {
+      "fontCharacter": "\\e1a9",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-execute-all": {
+      "fontCharacter": "\\e1e2",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-expanded": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-kernel-configure": {
+      "fontCharacter": "\\e1fd",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-kernel-select": {
+      "fontCharacter": "\\e1f7",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-mimetype": {
+      "fontCharacter": "\\e062",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-move-down": {
+      "fontCharacter": "\\e00d",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-move-up": {
+      "fontCharacter": "\\e015",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-open-as-text": {
+      "fontCharacter": "\\e0cf",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-render-output": {
+      "fontCharacter": "\\e1ad",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-revert": {
+      "fontCharacter": "\\e0b8",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-split-cell": {
+      "fontCharacter": "\\e20e",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-state-error": {
+      "fontCharacter": "\\e0c5",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-state-success": {
+      "fontCharacter": "\\e039",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-stop": {
+      "fontCharacter": "\\e1ae",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-stop-edit": {
+      "fontCharacter": "\\e039",
+      "fontId": "ddlc-icons"
+    },
+    "notebook-unfold": {
+      "fontCharacter": "\\e257",
+      "fontId": "ddlc-icons"
+    },
+    "notifications-clear": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "notifications-clear-all": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "notifications-collapse": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "notifications-configure": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "notifications-expand": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "notifications-hide": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "open-editors-view-icon": {
+      "fontCharacter": "\\e025",
+      "fontId": "ddlc-icons"
+    },
+    "outline-view-icon": {
+      "fontCharacter": "\\e219",
+      "fontId": "ddlc-icons"
+    },
+    "output-view-icon": {
+      "fontCharacter": "\\e194",
+      "fontId": "ddlc-icons"
+    },
+    "panel-close": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "panel-maximize": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "panel-restore": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "parameter-hints-next": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "parameter-hints-previous": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "ports-forward-icon": {
+      "fontCharacter": "\\e1ab",
+      "fontId": "ddlc-icons"
+    },
+    "ports-open-browser-icon": {
+      "fontCharacter": "\\e119",
+      "fontId": "ddlc-icons"
+    },
+    "ports-stop-forward-icon": {
+      "fontCharacter": "\\e282",
+      "fontId": "ddlc-icons"
+    },
+    "ports-view-icon": {
+      "fontCharacter": "\\e1aa",
+      "fontId": "ddlc-icons"
+    },
+    "preferences-clear-input": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "preferences-open-settings": {
+      "fontCharacter": "\\e11b",
+      "fontId": "ddlc-icons"
+    },
+    "private-ports-view-icon": {
+      "fontCharacter": "\\e16a",
+      "fontId": "ddlc-icons"
+    },
+    "public-ports-view-icon": {
+      "fontCharacter": "\\e0cc",
+      "fontId": "ddlc-icons"
+    },
+    "refactor-preview-view-icon": {
+      "fontCharacter": "\\e15c",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer-documentation": {
+      "fontCharacter": "\\e025",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer-feedback": {
+      "fontCharacter": "\\e252",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer-get-started": {
+      "fontCharacter": "\\e213",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer-report-issues": {
+      "fontCharacter": "\\e071",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer-review-issues": {
+      "fontCharacter": "\\e135",
+      "fontId": "ddlc-icons"
+    },
+    "remote-explorer-view-icon": {
+      "fontCharacter": "\\e1c2",
+      "fontId": "ddlc-icons"
+    },
+    "review-comment-collapse": {
+      "fontCharacter": "\\e043",
+      "fontId": "ddlc-icons"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "runtime-extensions-editor-label-icon": {
+      "fontCharacter": "\\e0ca",
+      "fontId": "ddlc-icons"
+    },
+    "search-clear-results": {
+      "fontCharacter": "\\e055",
+      "fontId": "ddlc-icons"
+    },
+    "search-collapse-results": {
+      "fontCharacter": "\\e065",
+      "fontId": "ddlc-icons"
+    },
+    "search-details": {
+      "fontCharacter": "\\e0c0",
+      "fontId": "ddlc-icons"
+    },
+    "search-editor-label-icon": {
+      "fontCharacter": "\\e1f4",
+      "fontId": "ddlc-icons"
+    },
+    "search-expand-results": {
+      "fontCharacter": "\\e0c7",
+      "fontId": "ddlc-icons"
+    },
+    "search-hide-replace": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "search-new-editor": {
+      "fontCharacter": "\\e186",
+      "fontId": "ddlc-icons"
+    },
+    "search-refresh": {
+      "fontCharacter": "\\e1bf",
+      "fontId": "ddlc-icons"
+    },
+    "search-remove": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "search-replace": {
+      "fontCharacter": "\\e1c8",
+      "fontId": "ddlc-icons"
+    },
+    "search-replace-all": {
+      "fontCharacter": "\\e1c7",
+      "fontId": "ddlc-icons"
+    },
+    "search-show-context": {
+      "fontCharacter": "\\e162",
+      "fontId": "ddlc-icons"
+    },
+    "search-show-replace": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\e1f4",
+      "fontId": "ddlc-icons"
+    },
+    "settings-add": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "settings-discard": {
+      "fontCharacter": "\\e0b8",
+      "fontId": "ddlc-icons"
+    },
+    "settings-edit": {
+      "fontCharacter": "\\e0be",
+      "fontId": "ddlc-icons"
+    },
+    "settings-editor-label-icon": {
+      "fontCharacter": "\\e1fe",
+      "fontId": "ddlc-icons"
+    },
+    "settings-folder-dropdown": {
+      "fontCharacter": "\\e24e",
+      "fontId": "ddlc-icons"
+    },
+    "settings-group-collapsed": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "settings-group-expanded": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "settings-more-action": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "settings-remove": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "settings-sync-view-icon": {
+      "fontCharacter": "\\e234",
+      "fontId": "ddlc-icons"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\e1fd",
+      "fontId": "ddlc-icons"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\e209",
+      "fontId": "ddlc-icons"
+    },
+    "suggest-more-info": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "tasks-list-configure": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "tasks-remove": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-kill": {
+      "fontCharacter": "\\e24d",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-new": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-rename": {
+      "fontCharacter": "\\e0fb",
+      "fontId": "ddlc-icons"
+    },
+    "terminal-view-icon": {
+      "fontCharacter": "\\e244",
+      "fontId": "ddlc-icons"
+    },
+    "test-view-icon": {
+      "fontCharacter": "\\e01e",
+      "fontId": "ddlc-icons"
+    },
+    "testing-cancel-icon": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "testing-debug-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "testing-error-icon": {
+      "fontCharacter": "\\e274",
+      "fontId": "ddlc-icons"
+    },
+    "testing-failed-icon": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "testing-passed-icon": {
+      "fontCharacter": "\\e19a",
+      "fontId": "ddlc-icons"
+    },
+    "testing-queued-icon": {
+      "fontCharacter": "\\e275",
+      "fontId": "ddlc-icons"
+    },
+    "testing-run-all-icon": {
+      "fontCharacter": "\\e1e2",
+      "fontId": "ddlc-icons"
+    },
+    "testing-run-icon": {
+      "fontCharacter": "\\e1e8",
+      "fontId": "ddlc-icons"
+    },
+    "testing-show-as-list-icon": {
+      "fontCharacter": "\\e163",
+      "fontId": "ddlc-icons"
+    },
+    "testing-skipped-icon": {
+      "fontCharacter": "\\e0a8",
+      "fontId": "ddlc-icons"
+    },
+    "timeline-open": {
+      "fontCharacter": "\\e127",
+      "fontId": "ddlc-icons"
+    },
+    "timeline-pin": {
+      "fontCharacter": "\\e1a5",
+      "fontId": "ddlc-icons"
+    },
+    "timeline-refresh": {
+      "fontCharacter": "\\e1bf",
+      "fontId": "ddlc-icons"
+    },
+    "timeline-unpin": {
+      "fontCharacter": "\\e1a7",
+      "fontId": "ddlc-icons"
+    },
+    "timeline-view-icon": {
+      "fontCharacter": "\\e127",
+      "fontId": "ddlc-icons"
+    },
+    "variables-view-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "view-pane-container-collapsed": {
+      "fontCharacter": "\\e041",
+      "fontId": "ddlc-icons"
+    },
+    "view-pane-container-expanded": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    },
+    "watch-expressions-add": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "watch-expressions-add-function-breakpoint": {
+      "fontCharacter": "\\e004",
+      "fontId": "ddlc-icons"
+    },
+    "watch-expressions-remove-all": {
+      "fontCharacter": "\\e058",
+      "fontId": "ddlc-icons"
+    },
+    "watch-view-icon": {
+      "fontCharacter": "\\e08a",
+      "fontId": "ddlc-icons"
+    },
+    "widget-close": {
+      "fontCharacter": "\\e05a",
+      "fontId": "ddlc-icons"
+    },
+    "workspace-trust-editor-label-icon": {
+      "fontCharacter": "\\e202",
+      "fontId": "ddlc-icons"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\e03d",
+      "fontId": "ddlc-icons"
+    }
+  }
+}

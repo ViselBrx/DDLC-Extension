@@ -3,6 +3,9 @@
 .vscode/**
 node_modules/**
 src/**
+scripts/**
+producticons/svg/**
+producticons/codepoints.json
 tsconfig.json
 package-lock.json
 *.ts

@@ -33,28 +33,28 @@ export const DOKIS: Record<string, DokiInfo> = {
     key: 'monika',
     name: 'Monika',
     file: 'chibimonika.png',
-    color: '#2a9d8f',
+    color: '#3dff9a',
     title: 'Monika (Club President)',
   },
   sayori: {
     key: 'sayori',
     name: 'Sayori',
     file: 'chibisayori.png',
-    color: '#4ea8de',
+    color: '#3dc4ff',
     title: 'Sayori (Vice President)',
   },
   natsuki: {
     key: 'natsuki',
     name: 'Natsuki',
     file: 'chibinatsuki.png',
-    color: '#e76f8a',
+    color: '#ff4da6',
     title: 'Natsuki (Manga and Cupcakes)',
   },
   yuri: {
     key: 'yuri',
     name: 'Yuri',
     file: 'chibiyuri.png',
-    color: '#7b5294',
+    color: '#c44dff',
     title: 'Yuri (Poetry and Books)',
   },
 };
@@ -171,32 +171,46 @@ class ChibiWebviewProvider implements vscode.WebviewViewProvider, vscode.Disposa
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src ${cspSource}; style-src 'unsafe-inline';">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    :root { color-scheme: dark; }
+    :root {
+      color-scheme: dark;
+      --glass: color-mix(in srgb, var(--vscode-sideBar-background) 55%, transparent);
+      --glass-border: color-mix(in srgb, var(--vscode-focusBorder) 55%, transparent);
+      --accent-glow: color-mix(in srgb, var(--vscode-focusBorder) 28%, transparent);
+    }
     * { box-sizing: border-box; }
     html, body { margin: 0; min-height: 100%; }
     body {
       display: flex;
       justify-content: center;
       padding: 11px 7px 15px;
-      background: var(--vscode-sideBar-background);
+      background:
+        radial-gradient(120% 80% at 50% -10%, var(--accent-glow), transparent 55%),
+        var(--vscode-sideBar-background);
       color: var(--vscode-sideBar-foreground);
       font-family: var(--vscode-font-family);
     }
     .card {
       width: 100%;
       min-height: 194px;
-      padding: 11px 9px 13px;
-      border: 1px solid var(--vscode-focusBorder);
-      border-radius: 5px;
-      background: var(--vscode-sideBar-background);
+      padding: 12px 10px 14px;
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      background: var(--glass);
+      box-shadow:
+        0 0 0 1px color-mix(in srgb, #fff 4%, transparent),
+        0 10px 28px rgba(0,0,0,0.28),
+        inset 0 1px 0 color-mix(in srgb, #fff 8%, transparent);
+      backdrop-filter: blur(14px) saturate(1.15);
+      -webkit-backdrop-filter: blur(14px) saturate(1.15);
       text-align: center;
     }
     .label {
-      color: var(--vscode-textLink-foreground);
+      color: var(--vscode-focusBorder);
       font-size: 10px;
       font-weight: 600;
       letter-spacing: .08em;
       text-transform: uppercase;
+      opacity: 0.9;
     }
     img {
       display: block;
@@ -204,6 +218,7 @@ class ChibiWebviewProvider implements vscode.WebviewViewProvider, vscode.Disposa
       height: 118px;
       margin: 3px auto 0;
       object-fit: contain;
+      filter: drop-shadow(0 6px 16px var(--accent-glow));
     }
     .name {
       margin-top: -1px;
@@ -213,6 +228,10 @@ class ChibiWebviewProvider implements vscode.WebviewViewProvider, vscode.Disposa
     }
     .phrase {
       margin: 8px 4px 0;
+      padding: 7px 8px;
+      border-radius: 10px;
+      background: color-mix(in srgb, #000 18%, transparent);
+      border: 1px solid color-mix(in srgb, var(--vscode-focusBorder) 22%, transparent);
       color: var(--vscode-descriptionForeground);
       font-size: 11px;
       font-style: italic;
@@ -541,19 +560,22 @@ class DialogueWebviewProvider
   <style>
     :root {
       --accent: ${color};
-      --accent-dim: color-mix(in srgb, ${color} 25%, transparent);
-      --accent-mid: color-mix(in srgb, ${color} 50%, transparent);
-      --vn-bg: rgba(15, 10, 20, 0.88);
-      --vn-border: color-mix(in srgb, ${color} 55%, #fff 10%);
-      --vn-text: #f0eaf5;
-      --vn-name-bg: ${color};
+      --accent-dim: color-mix(in srgb, ${color} 22%, transparent);
+      --accent-mid: color-mix(in srgb, ${color} 42%, transparent);
+      --vn-bg: color-mix(in srgb, #120c18 52%, transparent);
+      --vn-border: color-mix(in srgb, ${color} 48%, #fff 12%);
+      --vn-text: #f3eef8;
+      --vn-name-bg: color-mix(in srgb, ${color} 82%, #fff 8%);
       color-scheme: dark;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     html, body {
       height: 100%;
-      background: var(--vscode-sideBar-background, #0d0d12);
+      background:
+        radial-gradient(130% 70% at 50% -15%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 58%),
+        radial-gradient(90% 50% at 80% 100%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 55%),
+        var(--vscode-sideBar-background, #0d0d12);
       font-family: 'Nunito', var(--vscode-font-family), sans-serif;
       overflow-x: hidden;
       overflow-y: auto;
@@ -576,13 +598,28 @@ class DialogueWebviewProvider
       flex-shrink: 0;
       padding: 0 4px;
     }
+    .sprite-stage::after {
+      content: '';
+      position: absolute;
+      left: 18%;
+      right: 18%;
+      bottom: 4px;
+      height: 18px;
+      border-radius: 50%;
+      background: radial-gradient(ellipse at center, color-mix(in srgb, var(--accent) 24%, transparent), transparent 70%);
+      filter: blur(5px);
+      pointer-events: none;
+      z-index: 0;
+    }
     #sprite {
+      position: relative;
+      z-index: 1;
       width: 100%;
       max-height: 260px;
       height: auto;
       display: block;
       object-fit: contain;
-      filter: drop-shadow(0 4px 18px color-mix(in srgb, var(--accent) 35%, transparent));
+      filter: drop-shadow(0 5px 14px color-mix(in srgb, var(--accent) 26%, transparent));
       transition: opacity 0.28s ease, transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
     }
     #sprite.fading { opacity: 0; transform: scale(0.97) translateY(6px); }
@@ -596,28 +633,31 @@ class DialogueWebviewProvider
       letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--accent);
-      padding: 3px 8px 4px;
-      background: var(--accent-dim);
+      padding: 4px 10px 5px;
+      background: color-mix(in srgb, var(--accent) 16%, transparent);
       border: 1px solid var(--accent-mid);
-      border-radius: 20px;
+      border-radius: 999px;
       align-self: center;
       margin-top: -4px;
       margin-bottom: 0;
-      backdrop-filter: blur(4px);
+      box-shadow: inset 0 1px 0 color-mix(in srgb, #fff 10%, transparent);
+      backdrop-filter: blur(10px) saturate(1.2);
+      -webkit-backdrop-filter: blur(10px) saturate(1.2);
     }
     .event-badge i { font-size: 11px; }
 
     .vn-box {
       width: calc(100% - 10px);
       background: var(--vn-bg);
-      border: 1.5px solid var(--vn-border);
-      border-radius: 10px;
+      border: 1px solid var(--vn-border);
+      border-radius: 14px;
       overflow: hidden;
       box-shadow:
-        0 0 0 1px color-mix(in srgb, var(--accent) 10%, transparent),
-        0 8px 32px rgba(0,0,0,0.45),
-        inset 0 1px 0 rgba(255,255,255,0.05);
-      backdrop-filter: blur(12px);
+        0 0 0 1px color-mix(in srgb, var(--accent) 12%, transparent),
+        0 12px 36px rgba(0,0,0,0.38),
+        inset 0 1px 0 color-mix(in srgb, #fff 10%, transparent);
+      backdrop-filter: blur(18px) saturate(1.25);
+      -webkit-backdrop-filter: blur(18px) saturate(1.25);
       flex-shrink: 0;
     }
 
@@ -628,10 +668,12 @@ class DialogueWebviewProvider
       font-size: 11.5px;
       font-weight: 700;
       letter-spacing: .06em;
-      padding: 3px 14px 4px;
-      border-radius: 0 0 8px 0;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      padding: 4px 14px 5px;
+      border-radius: 0 0 10px 0;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.35);
+      box-shadow:
+        2px 2px 10px color-mix(in srgb, var(--accent) 35%, transparent),
+        inset 0 1px 0 color-mix(in srgb, #fff 18%, transparent);
     }
 
     .vn-text-area {
@@ -664,7 +706,7 @@ class DialogueWebviewProvider
       gap: 6px;
       padding: 6px 10px 10px;
       border-top: 1px solid var(--accent-mid);
-      background: rgba(0,0,0,0.15);
+      background: color-mix(in srgb, #000 22%, transparent);
       position: relative;
       z-index: 2;
       pointer-events: auto;
@@ -672,9 +714,9 @@ class DialogueWebviewProvider
     .choice-btn {
       display: block;
       width: 100%;
-      background: transparent;
+      background: color-mix(in srgb, #fff 3%, transparent);
       border: 1px solid var(--accent-mid);
-      border-radius: 6px;
+      border-radius: 10px;
       color: var(--vn-text);
       font-family: 'Nunito', sans-serif;
       font-size: 11px;
@@ -682,16 +724,18 @@ class DialogueWebviewProvider
       padding: 7px 11px;
       cursor: pointer;
       text-align: left;
-      transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.1s ease, opacity 0.1s ease;
+      transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.1s ease, opacity 0.1s ease, box-shadow 0.18s ease;
       position: relative;
       overflow: hidden;
       user-select: none;
       pointer-events: auto;
+      backdrop-filter: blur(6px);
     }
     .choice-btn:hover {
       background: var(--accent-dim);
       border-color: var(--accent);
       color: #fff;
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 25%, transparent);
     }
     .choice-btn:focus-visible {
       outline: 1px solid var(--accent);
@@ -724,10 +768,10 @@ class DialogueWebviewProvider
     }
     .history-item {
       min-width: 0;
-      padding: 4px 7px;
+      padding: 5px 8px;
       border-left: 2px solid color-mix(in srgb, var(--accent) 42%, transparent);
-      border-radius: 0 4px 4px 0;
-      background: color-mix(in srgb, var(--vscode-editor-background) 55%, transparent);
+      border-radius: 0 8px 8px 0;
+      background: color-mix(in srgb, var(--vscode-editor-background) 40%, transparent);
       color: var(--vscode-descriptionForeground);
       font-size: 9.5px;
       font-style: italic;
@@ -735,6 +779,7 @@ class DialogueWebviewProvider
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
+      backdrop-filter: blur(8px);
       transition: background-color .16s ease, border-color .16s ease, color .16s ease;
     }
     .history-item:hover {
@@ -754,29 +799,33 @@ class DialogueWebviewProvider
 
     .talk-btn {
       min-width: 0;
-      padding: 6px 11px;
-      background: var(--vn-bg);
-      border: 1px solid var(--accent);
+      padding: 6px 12px;
+      background: color-mix(in srgb, var(--accent) 14%, transparent);
+      border: 1px solid color-mix(in srgb, var(--accent) 70%, transparent);
       color: var(--accent);
       font-weight: 700;
-      border-radius: 20px;
+      border-radius: 999px;
       cursor: pointer;
       font-size: 11px;
-      transition: background-color .18s ease, color .18s ease, border-color .18s ease;
+      transition: background-color .18s ease, color .18s ease, border-color .18s ease, box-shadow .18s ease;
       white-space: nowrap;
+      backdrop-filter: blur(10px);
+      box-shadow: inset 0 1px 0 color-mix(in srgb, #fff 8%, transparent);
     }
     .talk-btn:hover {
       background: var(--accent);
       color: #fff;
+      box-shadow: 0 4px 16px color-mix(in srgb, var(--accent) 40%, transparent);
     }
 
     .lang-selector {
       display: flex;
-      background: rgba(0,0,0,0.4);
-      border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
-      border-radius: 20px;
+      background: color-mix(in srgb, #000 35%, transparent);
+      border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+      border-radius: 999px;
       overflow: hidden;
       flex-shrink: 0;
+      backdrop-filter: blur(10px);
     }
     .lang-btn {
       background: transparent;
@@ -792,13 +841,13 @@ class DialogueWebviewProvider
     }
     .lang-btn:hover {
       opacity: 0.9;
-      background: rgba(255,255,255,0.08);
+      background: color-mix(in srgb, #fff 8%, transparent);
     }
     .lang-btn.active {
       opacity: 1;
       background: var(--accent);
       color: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      box-shadow: 0 2px 10px color-mix(in srgb, var(--accent) 45%, transparent);
     }
   </style>
 </head>
