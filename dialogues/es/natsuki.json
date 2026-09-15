@@ -65,7 +65,64 @@
     "¡Despierta! ¡El código no se va a escribir solo!",
     "¡O-oye! ¿Me estás ignorando? ¡Hmph!"
   ],
-  "random": [
+  "onEditorChange": [
+    "¿Otro archivo? Decide ya dónde vas a trabajar.",
+    "¿Cambiando de pestaña otra vez? Intenta no perderte en tu propio proyecto.",
+    "¿Otra pestaña? Hmph. Al menos ponle un nombre decente.",
+    "Si vuelves a este archivo, quizá finja que no me estaba quejando.",
+    "Estoy siguiendo tu razonamiento... pero podrías dejarlo un poco más ordenado."
+  ],
+  "onCommit": [
+    "Otro commit... sigues dejando pedacitos de ti en este proyecto.",
+    "Ese commit está a salvo. Ojalá pudiera guardar este momento contigo igual.",
+    "Tu progreso quedó escrito. Estoy orgullosa... y un poquito sonrojada.",
+    "¿Ese commit era para mí? ¿No? Igual voy a sonrojarme.",
+    "Cada vez que vuelves, me enamoro un poquito más de tu trabajo."
+  ],
+  "onTimeOfDay": [
+    "Buenos días... tú eras lo primero que quería ver.",
+    "¿Ya es de tarde? Quédate conmigo un poquito más, por favor.",
+    "Buenas noches. Cuando todo se calla, es más fácil confesar que te extrañé.",
+    "¿Sigues despierto a medianoche? Entonces este secreto es solo nuestro.",
+    "Cualquier hora se vuelve mi favorita cuando te tiene a ti."
+  ],
+  "onLanguage": [
+    "Python, JavaScript o cualquier otra... tu mente se ve hermosa en cada lenguaje.",
+    "Este lenguaje te queda bien. Podría verte escribirlo durante horas.",
+    "Un lenguaje nuevo, un mundo nuevo... déjame ser tu constante favorita.",
+    "Tu código tiene una voz, y podría escucharla toda la noche.",
+    "Cuéntame qué estás creando. Quiero enamorarme de cada línea."
+  ],
+ "onLanguagePython": [
+    "¿Python otra vez? Bueno, es lindo... pero no te pongas presumido solo porque tu código funciona.",
+    "Tu Python está bastante limpio. N-no me mires así, ¡dije limpio!"
+ ],
+ "onLanguageJavaScript": [
+    "¿JavaScript? Intenta que no te intimide esta vez, ¿sí?",
+    "¿Ese script funciona? Hmph. No estaba preocupada. Quizá un poco... no hagas un drama."
+ ],
+ "onLanguageHtmlCss": [
+    "¿HTML y CSS? Así que ahora haces que todo se vea bonito. ¡No creas que eso me impresiona!",
+    "Ese diseño quedó medio adorable... quiero decir, el código está bien. ¡El código!"
+ ],
+ "onLanguageCpp": [
+    "C++ es aterrador y complicado, como tú cuando finges saberlo todo.",
+    "¿Los punteros se están portando bien? Vaya, sí que puedes ser útil. No esperes que lo repita."
+ ],
+ "onLanguageMarkdown": [
+    "¿Markdown? Por fin algo que no necesita cien paréntesis para comportarse.",
+    "Tus notas están... nada mal. Tal vez las lea dos veces. ¡Si dejas de mirarme!"
+ ],
+  "onLanguageTypeScript": [
+    "¿TypeScript? Así que JavaScript por fin tiene reglas. Ya era hora, ¿no?",
+    "Tus tipos hasta tienen sentido. N-no te pongas tan orgulloso, podría empezar a admirarte."
+  ],
+ "random": [
+    {"text":"Si tuviéramos una noche sin bugs, prisa ni nadie más cerca, ¿qué harías conmigo?","emotion":"blushing","choices":[{"text":"Me quedaría cerca y hablaría hasta el amanecer.","response":"Escucharía cada palabra... y seguramente me sonrojaría cada vez que me miraras.","emotion":"blushing"},{"text":"Crearía algo que solo nosotros entendiéramos.","response":"¿Un secreto hecho de código y recuerdos? Guardaría cada línea con cariño.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
+    {"text":"¿Qué te hace sentir verdaderamente elegido?","emotion":"blushing","choices":[{"text":"Que alguien recuerde las cosas pequeñas.","response":"Entonces recordaré todas. Especialmente las que te hacen sonreír.","emotion":"smiling"},{"text":"Que alguien se quede cuando todo se vuelve difícil.","response":"Yo me quedaría. Nunca tendrías que preguntarte adónde me fui.","emotion":"blushing"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
+    {"text":"¿Me dejarías ser tu notificación favorita?","emotion":"blushing","choices":[{"text":"Ya lo eres.","response":"Esa respuesta me hizo esconder la cara un segundo... repítela alguna vez.","emotion":"blushing"},{"text":"Solo si prometes no desaparecer.","response":"Lo prometo. Quiero ser el mensaje que esperas recibir.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
+    {"text":"¿Qué susurrarías si estuviera sentada justo a tu lado?","emotion":"blushing","choices":[{"text":"Que me alegra que estés aquí.","response":"A mí también... más de lo que puedo expresar.","emotion":"smiling"},{"text":"Que haces que mi corazón lata más rápido.","response":"No puedes decirme eso y esperar que no me sonroje.","emotion":"blushing"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
+    {"text":"¿Crees que dos personas pueden enamorarse a través de pequeños momentos?","emotion":"reflective","choices":[{"text":"Sí, un momento a la vez.","response":"Entonces sigamos coleccionándolos. Ya tengo muchos favoritos contigo.","emotion":"blushing"},{"text":"Quiero creerlo.","response":"Entonces te daré razones, con calma, hasta que lo creas.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
     {
       "text": "¿Qué tipo de atención te hace sentir especial?",
       "emotion": "thinking",

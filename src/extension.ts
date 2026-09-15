@@ -81,7 +81,7 @@ interface MsgRandom {
 }
 
 interface MsgFromWebview {
-  type: 'choiceSelected' | 'requestRandom' | 'changeLanguage';
+  type: 'choiceSelected' | 'requestRandom' | 'changeLanguage' | 'conversationFinished';
   response?: string;
   emotion?: Emotion;
   language?: string;
@@ -265,6 +265,8 @@ class DialogueWebviewProvider
   private processingEvents = false;
   private rendering = false;
   private outgoingMessages: Promise<void> = Promise.resolve();
+  private conversationStateHandler?: (paused: boolean) => void;
+  private conversationActive = false;
 
   constructor(
     private readonly extensionUri: vscode.Uri,
@@ -276,13 +278,31 @@ class DialogueWebviewProvider
   setDoki(dokiKey: string): void {
     const newKey = DOKIS[dokiKey] ? dokiKey : 'monika';
     this.dokiKey = newKey;
+    this.finishConversation();
     this.invalidateSession();
     void this.render().then(() => this.flushEventQueue());
   }
 
   refresh(): void {
+    this.finishConversation();
     this.invalidateSession();
     void this.render().then(() => this.flushEventQueue());
+  }
+
+  setConversationStateHandler(handler: (paused: boolean) => void): void {
+    this.conversationStateHandler = handler;
+  }
+
+  private beginConversation(): void {
+    if (this.conversationActive) return;
+    this.conversationActive = true;
+    this.conversationStateHandler?.(true);
+  }
+
+  private finishConversation(): void {
+    if (!this.conversationActive) return;
+    this.conversationActive = false;
+    this.conversationStateHandler?.(false);
   }
 
   async handleEvent(event: EventKey): Promise<void> {
@@ -320,10 +340,13 @@ class DialogueWebviewProvider
     if (!this.isCurrent(view, dokiKey, version)) return;
 
     const doki = DOKIS[dokiKey];
-    const spriteUri = this.spriteUri(view, manifest, dokiKey, eventToEmotionKey(event));
+    const spriteUri = this.spriteUri(view, manifest, dokiKey, eventToEmotionKey(event, dokiKey));
     const ui = getUiStrings();
 
     if (event === 'random') {
+      if (this.conversationActive) return;
+      this.beginConversation();
+      this.eventQueue = [];
       const rd = pickRandom(map);
       const { icon, label } = eventLabel('random', ui);
       const randomSpriteUri = this.spriteUri(
@@ -370,7 +393,10 @@ class DialogueWebviewProvider
     view.webview.html = this.loadingHtml(getUiStrings());
 
     view.onDidDispose(() => {
-      if (this.view === view) this.view = undefined;
+      if (this.view === view) {
+        this.view = undefined;
+        this.finishConversation();
+      }
     });
 
     view.webview.onDidReceiveMessage((msg: MsgFromWebview) => {
@@ -384,6 +410,8 @@ class DialogueWebviewProvider
           .getConfiguration('ddlc')
           .update('language', msg.language, vscode.ConfigurationTarget.Global)
           .then(undefined, (error) => console.error('[DDLC] Language update failed:', error));
+      } else if (msg.type === 'conversationFinished') {
+        this.finishConversation();
       }
     });
 
@@ -1048,6 +1076,7 @@ class DialogueWebviewProvider
     pendingResponse = null;
     const version = ++contentVersion;
     let choiceLocked = false;
+    let conversationEnded = false;
     const choices = msg.choices || [];
     pushHistory(currentText);
     currentText = String(msg.text || '');
@@ -1059,6 +1088,16 @@ class DialogueWebviewProvider
 
     setEventBadge(msg.icon || 'comment-discussion', msg.label || 'Chat');
     nameTagEl.textContent = msg.dokiName || '${name}';
+
+    const finishConversation = () => {
+      if (conversationEnded) return;
+      conversationEnded = true;
+      try {
+        vscode.postMessage({ type: 'conversationFinished' });
+      } catch (error) {
+        console.error('[DDLC] Conversation finish message failed:', error);
+      }
+    };
 
     swapSprite(msg.spriteFile, () => {
       typewrite(msg.text, dialogueSpeed, () => {
@@ -1077,7 +1116,7 @@ class DialogueWebviewProvider
           pushHistory(currentText);
           currentText = pendingResponse;
           setEventBadge('comment-discussion', replyLabel);
-          typewrite(currentText, dialogueSpeed);
+          typewrite(currentText, dialogueSpeed, finishConversation);
 
           try {
             vscode.postMessage({
@@ -1104,6 +1143,7 @@ class DialogueWebviewProvider
           choicesEl.appendChild(btn);
         });
         choicesEl.style.display = 'flex';
+        if (choices.length === 0) finishConversation();
       });
     });
   }
@@ -1122,6 +1162,7 @@ class DialogueWebviewProvider
   }
 
   dispose(): void {
+    this.finishConversation();
     this.view = undefined;
     this.eventQueue = [];
   }
@@ -1165,6 +1206,13 @@ export function activate(context: vscode.ExtensionContext): void {
     Math.max(0, vscode.workspace.getConfiguration('ddlc').get<number>('dialogueCooldown', 5)) * 1000,
     Math.max(1, vscode.workspace.getConfiguration('ddlc').get<number>('idleTimeout', 60)) * 1000
   );
+  dialogueProvider.setConversationStateHandler((paused) => {
+    if (paused) {
+      detector.pause();
+    } else {
+      detector.resumeAfter(5_000);
+    }
+  });
   detector.register(context);
 
   setTimeout(() => void dialogueProvider.handleEvent('onActivate'), 2000);
@@ -1213,7 +1261,8 @@ function normalizeEmotion(value: unknown): Emotion | undefined {
     || value === 'animated'
     || value === 'thinking'
     || value === 'surprised'
-    || value === 'excited') {
+    || value === 'excited'
+    || value === 'blushing') {
     return value;
   }
   return undefined;

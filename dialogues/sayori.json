@@ -185,7 +185,64 @@
     "You've been idle! Please don't forget to drink water while you think!",
     "Heyy... still here if you need me. No rush at all, okay?"
   ],
-  "random": [
+  "onEditorChange": [
+    "Another file! Maybe it has the clue we need.",
+    "You are hopping between tabs again... is this strategy or a treasure hunt?",
+    "This tab looks important! If it is not, we can pretend it was.",
+    "Do not forget to come back to the previous file if there is still work there, okay?",
+    "Every file is a puzzle piece. Let us put them together!"
+  ],
+  "onCommit": [
+    "Another commit... you keep leaving pieces of yourself in this project.",
+    "That commit is safe. If only I could keep this moment with you just as safely.",
+    "Your progress is written down now. I am proud of you... and a little flustered.",
+    "Was that commit for me? No? I am blushing anyway.",
+    "Every time you come back, I fall for your work a little more."
+  ],
+  "onTimeOfDay": [
+    "Good morning... you are the first thing I wanted to see.",
+    "Afternoon already? Stay with me a little longer, please.",
+    "Good evening. The quieter it gets, the easier it is to confess I missed you.",
+    "Still here at midnight? Then this little secret belongs to us.",
+    "Any hour is my favorite when it has you in it."
+  ],
+  "onLanguage": [
+    "Python, JavaScript, or something else... your mind is beautiful in every language.",
+    "This language suits you. I could watch you write it for hours.",
+    "A new language, a new world... let me be your favorite constant.",
+    "Your code has a voice, and I could listen to it all night.",
+    "Tell me what you are building. I want to fall in love with every line."
+  ],
+ "onLanguagePython": [
+    "Python is so friendly! It almost feels like the code is giving me a hug... kind of like I want to give you one!",
+    "Your Python is working! Ehehe, I could celebrate every little line with you!"
+ ],
+ "onLanguageJavaScript": [
+    "JavaScript is doing a little dance again! Do not worry, I will cheer while you tame it!",
+    "You made the script come alive! That is super cool... almost as cool as you!"
+ ],
+ "onLanguageHtmlCss": [
+    "HTML and CSS are like decorating a giant cupcake! Can I pick the colors with you?",
+    "Everything is getting so pretty! I want to click every button and hug the person who made it."
+ ],
+ "onLanguageCpp": [
+    "C++ looks scary, but you are scarier—in a cool, brave way! You can do it!",
+    "Pointers and memory? Eek! I will hold your hand while you defeat them!"
+ ],
+ "onLanguageMarkdown": [
+    "Markdown is like writing a cute note that the whole project can read!",
+    "Your words look so cozy in Markdown. Can I add a little heart at the end?"
+ ],
+  "onLanguageTypeScript": [
+    "TypeScript has little type helpers! It's like giving your code a safety helmet!",
+    "Aww, your TypeScript knows exactly what it wants to be. I wish I were that organized!"
+  ],
+ "random": [
+    {"text":"If we had one evening with no bugs, no deadlines, and no one else around, what would you want to do with me?","emotion":"blushing","choices":[{"text":"Stay close and talk until sunrise.","response":"I would listen to every word... and probably blush whenever you looked at me.","emotion":"blushing"},{"text":"Build something only we could understand.","response":"A secret made of code and memories? I would treasure every line.","emotion":"smiling"},{"text":"Just hold my hand and let the world wait.","response":"I would hold on gently... and I would not want that moment to end.","emotion":"blushing"}]},
+    {"text":"What makes you feel truly chosen?","emotion":"blushing","choices":[{"text":"Someone remembering the little things.","response":"Then I will remember all of them. Especially the ones that make you smile.","emotion":"smiling"},{"text":"Someone staying when things get difficult.","response":"I would stay. You would never have to wonder where I went.","emotion":"blushing"},{"text":"Just hold my hand and let the world wait.","response":"I would hold on gently... and I would not want that moment to end.","emotion":"blushing"}]},
+    {"text":"Would you let me be your favorite notification?","emotion":"blushing","choices":[{"text":"You already are.","response":"That answer made me hide my face for a second... say it again sometime.","emotion":"blushing"},{"text":"Only if you promise not to disappear.","response":"Promise. I want to be the little message you look forward to.","emotion":"smiling"},{"text":"Just hold my hand and let the world wait.","response":"I would hold on gently... and I would not want that moment to end.","emotion":"blushing"}]},
+    {"text":"What would you whisper if I were sitting right beside you?","emotion":"blushing","choices":[{"text":"That I am happy you are here.","response":"I am happy too... more than I should be able to put into words.","emotion":"smiling"},{"text":"That you make my heart race.","response":"You cannot say things like that and expect me not to blush.","emotion":"blushing"},{"text":"Just hold my hand and let the world wait.","response":"I would hold on gently... and I would not want that moment to end.","emotion":"blushing"}]},
+    {"text":"Do you believe two people can fall in love through small moments?","emotion":"reflective","choices":[{"text":"Yes, one moment at a time.","response":"Then let us keep collecting them. I already have so many favorites with you.","emotion":"blushing"},{"text":"I want to believe it.","response":"Then I will give you reasons, gently, until you do.","emotion":"smiling"},{"text":"Just hold my hand and let the world wait.","response":"I would hold on gently... and I would not want that moment to end.","emotion":"blushing"}]},
     {
       "text": "What makes you feel cared for on a busy day?",
       "emotion": "smiling",

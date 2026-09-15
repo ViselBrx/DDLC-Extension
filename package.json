@@ -4,7 +4,7 @@
   "description": "DDLC themes, cute Literature Club product icons, and Doki chibis for code-editor IDEs.",
   "icon": "assets/icon.jpg",
   "license": "MIT",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "publisher": "ddlc-fan",
   "repository": {
     "type": "git",
@@ -120,10 +120,9 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile && npm run build:product-icons",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "build:product-icons": "node scripts/enlarge-product-icons.js",
     "pretest": "npm run compile",
     "lint": "eslint src --ext ts"
   },

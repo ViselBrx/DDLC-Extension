@@ -8,7 +8,8 @@ export type Emotion =
   | 'animated'
   | 'thinking'
   | 'surprised'
-  | 'excited';
+  | 'excited'
+  | 'blushing';
 
 export type EventKey =
   | 'onActivate'
@@ -19,6 +20,9 @@ export type EventKey =
   | 'onFileDelete'
   | 'onDebug'
   | 'onIdle'
+  | 'onEditorChange'
+  | 'onCommit'
+  | 'onTimeOfDay'
   | 'random';
 
 export interface DialogueChoice {
@@ -44,6 +48,9 @@ export interface DialogueMap {
   onFileDelete: string[];
   onDebug: string[];
   onIdle: string[];
+  onEditorChange: string[];
+  onCommit: string[];
+  onTimeOfDay: string[];
   random: DialogueNode[];
   nodes?: DialogueNode[];
 }
@@ -62,6 +69,9 @@ export interface UiStrings {
   labelDeleted: string;
   labelDebug: string;
   labelIdle: string;
+  labelEditorChange: string;
+  labelCommit: string;
+  labelTimeOfDay: string;
   labelChat: string;
   history: string;
 }
@@ -79,6 +89,9 @@ const UI_STRINGS: Record<string, UiStrings> = {
     labelDeleted: 'File deleted',
     labelDebug: 'Debugging',
     labelIdle: 'Thinking...',
+    labelEditorChange: 'New context',
+    labelCommit: 'Commit created',
+    labelTimeOfDay: 'Time of day',
     labelChat: 'Chat',
     history: 'Recent',
   },
@@ -94,6 +107,9 @@ const UI_STRINGS: Record<string, UiStrings> = {
     labelDeleted: 'Arquivo deletado',
     labelDebug: 'Depurando',
     labelIdle: 'Pensando...',
+    labelEditorChange: 'Novo contexto',
+    labelCommit: 'Commit criado',
+    labelTimeOfDay: 'Hor\u00e1rio do dia',
     labelChat: 'Conversa',
     history: 'Recentes',
   },
@@ -109,6 +125,9 @@ const UI_STRINGS: Record<string, UiStrings> = {
     labelDeleted: 'Archivo eliminado',
     labelDebug: 'Depurando',
     labelIdle: 'Pensando...',
+    labelEditorChange: 'Nuevo contexto',
+    labelCommit: 'Commit creado',
+    labelTimeOfDay: 'Hora del d\u00eda',
     labelChat: 'Chat',
     history: 'Recientes',
   },
@@ -232,7 +251,7 @@ export function getSpriteFilename(
   return `${doki}sprite${n}`;
 }
 
-export function eventToEmotionKey(event: EventKey): string {
+export function eventToEmotionKey(event: EventKey, doki?: string): string {
   const map: Record<EventKey, string> = {
     onActivate: 'happy',
     onSave: 'smiling',
@@ -242,8 +261,24 @@ export function eventToEmotionKey(event: EventKey): string {
     onFileDelete: 'reflective',
     onDebug: 'surprised',
     onIdle: 'thinking',
+    onEditorChange: 'reflective',
+    onCommit: 'excited',
+    onTimeOfDay: 'happy',
     random: 'thinking',
   };
+
+  if (event === 'onEditorChange') {
+    switch (doki?.toLowerCase()) {
+      case 'monika':
+        return 'smiling';
+      case 'sayori':
+      case 'natsuki':
+        return 'animated';
+      case 'yuri':
+        return 'reflective';
+    }
+  }
+
   return map[event] ?? 'happy';
 }
 
@@ -256,6 +291,7 @@ export function emotionToManifestKey(emotion: Emotion): string {
     thinking: 'thinking',
     surprised: 'surprised',
     excited: 'animated',
+    blushing: 'smiling',
   };
   return map[emotion] ?? 'happy';
 }
@@ -271,6 +307,9 @@ export function eventLabel(event: EventKey, ui?: UiStrings): { icon: string; lab
     onFileDelete: { icon: 'trash', label: s.labelDeleted },
     onDebug: { icon: 'debug-alt', label: s.labelDebug },
     onIdle: { icon: 'watch', label: s.labelIdle },
+    onEditorChange: { icon: 'files', label: s.labelEditorChange },
+    onCommit: { icon: 'git-commit', label: s.labelCommit },
+    onTimeOfDay: { icon: 'clock', label: s.labelTimeOfDay },
     random: { icon: 'comment', label: s.labelChat },
   };
   return table[event] ?? { icon: 'comment', label: '' };

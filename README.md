@@ -174,12 +174,33 @@ The sidebar now features a fully interactive visual novel style dialogue system 
 
 Here is how the new system works in detail:
 
-- **Event-driven Reactions:** The Dokis are aware of your workflow. They will react with specific dialogues and emotions when you perform actions in the IDE, such as saving a file, opening a terminal, encountering an error, creating/deleting files, or even when you are just idle.
+- **Event-driven Reactions:** The Dokis are aware of your workflow. They react with specific dialogues and emotions when you save a file, open a new terminal, encounter an error, create or delete files, start debugging, switch between editor files, create a Git commit, enter a new period of the day, or stay idle.
 - **Random Conversations:** You can initiate a conversation at any time by clicking the "Chat..." button. The Doki will pick a random topic to talk about.
 - **Interactive Choices:** During certain conversations, you will be presented with multiple choices on how to respond. The buttons provide visual feedback when pressed, and your selected choice will dictate the Doki's reply and her next emotional sprite.
 - **Dynamic Sprites:** The Doki's sprite changes smoothly with a fade effect to match her current emotion (happy, thinking, surprised, reflective, etc.) based on the context of the conversation.
 - **History & Localization:** The UI includes a history panel to show recent dialogue lines, and supports changing languages (EN, PT-BR, ES) on the fly via the language selector buttons.
 - **Personal & Meaningful Conversations:** Engage in deeper, more intimate conversations with romantic and heartfelt undertones. The Dokis discuss emotional closeness, quiet moments together, vulnerability, and reassurance — each offering 3 distinct choices for you to reply and see their reactions.
+
+### Workflow-aware Doki Reactions
+
+The action detector connects common IDE events to dedicated dialogue pools and matching sprites:
+
+| Detected action | Doki reaction |
+|---|---|
+| Extension activation | Greets you when the Doki view starts. |
+| File save | Comments on your saved progress. |
+| New diagnostic error | Reacts when the IDE reports an error. |
+| New terminal opened | Notices a newly created terminal without repeatedly reacting to terminal output. |
+| File created or deleted | Responds to changes in the workspace structure. |
+| Debug session started | Reacts when debugging begins. |
+| Active editor changed | Notices when you move to another file, with an emotion tailored to the active Doki. |
+| Git commit created | Celebrates when the repository `HEAD` advances to a new commit. |
+| Time period changed | Reacts when the day moves between morning, afternoon, evening, and late night. |
+| Inactivity | Checks in after the configured idle timeout. |
+
+To keep interactive chats readable, automatic action detection pauses while a conversation and its reply are being displayed. Detection resumes five seconds after the conversation finishes. A global cooldown also prevents several IDE events from flooding the dialogue panel at once.
+
+The dialogue collections in English, Brazilian Portuguese, and Spanish now include the new workflow reactions, more lines for existing actions, and additional expressive conversations using emotions such as `blushing`.
 
 ### Deeper & Personal Conversations
 
