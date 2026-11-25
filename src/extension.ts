@@ -19,6 +19,7 @@ import {
   type UiStrings,
 } from './dialogueEngine';
 import { ActionDetector } from './actionDetector';
+import { pickPoem, type PoemDoki } from './poems';
 
 export interface DokiInfo {
   key: string;
@@ -1173,6 +1174,22 @@ export function activate(context: vscode.ExtensionContext): void {
 
   const activeDoki = getActiveDoki();
 
+  const poemLanguages = [
+    { suffix: 'PtBr', language: 'pt-br' as const },
+    { suffix: 'En', language: 'en' as const },
+    { suffix: 'Es', language: 'es' as const },
+  ];
+  const poemCommands = (Object.keys(DOKIS) as PoemDoki[]).flatMap((doki) =>
+    poemLanguages.map(({ suffix, language }) => vscode.commands.registerCommand(
+      `ddlc.generate${DOKIS[doki].name}Poem${suffix}`,
+      () => void generatePoemOfTheDay(doki, language)
+    ))
+  );
+  const selectDokiCommand = vscode.commands.registerCommand(
+    'ddlc.selectDoki',
+    () => void selectActiveDoki()
+  );
+
   const chibiProvider = new ChibiWebviewProvider(context.extensionUri, activeDoki);
   const chibiView = vscode.window.registerWebviewViewProvider(
     'ddlc.chibiView',
@@ -1188,11 +1205,8 @@ export function activate(context: vscode.ExtensionContext): void {
   );
 
   const configListener = vscode.workspace.onDidChangeConfiguration((event) => {
-    if (event.affectsConfiguration('workbench.colorTheme')) {
-      const currentTheme = vscode.workspace
-        .getConfiguration('workbench')
-        .get<string>('colorTheme', '');
-      const newDoki = getDokiFromThemeName(currentTheme) || 'monika';
+    if (event.affectsConfiguration('workbench.colorTheme') || event.affectsConfiguration('ddlc.activeDoki')) {
+      const newDoki = getActiveDoki();
       chibiProvider.setDoki(newDoki);
       dialogueProvider.setDoki(newDoki);
     }
@@ -1223,7 +1237,9 @@ export function activate(context: vscode.ExtensionContext): void {
     chibiProvider,
     dialogueView,
     dialogueProvider,
-    detector
+    detector,
+    ...poemCommands,
+    selectDokiCommand
   );
 }
 
@@ -1247,11 +1263,16 @@ function getDokiFromThemeName(themeName: string): string | undefined {
   return undefined;
 }
 
-function getActiveDoki(): string {
+function getActiveDoki(): PoemDoki {
+  const selected = vscode.workspace.getConfiguration('ddlc').get<string>('activeDoki', 'theme');
+  if (selected === 'monika' || selected === 'sayori' || selected === 'natsuki' || selected === 'yuri') {
+    return selected;
+  }
+
   const currentTheme = vscode.workspace
     .getConfiguration('workbench')
     .get<string>('colorTheme', '');
-  return getDokiFromThemeName(currentTheme) || 'monika';
+  return (getDokiFromThemeName(currentTheme) || 'monika') as PoemDoki;
 }
 
 function normalizeEmotion(value: unknown): Emotion | undefined {
@@ -1266,4 +1287,106 @@ function normalizeEmotion(value: unknown): Emotion | undefined {
     return value;
   }
   return undefined;
+}
+
+async function generatePoemOfTheDay(
+  doki: PoemDoki,
+  language: 'pt-br' | 'en' | 'es'
+): Promise<void> {
+  const workspaceFolder = vscode.workspace.workspaceFolders?.[0];
+  if (!workspaceFolder) {
+    void vscode.window.showErrorMessage('Open a folder or workspace before generating a poem.');
+    return;
+  }
+
+  const today = localDateStamp();
+  const folder = vscode.Uri.joinPath(workspaceFolder.uri, 'poemas-do-clube');
+  const dokiName = DOKIS[doki].name;
+  const poem = pickPoem(doki, language);
+  const filename = localizedPoemFilename(doki, today, language);
+  const target = vscode.Uri.joinPath(folder, filename);
+
+  try {
+    await vscode.workspace.fs.createDirectory(folder);
+    try {
+      await vscode.workspace.fs.stat(target);
+      const choice = await vscode.window.showWarningMessage(
+        `Today's poem for ${dokiName} already exists.`,
+        { modal: true },
+        'Replace'
+      );
+      if (choice !== 'Replace') return;
+    } catch {
+      // This localized daily poem does not exist yet.
+    }
+
+    await vscode.workspace.fs.writeFile(target, Buffer.from(formatPoemDocument(poem, dokiName, today), 'utf8'));
+    const editor = await vscode.window.showTextDocument(target, { preview: false });
+    await vscode.languages.setTextDocumentLanguage(editor.document, 'markdown');
+    void vscode.window.showInformationMessage(`${dokiName}'s poem was created in poemas-do-clube.`);
+  } catch (error) {
+    console.error('[DDLC] Failed to generate poem:', error);
+    void vscode.window.showErrorMessage(`Could not generate ${dokiName}'s poem.`);
+  }
+}
+
+function localizedPoemFilename(
+  doki: PoemDoki,
+  date: string,
+  language: 'pt-br' | 'en' | 'es'
+): string {
+  const title = {
+    'pt-br': 'poema-do-dia',
+    en: 'poem-of-the-day',
+    es: 'poema-del-dia',
+  }[language];
+  return `${doki}-${title}-${date}.md`;
+}
+
+function formatPoemDocument(
+  poem: { title: string; lines: string[] },
+  dokiName: string,
+  date: string
+): string {
+  return [
+    `# ${poem.title}`,
+    '',
+    `> ${dokiName} · ${date}`,
+    '',
+    ...poem.lines,
+    '',
+  ].join('\n');
+}
+
+async function selectActiveDoki(): Promise<void> {
+  const items: vscode.QuickPickItem[] = [
+    {
+      label: '$(sync) Follow active theme',
+      description: `Currently: ${DOKIS[getDokiFromThemeName(vscode.workspace.getConfiguration('workbench').get<string>('colorTheme', '')) || 'monika'].name}`,
+      detail: 'The Doki changes automatically with the active DDLC theme.',
+    },
+    ...Object.values(DOKIS).map((doki) => ({
+      label: doki.name,
+      description: doki.title,
+      detail: `Use ${doki.name} regardless of the active theme.`,
+    })),
+  ];
+  const selection = await vscode.window.showQuickPick(items, {
+    placeHolder: 'Select the Doki for dialogues and chibis',
+  });
+  if (!selection) return;
+
+  const doki = Object.values(DOKIS).find((candidate) => candidate.name === selection.label);
+  const value = doki?.key ?? 'theme';
+  await vscode.workspace.getConfiguration('ddlc').update('activeDoki', value, vscode.ConfigurationTarget.Global);
+  void vscode.window.showInformationMessage(
+    doki ? `${doki.name} now appears independently from the theme.` : 'The Doki now follows the active theme.'
+  );
+}
+
+function localDateStamp(): string {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${now.getFullYear()}-${month}-${day}`;
 }

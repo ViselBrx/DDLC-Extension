@@ -3,8 +3,8 @@
   "displayName": "DDLC Chibi Themes",
   "description": "DDLC themes, cute Literature Club product icons, and Doki chibis for code-editor IDEs.",
   "icon": "assets/icon.jpg",
-  "license": "MIT",
-  "version": "1.0.16",
+  "license": "MIT", 
+  "version": "1.0.18",
   "publisher": "ddlc-fan",
   "repository": {
     "type": "git",
@@ -88,6 +88,60 @@
         }
       ]
     },
+    "commands": [
+      {
+        "command": "ddlc.selectDoki",
+        "title": "DDLC: Change active Doki"
+      },
+      {
+        "command": "ddlc.generateMonikaPoemPtBr",
+        "title": "DDLC: Generate poem of the day — Monika (Portuguese)"
+      },
+      {
+        "command": "ddlc.generateMonikaPoemEn",
+        "title": "DDLC: Generate poem of the day — Monika (English)"
+      },
+      {
+        "command": "ddlc.generateMonikaPoemEs",
+        "title": "DDLC: Generate poem of the day — Monika (Spanish)"
+      },
+      {
+        "command": "ddlc.generateSayoriPoemPtBr",
+        "title": "DDLC: Generate poem of the day — Sayori (Portuguese)"
+      },
+      {
+        "command": "ddlc.generateSayoriPoemEn",
+        "title": "DDLC: Generate poem of the day — Sayori (English)"
+      },
+      {
+        "command": "ddlc.generateSayoriPoemEs",
+        "title": "DDLC: Generate poem of the day — Sayori (Spanish)"
+      },
+      {
+        "command": "ddlc.generateNatsukiPoemPtBr",
+        "title": "DDLC: Generate poem of the day — Natsuki (Portuguese)"
+      },
+      {
+        "command": "ddlc.generateNatsukiPoemEn",
+        "title": "DDLC: Generate poem of the day — Natsuki (English)"
+      },
+      {
+        "command": "ddlc.generateNatsukiPoemEs",
+        "title": "DDLC: Generate poem of the day — Natsuki (Spanish)"
+      },
+      {
+        "command": "ddlc.generateYuriPoemPtBr",
+        "title": "DDLC: Generate poem of the day — Yuri (Portuguese)"
+      },
+      {
+        "command": "ddlc.generateYuriPoemEn",
+        "title": "DDLC: Generate poem of the day — Yuri (English)"
+      },
+      {
+        "command": "ddlc.generateYuriPoemEs",
+        "title": "DDLC: Generate poem of the day — Yuri (Spanish)"
+      }
+    ],
     "configuration": {
       "title": "DDLC Extension",
       "properties": {
@@ -115,12 +169,32 @@
           ],
           "default": "en",
           "description": "Language for Doki dialogues."
+        },
+        "ddlc.activeDoki": {
+          "type": "string",
+          "enum": [
+            "theme",
+            "monika",
+            "sayori",
+            "natsuki",
+            "yuri"
+          ],
+          "default": "theme",
+          "enumDescriptions": [
+            "Follow the active DDLC color theme.",
+            "Always use Monika, independently from the color theme.",
+            "Always use Sayori, independently from the color theme.",
+            "Always use Natsuki, independently from the color theme.",
+            "Always use Yuri, independently from the color theme."
+          ],
+          "description": "Doki displayed in the chibi and dialogue views."
         }
       }
     }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
+    "build:product-icons": "node scripts/build-product-icons.js",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile",

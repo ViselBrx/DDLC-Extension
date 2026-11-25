@@ -40,9 +40,7 @@ Look at this extension and check out the structure or the README file <3
 
 ## About
 
-**DDLC Extension** adds four dark themes inspired by the Dokis and a Webview View inside the Explorer. When the IDE color theme changes, the extension automatically detects the matching Doki and displays her chibi together with a short phrase.
-
-The chibi stays separate from the open code and does not require manual character selection.
+**DDLC Extension** adds four dark Doki themes, a custom Product Icon Theme, chibis, and interactive dialogue views to VS Code-compatible editors. You can let the active color theme choose the Doki automatically or select one manually.
 
 <br>
 
@@ -54,45 +52,17 @@ The chibi stays separate from the open code and does not require manual characte
 ![Sprites](https://img.shields.io/badge/Sprites-PNG_%2B_phrases-FF69B4?style=flat-square&logo=imagemagick&logoColor=white)
 ![Compatibility](https://img.shields.io/badge/Compatible-IDEs_%2B_Webviews-orange?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-- Four dark themes inspired by the Dokis.
-- Automatic character switching based on the active theme.
-- A Webview View named `DDLC: Doki Chibis`.
-- PNG chibis paired with individual `.txt` phrases.
-- Custom Literature Club product icons for the IDE chrome.
-- Visual content kept outside the main editing area.
-- Compatibility with IDEs that support extensions and Webviews.
+- Four dark Doki themes: Monika, Sayori, Natsuki, and Yuri.
+- Chibi and dialogue side views with localized EN, PT-BR, and ES text.
+- Workflow-aware dialogue reactions and interactive choices.
+- Daily poems in three languages.
+- Clean DDLC Product Icons, with safe fallbacks to native VS Code icons.
 
 <br>
 
 ## Product Icons
 
-**DDLC Literature Club Icons** is a full product icon theme: the little glyphs that show up in the Activity Bar, status bar, menus, and editor chrome. Instead of the default Codicons, you get a soft Literature Club set — same layout, more heart.
-
-Activate it with **Preferences: Product Icon Theme** → `DDLC Literature Club Icons`.
-
-Here is a taste of the set, woven into the places you already look at every day:
-
-When you open the Explorer you will meet
-<img src="assets/product-icons/files.png" alt="files" width="18" height="18" />
-`files`, and searching the workspace brings
-<img src="assets/product-icons/search.png" alt="search" width="18" height="18" />
-`search`. The integrated terminal uses
-<img src="assets/product-icons/terminal.png" alt="terminal" width="18" height="18" />
-`terminal`, while Debug and Extensions keep their usual spots with
-<img src="assets/product-icons/debug-alt.png" alt="debug" width="18" height="18" />
-`debug-alt` and
-<img src="assets/product-icons/extensions.png" alt="extensions" width="18" height="18" />
-`extensions`. Account and settings stay recognizable as
-<img src="assets/product-icons/account.png" alt="account" width="18" height="18" />
-`account` and
-<img src="assets/product-icons/settings-gear.png" alt="settings" width="18" height="18" />
-`settings-gear`, Source Control keeps
-<img src="assets/product-icons/source-control.png" alt="source control" width="18" height="18" />
-`source-control`, and yes — there is a little
-<img src="assets/product-icons/heart.png" alt="heart" width="18" height="18" />
-`heart` in the clubhouse too.
-
-The icons are shipped as an icon font (`producticons/ddlc-icons.woff`) built from the SVG sources under `producticons/svg/`. The build pipeline keeps metrics friendly for VS Code forks (Cursor, Antigravity, and friends) and scales the artwork so the glyphs read clearly at IDE size.
+Activate **DDLC Literature Club Icons** with `Ctrl+Shift+P` → `Preferences: Product Icon Theme`. The theme uses validated DDLC glyphs and falls back to native VS Code icons when needed.
 
 <br>
 
@@ -168,47 +138,20 @@ chibis/chibiyuri.txt
 
 <br>
 
-## Interactive Dialogue System
+## Commands and Dialogues
 
-The sidebar now features a fully interactive visual novel style dialogue system where you can chat directly with the Dokis!
+Open the Command Palette with `Ctrl+Shift+P` (or `F1`).
 
-Here is how the new system works in detail:
-
-- **Event-driven Reactions:** The Dokis are aware of your workflow. They react with specific dialogues and emotions when you save a file, open a new terminal, encounter an error, create or delete files, start debugging, switch between editor files, create a Git commit, enter a new period of the day, or stay idle.
-- **Random Conversations:** You can initiate a conversation at any time by clicking the "Chat..." button. The Doki will pick a random topic to talk about.
-- **Interactive Choices:** During certain conversations, you will be presented with multiple choices on how to respond. The buttons provide visual feedback when pressed, and your selected choice will dictate the Doki's reply and her next emotional sprite.
-- **Dynamic Sprites:** The Doki's sprite changes smoothly with a fade effect to match her current emotion (happy, thinking, surprised, reflective, etc.) based on the context of the conversation.
-- **History & Localization:** The UI includes a history panel to show recent dialogue lines, and supports changing languages (EN, PT-BR, ES) on the fly via the language selector buttons.
-- **Personal & Meaningful Conversations:** Engage in deeper, more intimate conversations with romantic and heartfelt undertones. The Dokis discuss emotional closeness, quiet moments together, vulnerability, and reassurance — each offering 3 distinct choices for you to reply and see their reactions.
-
-### Workflow-aware Doki Reactions
-
-The action detector connects common IDE events to dedicated dialogue pools and matching sprites:
-
-| Detected action | Doki reaction |
+| Command | What it does |
 |---|---|
-| Extension activation | Greets you when the Doki view starts. |
-| File save | Comments on your saved progress. |
-| New diagnostic error | Reacts when the IDE reports an error. |
-| New terminal opened | Notices a newly created terminal without repeatedly reacting to terminal output. |
-| File created or deleted | Responds to changes in the workspace structure. |
-| Debug session started | Reacts when debugging begins. |
-| Active editor changed | Notices when you move to another file, with an emotion tailored to the active Doki. |
-| Git commit created | Celebrates when the repository `HEAD` advances to a new commit. |
-| Time period changed | Reacts when the day moves between morning, afternoon, evening, and late night. |
-| Inactivity | Checks in after the configured idle timeout. |
+| `DDLC: Change active Doki` | Select Monika, Sayori, Natsuki, Yuri, or follow the active theme. |
+| `DDLC: Generate poem of the day — <Doki> (Portuguese)` | Creates a PT-BR poem. |
+| `DDLC: Generate poem of the day — <Doki> (English)` | Creates an English poem. |
+| `DDLC: Generate poem of the day — <Doki> (Spanish)` | Creates a Spanish poem. |
 
-To keep interactive chats readable, automatic action detection pauses while a conversation and its reply are being displayed. Detection resumes five seconds after the conversation finishes. A global cooldown also prevents several IDE events from flooding the dialogue panel at once.
+Replace `<Doki>` with Monika, Sayori, Natsuki, or Yuri. Poems are saved in `poemas-do-clube/` with localized names such as `monika-poema-do-dia-YYYY-MM-DD.md`, `monika-poem-of-the-day-YYYY-MM-DD.md`, and `monika-poema-del-dia-YYYY-MM-DD.md`.
 
-The dialogue collections in English, Brazilian Portuguese, and Spanish now include the new workflow reactions, more lines for existing actions, and additional expressive conversations using emotions such as `blushing`.
-
-### Deeper & Personal Conversations
-
-Beyond everyday coding reactions, you can connect with the Dokis on a deeper emotional level:
-
-- **Intimate Topics:** Heartfelt conversations covering trust, comfort, vulnerability, and romantic undertones.
-- **Tailored Personalities:** Each girl reflects her distinctive charm — Monika's attentive warmth, Sayori's sweet encouragement, Natsuki's tsundere sincerity, and Yuri's poetic intimacy.
-- **3 Choices for Every Question:** Every question gives you 3 distinct ways to reply, each triggering unique responses and expressive emotion sprites.
+The dialogue view reacts to saves, diagnostics, terminals, file changes, debug sessions, commits, editor changes, time of day, and inactivity. Use the **Chat...** button in the view for a random conversation; some conversations include choices and matching character sprites.
 
 <br>
 

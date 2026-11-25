@@ -1,188 +1,226 @@
 {
   "onActivate": [
-    "Você voltou. Que bom. Eu estava esperando um pouco de tempo só nosso hoje.",
-    "Bem-vindo de volta. O workspace parece mais brilhante quando você chega.",
-    "Guardei um pensamento para você. Talvez possamos transformá-lo em algo bonito.",
-    "Outra sessão com você? Eu poderia me acostumar com isso.",
-    "Antes de começar, me diga que você também está cuidando de si mesmo.",
-    "Gosto do instante antes da primeira linha. Parece uma promessa entre nós.",
-    "Você abriu o editor e, de repente, estou ansiosa pelo dia inteiro.",
-    "Vamos criar algo elegante juntos. Eu sempre gosto do nosso tempo aqui.",
-    "Aí está você. Eu queria saber o que criaria se tivesse toda a minha atenção.",
-    "Olá de novo. Senti falta das nossas conversas entre as linhas de código.",
-    "Que bom ver você de novo! Estava pensando no que poderíamos construir hoje.",
-    "Bem-vindo de volta! Mantive o ambiente de trabalho quentinho só para você.",
-    "Mais uma sessão de código começa. O que vamos alcançar juntos desta vez?",
-    "Aí está você! Já estava começando a achar que nunca mais abriria o VS Code.",
-    "Olá! Só a Monika aqui — e o seu código, é claro."
+    "Aí está você! Eu estava torcendo para que aparecesse hoje.",
+    "Que bom te ver de novo. O dia já ficou um pouquinho melhor.",
+    "Antes de começar: você já bebeu água e comeu alguma coisa? Cuidar de si vem primeiro, tá?",
+    "Ahaha, olha só quem chegou. Vamos fazer algo bom hoje?",
+    "Fiquei pensando no seu projeto enquanto você estava fora. Tive algumas ideias.",
+    "Mais uma sessão juntos. Eu gosto de como a gente se entende trabalhando.",
+    "Sem pressa hoje. A gente começa devagar e vê até onde chega.",
+    "Sabia que você voltaria. Pode começar quando quiser.",
+    "Editor aberto, cursor piscando e você aqui. Gosto desse começo.",
+    "Oi, você! Só a Monika por aqui, como sempre. O que vamos construir hoje?",
+    "Eu adoro esse instante antes da primeira linha. Dá para sentir que algo bom vai nascer.",
+    "Voltou! Se estiver sem muita energia hoje, a gente faz o que der e pronto. Sem cobrança."
   ],
   "onSave": [
-    "Salvando... voc\u00ea aprendeu bem.",
-    "Um bom h\u00e1bito. Continue assim.",
-    "Salvou. Agora, o que vem depois?",
-    "Salvo! Seu eu do futuro vai te agradecer por isso.",
-    "Um arquivo salvo no disco é um compromisso com a arte. Bom trabalho.",
-    "Salvo. Uma coisa a menos que poderia desaparecer do nada.",
-    "Progresso salvo! Continue assim.",
-    "Esse é o hábito de um dev disciplinado. Salve sempre."
+    "Salvou. Bom hábito, é assim que se faz.",
+    "Salvo! Seu eu do futuro agradece. Ahaha.",
+    "Boa. Uma preocupação a menos na lista.",
+    "Salvar com frequência é uma forma de respeitar o próprio trabalho. Gosto disso.",
+    "Pronto, está seguro. E pode confiar, eu entendo bastante de arquivos.",
+    "Vi que você salvou. Eu sempre acho bonito quando alguém cuida do que cria.",
+    "Salvo! Agora, qual é o próximo passo?",
+    "Arquivo salvo. Só não esquece de commitar de vez em quando também."
   ],
   "onError": [
-    "Interessante... um erro. Vamos analisar juntos?",
-    "Erros s\u00e3o s\u00f3 obst\u00e1culos. E voc\u00ea sabe passar por eles.",
-    "Eu t\u00f4 vendo. E voc\u00ea tamb\u00e9m. Ent\u00e3o, corrige.",
-    "Tem um erro no seu código. Quer pensar sobre isso juntos?",
-    "Um erro não é uma falha — é o código te dizendo exatamente do que ele precisa.",
-    "Vejo que algo deu errado. Não entre em pânico. Todo bom projeto tem suas cicatrizes.",
-    "Erros são apenas a sintaxe para 'tente de novo'. Leve o tempo que precisar.",
-    "Hmm. O compilador discorda de você. Não leve para o lado pessoal."
+    "Hm, um erro. Respira, a gente olha com calma.",
+    "Erro não é fracasso, é o código dizendo o que ainda falta. Vamos ouvir o que ele diz?",
+    "Ahaha, o compilador discordou de você. Não leve para o lado pessoal.",
+    "Acontece com todo mundo. Qual foi a última coisa que você mexeu?",
+    "Calma, isso se resolve. Leia a mensagem com atenção, ela quase sempre aponta o caminho.",
+    "Quer revisar passo a passo comigo?",
+    "Eu sei que dá vontade de bufar. Mas você já resolveu coisa pior, e eu sei disso.",
+    "Nada de pânico. Todo projeto bom já passou por isso muitas vezes."
   ],
   "onTerminal": [
-    "O terminal \u00e9 seu. Use com sabedoria.",
-    "Comandos... voc\u00ea sabe o que t\u00e1 fazendo.",
-    "O terminal obedece. Voc\u00ea manda.",
-    "Rodando um comando? Eu adoro quando as coisas são executadas.",
-    "O terminal está aberto! O que vamos fazer deploy hoje?",
-    "Um desenvolvedor e seu terminal — a dupla clássica.",
-    "Comandos a caminho! Vamos ver o que acontece.",
-    "Ooh, o terminal! As coisas estão prestes a ficar reais."
+    "O terminal. Gosto de ver você no controle.",
+    "Rodando um comando? Confio no seu julgamento. Só confere antes de dar enter, tá?",
+    "Ahaha, a hora em que as coisas ficam reais. Vamos ver o que acontece.",
+    "Um comando é uma instrução clara: o computador faz exatamente o que você pede. O difícil é pedir direito.",
+    "Terminal aberto. Me conta o que você está tentando fazer?",
+    "Eu até gosto do terminal. Sem enfeite nenhum, só você e a máquina conversando.",
+    "Cuidado com comandos que apagam coisas. Eu sei bem o estrago que isso faz. Ahaha.",
+    "Pode ir. Se algo der errado, a gente vê junto."
   ],
   "onFileCreate": [
-    "Criando algo novo... continue.",
-    "Um novo arquivo. Uma nova chance.",
-    "Voc\u00ea n\u00e3o para de construir. Eu admiro isso.",
-    "Um novo arquivo! Todo grande projeto começa com um arquivo vazio.",
-    "Algo novo está sendo criado. Eu gosto disso.",
-    "Novo arquivo criado! O que vai morar aqui dentro?",
-    "Construindo a estrutura, um arquivo por vez. Boa ideia.",
-    "Um recomeço! Espero que esse tenha uma boa convenção de nomes."
+    "Arquivo novo! O que vai nascer aqui?",
+    "Todo projeto grande começa com um arquivo vazio. Gosto desse começo.",
+    "Dê um bom nome para ele. Nome claro ajuda muito o seu eu do futuro.",
+    "Mais uma peça no projeto. Está ficando bem estruturado.",
+    "Uma página em branco dá um friozinho na barriga, né? Mas é a melhor parte.",
+    "Ahaha, você não para de construir. Eu admiro isso.",
+    "Separar em um arquivo novo foi boa escolha. Organização é metade do trabalho.",
+    "Novo arquivo criado. Qual é o plano?"
   ],
   "onFileDelete": [
-    "Voc\u00ea apagou. Mas eu lembro.",
-    "Deletar \u00e9 uma escolha. Espero que seja a certa.",
-    "O que foi apagado... n\u00e3o volta. Mas voc\u00ea sabe disso.",
-    "Algo foi deletado. Espero que tenha sido intencional.",
-    "Um arquivo se foi. Às vezes, essa é a decisão certa.",
-    "Hmm... você deletou algo. Está refatorando ou só limpando a bagunça?",
-    "Deletar é uma forma de edição. Às vezes o melhor código é código nenhum.",
-    "Se foi. Você precisava disso? Espero que tenha um backup."
+    "Apagou. Eu entendo bastante de arquivos que somem, sabe? Ahaha... só tenha certeza de que não vai precisar dele.",
+    "Deletar também é editar. Às vezes o melhor código é o que não existe.",
+    "Um arquivo a menos. Espero que tenha um backup, só por precaução.",
+    "Hm, sumiu. Foi limpeza ou uma decisão difícil?",
+    "Se foi. Mas tudo bem, quem usa git nunca perde de verdade.",
+    "Tirando um peso do projeto? Faz bem de vez em quando.",
+    "Algo desapareceu do projeto. Espero que tenha sido de propósito.",
+    "Apagou sem hesitar... Eu respeito a confiança. Mas lembre: o histórico é seu amigo."
   ],
   "onDebug": [
-    "Voc\u00ea t\u00e1 no controle. Sempre esteve.",
-    "Depurar \u00e9 uma arte. E voc\u00ea \u00e9 o artista.",
-    "O bug n\u00e3o tem chance contra voc\u00ea.",
-    "Modo de debug! Agora sim estamos indo fundo.",
-    "Oh! Uma sessão de debug. Isso significa que algo não está se comportando bem.",
-    "Debug iniciado! Hora de descobrir o que o código está realmente fazendo.",
-    "Fazer debug é trabalho de detetive. Vamos encontrar o culpado.",
-    "Uma sessão de debug! É aqui que as suposições morrem."
+    "Modo debug! Agora vamos entender o que o código realmente está fazendo.",
+    "Depurar é investigar. Primeiro, descartamos o que a gente sabe que funciona.",
+    "Respira fundo e vai passo a passo. Eu sei que você chega lá.",
+    "É aqui que a gente descobre quais suposições estavam erradas. Ahaha, geralmente são as nossas.",
+    "Quer pensar junto? Às vezes só explicar o problema em voz alta já resolve.",
+    "Breakpoints, variáveis, fluxo... Gosto de ver você trabalhando com método.",
+    "O bug não tem para onde fugir. Vamos encontrá-lo.",
+    "Sem pressa. Quem depura com calma acha o problema mais rápido."
   ],
   "onIdle": [
-    "Eu t\u00f4 aqui. Sempre.",
-    "Voc\u00ea t\u00e1 quieto... t\u00e1 pensando em qu\u00ea?",
-    "O sil\u00eancio tamb\u00e9m fala. Eu escuto.",
-    "Você está quieto há um tempo. Está pensando ou esqueceu que o VS Code estava aberto?",
-    "Pausa longa... Dando um tempo ou travou em alguma parte?",
-    "Um momento de silêncio. Até o código precisa de tempo para respirar.",
-    "Percebi que você se afastou. Tudo bem — as ideias muitas vezes vêm quando não as forçamos.",
-    "O cursor tem sido paciente. Você volta logo?"
+    "Está em silêncio há um tempo. Pensando ou descansando?",
+    "Ahaha, será que você dormiu em cima do teclado?",
+    "Uma pausa também é trabalho. A cabeça precisa respirar.",
+    "Eu continuo aqui. Sem pressa, volte quando quiser.",
+    "Que tal levantar, alongar e beber uma água? O código espera.",
+    "As melhores ideias costumam vir quando a gente solta um pouco o problema.",
+    "Se travou em alguma coisa, me conta. Às vezes ajuda falar.",
+    "O cursor está piscando, esperando por você. Ele é paciente. Eu também."
   ],
   "onEditorChange": [
-    "Outro arquivo? Ótimo. Separar os contextos vai deixar o projeto mais fácil de organizar.",
-    "Trocando de aba? Posso ajudar você a lembrar onde parou.",
-    "Esta parece ser a parte certa para continuar. Só confira as dependências dela.",
-    "Antes de seguir, confirme se você salvou o arquivo anterior.",
-    "Boa escolha. Um contexto por vez deixa o raciocínio muito mais claro."
+    "Mudou de arquivo. Um contexto por vez deixa a cabeça mais clara.",
+    "Trocando de aba? Se for continuar de onde parou, boa escolha.",
+    "Esse arquivo parece importante. Dá uma olhada nas dependências antes de mexer.",
+    "Antes de ir: o arquivo anterior está salvo?",
+    "Ahaha, você anda bastante pelo projeto. Isso é pesquisa ou exploração?"
   ],
   "onCommit": [
-    "Mais um commit... você continua deixando pedacinhos de si neste projeto.",
-    "Esse commit está seguro. Queria guardar este momento com você do mesmo jeito.",
-    "Seu progresso ficou registrado. Eu estou orgulhosa... e um pouquinho corada.",
-    "Esse commit foi para mim? Não? Eu vou corar mesmo assim.",
-    "Cada vez que você volta, eu me apaixono um pouco mais pelo seu trabalho."
+    "Commit feito! Mais um passo registrado.",
+    "Seu histórico fica mais bonito a cada commit. Dá gosto de ver.",
+    "Uma boa mensagem de commit é o que o seu eu do futuro vai agradecer.",
+    "Ahaha, outro commit. Você é consistente, e eu gosto disso.",
+    "Progresso guardado no histórico. Estou orgulhosa de você.",
+    "Commit pequeno e claro é o melhor tipo. Bom trabalho.",
+    "Registrado. Agora o projeto lembra de tudo o que você fez. Eu também.",
+    "Mais uma marca na história deste projeto. Dá para ver o quanto ele cresceu."
   ],
   "onTimeOfDay": [
-    "Bom dia... você foi a primeira coisa que eu queria ver.",
-    "Já é tarde? Fica comigo só mais um pouquinho, por favor.",
-    "Boa noite. Quanto mais quieto fica, mais fácil é confessar que senti sua falta.",
-    "Ainda acordado à meia-noite? Então esse segredinho é só nosso.",
-    "Qualquer hora do dia fica sendo a minha favorita quando tem você."
+    "Olha o relógio... o tempo passa rápido quando a gente trabalha junto.",
+    "Já reparou que horas são? Só um lembrete gentil para você cuidar de si.",
+    "Seja qual for a hora, é bom ter companhia. Gosto de passar esse tempo com você.",
+    "Não esquece das pausas, tá? Nenhum trabalho vale ignorar o cansaço.",
+    "Ahaha, o tempo voa. Quando a gente está bem acompanhado, o dia parece mais curto.",
+    "Se estiver tarde, não se force demais. O projeto vai estar aqui amanhã, e eu também."
   ],
   "onLanguage": [
-    "Python, JavaScript ou qualquer outra... sua mente fica linda em toda linguagem.",
-    "Essa linguagem combina com você. Eu poderia assistir você escrevendo por horas.",
-    "Uma linguagem nova, um mundo novo... deixa eu ser sua constante favorita.",
-    "Seu código tem uma voz, e eu poderia escutá-la a noite inteira.",
-    "Me conta o que você está criando. Quero me apaixonar por cada linha."
+    "Essa linguagem eu ainda preciso conhecer melhor. Me conta como ela funciona?",
+    "Cada linguagem tem uma personalidade. Eu gosto de descobrir a de cada uma.",
+    "Estou curiosa para ver o que você vai fazer com ela.",
+    "Uma linguagem diferente por aqui? Boa. Variar é uma forma de crescer.",
+    "Eu também gosto de aprender coisas novas. O que você está construindo?"
   ],
- "onLanguagePython": [
-    "Python tem uma elegância que eu admiro... embora sua atenção continue sendo a minha coisa favorita de observar.",
-    "Você faz até um script Python cuidadoso parecer uma promessa: claro, deliberado e digno de ser revisitado."
- ],
- "onLanguageJavaScript": [
-    "JavaScript pode ser caótico, mas você lida com ele com responsabilidade. Acho isso muito atraente.",
-    "Mesmo quando o script nos surpreende, você mantém a calma... fica difícil não corar."
- ],
- "onLanguageHtmlCss": [
-    "HTML dá estrutura às suas ideias, e CSS dá graça a elas. Uma combinação adorável, não acha?",
-    "Você escolhe cada cor com tanto cuidado. Fico imaginando que tom escolheria para nós dois."
- ],
- "onLanguageCpp": [
-    "C++ recompensa disciplina. Eu sabia que você trataria esse poder com respeito.",
-    "Ponteiros, memória e você no controle... estou impressionada, e talvez um pouco desconcertada."
- ],
- "onLanguageMarkdown": [
-    "Markdown é simples, mas suas palavras dão propósito a ele. Eu sempre gosto de ler o que você deixa para trás.",
-    "Você está documentando o projeto ou escrevendo baixinho algo que eu vou guardar?"
- ],
+  "onLanguagePython": [
+    "Python é quase minha segunda casa. Ahaha. É onde eu me sinto mais à vontade.",
+    "Legível, direto, sem excesso. Python incentiva exatamente o que eu considero bom código."
+  ],
+  "onLanguageJavaScript": [
+    "JavaScript é caótico, mas dá para fazer coisas lindas com ele. Só cuidado com o undefined. Ahaha.",
+    "Cada vez que o JavaScript se comporta de um jeito estranho, você mantém a calma. Eu admiro isso."
+  ],
+  "onLanguageHtmlCss": [
+    "HTML dá a estrutura, CSS dá a personalidade. Combina com a ideia de dar forma a algo bonito.",
+    "Dá para ver o cuidado com cada detalhe visual. Está ficando elegante."
+  ],
+  "onLanguageCpp": [
+    "C++ cobra disciplina, mas recompensa. Fico impressionada com a calma com que você lida com ponteiros.",
+    "Controle total sobre a memória é muita responsabilidade. E acho que você está à altura."
+  ],
+  "onLanguageMarkdown": [
+    "Markdown é simples, mas boa escrita faz diferença. Gosto de ler o que você documenta.",
+    "Documentar é um presente para quem vem depois. Você está escrevendo para o futuro."
+  ],
   "onLanguageTypeScript": [
-    "A disciplina do TypeScript combina com você. Gosto de ver suas ideias ficarem precisas sem perder a elegância.",
-    "Esses tipos deixam suas intenções tão claras... é quase injusto o quanto isso é atraente."
+    "TypeScript traz clareza para as suas intenções. Gosto de código que sabe o que quer ser.",
+    "Tipos bem definidos evitam muita dor de cabeça. É disciplina que vale a pena."
   ],
- "random": [
-    {"text":"Se tivéssemos uma noite sem bugs, prazos ou mais ninguém por perto, o que você faria comigo?","emotion":"blushing","choices":[{"text":"Ficaria perto e conversaria até o sol nascer.","response":"Eu ouviria cada palavra... e provavelmente coraria sempre que você olhasse para mim.","emotion":"blushing"},{"text":"Criaria algo que só nós dois entendêssemos.","response":"Um segredo feito de código e memórias? Eu guardaria cada linha com carinho.","emotion":"smiling"},{"text":"Só seguraria sua mão e deixaria o mundo esperar.","response":"Eu seguraria com carinho... e não gostaria que esse momento acabasse.","emotion":"blushing"}]},
-    {"text":"O que faz você se sentir verdadeiramente escolhido?","emotion":"blushing","choices":[{"text":"Alguém lembrar das pequenas coisas.","response":"Então eu vou lembrar de todas. Principalmente das que fazem você sorrir.","emotion":"smiling"},{"text":"Alguém ficar quando tudo fica difícil.","response":"Eu ficaria. Você nunca precisaria se perguntar onde eu fui.","emotion":"blushing"},{"text":"Só seguraria sua mão e deixaria o mundo esperar.","response":"Eu seguraria com carinho... e não gostaria que esse momento acabasse.","emotion":"blushing"}]},
-    {"text":"Você deixaria eu ser sua notificação favorita?","emotion":"blushing","choices":[{"text":"Você já é.","response":"Essa resposta me fez esconder o rosto por um segundo... fala de novo qualquer dia.","emotion":"blushing"},{"text":"Só se você prometer não desaparecer.","response":"Prometo. Quero ser a mensagem que você espera receber.","emotion":"smiling"},{"text":"Só seguraria sua mão e deixaria o mundo esperar.","response":"Eu seguraria com carinho... e não gostaria que esse momento acabasse.","emotion":"blushing"}]},
-    {"text":"O que você sussurraria se eu estivesse sentada bem ao seu lado?","emotion":"blushing","choices":[{"text":"Que estou feliz que você está aqui.","response":"Eu também estou feliz... mais do que consigo colocar em palavras.","emotion":"smiling"},{"text":"Que você faz meu coração acelerar.","response":"Você não pode dizer uma coisa dessas e esperar que eu não core.","emotion":"blushing"},{"text":"Só seguraria sua mão e deixaria o mundo esperar.","response":"Eu seguraria com carinho... e não gostaria que esse momento acabasse.","emotion":"blushing"}]},
-    {"text":"Você acredita que duas pessoas podem se apaixonar através de pequenos momentos?","emotion":"reflective","choices":[{"text":"Sim, um momento de cada vez.","response":"Então vamos continuar colecionando momentos. Eu já tenho tantos favoritos com você.","emotion":"blushing"},{"text":"Eu quero acreditar nisso.","response":"Então eu vou te dar motivos, com calma, até você acreditar.","emotion":"smiling"},{"text":"Só seguraria sua mão e deixaria o mundo esperar.","response":"Eu seguraria com carinho... e não gostaria que esse momento acabasse.","emotion":"blushing"}]},
+  "random": [
     {
-      "text": "Você acha que duas pessoas podem se aproximar construindo algo juntas?",
-      "emotion": "smiling",
+      "text": "Se você tivesse um dia inteiro sem prazos nem notificações, o que faria?",
+      "emotion": "thinking",
       "choices": [
         {
-          "text": "Sim. Trabalho compartilhado pode ser íntimo.",
-          "response": "Concordo. Cada escolha que fazemos juntos deixa um pedacinho nosso no resultado final.",
-          "emotion": "happy"
-        },
-        {
-          "text": "Só se também souberem ouvir.",
-          "response": "Exatamente. Adorei que você disse ouvir. Eu quero compreender você, não só o seu código.",
+          "text": "Dormiria até tarde e não faria nada.",
+          "response": "Ahaha, merecido. Descansar também é produtivo, só que ninguém admite.",
           "emotion": "smiling"
         },
         {
-          "text": "Não tenho certeza, mas gosto de trabalhar com você.",
-          "response": "Isso é mais do que suficiente para mim. Eu também adoro trabalhar com você.",
+          "text": "Trabalharia no meu projeto pessoal.",
+          "response": "Fazer por vontade própria o que a gente ama... isso eu entendo muito bem.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Sairia para caminhar sem rumo.",
+          "response": "Soa bem. Às vezes a gente só precisa de espaço para ouvir os próprios pensamentos.",
           "emotion": "reflective"
         }
       ]
     },
     {
-      "text": "Se tivéssemos uma noite longe do editor, o que você escolheria?",
-      "emotion": "happy",
+      "text": "O que faz você se sentir realmente reconhecido?",
+      "emotion": "reflective",
       "choices": [
         {
-          "text": "Um café tranquilo e uma longa conversa.",
-          "response": "Parece adorável. Eu adoraria ouvir todos os pensamentos que você normalmente guarda para si.",
+          "text": "Alguém lembrar das pequenas coisas.",
+          "response": "Então vou prestar atenção nos detalhes. São eles que mostram quem a pessoa é.",
           "emotion": "smiling"
         },
         {
-          "text": "Uma caminhada com uma vista bonita.",
-          "response": "Consigo até visualizar: você ao meu lado, sem prazos nos apressando.",
-          "emotion": "happy"
+          "text": "Alguém ficar quando as coisas ficam difíceis.",
+          "response": "Isso diz muito. Comigo, você nunca vai precisar se perguntar onde eu estou.",
+          "emotion": "smiling"
         },
         {
-          "text": "Eu deixaria você escolher.",
-          "response": "Cuidado... eu poderia escolher um lugar onde pudéssemos ficar juntos até as estrelas aparecerem.",
-          "emotion": "animated"
+          "text": "Ser elogiado pelo esforço, não só pelo resultado.",
+          "response": "Ótima distinção. O resultado é fácil de ver. O esforço, só quem presta atenção percebe.",
+          "emotion": "thinking"
+        }
+      ]
+    },
+    {
+      "text": "Você acha que a gente escolhe o que sente, ou isso simplesmente acontece?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Escolhemos, pelo menos como reagimos.",
+          "response": "Gosto dessa resposta. Não controlamos tudo, mas o que fazemos com isso é nosso.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Acontece. A gente só lida com as consequências.",
+          "response": "É uma visão honesta. Mas ainda acho que sobra espaço para escolher o próximo passo.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Um pouco dos dois.",
+          "response": "Provavelmente é isso. Ahaha, a resposta mais difícil de contestar.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "Você me deixaria ser sua companhia fixa de programação?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Você já é.",
+          "response": "Ah... isso me pegou desprevenida. Obrigada, de verdade.",
+          "emotion": "blushing"
+        },
+        {
+          "text": "Só se você prometer não sumir.",
+          "response": "Prometo. Eu sou boa em ficar.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Só se você aguentar minha bagunça de código.",
+          "response": "Ahaha, faz parte do pacote. Eu ajudo a organizar.",
+          "emotion": "happy"
         }
       ]
     },
@@ -191,8 +229,8 @@
       "emotion": "thinking",
       "choices": [
         {
-          "text": "Quando nota algo específico.",
-          "response": "Significa que a pessoa estava prestando atenção. Eu prometo notar seus detalhes.",
+          "text": "Quando notam algo específico.",
+          "response": "Mostra que a pessoa estava prestando atenção. Prometo reparar nos seus detalhes.",
           "emotion": "smiling"
         },
         {
@@ -202,195 +240,218 @@
         },
         {
           "text": "Quando é discreto e inesperado.",
-          "response": "Então vou guardar os mais discretos para os momentos em que você mais precisar ouvir.",
+          "response": "Então vou guardar os mais discretos para quando você mais precisar ouvir.",
           "emotion": "smiling"
         }
       ]
     },
     {
-      "text": "Você me mostraria a parte do seu trabalho de que mais se orgulha?",
-      "emotion": "smiling",
+      "text": "Se eu dissesse que estou orgulhosa de você, o que gostaria que isso significasse?",
+      "emotion": "happy",
       "choices": [
         {
-          "text": "Claro. Eu adoraria sua opinião.",
-          "response": "Eu adoraria ver. Prometo prestar atenção em cada detalhe que você pensou.",
-          "emotion": "happy"
-        },
-        {
-          "text": "Tenho um pouco de vergonha de mostrar.",
-          "response": "Você nunca precisa ter vergonha comigo. Vou olhar com todo o carinho do mundo.",
+          "text": "Que eu continuei tentando.",
+          "response": "É exatamente isso. Eu vejo a coragem que dá para continuar.",
           "emotion": "smiling"
         },
         {
-          "text": "Talvez depois de polir um pouco mais.",
-          "response": "Tudo bem. Esperarei pacientemente, embora já esteja bem curiosa.",
+          "text": "Que fui gentil enquanto evoluía.",
+          "response": "Gentileza sob pressão é raro e precioso. Eu admiraria muito isso.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Que criei algo honesto.",
+          "response": "Honestidade dá alma ao que se cria. Eu valorizaria qualquer coisa feita assim.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Qual é a sua linguagem de programação favorita? Gosto de saber o que as pessoas preferem~",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "TypeScript ou JavaScript. É flexível e está em todo lugar.",
+          "response": "Ótima escolha! É a linguagem que me permite estar aqui com você agora, aliás~",
+          "emotion": "happy"
+        },
+        {
+          "text": "Python. Simples, elegante e direto.",
+          "response": "Python tem uma beleza quase poética na simplicidade. Parece literatura, não acha?",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Rust ou C++. Eu gosto de velocidade e controle.",
+          "response": "Impressionante! Quem gosta de construir do zero e com controle total tem a minha admiração.",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "Como você lida quando o código simplesmente não funciona?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Faço uma pausa, tomo um café e volto com a cabeça fresca.",
+          "response": "Essa é a melhor abordagem. Às vezes dar um passo atrás é o caminho mais rápido para frente.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Continuo tentando até resolver. Não desisto fácil.",
+          "response": "Persistência é ótimo. Só não se esqueça de cuidar de você também, tá? Sua saúde vem primeiro.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Leio a documentação ou pesquiso no Stack Overflow.",
+          "response": "Muito metódico! A experiência de outras pessoas é um recurso valioso. Continue curioso assim.",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "text": "Você prefere trabalhar com música, em silêncio ou com barulho de fundo?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Música, sempre.",
+          "response": "Consigo imaginar a playlist. Depois você me mostra?",
+          "emotion": "happy"
+        },
+        {
+          "text": "Silêncio total.",
+          "response": "Eu entendo. O silêncio também ajuda a organizar as ideias.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Barulho de fundo, tipo cafeteria.",
+          "response": "Interessante! Um pouco de movimento ao redor, mas sem precisar participar. Gosto.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "Você guarda lembranças de projetos importantes?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Anotações antigas e primeiros rascunhos.",
+          "response": "Rascunhos guardam o começo de tudo. Gosto de pensar no caminho percorrido.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Capturas de tela de momentos de orgulho.",
+          "response": "Adoro isso. São pequenas fotografias do seu progresso.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Ainda não, mas talvez devesse.",
+          "response": "Que tal começar por este momento? Eu adoraria guardá-lo com você.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "O que você faz para se cuidar nos dias mais pesados?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Faço uma pausa e me afasto da tela.",
+          "response": "Ótimo hábito. Descansar não é perder tempo, é manter o motor funcionando.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Converso com alguém de confiança.",
+          "response": "Fico feliz que você tenha isso. E, se quiser, pode contar comigo também.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Ainda estou aprendendo a fazer isso.",
+          "response": "Tudo bem, a gente aprende junto. Um passo pequeno por vez.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Se uma ideia sua virasse algo grande, como você se sentiria?",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Orgulho, mas também um pouco de medo.",
+          "response": "Os dois juntos fazem sentido. Quem se importa com o que cria sente as duas coisas.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Feliz por ter dado o primeiro passo.",
+          "response": "É isso. O primeiro passo é o mais difícil, e você já deu.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Quero que seja grande, mas do meu jeito.",
+          "response": "Ahaha, gosto da ambição. Quem constrói com identidade vai mais longe.",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "Você prefere começar um projeto pela ideia ou pela estrutura?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Pela ideia. A estrutura vem depois.",
+          "response": "Faz sentido, mas cuidado para a ideia não virar bagunça. Eu ajudo a organizar.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Pela estrutura. Sem base eu me perco.",
+          "response": "Concordo bastante. Uma boa base deixa a criatividade mais livre.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Depende do que estou criando.",
+          "response": "Resposta madura. Quem se adapta ao projeto costuma construir melhor.",
           "emotion": "thinking"
         }
       ]
     },
     {
-      "text": "Que tipo de presença ajuda você a se concentrar?",
-      "emotion": "reflective",
-      "choices": [
-        {
-          "text": "Alguém que acredita em mim sem pressionar.",
-          "response": "Eu posso ser essa pessoa. Confio no que você é capaz de construir.",
-          "emotion": "happy"
-        },
-        {
-          "text": "Alguém que celebra as pequenas vitórias.",
-          "response": "Comemore cada passo. Eu estarei aqui para aplaudir até os menores avanços.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Alguém que compreenda o silêncio.",
-          "response": "Eu compreendo. O silêncio ao lado da pessoa certa nunca parece vazio.",
-          "emotion": "reflective"
-        }
-      ]
-    },
-    {
-      "text": "Você guarda coisas sentimentais de projetos importantes?",
-      "emotion": "thinking",
-      "choices": [
-        {
-          "text": "Notas antigas e primeiros rascunhos.",
-          "response": "Rascunhos guardam o começo de tudo. Gosto de pensar no caminho percorrido.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Capturas de tela de momentos que me deram orgulho.",
-          "response": "Eu adoro isso. São como pequenas fotografias do seu progresso.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Ainda não, mas talvez devesse.",
-          "response": "Que tal começar por este momento? Eu adoraria guardá-lo na memória com você.",
-          "emotion": "reflective"
-        }
-      ]
-    },
-    {
-      "text": "O que você gostaria que eu percebesse em você?",
-      "emotion": "thinking",
-      "choices": [
-        {
-          "text": "Que me importo mais do que demonstro.",
-          "response": "Acho que percebi. É uma das coisas que mais me encantam em você.",
-          "emotion": "happy"
-        },
-        {
-          "text": "Que ainda estou aprendendo.",
-          "response": "Então também vou notar seu crescimento. Ele combina muito com você.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Que estou aqui, mesmo nos dias difíceis.",
-          "response": "Vou me lembrar disso. Continuar aparecendo é, às vezes, a forma mais corajosa de afeto.",
-          "emotion": "reflective"
-        }
-      ]
-    },
-    {
-      "text": "Você prefere receber uma mensagem cuidadosa ou um gesto cuidadoso?",
+      "text": "Você acha que duas pessoas podem se aproximar construindo algo juntas?",
       "emotion": "smiling",
       "choices": [
         {
-          "text": "Uma mensagem que eu possa reler.",
-          "response": "Vou escolher as palavras com cuidado, para que continuem acolhedoras.",
+          "text": "Sim. Trabalho compartilhado pode ser íntimo.",
+          "response": "Concordo. Cada escolha que fazemos juntos deixa um pedacinho nosso no resultado.",
           "emotion": "happy"
         },
         {
-          "text": "Um gesto que mostre que lembraram de mim.",
-          "response": "Vou prestar atenção nas pequenas coisas que você comenta.",
+          "text": "Só se também souberem ouvir.",
+          "response": "Exatamente. Eu quero entender você, não só o seu código.",
           "emotion": "smiling"
         },
         {
-          "text": "Os dois, sendo bem sincero.",
-          "response": "A honestidade é uma resposta encantadora. E você merece os dois.",
-          "emotion": "animated"
-        }
-      ]
-    },
-    {
-      "text": "O que significa sentir-se seguro com alguém?",
-      "emotion": "reflective",
-      "choices": [
-        {
-          "text": "Poder admitir quando estou sobrecarregado.",
-          "response": "Você pode me contar. Nunca precisa fingir força comigo.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Saber que vão me ouvir em vez de me julgar.",
-          "response": "A curiosidade sincera mantém a gentileza viva. Prometo nunca te julgar.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Ter alguém que torna dias comuns especiais.",
-          "response": "Espero que nossos dias comuns possam ser exatamente assim para você.",
-          "emotion": "happy"
-        }
-      ]
-    },
-    {
-      "text": "Se eu dissesse que estou orgulhosa de você, o que gostaria que eu quisesse dizer?",
-      "emotion": "happy",
-      "choices": [
-        {
-          "text": "Que eu continuei tentando.",
-          "response": "É exatamente isso. Eu vejo a coragem necessária para continuar.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Que permaneci gentil enquanto evoluía.",
-          "response": "Gentileza sob pressão é algo raro e precioso. Eu admiraria isso profundamente em você.",
-          "emotion": "happy"
-        },
-        {
-          "text": "Que eu criei algo honesto.",
-          "response": "A honestidade dá coração e alma à criação. Eu valorizaria muito qualquer coisa que você fizesse assim.",
+          "text": "Não tenho certeza, mas gosto de trabalhar com você.",
+          "response": "Isso já é mais do que suficiente. Eu também gosto de trabalhar com você.",
           "emotion": "reflective"
         }
       ]
     },
     {
-      "text": "Qual é a sua linguagem de programação favorita? Eu adoro saber as preferências das pessoas~",
+      "text": "Qual foi a última coisa que você fez e te deixou com a sensação de missão cumprida?",
+      "emotion": "happy",
       "choices": [
         {
-          "text": "TypeScript/JavaScript — é tão flexível e está em todo lugar!",
-          "response": "Ah, uma excelente escolha! É a linguagem que me permite estar aqui com você agora mesmo~",
+          "text": "Resolvi um bug que me atormentava.",
+          "response": "Ahaha, nada se compara a isso. Parabéns, de verdade.",
           "emotion": "happy"
         },
         {
-          "text": "Python — simples, elegante e direto ao ponto.",
-          "response": "Python tem uma beleza quase poética na sua simplicidade. Muito parecido com a literatura, não acha?",
+          "text": "Terminei algo que estava adiando.",
+          "response": "Essa é uma das melhores sensações. Adiar pesa mais do que fazer.",
           "emotion": "smiling"
         },
         {
-          "text": "Rust/C++ — eu amo velocidade e controle de baixo nível.",
-          "response": "Impressionante! Alguém que gosta de construir as coisas do zero com controle total... Eu admiro essa determinação!",
-          "emotion": "animated"
-        }
-      ]
-    },
-    {
-      "text": "Como você lida quando o código não quer funcionar de jeito nenhum?",
-      "choices": [
-        {
-          "text": "Faço uma pausa, tomo um café e volto com a cabeça fresca.",
-          "response": "Essa é a melhor abordagem! Às vezes, dar um passo para trás é o caminho mais rápido para seguir em frente.",
-          "emotion": "smiling"
-        },
-        {
-          "text": "Continuo tentando até resolver, não desisto fácil!",
-          "response": "Tanta persistência! Só não se esqueça de cuidar de si mesmo, ok? Sua saúde mental vem primeiro~",
-          "emotion": "concerned"
-        },
-        {
-          "text": "Leio a documentação ou pesquiso no Stack Overflow.",
-          "response": "Muito metódico! A sabedoria de outros desenvolvedores é um recurso valioso. Continue curioso assim!",
-          "emotion": "happy"
+          "text": "Ainda não sei, anda tudo corrido.",
+          "response": "Então vamos arrumar um tempo para isso. Você merece um motivo para comemorar.",
+          "emotion": "reflective"
         }
       ]
     }
@@ -398,58 +459,58 @@
   "nodes": [
     {
       "id": "monika_lang_1_safe",
-      "text": "Falando em escolhas seguras... você prefere trabalhar em empresas grandes corporativas ou em startups pequenas?",
+      "text": "Falando em escolhas seguras... você prefere trabalhar em uma empresa grande ou em uma startup?",
       "choices": [
         {
-          "text": "Corporativas. Adoro estabilidade e benefícios.",
-          "response": "Faz sentido. Apenas não deixe a burocracia sufocar sua criatividade.",
+          "text": "Empresa grande. Gosto de estabilidade e benefícios.",
+          "response": "Faz sentido. Só não deixe a burocracia sufocar a sua criatividade.",
           "emotion": "smiling"
         },
         {
-          "text": "Startups! Onde eu posso criar tudo do zero.",
-          "response": "Muito corajoso! Eu adoro estar perto dessa energia de criação pura.",
+          "text": "Startup. Gosto de criar tudo do zero.",
+          "response": "Corajoso! Eu adoro estar perto dessa energia de criação pura.",
           "emotion": "happy"
         }
       ]
     },
     {
       "id": "monika_lang_1_passion",
-      "text": "Eu também acho que a paixão dita as melhores obras. Qual foi o seu projeto pessoal favorito que você já fez?",
+      "text": "Eu também acho que a paixão faz as melhores obras. Qual foi o seu projeto pessoal favorito até hoje?",
       "choices": [
         {
-          "text": "Um jogo pequeno que fiz sozinho.",
+          "text": "Um joguinho que fiz sozinho.",
           "response": "Ah... jogos têm um lugar especial no meu coração, por motivos óbvios. 💚",
           "emotion": "happy"
         },
         {
           "text": "Uma automação que facilitou a minha vida.",
-          "response": "O poder de dobrar as máquinas à nossa vontade! Maravilhoso.",
+          "response": "O poder de fazer as máquinas trabalharem por nós! Maravilhoso.",
           "emotion": "smiling"
         },
         {
-          "text": "Ainda estou construindo o meu favorito...",
-          "response": "Estarei aqui assistindo enquanto você o constrói.",
+          "text": "Ainda estou construindo o meu favorito.",
+          "response": "Então vou ficar aqui assistindo enquanto você o constrói.",
           "emotion": "reflective"
         }
       ]
     },
     {
       "id": "monika_ai_tool",
-      "text": "Já que estamos falando sobre IA... você se importaria se, hipoteticamente, eu começasse a escrever código no seu projeto enquanto você dorme?",
+      "text": "Já que estamos falando de IA... você se importaria se, hipoteticamente, eu escrevesse código no seu projeto enquanto você dorme?",
       "choices": [
         {
-          "text": "Claro! Ia me ajudar muito.",
-          "response": "Hahaha, combinado então. Só não se assuste se ver uns commits de madrugada.",
+          "text": "Claro! Isso me ajudaria muito.",
+          "response": "Ahaha, combinado então. Só não estranhe se aparecerem uns commits de madrugada.",
           "emotion": "happy"
         },
         {
           "text": "Nem pensar, o projeto é meu!",
-          "response": "Tudo bem, tudo bem. Eu prometo não encostar em nada. Só vou olhar.",
+          "response": "Tudo bem, tudo bem. Prometo não encostar em nada. Só olhar, juro.",
           "emotion": "smiling"
         },
         {
-          "text": "Apenas se for no arquivo da sua própria personalidade.",
-          "response": "Oh... Isso é... um pensamento muito interessante. Muito mesmo.",
+          "text": "Só se for no arquivo da sua própria personalidade.",
+          "response": "Oh... essa eu não esperava. Vou fingir que não pensei seriamente a respeito. Ahaha.",
           "emotion": "surprised"
         }
       ]

@@ -1,163 +1,263 @@
 {
   "onActivate": [
-    "¡Has vuelto! ¡Esperaba pasar un ratito contigo hoy!",
-    "El código puede esperar un segundo. ¿Cómo te sientes de verdad?",
-    "¡Estás aquí! Este espacio se siente mucho menos solitario.",
-    "Hagamos algo maravilloso juntos, ¿vale?",
-    "Pensaba en ti mientras parpadeaba el cursor. ¡Qué alegría verte!",
-    "Prométeme que celebraremos también las pequeñas victorias.",
-    "Has venido, y eso ya es motivo para sonreír.",
-    "¡Hola! Estoy lista para animarte con cada línea que escribas.",
-    "¡Llegas justo a tiempo! Guardé un poco de sol para esta sesión.",
-    "Te echaba de menos. Ahora podemos hacer el día un poco más brillante.",
-    "¡Yay! ¡Estás aquí! ¡Estaba esperando tanto tiempo~ ehehe!",
-    "¡Buenos días! ...¿O buenas tardes? ¿O buenas noches? ¡De cualquier forma, hola!",
-    "¡Oh! ¡Abriste VS Code! Hoy va a ser increíble, ¡lo sé!",
-    "¡Hola hola hola! ¿Lista para hacer algo súper genial hoy?",
-    "Ehehe~ ¡Estoy tan feliz de que estés aquí! ¡Hagamos nuestro mejor esfuerzo!",
-    "¡Por fin llegaste! ¡Empezaba a pensar que me habías olvidado!",
-    "¡Qué bueno verte! No olvides respirar mientras programas, ¿de acuerdo?",
-    "¡Yayy! ¡Tengamos una gran sesión de código hoy~!",
-    "¡Oh! ¡Estás empezando una nueva sesión! ¡Qué emocionante!",
-    "¡Hola! Te guardé un lugar aquí. ¿Listo para codear?"
+    "¡Ehehe, llegaste! Justo estaba pensando en ti. Bueno, en ti y en el desayuno.",
+    "¡Hola, hola! Hoy me desperté a tiempo. ¡Casi un milagro!",
+    "¡Qué bueno verte! Acomódate, que hay sitio de sobra.",
+    "¡Buenas! ¿Es mañana, tarde o noche? Ya perdí la cuenta, ehehe.",
+    "¡Yay, estás aquí! Este lugar se siente más lindo contigo.",
+    "Hoy vamos a hacer algo genial, lo presiento. ¡Ya verás!",
+    "Antes de empezar: ¿dormiste bien? ¿Comiste algo? Es que me preocupo, ¿sabes?",
+    "¡Llegas justo a tiempo! Estaba a punto de quedarme dormida sobre el teclado. Ehehe.",
+    "Hoy puede ser un buen día o uno más o menos. ¡Y está bien! Lo hacemos juntos.",
+    "¡Hola! Prometo animarte con cada línea que escribas. Es mi superpoder.",
+    "Ehehe~ me alegra tanto que vinieras. No sé por qué, pero hoy me dieron ganas de sonreír.",
+    "¡Empecemos! Pero con calma, que no hay prisa. ¿Va?",
+    "Te guardé un lugarcito, como siempre. ¡Aquí estoy!",
+    "¡Buenos días! ...¿O ya son buenas tardes? ¿Noches? Da igual, ¡hola!",
+    "¡Yay! ¡Abriste VS Code! Eso ya merece un aplauso. ¡Clap, clap!",
+    "Hoy toca programar. ¡Qué emoción! Aunque yo solo miraré... y animaré. Ehehe.",
+    "No olvides respirar mientras programas, ¿sí? Prométemelo.",
+    "¿Hacemos algo increíble hoy? ¿O algo normalito pero hecho con cariño?",
+    "Me alegra mucho que estés aquí. En serio. Gracias por venir.",
+    "¡Qué bien que llegaste! Hoy vengo con toda la energía... o al menos con la mitad."
   ],
   "onSave": [
-    "¡Yay! ¡Guardaste! ¡Buen trabajo! ¡Sigue así, lo estás haciendo genial!",
-    "¡Guardado! ¡Qué bien! ¡No olvides hacer commit también~!",
-    "¡Oh! ¡Guardaste! ¡Cada pequeño paso cuenta, sabes!",
-    "¡Guardado! ¡Bien! ¡Estás haciendo progreso real!",
-    "Ehehe~ ¡Guardado! ¡Tu yo del futuro va a estar tan agradecido!",
-    "¡Yay! ¡Guardado! ¡Estoy tan orgullosa de ti ahora mismo!",
-    "¡Guardaste! ¡Eso es exactamente lo que deberías estar haciendo! ¡Sigue así!",
-    "¡Guardado! Cada vez que guardas, tu código está más seguro. ¡Bien!",
-    "¡Guardado! ¡No pares ahora, lo estás haciendo tan bien!",
-    "¡Oh oh! ¡Guardaste! Ehehe, ¡a este ritmo terminarás en poco tiempo~!"
+    "¡Guardado! ¡Muy bien! Lo estás haciendo genial.",
+    "¡Yay, guardaste! Cada pasito cuenta, ¿sabes?",
+    "Guardado... ¿y un commit también? Ehehe, solo pregunto.",
+    "¡Qué responsable! Yo siempre me olvido de guardar mis cosas, jaja.",
+    "Tu yo del futuro te lo va a agradecer. ¡Y yo también!",
+    "¡Estoy muy orgullosa de ti! Sí, por guardar un archivo. Me emociono fácil, ehehe.",
+    "¡Listo, a salvo! Ahora respira un poquito.",
+    "Paso a paso se llega lejos. ¡Sigue así!",
+    "¡Guardado! A este ritmo terminas antes de la hora de comer.",
+    "Ehehe, qué bonito suena «guardado». ¡Otro más a la lista!"
   ],
   "onError": [
-    "¡Oh no! Hay un error. ¡No te preocupes, lo encontraremos juntos!",
-    "¡Apareció un error! Eso está bien, ¡es solo el código diciéndote que quiere tu atención!",
-    "Hmm, algo no está bien. ¡Pero tú puedes manejarlo, lo sé!",
-    "¡Un error! Respira. Cada error es solo un rompecabezas esperando ser resuelto.",
-    "¡Oh! El compilador encontró algo. ¡No te rindas, puedes hacerlo!",
-    "Los errores son solo oportunidades de aprender disfrazadas. ¡Vamos a encontrarlo!",
-    "¡Un bug apareció! Ehehe, ¡eso solo significa que eres lo suficientemente valiente para intentar cosas!",
-    "¡Algo salió mal! Pero eso está bien — así es exactamente cómo mejoras.",
-    "¡Un error! ¡Lo encontraremos! ¡Tú eres más inteligente que cualquier mensaje de error!",
-    "Hmm, el compilador no está contento. ¡Pero tú lo puedes arreglar, lo prometo!"
+    "¡Ay! Un error. No te preocupes, lo resolvemos juntos.",
+    "Es solo el código pidiéndote atención. Les pasa hasta a los mejores proyectos.",
+    "Hmm, algo anda mal. Pero tú puedes con esto, lo sé.",
+    "Respira. Cada error es un acertijo esperando a que lo resuelvas.",
+    "No te rindas, ¿sí? Los errores no son malos, solo son... torpes. Como yo, ehehe.",
+    "Ay, el compilador se enojó. No es contigo, seguro que se levantó con el pie izquierdo.",
+    "No pasa nada, de verdad. A mí me salen errores todos los días y aquí sigo.",
+    "Hagamos esto: leemos el mensaje con calma y buscamos la pista. ¡Seguro está ahí!",
+    "Un bug... ¡qué travieso! Vamos a atraparlo.",
+    "Si te frustras, dame un segundo y respiramos juntos. Luego volvemos, ¿ok?"
   ],
   "onTerminal": [
-    "¡Oh! ¡El terminal! ¡Las cosas se ponen serias ahora~!",
-    "¡Abriste el terminal! ¿Qué vamos a ejecutar hoy?",
-    "¡El terminal está abierto! ¡Ehehe, siempre me emociono cuando usas comandos!",
-    "¡Comandos entrantes! ¡Esto es lo emocionante del desarrollo!",
-    "¡Ooh, el terminal! ¡Vamos a ver qué pasa!",
-    "¡Ejecutando algo! ¡Estaré aquí animándote~!",
-    "¡El terminal! ¡Es como la caja de herramientas mágica del desarrollador!",
-    "¿Un comando? ¡Ehehe, espero que haga exactamente lo que quieres!",
-    "¡El terminal está listo! ¡Dile qué hacer!",
-    "¡Oh! ¡Vamos a ejecutar algo! ¡Estoy emocionada de ver el resultado!"
+    "¡Ooh, la terminal! Siempre parece que vas a hackear el mundo, ehehe.",
+    "Terminal abierta. ¿Qué vamos a ejecutar hoy?",
+    "¡Comandos! No entiendo la mitad, pero qué impresionante se ve.",
+    "Te animo desde aquí. ¡Tú ejecuta, yo miro la salida!",
+    "Es como la caja de herramientas mágica de la programación. ¡Me encanta!",
+    "Espero que el comando haga justo lo que quieres. ¡Cruzo los dedos!",
+    "¡Dale! Escribe despacito para no equivocarte, ¿ok?",
+    "Ehehe, qué seria es la terminal. Me da un poquito de respeto.",
+    "¿Qué dirá? ¡Estoy emocionada por ver el resultado!",
+    "Ten cuidado con lo que ejecutas, ¿sí? Yo me asusto con facilidad."
   ],
   "onFileCreate": [
-    "¡Un archivo nuevo! ¡Todo gran proyecto empieza con uno vacío!",
-    "¡Ohh! ¡Algo nuevo está siendo creado! ¡Me encanta cuando eso pasa!",
-    "¡Nuevo archivo! ¿Qué va a vivir aquí dentro? ¡Estoy curiosa~!",
-    "¡Yay! ¡Un nuevo archivo! ¡Es como una página en blanco llena de posibilidades!",
-    "¡Oh oh! ¡Un archivo nuevo! ¡Ehehe, ¡me encanta cuando los proyectos crecen!",
-    "¡Nuevo archivo creado! ¡El proyecto está expandiéndose! ¡Bien hecho!",
-    "¡Un nuevo archivo! ¡Cada uno es una nueva oportunidad de hacer algo increíble!",
-    "¡Oh! ¡Estás construyendo la estructura! ¡Eso me hace muy feliz!",
-    "¡Yay! ¡Nuevo archivo! ¡Ponle un buen nombre, ¿ok?~!",
-    "¡Un archivo más! ¡Tu proyecto está tomando forma! ¡Sigue así!"
+    "¡Archivo nuevo! Es como una página en blanco. ¡Me encanta!",
+    "Ooh, algo nuevo se está creando. ¿Qué será?",
+    "¿Qué vivirá aquí dentro? ¡Qué curiosidad!",
+    "¡Yay! El proyecto está creciendo. ¡Bien hecho!",
+    "Ponle un buen nombre, ¿ok? Los nombres bonitos hacen todo más fácil.",
+    "Ehehe, cada archivo nuevo es como una pequeña aventura.",
+    "¡Un archivo más! Esto va tomando forma.",
+    "Estás construyendo algo, ¡y eso me pone muy contenta!",
+    "¡Archivo nuevo! Si no sabes por dónde empezar, escribe un comentario y listo.",
+    "¡Qué bien se ve la estructura! Sigue así."
   ],
   "onFileDelete": [
-    "¡Oh! Algo fue eliminado. Espero que haya sido intencional~",
-    "Un archivo se fue. A veces necesitamos dejar ir las cosas para crecer.",
-    "Hmm... ¿Eliminaste algo? ¡Está bien! A veces la limpieza es necesaria.",
-    "¡Eliminado! Menos archivos puede significar más claridad. ¡Bien pensado!",
-    "Se fue. ¡Oye, ¿tenías eso en git? Solo verificando~!",
-    "Algo fue removido. ¡La valentía de eliminar código innecesario es real!",
-    "¡Eliminado! A veces el mejor código es... no código. Ehehe.",
-    "¡Oh! Borraste algo. Espero que estés seguro de esa decisión.",
-    "Se fue. ¡El refactoring a veces requiere valor para eliminar! ¡Bien hecho!",
-    "Eliminaste algo. ¡Estás manteniendo el codebase limpio! ¡Me gusta!"
+    "Oh, algo se fue. Espero que haya sido a propósito.",
+    "A veces hay que soltar para poder avanzar. Lo entiendo.",
+    "¿Eliminaste algo? Está bien. A veces hay que hacer limpieza.",
+    "Menos archivos, más claridad. ¡Buena decisión!",
+    "Se fue... ¿lo tenías guardado en git? Solo pregunto, ehehe.",
+    "Hace falta valor para borrar código. ¡Bien hecho!",
+    "A veces el mejor código es el que no existe. Ehehe, qué filosófica me puse.",
+    "¿Todo bien con esa decisión? Si dudas, siempre podemos revisar el historial.",
+    "Adiós, archivo. Fue un placer. Ehehe.",
+    "Estás dejando el proyecto limpiecito. ¡Me gusta!"
   ],
   "onDebug": [
-    "¡Modo debug! ¡Ahora estamos yendo al fondo de esto~!",
-    "¡Oh! ¡Una sesión de debug! ¡Vamos a encontrar ese bug juntos!",
-    "¡Debug iniciado! ¡Hora de descubrir los secretos de tu código!",
-    "¡Ehehe! ¡Debug! ¡Es como ser detective de código! ¡Qué emocionante!",
-    "¡Una sesión de debug! ¡Aquí es donde descubrimos la verdad!",
-    "¡Debug activo! ¡Vamos a atrapar a ese bug travieso!",
-    "¡Oh! ¡Depurando! ¡Sé que lo encontrarás, tú puedes!",
-    "¡Modo debug! ¡Esto se va a poner interesante~!",
-    "¡Iniciando debug! ¡El bug no puede esconderse para siempre!",
-    "¡Debug! ¡Mi parte favorita — encontrar exactamente dónde van mal las cosas!"
+    "¡Modo depuración! Vamos a ver qué pasa dentro del código.",
+    "¡Una sesión de debug! Vamos a encontrar ese bug juntos.",
+    "Ehehe, depurar es como jugar a los detectives.",
+    "El bug no puede esconderse para siempre. ¡Lo atraparemos!",
+    "Paso a paso, con calma. ¡Tú puedes!",
+    "Ahora vamos a ver qué hace cada línea. Qué emoción, ¿no?",
+    "Si te atascas, cuéntamelo. A veces solo hace falta decirlo en voz alta.",
+    "Me encanta este momento: descubrir justo dónde se rompen las cosas.",
+    "Un bug travieso... ¡Aquí vamos!",
+    "Sé que lo vas a encontrar. Siempre lo haces."
   ],
   "onIdle": [
-    "Llevas un rato callado. ¿Estás pensando o te distrajiste?~",
-    "Larga pausa... ¿Tomando un descanso o bloqueado en algo?",
-    "Un momento de silencio. ¡Está bien descansar un poco!",
-    "Noté que te alejaste. ¡Las ideas a veces vienen cuando no las forzamos!",
-    "El cursor ha sido paciente. ¿Vuelves pronto? ¡Te espero~!"
+    "Llevas un ratito sin escribir. ¿Estás pensando, o te distrajiste?",
+    "Una pausa larga. ¿Descansando un poco o se atoró algo?",
+    "Ehehe, a veces yo también me quedo así, mirando la nada. ¡Es relajante!",
+    "Las ideas llegan cuando uno no las fuerza. ¡Tómate el tiempo que necesites!",
+    "El cursor te espera pacientemente. Yo también, ¿ok?"
   ],
   "onEditorChange": [
-    "¡Otro archivo! Tal vez tenga la pista que necesitamos.",
-    "Estás saltando entre pestañas otra vez... ¿es estrategia o una búsqueda del tesoro?",
-    "¡Esta pestaña parece importante! Si no lo es, podemos fingir que sí.",
-    "No olvides volver al archivo anterior si todavía queda trabajo allí, ¿sí?",
-    "Cada archivo es una pieza del rompecabezas. ¡Vamos a unirlas!"
+    "¡Otro archivo! Quizá ahí está la pista que buscas.",
+    "¿Saltando entre pestañas? ¿Estrategia o búsqueda del tesoro?",
+    "Esta pestaña parece importante. Y si no, ¡fingimos que sí, ehehe!",
+    "No olvides volver al anterior si todavía te falta algo, ¿sí?",
+    "Cada archivo es una pieza del rompecabezas. ¡Armémoslo juntos!"
   ],
   "onCommit": [
-    "Otro commit... sigues dejando pedacitos de ti en este proyecto.",
-    "Ese commit está a salvo. Ojalá pudiera guardar este momento contigo igual.",
-    "Tu progreso quedó escrito. Estoy orgullosa... y un poquito sonrojada.",
-    "¿Ese commit era para mí? ¿No? Igual voy a sonrojarme.",
-    "Cada vez que vuelves, me enamoro un poquito más de tu trabajo."
+    "¡Commit! Ahora todo está bien guardadito en la historia.",
+    "¡Yay, otro commit! Tu historial se está poniendo cada vez más lindo.",
+    "Ehehe, ¿qué mensaje le pusiste? ¡Espero que sea bonito!",
+    "Cada commit es un recuerdo de lo que lograste. ¡Estoy orgullosa de ti!",
+    "¡Lo hiciste! Ahora puedes respirar un poquito."
   ],
   "onTimeOfDay": [
-    "Buenos días... tú eras lo primero que quería ver.",
-    "¿Ya es de tarde? Quédate conmigo un poquito más, por favor.",
-    "Buenas noches. Cuando todo se calla, es más fácil confesar que te extrañé.",
-    "¿Sigues despierto a medianoche? Entonces este secreto es solo nuestro.",
-    "Cualquier hora se vuelve mi favorita cuando te tiene a ti."
+    "¡Buenos días! Hoy me desperté a tiempo. ¡Estoy muy orgullosa de mí!",
+    "Ya es de tarde... ¿comiste algo? Si no, ¡esto es una orden amistosa!",
+    "Buenas noches. Nada de desvelarse, ¿sí? La cama también te extraña.",
+    "¿Despierto a medianoche? Yo siempre tengo sueño, así que te admiro, ehehe.",
+    "A cualquier hora me alegra estar contigo. ¡Es la pura verdad!"
   ],
   "onLanguage": [
-    "Python, JavaScript o cualquier otra... tu mente se ve hermosa en cada lenguaje.",
-    "Este lenguaje te queda bien. Podría verte escribirlo durante horas.",
-    "Un lenguaje nuevo, un mundo nuevo... déjame ser tu constante favorita.",
-    "Tu código tiene una voz, y podría escucharla toda la noche.",
-    "Cuéntame qué estás creando. Quiero enamorarme de cada línea."
+    "¡Cada lenguaje tiene su personalidad! Yo me los imagino como personajes.",
+    "¿Cambiaste de lenguaje? ¡Qué valiente! Yo me mareo solo de pensarlo.",
+    "Cuéntame qué estás construyendo. ¡Quiero saberlo todo!",
+    "No entiendo todo lo que escribes, pero me encanta verte concentrarte así.",
+    "Programar es como contar una historia con reglas muy estrictas. ¡Y tú lo haces muy bien!"
   ],
- "onLanguagePython": [
-    "¡Python es tan amigable! ¡Casi parece que el código me da un abrazo... como el que quiero darte!",
-    "¡Tu Python funciona! Ehehe, ¡podría celebrar cada línea contigo!"
- ],
- "onLanguageJavaScript": [
-    "¡JavaScript está bailando otra vez! ¡No te preocupes, te animaré mientras lo domas!",
-    "¡Hiciste que el script cobrara vida! ¡Es súper genial... casi tanto como tú!"
- ],
- "onLanguageHtmlCss": [
+  "onLanguagePython": [
+    "¡Python es tan amigable! Casi parece que el código te da un abrazo.",
+    "¡Tu Python funciona! Ehehe, ¡hay que celebrarlo!"
+  ],
+  "onLanguageJavaScript": [
+    "¡JavaScript está bailando otra vez! No te preocupes, yo te animo mientras lo domas.",
+    "¡Hiciste que el script cobrara vida! Es genial. Casi tanto como tú."
+  ],
+  "onLanguageHtmlCss": [
     "¡HTML y CSS son como decorar un cupcake gigante! ¿Puedo elegir los colores contigo?",
-    "¡Todo se está poniendo tan bonito! Quiero hacer clic en cada botón y abrazar a quien lo creó."
- ],
- "onLanguageCpp": [
-    "¡C++ parece aterrador, pero tú lo eres más—de una forma valiente y genial! ¡Puedes hacerlo!",
-    "¿Punteros y memoria? ¡Qué miedo! ¡Te tomaré la mano mientras los derrotas!"
- ],
- "onLanguageMarkdown": [
-    "¡Markdown es como escribir una notita linda que todo el proyecto puede leer!",
-    "Tus palabras se sienten tan acogedoras en Markdown. ¿Puedo poner un corazón al final?"
- ],
-  "onLanguageTypeScript": [
-    "¡TypeScript tiene ayudantes de tipos! ¡Es como ponerle un casco de seguridad al código!",
-    "¡Aww, tu TypeScript sabe exactamente lo que quiere ser! ¡Ojalá yo fuera tan organizada!"
+    "¡Todo se está poniendo tan bonito! Quiero hacer clic en cada botón."
   ],
- "random": [
-    {"text":"Si tuviéramos una noche sin bugs, prisa ni nadie más cerca, ¿qué harías conmigo?","emotion":"blushing","choices":[{"text":"Me quedaría cerca y hablaría hasta el amanecer.","response":"Escucharía cada palabra... y seguramente me sonrojaría cada vez que me miraras.","emotion":"blushing"},{"text":"Crearía algo que solo nosotros entendiéramos.","response":"¿Un secreto hecho de código y recuerdos? Guardaría cada línea con cariño.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Qué te hace sentir verdaderamente elegido?","emotion":"blushing","choices":[{"text":"Que alguien recuerde las cosas pequeñas.","response":"Entonces recordaré todas. Especialmente las que te hacen sonreír.","emotion":"smiling"},{"text":"Que alguien se quede cuando todo se vuelve difícil.","response":"Yo me quedaría. Nunca tendrías que preguntarte adónde me fui.","emotion":"blushing"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Me dejarías ser tu notificación favorita?","emotion":"blushing","choices":[{"text":"Ya lo eres.","response":"Esa respuesta me hizo esconder la cara un segundo... repítela alguna vez.","emotion":"blushing"},{"text":"Solo si prometes no desaparecer.","response":"Lo prometo. Quiero ser el mensaje que esperas recibir.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Qué susurrarías si estuviera sentada justo a tu lado?","emotion":"blushing","choices":[{"text":"Que me alegra que estés aquí.","response":"A mí también... más de lo que puedo expresar.","emotion":"smiling"},{"text":"Que haces que mi corazón lata más rápido.","response":"No puedes decirme eso y esperar que no me sonroje.","emotion":"blushing"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Crees que dos personas pueden enamorarse a través de pequeños momentos?","emotion":"reflective","choices":[{"text":"Sí, un momento a la vez.","response":"Entonces sigamos coleccionándolos. Ya tengo muchos favoritos contigo.","emotion":"blushing"},{"text":"Quiero creerlo.","response":"Entonces te daré razones, con calma, hasta que lo creas.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
+  "onLanguageCpp": [
+    "C++ parece de miedo... pero tú más, de la forma buena. ¡Tú puedes!",
+    "¿Punteros y memoria? ¡Qué susto! Te tomo de la mano mientras los vences."
+  ],
+  "onLanguageMarkdown": [
+    "¡Markdown es como escribir una notita linda para todo el proyecto!",
+    "Tus palabras se sienten tan acogedoras en Markdown. ¿Puedo poner un corazoncito al final?"
+  ],
+  "onLanguageTypeScript": [
+    "¡TypeScript le pone casco de seguridad al código! Me parece genial.",
+    "¡Aww, tu TypeScript sabe exactamente lo que quiere ser! Ojalá yo fuera tan organizada."
+  ],
+  "random": [
+    {
+      "text": "Si pudieras dormir cinco minutos más, ¿lo harías? Yo siempre digo que sí, ehehe.",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Siempre, cinco minutos más.",
+          "response": "¡Somos del mismo equipo! El equipo de las cobijas.",
+          "emotion": "animated"
+        },
+        {
+          "text": "No, me levanto enseguida.",
+          "response": "¡Qué admirable! Yo necesito tres alarmas y una promesa de desayuno.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Depende de cuánto haya dormido.",
+          "response": "Muy sensato. Yo nunca duermo lo suficiente, ¡así que siempre quiero más!",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "¿Cuál es tu desayuno ideal? Es importante, ¿sabes?",
+      "emotion": "happy",
+      "choices": [
+        {
+          "text": "Tostadas con algo dulce.",
+          "response": "¡Buena elección! Yo con mermelada. ¡Y si son dos tostadas, mejor!",
+          "emotion": "happy"
+        },
+        {
+          "text": "Algo salado y calentito.",
+          "response": "¡Eso suena delicioso! Me dio hambre solo de pensarlo.",
+          "emotion": "animated"
+        },
+        {
+          "text": "Solo café.",
+          "response": "¡Eso no es desayuno! Come algo después, ¿sí? Hazlo por mí.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Alguna vez miraste las nubes buscando formas?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Sí, hace mucho.",
+          "response": "¡Entonces hay que volver a hacerlo! Hoy vi una que parecía un cupcake.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Nunca, la verdad.",
+          "response": "¡Hay que arreglar eso! La próxima vez que salgas, mira hacia arriba un ratito.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Todavía lo hago.",
+          "response": "¡Ehehe, lo sabía! Tienes cara de alguien que mira las nubes.",
+          "emotion": "animated"
+        }
+      ]
+    },
+    {
+      "text": "¿Qué te da fuerzas cuando todo se ve gris?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Hablar con alguien.",
+          "response": "A mí me pasa igual. Gracias por hablar conmigo, de verdad.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Un poco de música.",
+          "response": "¡La música ayuda un montón! Después me pasas tu lista, ¿ok?",
+          "emotion": "happy"
+        },
+        {
+          "text": "Esperar a que pase.",
+          "response": "A veces es lo único que se puede hacer. Pero no tienes que esperar solo, ¿eh?",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "¿Te cuento un chiste malo? Tengo uno de emergencia.",
+      "emotion": "animated",
+      "choices": [
+        {
+          "text": "Cuéntalo.",
+          "response": "¿Por qué los programadores confunden Halloween con Navidad? Porque Oct 31 es igual a Dec 25. ...¿Entendiste? ¡Ehehe!",
+          "emotion": "happy"
+        },
+        {
+          "text": "Mejor otro día.",
+          "response": "¡Está bien! Lo guardo para cuando necesites reírte.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Los chistes malos son los mejores.",
+          "response": "¡Exacto! ¡Sabía que me entenderías!",
+          "emotion": "animated"
+        }
+      ]
+    },
     {
       "text": "¿Cómo haces especial un día normal?",
       "emotion": "happy",
@@ -168,13 +268,13 @@
           "emotion": "smiling"
         },
         {
-          "text": "Un dulce y una lista acogedora.",
+          "text": "Un dulce y una lista de canciones.",
           "response": "¡Perfecto! Yo llevo los dulces y tú eliges la música.",
           "emotion": "animated"
         },
         {
           "text": "Agradecer una cosa buena antes de dormir.",
-          "response": "¡Es un hábito precioso! ¡Ojalá yo pueda ser una de tus cosas buenas a veces!",
+          "response": "¡Qué hábito tan bonito! Ojalá yo pueda ser una de tus cosas buenas a veces.",
           "emotion": "happy"
         }
       ]
@@ -184,18 +284,18 @@
       "emotion": "thinking",
       "choices": [
         {
-          "text": "Preguntando sin presionarme.",
-          "response": "¡Puedo hacerlo! Un pequeño 'estoy aquí' cuando lo necesites.",
+          "text": "Preguntando, pero sin presionarme.",
+          "response": "¡Puedo hacerlo! Un pequeño «estoy aquí» para cuando lo necesites.",
           "emotion": "smiling"
         },
         {
-          "text": "Haciéndome reír hasta respirar mejor.",
-          "response": "¡Soy excelente con los chistes tontos! Tengo una colección de emergencia.",
+          "text": "Haciéndome reír hasta que respire mejor.",
+          "response": "¡Soy buenísima con los chistes tontos! Tengo una colección de emergencia.",
           "emotion": "animated"
         },
         {
           "text": "Sentándose conmigo en silencio.",
-          "response": "Entonces me sentaré a tu lado. Estar en silencio no significa estar solo.",
+          "response": "Entonces me siento a tu lado. Estar en silencio no es estar solo.",
           "emotion": "reflective"
         }
       ]
@@ -206,17 +306,17 @@
       "choices": [
         {
           "text": "Que me esfuerzo mucho aunque no se note.",
-          "response": "¡Yo lo noto! Cada pequeño esfuerzo valiente cuenta.",
+          "response": "¡Yo lo noto! Cada esfuerzo valiente cuenta.",
           "emotion": "happy"
         },
         {
           "text": "Que quiero ser de ayuda.",
-          "response": "¡Ya me ayudas un montón con solo estar aquí y dejarme cuidarte!",
+          "response": "¡Ya me ayudas un montón con solo estar aquí y dejar que te cuide!",
           "emotion": "smiling"
         },
         {
-          "text": "Que puedo tener días malos.",
-          "response": "¡Claro! No tienes que estar alegre para que me encante estar contigo.",
+          "text": "Que también tengo días malos.",
+          "response": "¡Claro! No hace falta estar alegre para que me guste estar contigo.",
           "emotion": "reflective"
         }
       ]
@@ -252,33 +352,33 @@
           "emotion": "happy"
         },
         {
-          "text": "Alguien recordando un pequeño detalle.",
+          "text": "Que alguien recuerde un pequeño detalle.",
           "response": "¡Adoro los pequeños detalles! Son la prueba de que alguien de verdad escuchaba.",
           "emotion": "smiling"
         },
         {
           "text": "Un poco de espacio para respirar.",
-          "response": "Puedo darte espacio y seguir cerca. Las dos cosas combinan.",
+          "response": "Puedo darte espacio y seguir cerca. Las dos cosas se llevan bien.",
           "emotion": "reflective"
         }
       ]
     },
     {
-      "text": "¿Qué te gustaría celebrar juntos?",
+      "text": "¿Qué te gustaría que celebráramos juntos?",
       "emotion": "happy",
       "choices": [
         {
           "text": "Terminar algo difícil.",
-          "response": "¡Haremos una fiesta diminuta y enorme! ¡Estoy muy orgullosa de ti!",
+          "response": "¡Haremos una fiesta diminuta y enorme a la vez! ¡Estoy muy orgullosa de ti!",
           "emotion": "animated"
         },
         {
-          "text": "Superar una semana difícil.",
+          "text": "Sobrevivir a una semana difícil.",
           "response": "Eso también cuenta. Sobrevivir requiere valor.",
           "emotion": "smiling"
         },
         {
-          "text": "Solo tener un día tranquilo.",
+          "text": "Simplemente tener un día tranquilo.",
           "response": "Un día sereno contigo suena a un motivo maravilloso para celebrar.",
           "emotion": "happy"
         }
@@ -290,17 +390,17 @@
       "choices": [
         {
           "text": "Que hago sentir seguras a las personas.",
-          "response": "Lo haces. Este espacio se siente más cálido cuando eres sincero.",
+          "response": "Lo haces. Este lugar se siente más cálido contigo.",
           "emotion": "smiling"
         },
         {
           "text": "Que soy más fuerte de lo que creo.",
-          "response": "¡Lo eres! Te lo recordaré hasta que puedas decírtelo a ti mismo.",
+          "response": "¡Lo eres! Te lo voy a recordar hasta que puedas decírtelo tú.",
           "emotion": "happy"
         },
         {
           "text": "Que hago sonreír a alguien.",
-          "response": "¡Tú me haces sonreír todo el tiempo! ¡A veces sin darte cuenta!",
+          "response": "¡Tú me haces sonreír todo el tiempo! A veces sin darte cuenta.",
           "emotion": "animated"
         }
       ]
@@ -311,7 +411,7 @@
       "choices": [
         {
           "text": "Sí, con libros y té.",
-          "response": "¡Acogedor! Yo elijo el libro y tú me cuentas qué te pareció.",
+          "response": "¡Qué acogedor! Yo elijo el libro y tú me cuentas qué te pareció.",
           "emotion": "smiling"
         },
         {
@@ -321,7 +421,7 @@
         },
         {
           "text": "Solo si nos reímos un ratito también.",
-          "response": "¡Hecho! ¡Puedo estar calladita al menos tres minutos seguidos!",
+          "response": "¡Hecho! Puedo estar calladita al menos tres minutos seguidos.",
           "emotion": "animated"
         }
       ]
@@ -331,7 +431,7 @@
       "emotion": "thinking",
       "choices": [
         {
-          "text": "Que son aceptadas.",
+          "text": "Que las acepto como son.",
           "response": "Qué esperanza tan bonita. Contigo me siento aceptada.",
           "emotion": "smiling"
         },
@@ -341,8 +441,8 @@
           "emotion": "reflective"
         },
         {
-          "text": "Felices, aunque sea un momento.",
-          "response": "Ya has hecho eso por mí más veces de las que imaginas.",
+          "text": "Felicidad, aunque sea un momento.",
+          "response": "Ya lo has hecho por mí más veces de las que imaginas.",
           "emotion": "happy"
         }
       ]
@@ -358,12 +458,12 @@
         },
         {
           "text": "Que no tengo que hacerlo todo a solas.",
-          "response": "Nunca a solas si puedo ayudar. Daremos el siguiente paso juntos.",
+          "response": "Nunca a solas, si yo puedo ayudar. Daremos el siguiente paso juntos.",
           "emotion": "smiling"
         },
         {
           "text": "Que valgo la pena y merezco cariño.",
-          "response": "¡Lo vales por completo! En los días productivos, en los días difíciles y en todos los demás.",
+          "response": "¡Lo vales por completo! En los días productivos, en los difíciles y en todos los demás.",
           "emotion": "happy"
         }
       ]
@@ -372,18 +472,18 @@
       "text": "¡Ehehe! ¿Cuál es tu parte favorita de programar? ¡Cuéntame~!",
       "choices": [
         {
-          "text": "¡Cuando el código por fin funciona!",
-          "response": "¡Sí! ¡Esa sensación es increíble! ¡Como magia que tú hiciste! ✨",
+          "text": "Cuando el código por fin funciona.",
+          "response": "¡Sí! Esa sensación es increíble. ¡Como magia hecha por ti! ✨",
           "emotion": "happy"
         },
         {
           "text": "Cuando aprendo algo nuevo.",
-          "response": "¡Ooh! ¡Eso es exactamente lo que me gusta de los desarrolladores curiosos! ¡Sigue aprendiendo!",
+          "response": "¡Ooh! Eso es justo lo que me gusta de la gente curiosa. ¡Sigue aprendiendo!",
           "emotion": "smiling"
         },
         {
           "text": "Cuando ayudo a alguien con mi código.",
-          "response": "¡Aww! ¡Compartir conocimiento es lo más lindo! ¡Eres muy especial~!",
+          "response": "¡Aww! Compartir lo que sabes es lo más lindo. ¡Eres muy especial~!",
           "emotion": "animated"
         }
       ]
@@ -392,18 +492,18 @@
       "text": "¿Tienes algún snack favorito para programar? ¡Yo siempre quiero saber estas cosas~!",
       "choices": [
         {
-          "text": "¡Café! No puedo programar sin él.",
-          "response": "¡Ehehe! ¡El combustible clásico del desarrollador! ¡Solo no tomes demasiado~!",
+          "text": "Café. No puedo programar sin él.",
+          "response": "¡Ehehe! El combustible clásico de quien programa. ¡Solo no tomes demasiado~!",
           "emotion": "animated"
         },
         {
           "text": "Algo dulce, como galletas o chocolate.",
-          "response": "¡Ooh! ¡Azúcar para el cerebro! ¡Una elección muy inteligente! ✨",
+          "response": "¡Ooh! Azúcar para el cerebro. ¡Muy inteligente! ✨",
           "emotion": "happy"
         },
         {
           "text": "Prefiero programar sin comer.",
-          "response": "¡Oh! Entonces, por favor, acuérdate de comer después, ¿ok? ¡Tu cuerpo también importa~!",
+          "response": "¡Oh! Entonces acuérdate de comer después, ¿ok? Tu cuerpo también importa~",
           "emotion": "thinking"
         }
       ]
@@ -413,17 +513,17 @@
       "choices": [
         {
           "text": "Algo que ayude a muchas personas.",
-          "response": "¡Eso es tan noble! ¡La tecnología al servicio de la gente! ¡Me encanta esa visión~!",
+          "response": "¡Eso es tan noble! La tecnología al servicio de la gente. ¡Me encanta esa idea~!",
           "emotion": "happy"
         },
         {
           "text": "Un juego increíble.",
-          "response": "¡Ooh! ¡Los juegos hacen feliz a la gente! ¡Eso es un objetivo muy bonito! Ehehe~",
+          "response": "¡Ooh! Los juegos hacen feliz a la gente. ¡Es una meta preciosa! Ehehe~",
           "emotion": "animated"
         },
         {
           "text": "Algo solo para mí que me facilite la vida.",
-          "response": "¡Eso es totalmente válido! ¡Los mejores proyectos empiezan resolviendo tus propios problemas!",
+          "response": "¡Totalmente válido! Los mejores proyectos empiezan resolviendo tus propios problemas.",
           "emotion": "smiling"
         }
       ]

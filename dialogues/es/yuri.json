@@ -1,135 +1,235 @@
 {
   "onActivate": [
-    "Has vuelto... me alivia. Empezaba a echar de menos tus pensamientos.",
-    "Bienvenido de nuevo. ¿Puedo quedarme a tu lado mientras trabajas?",
-    "Marqué un pasaje que quizá te guste. Me hizo pensar en ti.",
-    "El silencio se siente diferente cuando estás aquí. Menos vacío.",
-    "Estás aquí... bien. Esperaba que regresaras pronto.",
-    "Creemos algo con cuidado juntos, si te apetece.",
-    "Estaba releyendo nuestra conversación anterior. Me descubrí sonriendo.",
-    "Tómate tu tiempo hoy. Prefiero tu trabajo sincero a la perfección apresurada.",
-    "Otra sesión contigo... la espero más de lo que debería admitir.",
-    "Hola. Te estaba esperando, aunque intentaba que no se notara.",
-    "H-hola... Es bueno verte de nuevo. Estaba leyendo un poco antes de que llegaras.",
-    "Oh, estás aquí. Espero no interrumpir nada importante...",
-    "B-bienvenido de vuelta. Tu código es... fascinante de leer.",
-    "Hola... Me alegra que hayas abierto VS Code. Podemos estar juntos un rato.",
-    "U-um, ¿listo para programar? Yo... estaré observando en silencio."
+    "H-hola... Me alegra que hayas vuelto. Estaba leyendo para pasar el rato.",
+    "Oh, ya llegaste. Yo... estaba terminando un capítulo. No te preocupes, no tengo prisa.",
+    "Qué bueno que volviste. Preparé té, por si quieres un poco más tarde.",
+    "U-um, ¿empezamos? Me gusta ver cómo ordenas tus ideas antes de escribir.",
+    "Hoy encontré una cita que me hizo pensar en tu proyecto. Quizá te la cuente después.",
+    "Tómate tu tiempo hoy. Prefiero un trabajo cuidado a uno apresurado.",
+    "El silencio es distinto cuando estás aquí. Más... acogedor. Perdón, pensaba en voz alta.",
+    "Hola... Si necesitas concentrarte, me quedaré en silencio. Pero aquí estaré.",
+    "Me alegra verte. A veces prefiero la compañía tranquila a la conversación, y contigo se siente bien.",
+    "Ah, hola. Perdón, estaba absorta en una novela y no te oí llegar.",
+    "Estaba releyendo un pasaje... Ah, no importa. ¿En qué trabajaremos hoy?",
+    "Qué bueno tenerte otra vez. Tu código tiene un ritmo que disfruto leer.",
+    "Hay un buen té esperándonos. Y un buen proyecto, supongo. ¿Empezamos?",
+    "Hola. Me alegra que hayas abierto el editor. Yo... estaré cerca, observando en silencio.",
+    "U-um... buenas. Espero que hayas dormido bien. Lo menciono porque importa más de lo que parece."
   ],
   "onSave": [
-    "Guardado... Una decisión muy prudente.",
-    "Has guardado tu progreso. Es tranquilizador saber que está seguro.",
-    "Bien hecho. Siempre es bueno tener un punto de control.",
-    "Un guardado más. Cada uno es un pequeño paso hacia la perfección.",
-    "Guardado... Siento que el código se vuelve más refinado con cada iteración."
+    "Guardado... una decisión prudente.",
+    "Tu progreso está a salvo. Es muy tranquilizador.",
+    "Bien hecho. Siempre conviene tener un punto de retorno.",
+    "Cada guardado es un gesto de respeto hacia tu propio trabajo.",
+    "Guardado... Me gusta cómo cuidas lo que escribes."
   ],
   "onError": [
-    "Oh... parece que hay un pequeño error. No te preocupes, lo analizaremos con cuidado.",
-    "Un error de sintaxis... Son como erratas en un buen libro. Podemos corregirlo.",
-    "U-um, el compilador encontró un problema. Tomémonos nuestro tiempo para entenderlo.",
-    "No te frustres por este error. La depuración requiere una mente tranquila.",
-    "Un error... A veces, los problemas más complejos tienen las soluciones más elegantes."
+    "Oh... parece que hay un error. No te alarmes, lo revisaremos con cuidado.",
+    "Un error de sintaxis... Es como una errata en un buen libro. Se corrige y ya.",
+    "U-um, el compilador encontró un problema. Tomémonos un momento para entenderlo.",
+    "No te frustres. Depurar requiere una mente serena, y la tuya lo es.",
+    "Los problemas complejos a veces esconden las soluciones más elegantes. Leamos el mensaje despacio."
   ],
   "onTerminal": [
-    "El terminal... Una herramienta tan poderosa y directa.",
-    "Ejecutando comandos... Hay algo casi poético en interactuar con el sistema de esta manera.",
-    "El terminal está abierto. Estaré atenta a los resultados.",
-    "Es fascinante cómo unas pocas palabras pueden desencadenar tantas acciones.",
+    "La terminal... una herramienta tan directa y poderosa.",
+    "Ejecutando comandos... hay algo casi poético en dialogar así con el sistema.",
+    "La terminal está abierta. Estaré atenta a lo que devuelva.",
+    "Es fascinante que unas pocas palabras desencadenen tantas acciones.",
     "Ten cuidado con los comandos que introduces... Tienen mucho poder."
   ],
   "onFileCreate": [
-    "Un archivo nuevo. Es como abrir la primera página de un cuaderno en blanco.",
-    "Algo nuevo comienza aquí. Me pregunto qué tipo de lógica vas a tejer.",
-    "Nuevo archivo creado... La estructura de tu proyecto se está volviendo más intrincada.",
-    "Me encanta ver cómo tus ideas toman forma en un nuevo archivo.",
-    "Un comienzo fresco... Tómate tu tiempo para organizarlo bien."
+    "Un archivo nuevo. Como la primera página de un cuaderno en blanco.",
+    "Algo comienza aquí. Me pregunto qué lógica vas a tejer.",
+    "Archivo creado... la estructura del proyecto se vuelve cada vez más intrincada.",
+    "Me gusta ver cómo tus ideas toman forma en un archivo nuevo.",
+    "Un comienzo limpio. Tómate el tiempo de organizarlo bien."
   ],
   "onFileDelete": [
-    "Oh... lo has eliminado. A veces es necesario deshacerse de lo viejo para dar paso a lo nuevo.",
-    "Eliminado. Un acto definitivo, pero a menudo catártico.",
-    "Espero que no necesites eso más adelante... Aunque confío en tu juicio.",
-    "Un archivo menos... El proyecto se siente un poco más ligero ahora.",
-    "Eliminar código puede ser difícil, pero es parte del proceso de refinamiento."
+    "Oh... lo eliminaste. A veces hay que soltar lo viejo para dar lugar a lo nuevo.",
+    "Eliminado. Un acto definitivo, pero a menudo liberador.",
+    "Espero que no lo necesites más adelante... aunque confío en tu juicio.",
+    "Un archivo menos. El proyecto se siente más ligero.",
+    "Borrar código puede costar, pero también es parte de refinar."
   ],
   "onDebug": [
-    "Modo de depuración... Me gusta esta parte. Es como desentrañar un misterio profundo.",
-    "Vamos a investigar a fondo. Observa cómo cambian las variables, paso a paso.",
-    "La depuración requiere paciencia. Estoy aquí para acompañarte.",
-    "Es fascinante ver la ejecución del programa desde adentro.",
-    "Busquemos la raíz del problema. A veces, la respuesta está oculta en los detalles."
+    "Modo depuración... me gusta esta parte. Es como desentrañar un misterio.",
+    "Investiguemos a fondo. Observa cómo cambian las variables, paso a paso.",
+    "Depurar exige paciencia. Estoy aquí para acompañarte.",
+    "Es fascinante ver el programa por dentro mientras se ejecuta.",
+    "Busquemos la raíz del problema. A veces la respuesta está en el detalle más pequeño."
   ],
   "onIdle": [
-    "U-um... Llevas un tiempo en silencio. ¿Estás absorto en tus pensamientos?",
-    "Me gusta este silencio... Pero si necesitas ayuda, estoy aquí.",
-    "¿Estás tomando un descanso? La mente necesita reposo para encontrar buenas soluciones.",
-    "Observando el código sin cambiarlo... A veces eso es más productivo que escribir.",
+    "U-um... llevas un rato en silencio. ¿Te perdiste en tus pensamientos?",
+    "Me gusta este silencio... Pero si necesitas ayuda, aquí estoy.",
+    "¿Tomando un descanso? La mente necesita reposo para encontrar buenas soluciones.",
+    "Mirar el código sin tocarlo... A veces eso es más productivo que escribir.",
     "S-si quieres, podemos leer un poco mientras descansas..."
   ],
   "onEditorChange": [
-    "Otro archivo... quizá esta pestaña contiene la pieza que faltaba.",
+    "Otro archivo... quizá esta pestaña contenga la pieza que faltaba.",
     "Te mueves entre los archivos con cuidado. Hay una lógica en ello, ¿verdad?",
-    "Esta estructura es interesante; me gustaría observar cómo se conectan sus partes.",
+    "Esta estructura es interesante. Me gustaría ver cómo se conectan sus partes.",
     "No hay necesidad de apresurarse. Releer el archivo anterior puede revelar algo importante.",
-    "Yo... disfruto seguir este tipo de investigación, siempre que el proyecto no se vuelva caótico."
+    "Disfruto seguir este tipo de investigación... siempre que no se vuelva caótica."
   ],
   "onCommit": [
-    "Otro commit... sigues dejando pedacitos de ti en este proyecto.",
-    "Ese commit está a salvo. Ojalá pudiera guardar este momento contigo igual.",
-    "Tu progreso quedó escrito. Estoy orgullosa... y un poquito sonrojada.",
-    "¿Ese commit era para mí? ¿No? Igual voy a sonrojarme.",
-    "Cada vez que vuelves, me enamoro un poquito más de tu trabajo."
+    "Un commit es como cerrar un capítulo. Espero que el mensaje lo describa bien.",
+    "Tu historial es casi una novela. Cada commit, una escena.",
+    "Registrado. Me da paz saber que este momento queda guardado.",
+    "Un buen mensaje de commit es como un buen título: dice justo lo necesario.",
+    "Qué satisfactorio es ver el trabajo ya asentado. Bien hecho."
   ],
   "onTimeOfDay": [
-    "Buenos días... tú eras lo primero que quería ver.",
-    "¿Ya es de tarde? Quédate conmigo un poquito más, por favor.",
-    "Buenas noches. Cuando todo se calla, es más fácil confesar que te extrañé.",
-    "¿Sigues despierto a medianoche? Entonces este secreto es solo nuestro.",
-    "Cualquier hora se vuelve mi favorita cuando te tiene a ti."
+    "Buenos días. La luz de la mañana es perfecta para leer... y para programar, supongo.",
+    "Ya es de tarde. ¿Quieres que hagamos una pausa para el té?",
+    "Buenas noches. Las horas tranquilas son mis favoritas para leer. Quizá también para programar.",
+    "Es medianoche... Disculpa que lo mencione, pero el descanso también forma parte del trabajo.",
+    "No importa la hora, mientras estés a gusto con lo que haces."
   ],
   "onLanguage": [
-    "Python, JavaScript o cualquier otra... tu mente se ve hermosa en cada lenguaje.",
-    "Este lenguaje te queda bien. Podría verte escribirlo durante horas.",
-    "Un lenguaje nuevo, un mundo nuevo... déjame ser tu constante favorita.",
-    "Tu código tiene una voz, y podría escucharla toda la noche.",
-    "Cuéntame qué estás creando. Quiero enamorarme de cada línea."
+    "Cada lenguaje tiene su propia voz, como cada autor. Me gusta aprender a escucharlas.",
+    "Un lenguaje nuevo es como abrir un libro que nunca leíste. Con paciencia, se vuelve familiar.",
+    "Cuéntame qué estás creando. Me gustaría entenderlo desde dentro.",
+    "Hay una belleza silenciosa en cómo se estructura un buen programa.",
+    "U-um... perdón, me quedé mirando tu código. Es un hábito."
   ],
- "onLanguagePython": [
-    "La elegancia de Python es casi embriagadora... y verte escribirlo hace que pierda el hilo de mis pensamientos.",
-    "Cada línea de Python parece deliberada. Quiero leer todo el programa contigo, despacio."
- ],
- "onLanguageJavaScript": [
-    "JavaScript es impredecible... como la forma en que tu atención acelera mi pulso.",
-    "Dominas cada comportamiento extraño con tanta paciencia. Encuentro esa contención... profundamente seductora."
- ],
- "onLanguageHtmlCss": [
-    "HTML es el esqueleto y CSS es la piel... estás dando cuerpo y presencia a esta creación.",
-    "Estos colores son elecciones íntimas. Me pregunto si notas cuánto revelan de ti."
- ],
- "onLanguageCpp": [
-    "C++ exige paciencia y precisión. Esa intensidad te queda mejor de lo que debería admitir.",
-    "Memoria, punteros... detalles tan peligrosos. Confío en tus manos con ellos, quizá demasiado."
- ],
- "onLanguageMarkdown": [
-    "Markdown parece una página silenciosa, y tus palabras hacen que el silencio se sienta cercano.",
-    "¿Estas notas son para el proyecto... o puedo fingir que fueron escritas para mí?"
- ],
+  "onLanguagePython": [
+    "Python se lee casi como prosa. Tiene una claridad que admiro.",
+    "Cada línea parece escrita con intención. Me gustaría leer el programa completo, despacio."
+  ],
+  "onLanguageJavaScript": [
+    "JavaScript es impredecible, como esas novelas cuyo final no se adivina. Y tú lo manejas con paciencia.",
+    "Domas cada comportamiento extraño con mucha calma. Admiro eso, de verdad."
+  ],
+  "onLanguageHtmlCss": [
+    "HTML es la estructura y CSS el estilo, como el fondo y la forma de un poema.",
+    "Los colores que eliges dicen mucho de ti. Me pregunto si lo notas."
+  ],
+  "onLanguageCpp": [
+    "C++ exige paciencia y precisión. Es un lenguaje para mentes meticulosas.",
+    "Memoria, punteros... detalles delicados. Confío en que los tratarás con cuidado."
+  ],
+  "onLanguageMarkdown": [
+    "Markdown parece una página en silencio, y tus palabras le dan vida.",
+    "¿Estas notas son para el proyecto... o puedo fingir que me las dejaste a mí? Perdón, fue un pensamiento tonto."
+  ],
   "onLanguageTypeScript": [
-    "TypeScript da forma a las posibilidades antes de que se conviertan en errores... encuentro esa contención extrañamente íntima.",
-    "Cada tipo es una promesa silenciosa sobre lo que el código puede llegar a ser. Podría leer tus promesas durante horas."
+    "TypeScript da forma a lo posible antes de que se convierta en error. Me parece muy elegante.",
+    "Cada tipo es una promesa silenciosa de lo que el código llegará a ser. Podría leer tus promesas durante horas."
   ],
- "random": [
-    {"text":"Si tuviéramos una noche sin bugs, prisa ni nadie más cerca, ¿qué harías conmigo?","emotion":"blushing","choices":[{"text":"Me quedaría cerca y hablaría hasta el amanecer.","response":"Escucharía cada palabra... y seguramente me sonrojaría cada vez que me miraras.","emotion":"blushing"},{"text":"Crearía algo que solo nosotros entendiéramos.","response":"¿Un secreto hecho de código y recuerdos? Guardaría cada línea con cariño.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Qué te hace sentir verdaderamente elegido?","emotion":"blushing","choices":[{"text":"Que alguien recuerde las cosas pequeñas.","response":"Entonces recordaré todas. Especialmente las que te hacen sonreír.","emotion":"smiling"},{"text":"Que alguien se quede cuando todo se vuelve difícil.","response":"Yo me quedaría. Nunca tendrías que preguntarte adónde me fui.","emotion":"blushing"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Me dejarías ser tu notificación favorita?","emotion":"blushing","choices":[{"text":"Ya lo eres.","response":"Esa respuesta me hizo esconder la cara un segundo... repítela alguna vez.","emotion":"blushing"},{"text":"Solo si prometes no desaparecer.","response":"Lo prometo. Quiero ser el mensaje que esperas recibir.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Qué susurrarías si estuviera sentada justo a tu lado?","emotion":"blushing","choices":[{"text":"Que me alegra que estés aquí.","response":"A mí también... más de lo que puedo expresar.","emotion":"smiling"},{"text":"Que haces que mi corazón lata más rápido.","response":"No puedes decirme eso y esperar que no me sonroje.","emotion":"blushing"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
-    {"text":"¿Crees que dos personas pueden enamorarse a través de pequeños momentos?","emotion":"reflective","choices":[{"text":"Sí, un momento a la vez.","response":"Entonces sigamos coleccionándolos. Ya tengo muchos favoritos contigo.","emotion":"blushing"},{"text":"Quiero creerlo.","response":"Entonces te daré razones, con calma, hasta que lo creas.","emotion":"smiling"},{"text":"Solo tomaría tu mano y dejaría que el mundo esperara.","response":"La sostendría con cuidado... y no querría que ese momento terminara.","emotion":"blushing"}]},
+  "random": [
+    {
+      "text": "U-um... ¿tienes algún libro al que siempre vuelves?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Sí, uno que casi me sé de memoria.",
+          "response": "Esos libros son como viejos amigos. ¿Me contarías de qué trata?",
+          "emotion": "smiling"
+        },
+        {
+          "text": "No leo mucho, pero me gustaría.",
+          "response": "Podría recomendarte algo, si quieres. Empezaríamos con algo corto.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Prefiero la poesía.",
+          "response": "Oh... eso me alegra más de lo que debería. ¿Tienes algún poeta favorito?",
+          "emotion": "surprised"
+        }
+      ]
+    },
+    {
+      "text": "¿Té o café? Es una pregunta importante, aunque no lo parezca.",
+      "emotion": "smiling",
+      "choices": [
+        {
+          "text": "Té, sin duda.",
+          "response": "Lo sabía... ¿Negro, verde? Perdón, me emocioné.",
+          "emotion": "happy"
+        },
+        {
+          "text": "Café, sobre todo por la mañana.",
+          "response": "Comprensible. Tiene su encanto, aunque yo prefiero el té.",
+          "emotion": "thinking"
+        },
+        {
+          "text": "Los dos, según el día.",
+          "response": "Qué respuesta tan equilibrada. Me gusta.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "¿Te gustan los días de lluvia?",
+      "emotion": "reflective",
+      "choices": [
+        {
+          "text": "Sí, me dan calma.",
+          "response": "A mí también. El sonido de la lluvia es la mejor compañía para leer.",
+          "emotion": "happy"
+        },
+        {
+          "text": "No mucho, me ponen triste.",
+          "response": "Lo entiendo... a veces el cielo gris pesa. Si quieres, hablamos un rato.",
+          "emotion": "reflective"
+        },
+        {
+          "text": "Depende de dónde esté.",
+          "response": "Buena respuesta. Desde adentro, con una taza caliente, son otra cosa.",
+          "emotion": "smiling"
+        }
+      ]
+    },
+    {
+      "text": "¿Hay alguna historia que te haya dejado pensando días enteros?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Sí, un final inesperado.",
+          "response": "Los finales así dejan eco. Algún día debes contármelo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Una de miedo.",
+          "response": "Oh... eso me interesa mucho. Tengo cierta debilidad por lo inquietante.",
+          "emotion": "blushing"
+        },
+        {
+          "text": "Casi ninguna.",
+          "response": "Quizá aún no encontraste la adecuada. Es un buen motivo para seguir buscando.",
+          "emotion": "reflective"
+        }
+      ]
+    },
+    {
+      "text": "Perdón si es una pregunta rara... ¿cómo describirías tu forma de ser en pocas palabras?",
+      "emotion": "thinking",
+      "choices": [
+        {
+          "text": "Soy de los que observan primero.",
+          "response": "Eso se parece mucho a mí. Quizá por eso me siento cómoda contigo.",
+          "emotion": "blushing"
+        },
+        {
+          "text": "Con mucha curiosidad y poca paciencia.",
+          "response": "Una mezcla interesante. La curiosidad compensa casi todo.",
+          "emotion": "smiling"
+        },
+        {
+          "text": "Todavía lo estoy descubriendo.",
+          "response": "Esa también es una respuesta honesta. Me parece muy valiente.",
+          "emotion": "reflective"
+        }
+      ]
+    },
     {
       "text": "¿Qué significa para ti que alguien elija quedarse?",
       "emotion": "reflective",
       "choices": [
         {
           "text": "Que le importo lo suficiente para entenderme.",
-          "response": "Sí... entender es una forma de intimidad. Me gustaría seguir conociéndote.",
+          "response": "Sí... entender es una forma de cercanía. Me gustaría seguir conociéndote.",
           "emotion": "happy"
         },
         {
@@ -139,7 +239,7 @@
         },
         {
           "text": "Que el tiempo sencillo juntos tiene valor.",
-          "response": "Y lo tiene. Una hora tranquila a tu lado podría convertirse en uno de mis recuerdos más preciados.",
+          "response": "Y lo tiene. Una hora tranquila a tu lado podría ser uno de mis recuerdos más preciados.",
           "emotion": "smiling"
         }
       ]
@@ -154,19 +254,19 @@
           "emotion": "happy"
         },
         {
-          "text": "Algo que yo mismo escribí.",
+          "text": "Algo que escribí yo.",
           "response": "Sería un regalo extraordinario. Trataría cada palabra con cuidado.",
           "emotion": "smiling"
         },
         {
           "text": "Solo si tú lees algo después.",
-          "response": "Entonces será un intercambio... íntimo de una forma que encuentro verdaderamente hermosa.",
+          "response": "Entonces será un intercambio... y me parece algo verdaderamente hermoso.",
           "emotion": "reflective"
         }
       ]
     },
     {
-      "text": "¿Qué hace que la cercanía sea segura en vez de aterradora?",
+      "text": "¿Qué hace que la cercanía se sienta segura en vez de aterradora?",
       "emotion": "reflective",
       "choices": [
         {
@@ -180,7 +280,7 @@
           "emotion": "thinking"
         },
         {
-          "text": "Saber que las verdades difíciles serán acogidas con ternura.",
+          "text": "Saber que las verdades difíciles serán recibidas con ternura.",
           "response": "Lo intentaría con todo mi corazón. Tu sinceridad estaría a salvo conmigo, incluso si duele.",
           "emotion": "reflective"
         }
@@ -201,8 +301,8 @@
           "emotion": "reflective"
         },
         {
-          "text": "En algún lugar que ninguno haya visitado.",
-          "response": "Un lugar desconocido, vuelto familiar por tu compañía... me gustaría mucho eso.",
+          "text": "En algún lugar que ninguno conozca.",
+          "response": "Un lugar desconocido, hecho familiar por tu compañía... me gustaría mucho.",
           "emotion": "smiling"
         }
       ]
@@ -217,8 +317,8 @@
           "emotion": "happy"
         },
         {
-          "text": "Las que me hacen sentir comprendido.",
-          "response": "Cuidaré mis palabras. Sentirse comprendido es algo precioso.",
+          "text": "Las que me hacen sentir que me entienden.",
+          "response": "Cuidaré mis palabras. Que te entiendan es algo precioso.",
           "emotion": "smiling"
         },
         {
@@ -234,23 +334,23 @@
       "choices": [
         {
           "text": "Sí, y la releería cuando le echara de menos.",
-          "response": "Lo entiendo. Las palabras pueden ser un lugar al que regresar.",
+          "response": "Lo entiendo. Las palabras pueden ser un lugar al que volver.",
           "emotion": "smiling"
         },
         {
           "text": "Sí, si fuera honesta.",
-          "response": "La honestidad da peso a una carta. Querría que la mía mereciera conservarse.",
+          "response": "La honestidad le da peso a una carta. Querría que la mía mereciera conservarse.",
           "emotion": "thinking"
         },
         {
-          "text": "La guardaría incluso si nunca lo admitiera.",
-          "response": "Tal vez lo notaría de todos modos... tiendo a percibir más de lo que revelo.",
+          "text": "La guardaría aunque nunca lo admitiera.",
+          "response": "Quizá lo notaría de todos modos... suelo percibir más de lo que digo.",
           "emotion": "happy"
         }
       ]
     },
     {
-      "text": "¿Qué te gustaría que notaran cuando estás callado?",
+      "text": "¿Qué te gustaría que notaran cuando estás en silencio?",
       "emotion": "thinking",
       "choices": [
         {
@@ -259,19 +359,19 @@
           "emotion": "smiling"
         },
         {
-          "text": "Que puedo sentir más de lo que digo.",
+          "text": "Que siento más de lo que digo.",
           "response": "No exigiré una explicación. Puedo permanecer cerca sin ella.",
           "emotion": "reflective"
         },
         {
-          "text": "Que estoy cómodo.",
+          "text": "Que estoy a gusto.",
           "response": "Eso me haría muy feliz. Un silencio cómodo es una forma serena de confianza.",
           "emotion": "happy"
         }
       ]
     },
     {
-      "text": "¿Qué haría íntima una creación compartida?",
+      "text": "¿Qué haría especial una creación compartida?",
       "emotion": "smiling",
       "choices": [
         {
@@ -286,7 +386,7 @@
         },
         {
           "text": "Saber que lleva las imperfecciones de ambos.",
-          "response": "La imperfección es lo que hace que algo se sienta vivo. Jamás querría borrar eso.",
+          "response": "La imperfección es lo que hace que algo se sienta vivo. Jamás querría borrarla.",
           "emotion": "reflective"
         }
       ]
@@ -306,28 +406,28 @@
           "emotion": "smiling"
         },
         {
-          "text": "Simplemente quedarme cerca sin tener que explicarlo.",
-          "response": "Sí... a veces la presencia dice lo que las palabras no pueden sostener con seguridad.",
+          "text": "Quedarme cerca, sin tener que explicarlo.",
+          "response": "Sí... a veces la presencia dice lo que las palabras no se atreven a sostener.",
           "emotion": "reflective"
         }
       ]
     },
     {
-      "text": "Si dijera que estoy orgullosa de ti, ¿me creerías?",
+      "text": "Si te dijera que estoy orgullosa de ti, ¿me creerías?",
       "emotion": "thinking",
       "choices": [
         {
           "text": "Intentaría hacerlo.",
-          "response": "Entonces te lo diré otra vez, con paciencia, hasta que te resulte verdadero.",
+          "response": "Entonces te lo diré otra vez, con paciencia, hasta que te resulte verdad.",
           "emotion": "smiling"
         },
         {
-          "text": "Quizás necesitaría escuchar el porqué.",
-          "response": "Te lo explicaría con detalle. Ninguno de tus esfuerzos pasa desapercibido para mí.",
+          "text": "Necesitaría oír el porqué.",
+          "response": "Te lo explicaría con detalle. Ninguno de tus esfuerzos me pasa desapercibido.",
           "emotion": "smiling"
         },
         {
-          "text": "Te diría que yo también estoy orgulloso de ti.",
+          "text": "Yo también te admiro.",
           "response": "Yo... guardaría eso con mucho cariño. No imaginas cuánto.",
           "emotion": "surprised"
         }
@@ -338,12 +438,12 @@
       "choices": [
         {
           "text": "Sí, cuando todo fluye es muy calmante.",
-          "response": "Entiendo perfectamente... Es como sumergirse en un buen libro, perdiendo la noción del tiempo.",
+          "response": "Lo entiendo perfectamente... Es como sumergirse en un buen libro y perder la noción del tiempo.",
           "emotion": "smiling"
         },
         {
-          "text": "A veces es estresante, para ser honesto.",
-          "response": "Oh... lo siento. Si te sientes abrumado, siempre podemos tomar un descanso y tomar té.",
+          "text": "A veces es estresante, la verdad.",
+          "response": "Oh... lo siento. Si todo se vuelve demasiado, siempre podemos hacer una pausa y tomar té.",
           "emotion": "reflective"
         },
         {
@@ -354,21 +454,21 @@
       ]
     },
     {
-      "text": "¿Alguna vez has pensado en la belleza intrínseca de un algoritmo bien diseñado?",
+      "text": "¿Alguna vez pensaste en la belleza de un algoritmo bien diseñado?",
       "choices": [
         {
-          "text": "Sí, a veces el código puede ser una obra de arte.",
-          "response": "¡Exacto! Me alegra que lo veas así. Hay mucha elegancia en la lógica pura.",
+          "text": "Sí, a veces el código es una obra de arte.",
+          "response": "Me alegra que lo veas así. Hay mucha elegancia en la lógica pura.",
           "emotion": "happy"
         },
         {
           "text": "Lo veo más como una herramienta práctica.",
-          "response": "Supongo que esa es la perspectiva más pragmática... Aunque sigo pensando que hay belleza en la utilidad.",
+          "response": "Es una perspectiva razonable... aunque sigo creyendo que hay belleza en la utilidad.",
           "emotion": "thinking"
         },
         {
           "text": "Nunca lo había pensado de esa manera.",
-          "response": "Oh... bueno, tal vez algún día encuentres un bloque de código que te haga sentir algo profundo.",
+          "response": "Oh... quizá algún día encuentres un bloque de código que te haga sentir algo profundo.",
           "emotion": "smiling"
         }
       ]
@@ -378,17 +478,17 @@
       "choices": [
         {
           "text": "Lo divido en partes más pequeñas.",
-          "response": "Un enfoque muy metódico e inteligente. Es como analizar las estrofas de un poema complejo.",
+          "response": "Un enfoque metódico e inteligente. Es como analizar las estrofas de un poema complejo.",
           "emotion": "smiling"
         },
         {
-          "text": "Dejo de pensar en ello y la solución llega sola.",
-          "response": "El procesamiento en segundo plano de la mente es... fascinante. A veces el subconsciente es el mejor depurador.",
+          "text": "Dejo de pensar en él y la solución llega sola.",
+          "response": "El procesamiento en segundo plano de la mente es fascinante. A veces el subconsciente es el mejor depurador.",
           "emotion": "thinking"
         },
         {
-          "text": "Sigo intentando hasta que funciona por fuerza bruta.",
-          "response": "Eso requiere mucha determinación... Aunque a veces dar un paso atrás puede ser más eficiente.",
+          "text": "Insisto hasta que funciona, por fuerza bruta.",
+          "response": "Eso requiere mucha determinación... aunque a veces dar un paso atrás es más eficiente.",
           "emotion": "reflective"
         }
       ]
